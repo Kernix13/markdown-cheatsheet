@@ -24,7 +24,7 @@ Top Anchor<a name="top_anchor"></a>
 
 ---
 
-Apparent background color, just hit TAB twice:
+Apparent background color, just hit TAB twice (I like this):
 
     Like this
 
