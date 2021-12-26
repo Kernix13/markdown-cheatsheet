@@ -184,7 +184,7 @@ How to remove the link aspect of an image to the file in the repo?
 
 ![picture alt](https://via.placeholder.com/150 'Title is optional')
 
-Images on a row in tables. Why is there a left border?
+Images on a row in tables (not responsive):
 
 |                             First image                             |                            Second image                             |                             Third image                             |
 | :-----------------------------------------------------------------: | :-----------------------------------------------------------------: | :-----------------------------------------------------------------: |
@@ -226,4 +226,4 @@ Emojis worth using:
 :+1: and :smile: and :star: and :exclamation: and :question: and :thumbsdown: and :point_right: and :point_left: and :heart: and :sound: and :lock: and :email: and :guitar: and :one: and :two: etc :arrow_left: and :arrow_right: and :arrow_up: and :x: and :link: and :copyright: and :white_check_mark:
 ```
 
-### Most of these markdown formatting tips work in Discord and in Slack, though Slack has menu icons for most of them as well.
+#### Most of these markdown formatting tips work in Discord and in Slack, though Slack has menu icons for most of them as well.
