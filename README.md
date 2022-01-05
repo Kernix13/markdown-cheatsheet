@@ -81,7 +81,9 @@ Also this:
 ``` Boxed text in Discord ```
 ````
 
-Three tildes for a large code block and addd the language for code highlighting:
+Use three opening & closing tildes for a large code block and addd the language for code highlighting. You can alsu use `example-good` or `example-bad` after the language and a space (see the `console.log()` blocks but I don't see the highlighting). To see an example, check out the MDN page/section titled [Example code blocks](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Markdown_in_MDN#example_code_blocks).
+
+The language abbeviations I would use are `html`, `css`, `js`, `json`, `php`, `sql`, `xml`, `svg`, and maybe `python`.
 
 ```json
 {
@@ -90,7 +92,11 @@ Three tildes for a large code block and addd the language for code highlighting:
 }
 ```
 
-```js
+```js example-good
+console.log(${variable})
+```
+
+```js example-bad
 console.log(${variable})
 ```
 
@@ -175,6 +181,26 @@ I don't agree with:
 >  idea 2
 > ## Heading 2 in a blockquote
 ```
+
+### GitHub-Flavored Markdown
+
+To add a note, create a GFM blockquote whose first paragraph (how do you get multiple paragraphs in the same blockquote) starts with **Note:**:
+
+> **Note**: More here...
+>
+> And the bulk here, etc...
+
+To add a warning, create a GFM blockquote whose first paragraph starts with **Warning:**:
+
+> **Warning**: Something here...
+>
+> And the bulk here, etc...
+
+To add a callout, create a GFM blockquote whose first paragraph starts with **Callout:**:
+
+> **Callout**: Something here...
+>
+> And the bulk here, etc...
 
 > ## Heading 2 in a blockquote
 
