@@ -124,6 +124,12 @@ Use 'diff' to show changes and greater than to quote a section of someone's repl
 + const nums = {}
 ```
 
+Here is the best way to add comments in a markdown file:
+
+```
+<!-- Ignore this line, experimenting with markdown comments -->
+```
+
 For UL use \* or - or +. For nested lists, start nested item at least at the start of its parent. For OL repeat but use the number and a period
 
 ```
