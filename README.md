@@ -85,6 +85,14 @@ Use three opening & closing tildes for a large code block and addd the language 
 
 The language abbeviations I would use are `html`, `css`, `js`, `json`, `php`, `sql`, `xml`, `svg`, and maybe `python`.
 
+**Example**:
+
+<p>
+```js example-good <br>
+console.log(${variable}) <br>
+```
+</p>
+
 ```json
 {
   "name": "jim",
