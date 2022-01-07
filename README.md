@@ -66,7 +66,7 @@ Left, right and center aligned table:
 | Content Left         |     Content Center     |         Content Right |
 | Content Left         |     Content Center     |         Content Right |
 
-Single tildes for an inline code block:
+Single backtick for an inline code block:
 
 `code()`
 
@@ -81,7 +81,7 @@ Also this:
 ``` Boxed text in Discord ```
 ````
 
-Use three opening & closing tildes for a large code block and addd the language for code highlighting. You can alsu use `example-good` or `example-bad` after the language and a space (see the `console.log()` blocks but I don't see the highlighting). To see an example, check out the MDN page/section titled [Example code blocks](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Markdown_in_MDN#example_code_blocks).
+Use three opening & closing backticks for a large code block and addd the language for code highlighting. You can alsu use `example-good` or `example-bad` after the language and a space (see the `console.log()` blocks but I don't see the highlighting). To see an example, check out the MDN page/section titled [Example code blocks](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Markdown_in_MDN#example_code_blocks).
 
 The language abbeviations I would use are `html`, `css`, `js`, `json`, `php`, `sql`, `xml`, `svg`, and maybe `python`.
 
@@ -267,3 +267,5 @@ Emojis worth using:
 ```
 
 #### Most of these markdown formatting tips work in Discord and in Slack, though Slack has menu icons for most of them as well.
+
+<!-- Ignore this line, experimenting with markdown comments -->
