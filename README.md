@@ -43,10 +43,11 @@ _Emphasized/Italic text_ or like _this_
 ***Bold and italic***
 ```
 
-[Text as an external link](https://www.google.com/)
+[Link text](https://www.google.com/ 'Google')
 
 ```
-[Text as an external link](https://www.google.com/)
+[Link text](https://www.google.com/ "Optional title")
+Basic syntax: []()
 ```
 
 Make sure anchor links are lowercase and with dashes and maybe underscores in between each word. If you are not using the anchor tag syntax as above, then your #anchor-text has to match the words exactly in the section you are linking to. For example, If you have a section called How to use anchor links, then use #how-to-use-anchor-links.
