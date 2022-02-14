@@ -174,8 +174,8 @@ For ordered lists, just keep using the #1 and the nmbers will increment. That wa
 
 Tasks - uncompleted and completed, can be nested also:
 
-- [ ] incomplete
-- [x] complete
+- [] incomplete
+- [X] complete
   - [ ] incomplete subtask
   - [x] complete subtask
 
