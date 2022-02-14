@@ -1,8 +1,13 @@
 To view markdown in VS Code hit CTRL+SHIFT+V or click the preview button at top right in line with the file name tabs.
 
+<a name="top_anchor"></a>
 
+One way to make an anchor link for different sections of your document is to use an empty `<a>` tag with a name attribute equal to the link value. For example, the block below shows an attribute of `name="top_anchor"` but further down the page is a link with text of `Back to Top`. Search fr that and you will see what I mean.
 
-`<a name="top_anchor"></a>`
+```html
+<a name="top_anchor"></a>
+```
+
 
 # Heading 1
 
@@ -23,8 +28,6 @@ To view markdown in VS Code hit CTRL+SHIFT+V or click the preview button at top 
 ```
 
 ---
-
-<a name="top_anchor"></a>
 
 Apparent background color, just hit TAB twice (I like this):
 
