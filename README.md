@@ -179,6 +179,13 @@ Tasks - uncompleted and completed, can be nested also:
   - [ ] incomplete subtask
   - [x] complete subtask
 
+```
+- [ ] incomplete
+- [x] complete
+  - [ ] incomplete subtask
+  - [x] complete subtask
+```
+
 Use the greater than sign for blockquotes:
 
 I agree with:
