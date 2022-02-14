@@ -1,6 +1,6 @@
 To view markdown in VS Code hit CTRL+SHIFT+V or click the preview button at top right in line with the file name tabs.
 
-<a name="top_anchor"></a>
+
 
 `<a name="top_anchor"></a>`
 
@@ -23,6 +23,8 @@ To view markdown in VS Code hit CTRL+SHIFT+V or click the preview button at top 
 ```
 
 ---
+
+<a name="top_anchor"></a>
 
 Apparent background color, just hit TAB twice (I like this):
 
