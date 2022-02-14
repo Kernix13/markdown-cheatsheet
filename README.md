@@ -91,7 +91,7 @@ Also this:
 
 Use three opening & closing backticks for a large code block and addd the language for code highlighting. You can alsu use `example-good` or `example-bad` after the language and a space (see the `console.log()` blocks but I don't see the highlighting). To see an example, check out the MDN page/section titled [Example code blocks](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Markdown_in_MDN#example_code_blocks).
 
-The language abbeviations I would use are `html`, `css`, `js`, `json`, `php`, `sql`, `xml`, `svg`, and maybe `python`.
+The language abbeviations I would use are `html`, `css`, `js`, `json`, `php`, `sql`, `xml`, `svg`, `apacheconf`, and maybe `python`. I tried using `node` and `npm` for my node-npm repo but it did nothing. 
 
 **Example**:
 
