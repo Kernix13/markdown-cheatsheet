@@ -134,16 +134,16 @@ For example, the above starts with (```json). It's diificult to shw this in a co
 
 ````
 ` ```diff
-- const nums = []
-+ const nums = {}
+- This text was changed
++ This is the new text
 ` ```
 ````
 
 Use 'diff' to show changes and greater than to quote a section of someone's reply:
 
 ```diff
-- const nums = []
-+ const nums = {}
+- This text was changed
++ This is the new text
 ```
 
 Here is the best way to add comments in a markdown file:
