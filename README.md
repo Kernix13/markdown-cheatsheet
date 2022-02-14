@@ -232,10 +232,14 @@ How to remove the link aspect of an image to the file in the repo?
 
 ![picture alt](https://via.placeholder.com/150 'Title is optional')
 
+```
+![picture alt](https://via.placeholder.com/150 'Title is optional')
+```
+
 Images on a row in tables (not responsive):
 
-|                             First image                             |                            Second image                             |                             Third image                             |
-| :-----------------------------------------------------------------: | :-----------------------------------------------------------------: | :-----------------------------------------------------------------: |
+|        First image   |       Second image     |     Third image       |
+| :-------------------: | :-------------------: | :-----------------------------------------------------------------: |
 | ![picture alt](https://via.placeholder.com/150 'Title is optional') | ![picture alt](https://via.placeholder.com/150 'Title is optional') | ![picture alt](https://via.placeholder.com/150 'Title is optional') |
 
 Foldable text is really cool:
