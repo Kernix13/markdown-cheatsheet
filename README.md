@@ -71,6 +71,8 @@ Left, right and center aligned table:
 | :------------------- | :--------------------: | --------------------: |
 | Content Left         |     Content Center     |         Content Right |
 | Content Left         |     Content Center     |         Content Right |
+| Content Left         |     Content Center     |         Content Right |
+| Content Left         |     Content Center     |         Content Right |
 
 Single backtick for an inline code block:
 
