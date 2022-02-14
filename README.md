@@ -2,7 +2,7 @@ To view markdown in VS Code hit CTRL+SHIFT+V or click the preview button at top 
 
 <a name="top_anchor"></a>
 
-One way to make an anchor link for different sections of your document is to use an empty `<a>` tag with a name attribute equal to the link value. For example, the block below shows an attribute of `name="top_anchor"` but further down the page is a link with text of `Back to Top`. Search fr that and you will see what I mean.
+One way to make an anchor link for different sections of your document is to use an empty `<a>` tag with a name attribute equal to the link value. For example, the block below shows an attribute of `name="top_anchor"` but further down the page is a link with text of `Back to Top`. Search for that and you will see what I mean. By the way, the empty `<a>` is in the markdown above this paragraph.
 
 ```html
 <a name="top_anchor"></a>
