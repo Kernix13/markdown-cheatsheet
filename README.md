@@ -1,6 +1,6 @@
 # MARKDOWN CHEAT SHEET
 
-Use this markdown cheat cheat as a guide for writing your markdown files. If you like it then clone or fork it, or at least click the **star** button. You can also check out the [Markdown Cheat Sheet article]("https:/kernixwebdesign.com") I wrote, though it is not as inclusive as this guide.
+Use this markdown cheat cheat as a guide for writing your markdown files. If you like it then clone or fork it, or at least click the **star** button. You can also check out the [Markdown Cheat Sheet article](https:/kernixwebdesign.com) I wrote, though it is not as inclusive as this guide.
 
 In the **basics markdown** section I have the simplest markdown syntax and the most basic styling to use in your markdown files and on sites like Discord and Slack. Thee are a number of forums and support ticket apps that allow markdown so keep that in mind.
 
@@ -72,7 +72,7 @@ There are 6 headings just like in HTML. Use a single hashtag for H1 and 6 hashta
 
 **_Bold and Italic_**: use either 3 asterisks or 2 asterisks and 1 underscore for bold and italic text. The preffered syntax is the latter:
 
-    ***2 asterisks***
+    ***3 asterisks***
     **_2 asterisks and and 1 underscore_**
 
 **Strikethrough**: use two tildes (~~) before and after text that you want to display as ~~strikethrough~~:
@@ -145,11 +145,11 @@ The following syntax requires a number of different characters to create the sty
 
 ### Links
 
-**External Links**: The syntax is to use square brackets around the link text and parentheses for the URL which needs to be in double quotes. You can also add an additional title for the link by adding a space after the closing URL double-quotes and adding the link title in double quotes:
+**External Links**: The syntax is to use square brackets around the link text and parentheses for the URL. You can also add an additional title for the link by adding a space after the URL and adding the link title in double quotes:
 
 Here is a link to my Beginner Git Commands repositiory. And here is the syntax:
 
-    [Link text]("URL" "Optional link title")
+    [Link text](URL "Optional link title")
 
 **NOTE**: Only use a title if it adds information. Don't set the title tet to be the same as the link text.
 
@@ -180,17 +180,18 @@ Here is the matching link for the above:
 Footnote.[^1]
 Some other important footnote.[^2]
 
+Use this for where you ant the link:
+
+```
+[^1]
+```
+Here is the actual footnote syntax:
+
     [^1]: This is footnote number one.
     [^2]: Here is the second footnote.
 
 [^1]: This is footnote number one.
 [^2]: Here is the second footnote.
-
-Use this:
-
-```
-[^1]
-```
 
 [Back to Top](#back-to-top "Table of contents")
 
@@ -249,7 +250,7 @@ console.log(${variable})
 
 #### Diff code blocks
 
-This is really nice for highlighting text or code that was changed. USe `diff` after the opening triple backticks. Then use a minus sign (-) for what was changed, and a plus symbol (+) for the new version:
+This is really nice for highlighting text or code that was changed. Use `diff` after the opening triple backticks. Then use a minus sign (-) for what was changed, and a plus symbol (+) for the new version:
 
 ```diff
 - this code or text is the old version
@@ -373,7 +374,7 @@ On Discord you may sometimes see a black rectangle that reveals tet or code when
 
 **NOTE**: This does not work on Slack or here on GitHub.
 
-I'm adding on definitions because I saw it on a Markdown post but it doesn't work for me. PErhaps this only works in Discord as well:
+I'm adding on definitions because I saw it on a Markdown post but it doesn't work for me. Perhaps this only works in Discord as well:
 
     Definition: term : definition
 
@@ -381,8 +382,8 @@ I'm adding on definitions because I saw it on a Markdown post but it doesn't wor
 
 ### Other resources
 
-1. [Daring Fireball]("https://daringfireball.net/projects/markdown/basics" "Detailed markdown syntax")
-1. [Complete list of github markdown emojis]("https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia")
-1. [GitHub emoji list]("https://gist.github.com/rxaviers/7360908")
+1. [Daring Fireball](https://daringfireball.net/projects/markdown/basics "Detailed markdown syntax")
+1. [Complete list of github markdown emojis](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia)
+1. [GitHub emoji list](https://gist.github.com/rxaviers/7360908)
 
 [Back to Top](#back-to-top "Table of contents")
