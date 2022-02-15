@@ -175,7 +175,7 @@ Here is the matching link for the above:
 
     [Back to Top](#back-to-top)
 
-**Footnote links**: I assume footnotes would be useful in a very technical or long README file. Use square brackets where you want a footnote link to appear and use a caret symbol (^) followed by the number of the footnote. Then below that area add the same syntax followed by a colon and the noe itself. That will make the footnote text appear at the bottom of your file: 
+**Footnote links**: I assume footnotes would be useful in a very technical or long README file. Use square brackets where you want a footnote link to appear and use a caret symbol (^) followed by the number of the footnote. Then below that area add the same syntax followed by a colon and the note itself. That will make the footnote text appear at the bottom of your file: 
 
 Footnote.[^1]
 
