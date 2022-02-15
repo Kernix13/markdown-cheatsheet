@@ -1,255 +1,324 @@
-To view markdown in VS Code hit CTRL+SHIFT+V or click the preview button at top right in line with the file name tabs.
+# MARKDOWN CHEAT SHEET
 
-<a name="top_anchor"></a>
+Use this markdown cheat cheat as a guide for writing your markdown files. If you like it then clone or fork it, or at least click the **star** button. You can also check out the [Markdown Cheat Sheet article]("https:/kernixwebdesign.com") I wrote, though it is not as inclusive as this guide.
 
-One way to make an anchor link for different sections of your document is to use an empty `<a>` tag with a name attribute equal to the link value. For example, the block below shows an attribute of `name="top_anchor"` but further down the page is a link with text of `Back to Top`. Search for that and you will see what I mean. By the way, the empty `<a>` is in the markdown above this paragraph.
+In the **basics markdown** section I have the simplest markdown syntax and the most basic styling to use in your markdown files and on sites like Discord and Slack. Thee are a number of forums and support ticket apps that allow markdown so keep that in mind.
 
-```html
-<a name="top_anchor"></a>
+In the **intermediate section** are styling ecxamples to make your markdown look even more professional. That is important for what I am calling **Advanced markdown**. It's not that there is advanced markdown, it's just these the syntax in this section requires more than just a single character to display your markdown. 
+
+You will not land a job because you are great with markdown, but it subconsciously makes a great first impression. Imagine a potential employer seeing your repo README files and the impression it makes if they are simple paragraphs or rich with styling. In a pool of potential job canddates, you can either rise on that list or fall to the bottom.
+
+**NOTE**: To view markdown in VS Code hit CTRL+SHIFT+V or click the preview button at top right in line with the file name tabs.
+
+<a id="back-to-top"></a>
+
+## Table of contents
+1. [Basic markdowm](#basic-markdowm)
+   1. [Headings and paragraphs](#headings-and-paragraphs)
+   1. [Text decoration](#text-decoration)
+   1. [Block quotes](#block-quotes)
+   1. [Lists](#lists)
+   1. [Inline code](#inline-code)
+   1. [Horizontal rules](#horizontal-rules)
+1. [Intermediate markdown](#intermediate-markdown)
+   1. [Links](#links)
+   1. [Images](#images)
+   1. [Code blocks](#code-blocks)
+   1. [Code blocks with highlighting](#code-blocks-with-highlighting)
+   1. [Diff code blocks](#diff-code-blocks)
+   1. [Comments](#comments)
+1. [Advanced markdown](#advanced-markdown)
+   1. [Task lists](#task-lists)
+   1. [Tables](#tables)
+   1. [Foldable text](#foldable-text)
+   1. [Emojis](#emojis)
+1. [Notes](#notes)
+   1. [Hidden text on Discord](#hidden-text-on-discord)
+   1. [Other resources](#other-resources)
+
+## Basic markdowm
+
+Here are the commands that use a simple characters to display markdown. Start with these and then move onto the other sections when you feel your README files are too simple.
+
+### Headings and paragraphs
+
+There are 6 headings just like in HTML. Use a single hashtag for H1 and 6 hashtags for H6. The top title of this docuement is an H1 with a single hash, this section (Basic markdown) uses 2 hashtags, and this sub-section (Headings and paragraphs) uses 3 hashtags. 
+
+**NOTE**: There is an automatic horizontal rule added when you use synax for H1 and H2.
+
+    # MARKDOWN CHEAT SHEET (Heading 1)
+    ## Basic markdowm (Heading 2)
+    ### Headings and paragraphs (heading 3)
+    ### Heading 4 (you most likely will not use H5 or H6) 
+
+**Paragaphs**: Just use regular text but make sure to hit the *ENTER* key twice. Sometimes if you only hit ENTER once, the text will de displayed as the element directly above it.
+
+    Try 2 tabs to create a code block type effect. This is a plain paragraph.
+
+[Back to Top](#back-to-top "Table of contents")
+
+### Text decoration
+
+**Bold**: use either 2 **asterisks** or 2 __underscores__ before and after the text for bold styling. The preferred syntax is to use asterisks for bold:
+
+    **two asterisks**
+    __two underscores__
+
+
+**Italic**: use a *single asterisk* or _underscore_ before and after the text for italic styling. The preferred syntax is to use an underscore for italic:
+
+    *single asterisk*
+    _single underscore_
+
+**_Bold and Italic_**: use either 3 asterisks or 2 asterisks and 1 underscore for bold and italic text. The preffered syntax is the latter:
+
+    ***2 asterisks***
+    **_2 asterisks and and 1 underscore_**
+
+**Strikethrough**: use two tildes (~~) before and after text that you want to display as ~~strikethrough~~:
+
+    ~~double tildes~~
+
+[Back to Top](#back-to-top "Table of contents")
+
+### Block quotes
+
+> Use a greater than sign (>) to quote a team member
+> 
+> Create a space like above using > with no text
+
+    > use greater than sign (>) for a blockquote
+
+### Lists
+
+**Ordered lists**: You can use either an asterisk or a dash followed by a space to make a bulleted list. I prefer using a dash since you do not need to use the *SHIFT* key like for asterisk:
+
+- list item one
+- list item 2
+  - child item 1
+
+**Nested list**: Use the *SPACEBAR* key to align directly beneath the first character in the parent list item to create a nested list
+
+    - List item one
+    - List item two
+      - Child item one
+
+**Ordered lists**: use a number followed by  a period (1., 2., 3. etc.) to create an ordered list. For a nested ordered list, do the same as for nested unordered lists - align the number to be below the first character of the parent item:
+
+1. Ordered item 1
+1. Ordered item 2
+   1. Child item 1
+
+```
+1. Ordered item 1
+1. Ordered item 2
+   1. Child item 1
+```
+**NOTE**: By using "1" for each list item, you can cut & paste to change the order of items and the numbering will change to match the new order.
+
+[Back to Top](#back-to-top "Table of contents")
+
+### Inline code
+
+Use a `single backtick` before and after text to display it as inline code:
+
+    `single backtick`
+
+### Horizontal rules
+
+Use 3 asterisks or dashes with or without a space to create a horizontal rule:
+
+- - - 
+
+    - - - 
+    ---
+    * * * 
+    ***
+
+**NOTE**: Make sure to hit _ENTER_ twice if you intend to use 3 asterisks witout spaces or it will set the text above it to an H3 tag.
+
+[Back to Top](#back-to-top "Table of contents")
+
+## Intermediate markdown
+
+The following syntax requires a number of different characters to create the styling effects.
+
+### Links
+
+**External Links**: The syntax is to use square brackets around the link text and parentheses for the URL which needs to be in double quotes. You can also add an additional title for the link by adding a space after the closing URL double-quotes and adding the link title in double quotes:
+
+Here is a link to my Beginner Git Commands repositiory. And here is the syntax:
+
+    [Link text]("URL" "Optional link title")
+
+**NOTE**: Only use a title if it adds information. Don't set the title tet to be the same as the link text.
+
+
+**Same page anchor links**: This can be done in at least two different ways. For all the links in the table of contents I use the simpler method. But for the **Back to Top** link I use an actual `<a>` tag.
+
+For the simple links use the same syntax as for Links above with 2 exceptions for the URL part:
+
+- precede the URL with a hashtag
+- use the exact same text as where you are linking to with
+  - all the text needs to be in lowercase
+  - all words connected with a dash (no spaces)  
+
+Here is an example for this section:
+
+    [Intermediate markdown](#intermediate-markdown)
+
+Here is the code for the anchor link using an HTML `<a>` tag:
+
+    <a id="back-to-top"></a>
+
+Here is the matching link for the above:
+
+    [Back to Top](#back-to-top)
+
+**Footnote links**: I assume footnotes would be useful in a very technical or long README file. Use square brackets where you want a footnote link to appear and use a caret symbol(^) followed by the number of the footnote. Then below that area add the same syntax followed by a colon and the noe itself. That will make the footnote text appear at the bottom of your file: 
+
+Footnote.[^1]
+Some other important footnote.[^2]
+
+    [^1]: This is footnote number one.
+    [^2]: Here is the second footnote.
+
+[^1]: This is footnote number one.
+[^2]: Here is the second footnote.
+
+Use this:
+
+```
+[^1]
 ```
 
+[Back to Top](#back-to-top "Table of contents")
 
-# Heading 1
+### Images
 
-## Heading two
+Images use the same syntax except for the addition of an exclamatio mark immdiately before the opening square bracket. You can also use optional title text:
 
-### Heading three
+![picture alt text](https://via.placeholder.com/150 'Title is optional')
 
-#### Heading four
+    ![picture alt](https://via.placeholder.com/150 'Title is optional')
 
-##### Heading 5
 
-###### Heading 6
+### Code blocks
 
-```
-# Heading 1
-## Heading two
-### Heading three, etc...
-```
+To add code that requires more than 1 line then use 3 backtips, hit ENTER, add your code block, hit ENTER agin and add 3 more back ticks. 
 
----
-
-Apparent background color, just hit TAB twice (I like this):
-
-    Like this
-
-_Emphasized/Italic text_ or like _this_
-
-**Bold text** or **like this**
-
-~~Strikethrough text~~
-
-**_Bold and italic_**
+    ```
+    some code here
+    ```
 
 ```
-*Emphasized/Italic text* or like _this_
-**Bold text** or __like this__
-~~Strikethrough text~~
-***Bold and italic***
-```
-
-[Link text](https://www.google.com/ 'Google')
-
-```
-[Link text](https://www.google.com/ "Optional title")
-Basic syntax: []()
-```
-
-Make sure anchor links are lowercase and with dashes and maybe underscores in between each word. If you are not using the anchor tag syntax as above, then your #anchor-text has to match the words exactly in the section you are linking to. For example, If you have a section called How to use anchor links, then use #how-to-use-anchor-links.
-
-[Back To Top](#top_anchor)
-
-```
-[Back To Top](#top_anchor)
-```
-
-Tables look good - make sure to use | --- | --- | to make the column headers bold
-
-Left, right and center aligned table:
-
-| Left aligned content | Center aligned content | Right aligned content |
-| :------------------- | :--------------------: | --------------------: |
-| Content Left         |     Content Center     |         Content Right |
-| Content Left         |     Content Center     |         Content Right |
-| Content Left         |     Content Center     |         Content Right |
-| Content Left         |     Content Center     |         Content Right |
-
-Single backtick for an inline code block:
-
-`code()`
-
-Also this:
-
-||Spoiler text|| in Discord
-
-`Boxed text in Discord`
-
-````
-`code()`
-``` Boxed text in Discord ```
-````
-
-Use three opening & closing backticks for a large code block and addd the language for code highlighting. You can alsu use `example-good` or `example-bad` after the language and a space (see the `console.log()` blocks but I don't see the highlighting). To see an example, check out the MDN page/section titled [Example code blocks](https://developer.mozilla.org/en-US/docs/MDN/Contribute/Markdown_in_MDN#example_code_blocks).
-
-The language abbeviations I would use are `html`, `css`, `js`, `json`, `php`, `sql`, `xml`, `svg`, `apacheconf`, and maybe `python`. I tried using `node` and `npm` for my node-npm repo but it did nothing. 
-
-**Example**:
-
-<p>
-```js example-good <br>
-console.log(${variable}) <br>
-```
-</p>
-
-```json
-{
-  "name": "jim",
-  "job": "front end developer"
+a {
+  text-decoration: none;
 }
 ```
 
-```js example-good
-console.log(${variable})
-```
+[Back to Top](#back-to-top "Table of contents")
 
-```js example-bad
-console.log(${variable})
+### Code blocks with highlighting
+
+This is what you want to use. To highlight parts of your code add the language after the opening triple backticks. You'll have to do your own research but so far the following languages work: `html`, `css`, `js` or `javascript`, `php`, `xml`, `python`, `sql`, `apacheconf` (for Apache servers). I tried using `node` and `npm` for my node-npm repo but it had no effect.
+
+    ```css
+    rules here
+    ```
+
+```css
+a {
+  text-decoration: none;
+}
 ```
 
 ```html
 <img href="http://somewhere.com" />
 ```
 
-```css
-body {
-  margin: 0 auto;
-}
+```js
+console.log(${variable})
 ```
 
 ```php
 <?php the_content(); ?>
 ```
 
-For example, the above starts with (```json). It's diificult to shw this in a code block, but here is a version with an extra backtick to display it - just use 3 opening and closing backticks. Also, try html, css, js, php, py, etc.
+[Back to Top](#back-to-top "Table of contents")
 
-````
-` ```diff
-- This text was changed
-+ This is the new text
-` ```
-````
+#### Diff code blocks
 
-Use 'diff' to show changes and greater than to quote a section of someone's reply:
+This is really nice for highlighting text or code that was changed. USe `diff` after the opening triple backticks. Then use a minus sign (-) for what was changed, and a plus symbol (+) for the new version:
 
 ```diff
-- This text was changed
-+ This is the new text
+- this code or text is the old version
++ this is what it was changed to
 ```
 
-Here is the best way to add comments in a markdown file:
 
-```
-<!-- Ignore this line, experimenting with markdown comments -->
-```
+    ```diff
+    - this code or text is the old version
+    + this is what it was changed to
+    ```
 
-For UL use \* or - or +. For nested lists, start nested item at least at the start of its parent. For OL repeat but use the number and a period
+[Back to Top](#back-to-top "Table of contents")
 
-```
-* Parent item with asterisk
-  * Child with asterisk
+### Comments
 
-- Parent item with dash
-  - Child with dash
+This is a nice way to add a comment in the editor view of your markdown file. The best way is to use HTML syntax:
 
-+ Parent item with plus
-  + Child with plus
+<!--There is a comment here that you can't see -->
 
-1. Parent ordered item
-   1. Child ordered item
-1. second item
-1. 3rd item
-```
+    <!-- Now you can see it -->
 
-For ordered lists, just keep using the #1 and the nmbers will increment. That way if you cut/paste an item to a different position, the numbering will remain correct.
+## Advanced markdown
 
-Tasks - uncompleted and completed, can be nested also:
+The following examples bring your markdown files up to the next level and will make your files stand out!
 
-- [ ] incomplete
-- [X] complete
+### Task lists
+
+You can create what looks like checkboxes and display completed tasks with a checkmark. It taks the form of an unordered list with the first characters being a set of square brackets which MUST have a space in them. For a completed task, add either a lower or uppercase "X":
+
+- [ ] incomplete task
+- [X] completed task
   - [ ] incomplete subtask
   - [x] complete subtask
 
 ```
-- [ ] incomplete
-- [x] complete
+- [ ] incomplete task
+- [x] completed task
   - [ ] incomplete subtask
-  - [x] complete subtask
+  - [x] completed subtask
 ```
 
-Use the greater than sign for blockquotes:
+[Back to Top](#back-to-top "Table of contents")
 
-I agree with:
+### Tables
 
-> idea 1
+I only used this for the Pull Requests and Issues I open on freeCodeCamp. It is a list of common prefixes to include in your titles. However, here is a generic table. I will not explain all of this but pay attention to the syntax that is creating the column divisions:
 
-I don't agree with:
-
-> idea 2
-
-```
-I agree with:
-> idea 1
-
-I don't agree with:
->  idea 2
-> ## Heading 2 in a blockquote
-```
-
-### GitHub-Flavored Markdown
-
-To add a note, create a GFM blockquote whose first paragraph (how do you get multiple paragraphs in the same blockquote) starts with **Note:**:
-
-> **Note**: These are not working...
->
-> Same as the `example-good` and `example-bad` above...
-
-To add a warning, create a GFM blockquote whose first paragraph starts with **Warning:**:
-
-> **Warning**: Something here...
->
-> And the bulk here, etc...
-
-To add a callout, create a GFM blockquote whose first paragraph starts with **Callout:**:
-
-> **Callout**: Something here...
->
-> And the bulk here, etc...
-
-> ## Heading 2 in a blockquote
-
----
-
----
-
----
-
-Horizontal rule with --- or - - - or \* \* \* (see above):
-
-How to remove the link aspect of an image to the file in the repo?
-
-![picture alt](https://via.placeholder.com/150 'Title is optional')
+| Left aligned | Center aligned | Right aligned |
+| :----------- | :-----------: | -----------: |
+| Content Left | Content Center | Content Right |
+| Content Left | Content Center | Content Right |
+| Content Left | Content Center | Content Right |
+| Content Left | Content Center | Content Right |
 
 ```
-![picture alt](https://via.placeholder.com/150 'Title is optional')
+| Left aligned | Center aligned | Right aligned |
+| :----------- | :-----------: | -----------: |
+| Content Left | Content Center | Content Right |
+| Content Left | Content Center | Content Right |
+| Content Left | Content Center | Content Right |
+| Content Left | Content Center | Content Right |
 ```
 
-Images on a row in tables (not responsive):
+[Back to Top](#back-to-top "Table of contents")
 
-|        First image   |       Second image     |     Third image       |
-| :-------------------: | :-------------------: | :-----------------------------------------------------------------: |
-| ![picture alt](https://via.placeholder.com/150 'Title is optional') | ![picture alt](https://via.placeholder.com/150 'Title is optional') | ![picture alt](https://via.placeholder.com/150 'Title is optional') |
+### Foldable text
 
-Foldable text is really cool:
+I'm not sure why you would use this other but here is how you would make what is similar to an accordian:
 
 <details>
   <summary>Title 1</summary>
@@ -261,23 +330,23 @@ Foldable text is really cool:
   <p>Content 2 Content 2 Content 2 Content 2 Content 2</p>
 </details>
 
-Definition:
-term
-: definition
-
-Footnote.[^1]
-Some other important footnote.[^2]
-
-[^1]: This is footnote number one.
-[^2]: Here is the second footnote.
-
-use this:
-
 ```
-[^1]
+<details>
+  <summary>Title 1</summary>
+  <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
+</details>
+<details>
+  <summary>Title 2</summary>
+  <p>Content 2 Content 2 Content 2 Content 2 Content 2</p>
+  <p>Content 2 Content 2 Content 2 Content 2 Content 2</p>
+</details>
 ```
 
-Emojis worth using:
+[Back to Top](#back-to-top "Table of contents")
+
+### Emojis
+
+I'm not a huge fan of emojis, but here are some that I would consider using:
 
 :+1: and :smile: and :star: and :exclamation: and :question: and :thumbsdown: and :point_right: and :point_left: and :heart: and :sound: and :lock: and :email: and :guitar: and :one: and :two: etc :arrow_left: and :arrow_right: and :arrow_up: and :x: and :link: and :copyright: and :white_check_mark:
 
@@ -285,6 +354,35 @@ Emojis worth using:
 :+1: and :smile: and :star: and :exclamation: and :question: and :thumbsdown: and :point_right: and :point_left: and :heart: and :sound: and :lock: and :email: and :guitar: and :one: and :two: etc :arrow_left: and :arrow_right: and :arrow_up: and :x: and :link: and :copyright: and :white_check_mark:
 ```
 
-#### Most of these markdown formatting tips work in Discord and in Slack, though Slack has menu icons for most of them as well.
+[Back to Top](#back-to-top "Table of contents")
 
-<!-- Ignore this line, experimenting with markdown comments -->
+## Notes
+
+There are other options for some of the styling mentioned above. I only included that which is easiest and that I prefer. Check the links below to more information on Markdown syntax. 
+
+For discord, you have to enter the markdown syntax to have it display, however, on Slack there are editor buttons for everything in this guide.
+
+I also fold syntax for Definition lists but it did not work for me. Let me know if you know how to use that.
+
+### Hidden text on Discord
+
+On Discord you may sometimes see a black rectangle that reveals tet or code when you click on it. Use double pipes before and after the text/code that you want to conceal:
+
+    ||Spoiler text|| in Discord
+
+
+**NOTE**: This does not work on Slack or here on GitHub.
+
+I'm adding on definitions because I saw it on a Markdown post but it doesn't work for me. PErhaps this only works in Discord as well:
+
+    Definition: term : definition
+
+[Back to Top](#back-to-top "Table of contents")
+
+### Other resources
+
+1. [Daring Fireball]("https://daringfireball.net/projects/markdown/basics" "Detailed markdown syntax")
+1. [Complete list of github markdown emojis]("https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia")
+1. [GitHub emoji list]("https://gist.github.com/rxaviers/7360908")
+
+[Back to Top](#back-to-top "Table of contents")
