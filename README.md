@@ -60,7 +60,7 @@ Make sure anchor links are lowercase and with dashes and maybe underscores in be
 [Back To Top](#top_anchor)
 
 ```
-[Go To TOP](#top_anchor)
+[Back To Top](#top_anchor)
 ```
 
 Tables look good - make sure to use | --- | --- | to make the column headers bold
