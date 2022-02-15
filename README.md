@@ -44,7 +44,7 @@ Here are the commands that use a simple characters to display markdown. Start wi
 
 There are 6 headings just like in HTML. Use a single hashtag for H1 and 6 hashtags for H6. The top title of this docuement is an H1 with a single hash, this section (Basic markdown) uses 2 hashtags, and this sub-section (Headings and paragraphs) uses 3 hashtags. 
 
-**NOTE**: There is an automatic horizontal rule added when you use synax for H1 and H2.
+**NOTE**: There is an automatic horizontal rule added when you use syntax for H1 and H2.
 
     # MARKDOWN CHEAT SHEET (Heading 1)
     ## Basic markdowm (Heading 2)
