@@ -1,6 +1,6 @@
 # MARKDOWN CHEAT SHEET
 
-Use this markdown cheat cheat as a guide for writing your markdown files. If you like it then clone or fork it, or at least click the **star** button. You can also check out the [Markdown Cheat Sheet article](https:/kernixwebdesign.com) I wrote, though it is not as inclusive as this guide.
+Use this markdown cheat cheat as a guide for writing your markdown files. If you like it then clone or fork it, or at least click the **star** button. You can also check out the [Markdown Cheat Sheet article](https://kernixwebdesign.com/website/code/markdown-cheat-sheet-beginners/) I wrote, though it is not as inclusive as this guide.
 
 In the **basics markdown** section I have the simplest markdown syntax and the most basic styling to use in your markdown files and on sites like Discord and Slack. Thee are a number of forums and support ticket apps that allow markdown so keep that in mind.
 
@@ -352,9 +352,15 @@ This has the same effect as an accordian. I'm not sure why you would use this bu
 
 ### Emojis
 
-I'm not a huge fan of emojis, but here are some that I would consider using:
+I'm not a huge fan of emojis, but here are some that I would consider using. The syntax is the emoji code inbetween colons:
 
-:+1: and :smile: and :star: and :exclamation: and :question: and :thumbsdown: and :point_right: and :point_left: and :heart: and :sound: and :lock: and :email: and :guitar: and :one: and :two: etc :arrow_left: and :arrow_right: and :arrow_up: and :x: and :link: and :copyright: and :white_check_mark:
+    :Emoji_code:
+
+`:+1:`,  `:smile:`, `:star:`, `:exclamation:`, `:question:`, `:thumbsdown:`, `:point_right:`, `:point_left:`, `:heart:`, `:sound:`, `:lock:`, `:email:`, `:guitar:`, `:one:`, `:two:` (and other #'s), `:arrow_left:`, `:arrow_right:`, `:arrow_up:`, `:x:`, `:link:`, `:copyright:`, and `:white_check_mark:`
+
+Attemptin bold and italic for emojis:
+
+Regular is :+1: and then as bold **:+1:**
 
 ```
 :+1: and :smile: and :star: and :exclamation: and :question: and :thumbsdown: and :point_right: and :point_left: and :heart: and :sound: and :lock: and :email: and :guitar: and :one: and :two: etc :arrow_left: and :arrow_right: and :arrow_up: and :x: and :link: and :copyright: and :white_check_mark:
@@ -382,6 +388,63 @@ I'm adding on definitions because I saw it on a Markdown post but it doesn't wor
     Definition: term : definition
 
 [Back to Top](#back-to-top "Table of contents")
+
+### HTML Entities
+
+Just use the HTML entity to display the symbol. Here are the most used ones:
+
+| Entity | Result| Title |
+| ---- | ---- | ---- |
+| `&copy;` | &copy; | Copyright |
+| `&reg;` | &reg; | Registered TM |
+| `&trade;` | &trade; | Trademark |
+| `&cent;` | &cent; | Cent |
+| `&pound;` | &pound; | Pound |
+| `&euro;` | **&euro;** | Euro |
+| `&not;` | &not; | Negation |
+| `&macr;` | &macr; | Spacing Macron |
+| `&laquo;` | &laquo; | Left quote? |
+| `&raquo;` | &raquo; | Right quote? |
+| `&deg;` | &deg; | Degree | 
+| `&plusmn;` | &plusmn; | Plus minus | 
+| `&sup2;` | 2&sup2; | Supercript 2 | 
+| `&#8322;` | H&#8322;O | Subscript 2 | 
+| `&#8323;` | NO&#8323;| Subscript 3 | 
+| `&para;` | &para; | Paragraph | 
+| `&frac14;` | &frac14; | Fractions | 
+| `&frac38;` | &frac38; | Fractions | 
+| `&times;` | &times; | Multiplication | 
+| `&divide;` | &divide; | Division | 
+| `&minus;` | &minus; | Subtraction | 
+| `&empty;` | &empty; | Empty | 
+| `&Phi;` | &Phi; | Phi | 
+| `&pi;` | &pi; | Pi | 
+| `&sum;` | &sum; | Sum | 
+| `&radic;` | &radic; | Square root | 
+| `&infin;` | &infin; | Infinity | 
+| `&or;` | &or; | Down angle | 
+| `&sim;` | &sim; | Proportional | 
+| `&asymp;` | &asymp; | Approximately | 
+| `≠` | ≠ | Not equal | 
+| `&le;` | &le; | Less or equal to | 
+| `&ge;` | &ge; | Greater or equal | 
+| `&oplus;` | &oplus; | Circle plus | 
+| `&ndash;` | &ndash; | En dash? | 
+| `&mdash;` | &mdash; | Em dash? | 
+| `&larr;` | &larr; | Left arrow | 
+| `&rarr;` | &rarr; | Right arrow | 
+| `&uarr;` | &uarr; | Up arrow | 
+| `&darr;` | &darr; | Down arrow | 
+| `&spades;` | &spades; | Spade | 
+| `&clubs;` | &clubs; | Club | 
+| `&hearts;` | &hearts; | Heart | 
+| `&diams;` | &diams; | Diamond | 
+
+NOTE: For subscripts 0 thru 9, change the last number, e.g.:
+
+Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;), change 8320 to 8322 for subscript 2 (Two&#8322;), etc.
+
+
 
 ### Other resources
 
