@@ -280,7 +280,7 @@ This is a nice way to add a comment in the editor view of your markdown file. Th
 
 ## Advanced markdown
 
-The following examples bring your markdown files up to the next level and will make your files stand out!
+The following examples are not so much **_advanced_** but the first two bring your markdown files up to the next level and will make your files stand out! The last two - not so much.
 
 ### Task lists
 
