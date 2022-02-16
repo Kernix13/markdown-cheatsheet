@@ -4,57 +4,58 @@ Use this markdown cheat cheat as a guide for writing your markdown files. If you
 
 I'm breaking up all the markdown syntax into 6 categories:
 
-1. Text effects
+1. Styles
 1. Links
 1. Lists
 1. Code 
 1. Hidden
-1. Unique
+1. Miscellaneous
 
-I'll explain what those mean in each section. But the point is that the first one (Text Effects) can be applied to all or some of the elements in each category with the exception of the Code category. That will make sense when you read each category descripion and notes.
+I'll explain what those mean in each section. But the point is that the first one (Styles) can be applied to all or some of the elements in each category with the exception of the Code category. That will make sense when you read each category descripion and notes.
 
 **NOTE**: To view markdown in VS Code hit CTRL+SHIFT+V or click the preview button at top right in line with the file name tabs.
 
 <a id="back-to-top"></a>
 
-## Table of contents
-1. [Text effects](#text-effects)
-   1. [Bold text](#bold-text)
-   1. [Italic text](#italic-text)
-   1. [Strikethrough text](#strikethrough-text)
-1. [Links](#links)
-   1. [External links](#external-links)
-   1. [Anchor links](#anchor-links)
-   1. [Footnote links](#footnote-links)
-1. [Lists](#lists)
-   1. [Unordered lists](#unordered-lists)
-   1. [Ordered lists](#ordered-lists)
-   1. [Nested lists](#nested-lists)
-   1. [Task lists](#task-lists)
-1. [Code](#code)
-   1. [Inline code](#inline-code)
-   1. [Code blocks](#code-blocks)
-   1. [Tab code blocks](#tab-code-blocks)
-   1. [Code highlighting blocks](#code-highlighting-blocks)
-   1. [Diff code blocks](#diff-code-blocks)
-1. [Hidden](#hidden)
-   1. [Comments](#comments)
-   1. [Discord hidden text](#discord-hidden-text)
-   1. [Hidden content](#hidden-content)
-1. [Unique](#unique)
-   1. [Headings and paragraphs](#headings-and-paragraphs)
-   1. [Blockquotes](#blockquotes)
-   1. [Tables](#tables)
-   1. [Horizontal rules](#horizontal-rules)
-   1. [Images](#images)
-   1. [Emojis](#emojis)
-   1. [HTML entities](#html-entities)
-1. [Notes](#notes)
-1. [Other markdown resources](#other-markdown-resources)
+## ~~A Literal~~ **Table** of *Contents*
+
+| Category | Element | Accepts styles? | 
+| -------: | :------ | :-------------: |
+| **[Styles](#styles)**: | [Bold](#bold) | N/A |
+|                        | [Italic](#italic) | N/A |
+|                        | [Strike thru](#strike-thru) | N/A | 
+| **[Links](#links)**:     | [External](#external) | Yes |
+|                          | [Anchor](#anchor)   | Yes |
+|                          | [Footnotes](#footnotes) | Yes |
+| **[Lists](#lists)**:     | [Unordered](#unordered)  | Yes |
+|                          | [Ordered](#ordered)   | Yes |
+|                          | [Nested](#nested)    | Yes |
+|                          | [Tasks](#tasks)     | No |
+| **[Code](#code)**:        | [Inline](#inline) | No |
+|                           | [Tab](#tab) | No |
+|                           | [Generic](#generic) | No |
+|                           | [Language block](#language-block) | No |
+|                           | [Diff](#diff) | No |
+| **[Hidden](#hidden)**: | [Comments](#comments) | No |
+|                       | [Spoiler](#spoiler) | Yes |
+|                        | [Details](#details) | No |
+| **[Misc](#misc)**: | [Headings](#headings) | Yes |
+|                | [Blockquotes](#blockquotes) | Yes |
+|                | [Tables](#tables) | Yes* |
+|                | [Horizontal rules](#horizontal-rules) | No |
+|                | [Images](#images) | No |
+|                | [Emojis](#emojis) | No |
+|                | [HTML entities](#html-entities) | No |
+| **[Notes](#notes)** | N/A | |
+| **[Resources](#resources)** | N/A | |
 
 - - - 
 
-## Text effects
+Since paragraphs are a thing of their own, let's cover that one first:
+
+**Paragaphs**: Just use regular text but make sure to hit the *ENTER* key twice. Sometimes if you only hit ENTER once, the text will de displayed as the element directly above it.
+
+## Styles
 
 This category deals with the styling of individual words and can be used with every category except the Code category.
 
@@ -64,17 +65,18 @@ You can apply these effects to all or some of the words in:
 - Blockquotes
 - Table cell values
 - HTML entities (except strikethrough)
+- Hidden (Spoiler only)
 
-These do not work for the obvious ones (Horizontal Rules, Images, and Emojis), and for all elements in the Code category.
+These do not work for the obvious ones (Horizontal Rules, Images, and Emojis), and for all elements in the Code category. 
 
-### Bold text
+### Bold
 
 **Bold**: use either 2 **asterisks** or 2 __underscores__ before and after the text for bold styling. The preferred syntax is to use asterisks for bold:
 
     **two asterisks**
     __two underscores__
 
-###  Italic text
+###  Italic
 
 **Italic**: use a *single asterisk* or _underscore_ before and after the text for italic styling. The preferred syntax is to use an underscore for italic:
 
@@ -86,7 +88,7 @@ These do not work for the obvious ones (Horizontal Rules, Images, and Emojis), a
     ***3 asterisks***
     **_2 asterisks and and 1 underscore_**
 
-### Strikethrough text
+### Strike thru
 
 **Strikethrough**: use two tildes (~~) before and after text that you want to display as ~~strikethrough~~:
 
@@ -106,7 +108,7 @@ This category accepts all text effects and includes:
 - Anchor links (same page)
 - Footnote links
 
-### External links
+### External
 
 **External Links**: The syntax is to use square brackets around the link text and parentheses for the URL. You can also add an additional title for the link by adding a space after the URL and adding the link title in double quotes:
 
@@ -118,7 +120,7 @@ Here is a link to my [Beginner Git Commands](https://github.com/Kernix13/beginne
 
 [Back to Top](#back-to-top "Table of contents")
 
-### Anchor links
+### Anchor
 
 **Same page anchor links**: This can be done in at least two different ways. For all the links in the table of contents I use the simpler method. But for the **Back to Top** link I use an actual `<a>` tag.
 
@@ -143,7 +145,7 @@ Here is the matching link for the above:
 
 [Back to Top](#back-to-top "Table of contents")
 
-### Footnote links
+### Footnotes
 
 **Footnote links**: I assume footnotes would be useful in a very technical or long README file. Use square brackets where you want a footnote link to appear and use a caret symbol (^) followed by the number of the footnote. Then below that area add the same syntax followed by a colon and the note itself. That will make the footnote text appear at the bottom of your file: 
 
@@ -179,7 +181,7 @@ This category has:
 
 You can use all text effects but with some exceptions: None of the effects work for Task lists, and you don't seem to be able to use VS Code shortcuts - you have to manually type *, _ or ~. 
 
-### Unordered lists
+### Unordered
 
 **Unordered lists**: You can use either an asterisk or a dash followed by a space to make a bulleted list. I prefer using a dash since you do not need to use the *SHIFT* key:
 
@@ -188,7 +190,7 @@ You can use all text effects but with some exceptions: None of the effects work 
 
 [Back to Top](#back-to-top "Table of contents")
 
-### Ordered lists
+### Ordered
 
 **Ordered lists**: use a number followed by  a period (1., 2., 3. etc.) to create an ordered list. :
 
@@ -205,7 +207,7 @@ You can use all text effects but with some exceptions: None of the effects work 
 
 [Back to Top](#back-to-top "Table of contents")
 
-### Nested lists
+### Nested
 
 **Nested list**: Use the *SPACEBAR* key to align directly beneath the first character in the parent list item to create a nested list:
 
@@ -241,7 +243,7 @@ For a nested ordered list, do the same as for nested unordered lists - align the
 
 [Back to Top](#back-to-top "Table of contents")
 
-### Task lists
+### Tasks
 
 You can create what looks like checkboxes and display completed tasks with a checkmark. It takes the form of an unordered list with the first characters being a set of square brackets which **_MUST_** have a space in them. For a completed task, add either a lower or uppercase "X":
 
@@ -271,13 +273,19 @@ This category deals with inline code and various typs of code blocks and none of
 - Code highlighting blocks
 - Diff code blocks
 
-### Inline code
+### Inline
 
 Use a `single backtick` before and after text to display it as inline code:
 
     `single backtick`
 
-### Code blocks
+### Tab
+
+It took me a hile how to show the 3 backticks for a code block. For that and other tricky markdown that will not dispay, hit the *TAB* button twice then enter your code
+
+    This is a TAB code block, check with `backticks`
+
+### Generic
 
 To add code that requires more than 1 line then use 3 backticks, hit *ENTER*, add your code block, hit *ENTER* again and add 3 more back ticks. 
 
@@ -293,13 +301,8 @@ a {
 
 [Back to Top](#back-to-top "Table of contents")
 
-### Tab code blocks
 
-It took me a hile how to show the 3 backticks for a code block. For that and other tricky markdown that will not dispay, hit the *TAB* button then enter your code
-
-    This is a TAB code block, check with `backticks`
-
-### Code highlighting blocks 
+### Language block
 
 This is what you want to use. To highlight parts of your code add the language after the opening triple backticks. You'll have to do your own research but so far the following languages work: `md`, `html`, `css`, `js` or `javascript`, `php`, `xml`, `python`, `sql`, `apacheconf` (for Apache servers). I tried using `node` and `npm` for my node-npm repo but it had no effect.
 
@@ -327,7 +330,7 @@ console.log(${variable})
 ```
 [Back to Top](#back-to-top "Table of contents")
 
-### Diff code blocks
+### Diff
 
 This is really nice for highlighting text or code that was changed. Use `diff` after the opening triple backticks. Then use a minus sign (-) for what was changed, and a plus symbol (+) for the new version:
 
@@ -365,7 +368,7 @@ This is a nice way to add a comment in the editor view of your markdown file. Th
     <!-- There is a comment here that you can't see -->
 
 
-### Discord hidden text
+### Spoiler
 
 On Discord you may sometimes see a black rectangle that reveals text or code when you click on it. Use double pipes before and after the text/code that you want to conceal:
 
@@ -379,9 +382,9 @@ I'm adding on definitions because I saw it on a Markdown post but it doesn't wor
 
 [Back to Top](#back-to-top "Table of contents")
 
-### Hidden content
+### Details
 
-This has the same effect as an accordian. I'm not sure why you would use this but here is how you would do it:
+This isn't a markdown thing but it is another example of using HTML tags in a Markdown file. It has the same effect as an accordian. I'm not sure why you would use this but here is how you would do it:
 
 <details>
   <summary>Title 1</summary>
@@ -409,7 +412,7 @@ This has the same effect as an accordian. I'm not sure why you would use this bu
 
 - - - 
 
-## Unique
+## Misc
 
 The elements in this category are all unique and do not fit into any of the other categories:
 
@@ -423,7 +426,7 @@ The elements in this category are all unique and do not fit into any of the othe
 
 All elements in this category accept text effects except for the obvious one: images, emojis and horizontal rules.
 
-### Headings and paragraphs
+### Headings
 
 There are 6 headings just like in HTML. Use a single hashtag for H1 and 6 hashtags for H6. The top title of this docuement is an H1 with a single hash, this section (Basic markdown) uses 2 hashtags, and this sub-section (Headings and paragraphs) uses 3 hashtags. 
 
@@ -434,7 +437,9 @@ There are 6 headings just like in HTML. Use a single hashtag for H1 and 6 hashta
     ### Headings and paragraphs (heading 3)
     ### Heading 4 (you most likely will not use H5 or H6) 
 
-**Paragaphs**: Just use regular text but make sure to hit the *ENTER* key twice. Sometimes if you only hit ENTER once, the text will de displayed as the element directly above it.
+Here is an example of using Bold, Italic and Strikethrough in a heading:
+
+    ## ~~A Literal~~ **Table** of *Contents*
 
 [Back to Top](#back-to-top "Table of contents")
 
@@ -508,26 +513,35 @@ I'm not a huge fan of emojis, but here are some that I would consider using. The
 
 ### HTML entities
 
-Just use the HTML entity to display the symbol. Here are the most used ones:
+This actually is not a markdown thing but it's nice having a list for use in your README files. Especally if you are a dev who loves and specializes in say science or math, etc. Here are the most used ones:
 
+**Generic**:
 | Entity | Result| Title |
 | ---- | ---- | ---- |
 | `&copy;` | &copy; | Copyright |
 | `&reg;` | &reg; | Registered TM |
 | `&trade;` | &trade; | Trademark |
+| `&commat;` | &commat; | At symbol | 
+| `` | | | 
+| `` | | | 
+| `` | | | 
+
+
+**Financial**:
+| Entity | Result| Title |
+| ---- | ---- | ---- |
 | `&cent;` | &cent; | Cent |
 | `&pound;` | &pound; | Pound |
 | `&euro;` | **&euro;** | Euro |
-| `&not;` | &not; | Negation |
-| `&macr;` | &macr; | Spacing Macron |
-| `&laquo;` | &laquo; | Left quote? |
-| `&raquo;` | &raquo; | Right quote? |
+
+Math and science:
+| Entity | Result| Title |
+| ---- | ---- | ---- |
 | `&deg;` | &deg; | Degree | 
 | `&plusmn;` | &plusmn; | Plus minus | 
-| `&sup2;` | 2&sup2; | Supercript 2 | 
+| `&sup2;` | 3&sup2; | Supercript 2 | 
 | `&#8322;` | H&#8322;O | Subscript 2 | 
 | `&#8323;` | NO&#8323;| Subscript 3 | 
-| `&para;` | &para; | Paragraph | 
 | `&frac14;` | &frac14; | Fractions | 
 | `&frac38;` | &frac38; | Fractions | 
 | `&times;` | &times; | Multiplication | 
@@ -539,15 +553,36 @@ Just use the HTML entity to display the symbol. Here are the most used ones:
 | `&sum;` | &sum; | Sum | 
 | `&radic;` | &radic; | Square root | 
 | `&infin;` | &infin; | Infinity | 
-| `&or;` | &or; | Down angle | 
 | `&sim;` | &sim; | Proportional | 
 | `&asymp;` | &asymp; | Approximately | 
 | `≠` | ≠ | Not equal | 
 | `&le;` | &le; | Less or equal to | 
 | `&ge;` | &ge; | Greater or equal | 
-| `&oplus;` | &oplus; | Circle plus | 
-| `&ndash;` | &ndash; | En dash? | 
-| `&mdash;` | &mdash; | Em dash? | 
+| `&ang;` | &ang; | Angle |
+| `&angmsd;`| &angmsd; | Measured angle |
+
+**NOTE**: For subscripts 0 thru 9, change the last number, e.g.:
+
+Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;), change 8320 to 8322 for subscript 2 (Two&#8322;), etc.
+
+**Music**:
+| Entity | Result| Title |
+| ---- | ---- | ---- |
+| `&#9837;`| &#9837; | Music flat |
+| `&#9838;`| &#9838; | Music natural |
+| `&#9839;`| &#9839; | Music sharp |
+| `&#119070;`| &#119070; | G-clef |
+| `&#119092;`| &#119092; | Common time|
+| `&#119093;`| &#119093; | Cut time |
+| `&#248;`| &#248; | Half-diminished 7th |
+| `&sung;`| &sung; | 8th note |
+
+**Miscellaneous**:
+| Entity | Result| Title |
+| ---- | ---- | ---- |
+| `&not;` | &not; | Negation |
+| `&macr;` | &macr; | Spacing Macron |
+| `&or;` | &or; | Down angle | 
 | `&larr;` | &larr; | Left arrow | 
 | `&rarr;` | &rarr; | Right arrow | 
 | `&uarr;` | &uarr; | Up arrow | 
@@ -555,11 +590,36 @@ Just use the HTML entity to display the symbol. Here are the most used ones:
 | `&spades;` | &spades; | Spade | 
 | `&clubs;` | &clubs; | Club | 
 | `&hearts;` | &hearts; | Heart | 
-| `&diams;` | &diams; | Diamond | 
+| `&diams;` | &diams; | Diamond |
+| `&star;`| &star; | Star |
+| `&starf;`| &starf; | Filled star |
+| `&female;`| &female; | Female |
+| `&male;`| &male; | Male |
+| `&laquo;` | &laquo; | Left quote? |
+| `&raquo;` | &raquo; | Right quote? |
+| `&para;` | &para; | Paragraph | 
+| `&ndash;` | &ndash; | En dash? | 
+| `&mdash;` | &mdash; | Em dash? | 
 
-NOTE: For subscripts 0 thru 9, change the last number, e.g.:
 
-Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;), change 8320 to 8322 for subscript 2 (Two&#8322;), etc.
+**Hotkey list**:
+
+| Key | Symbol |
+| --- | --- |
+| Option | ⌥ |
+| Control | ⌃ |
+| Command | ⌘ |
+| Shift | ⇧ |
+| Caps Lock | ⇪ |
+| Tab | ⇥ |
+| Esc | ⎋ |
+| Power | ⌽ |
+| Return | ↩ |
+| Delete | ⌫ |
+| Up | ↑ |
+| Down | ↓ |
+| Left | ← |
+| Right | → |
 
 [Back to Top](#back-to-top "Table of contents")
 
@@ -571,10 +631,40 @@ Nothing right now
 
 [Back to Top](#back-to-top "Table of contents")
 
-## Other markdown resources
+## Resources
 
 1. [Daring Fireball](https://daringfireball.net/projects/markdown/basics "Detailed markdown syntax") - more markdown documentation
 1. [Complete list of github markdown emojis](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia) - Emojis
 1. [GitHub emoji list](https://gist.github.com/rxaviers/7360908) - Emojis
 
 [Back to Top](#back-to-top "Table of contents")
+
+<!-- 
+
+**Esoteric**:
+| Entity | Result| Title |
+| ---- | ---- | ---- |
+| `&oplus;` | &oplus; | Earth | 
+| `&#9793;` | &#9793; | Earth | 
+| `&#9800;`| &#9800; | Aries |
+| `&#9801;`| &#9801; | Taurus |
+| `&#9802;`| &#9802; | Gemini |
+| `&#9803;`| &#9803; | Cancer |
+| `&#9804;`| &#9804; | Leo |
+| `&#9805;`| &#9805; | Virgo |
+| `&#9806;`| &#9806; | Libra |
+| `&#9807;`| &#9807; | Scorpio |
+| `&#9808;`| &#9808; | Sagittarius |
+| `&#9809;`| &#9809; | Capricorn |
+| `&#9810;`| &#9810; | Aquarius |
+| `&#9811;`| &#9811; | Pisces |
+| `&#9791;`| &#9791; | Mercury |
+| `&#9792;`| &#9792; | Venus|
+| `&#9794;`| &#9794; | Mars |
+| `&#9795;`| &#9795; | Jupiter |
+| `&#9796;`| &#9796; | Saturn |
+| `&#9797;`| &#9797; | Uranus |
+| `&#9798;`| &#9798; | Neptune |
+| `&#9799;`| &#9799; | Pluto |
+
+ -->
