@@ -11,7 +11,7 @@ I'm breaking up all the markdown syntax into 6 categories:
 1. Hidden
 1. Miscellaneous
 
-I'll explain what those mean in each section. But the point is that the first one (Styles) can be applied to all or some of the elements in each category with the exception of the Code category. That will make sense when you read each category descripion and notes.
+I'll explain what those mean in each section. But the point is that the first one (**Styles**) can be applied to all or some of the elements in each category with the exception of the Code category. That will make sense when you read each category descripion and notes.
 
 **NOTE**: To view markdown in VS Code hit <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+V or click the preview button at top right in line with the file name tabs.
 
@@ -21,15 +21,15 @@ I'll explain what those mean in each section. But the point is that the first on
 
 | Category | Element | Accepts styles? | 
 | -------: | :------ | :-------------: |
-| **[Styles](#styles)**: | [Bold](#bold) | N/A |
-|                        | [Italic](#italic) | N/A |
-|                        | [Strike thru](#strike-thru) | N/A | 
-| **[Links](#links)**:     | [External](#external) | Yes |
-|                          | [Anchor](#anchor)   | Yes |
-|                          | [Footnotes](#footnotes) | Yes |
-| **[Lists](#lists)**:     | [Unordered](#unordered)  | Yes |
-|                          | [Ordered](#ordered)   | Yes |
-|                          | [Nested](#nested)    | Yes |
+| **[Styles](#styles)**: | [Bold](#bold) | `N/A` |
+|                        | [Italic](#italic) | `N/A` |
+|                        | [Strike thru](#strike-thru) | `N/A` | 
+| **[Links](#links)**:     | [External](#external) | **Yes** |
+|                          | [Anchor](#anchor)   | **Yes** |
+|                          | [Footnotes](#footnotes) | **Yes** |
+| **[Lists](#lists)**:     | [Unordered](#unordered)  | **Yes** |
+|                          | [Ordered](#ordered)   | **Yes** |
+|                          | [Nested](#nested)    | **Yes** |
 |                          | [Tasks](#tasks)     | No |
 | **[Code](#code)**:        | [Inline](#inline) | No |
 |                           | [Tab](#tab) | No |
@@ -37,12 +37,12 @@ I'll explain what those mean in each section. But the point is that the first on
 |                           | [Language block](#language-block) | No |
 |                           | [Diff](#diff) | No |
 | **[Hidden](#hidden)**: | [Comments](#comments) | No |
-|                       | [Spoiler](#spoiler) | Yes |
+|                       | [Spoiler](#spoiler) | **Yes** |
 |                        | [Details](#details) | No |
-| **[Misc](#misc)**: | [Headings](#headings) | Yes |
-|                | [Blockquotes](#blockquotes) | Yes |
-|                | [Tables](#tables) | Yes* |
-|                | [Horizontal rules](#horizontal-rules) | No |
+| **[Misc](#misc)**: | [Headings](#headings) | **Yes** |
+|                | [Blockquotes](#blockquotes) | **Yes** |
+|                | [Tables](#tables) | **Yes** |
+|                | [Horizontal rules](#horizontal-rules) | **Yes*** |
 |                | [Images](#images) | No |
 |                | [Emojis](#emojis) | No |
 |                | [HTML entities](#html-entities) | No |
@@ -85,7 +85,7 @@ These do not work for the obvious ones (Horizontal Rules, Images, and Emojis), a
     *single asterisk*
     _single underscore_
 
-**_Bold and Italic_**: use either 3 asterisks or 2 asterisks and 1 underscore for bold and italic text. The preffered syntax is the latter:
+**_Bold and Italic_**: use either ***3 asterisks*** or **_2 asterisks and 1 underscore_** for bold and italic text. The preffered syntax is the latter:
 
     ***3 asterisks***
     **_2 asterisks and and 1 underscore_**
@@ -96,7 +96,7 @@ These do not work for the obvious ones (Horizontal Rules, Images, and Emojis), a
 
     ~~double tildes~~
 
-If you wanted to you could also do **~~bold strikethrough~~**, _~~_italic strikethrough_~~, and ***~~bold italic strikethrough~~***.
+If you want, you can also do **~~bold strikethrough~~**, _~~_italic strikethrough_~~, and ***~~bold italic strikethrough~~***.
 
 [Back to Top](#back-to-top "Table of contents")
 
@@ -126,16 +126,16 @@ Here is a link to my [Beginner Git Commands](https://github.com/Kernix13/beginne
 
 **Same page anchor links**: This can be done in at least two different ways. For all the links in the table of contents I use the simpler method. But for the **Back to Top** link I use an actual `<a>` tag.
 
-For the simple links use the same syntax as for Links above with 2 exceptions for the URL part:
+For the simple links, use the same syntax as for **Links** above with 2 exceptions for the URL part:
 
-- precede the URL with a hashtag
-- use the exact same text as where you are linking to with
-  - But all the text needs to be in lowercase
+- precede the *URL* with a hashtag
+- use the exact same text as where you are linking to but
+  - all the text needs to be in lowercase, and
   - all words need to be connected with a dash (no spaces)  
 
-Here is an example for this section:
+Here is an example for the *Strike thru* section:
 
-    [Intermediate markdown](#intermediate-markdown)
+    [Strike thru](#strike-thru)
 
 Here is the code for the anchor link using an HTML `<a>` tag:
 
@@ -149,7 +149,7 @@ Here is the matching link for the above:
 
 ### Footnotes
 
-**Footnote links**: I assume footnotes would be useful in a very technical or long README file. Use square brackets where you want a footnote link to appear and use a caret symbol (^) followed by the number of the footnote. Then below that area add the same syntax followed by a colon and the note itself. That will make the footnote text appear at the bottom of your file: 
+**Footnote links**: I assume footnotes would be useful in a very technical or long README file. Use square brackets where you want a footnote link to appear and use a caret symbol (^) followed by the number of the footnote. Then below that add the same syntax followed by a colon and the note itself. That will make the footnote text appear at the bottom of your file: 
 
 Footnote.[^1]
 
@@ -181,7 +181,7 @@ This category has:
 - Nested lists
 - Task lists
 
-You can use all text effects but with some exceptions: None of the effects work for Task lists, and you don't seem to be able to use VS Code shortcuts - you have to manually type *, _ or ~. 
+You can use all text effects but with some exceptions: None of the effects work for Task lists, and you don't seem to be able to use VS Code shortcuts (<kbd>SHIFT+*</kbd>, etc) - you have to manually type *, _ or ~. 
 
 ### Unordered
 
@@ -211,7 +211,7 @@ You can use all text effects but with some exceptions: None of the effects work 
 
 ### Nested
 
-**Nested list**: Use the *SPACEBAR* key to align directly beneath the first character in the parent list item to create a nested list:
+**Nested list**: Use the <kbd>SPACEBAR</kbd> key to align directly beneath the first character in the parent list item to create a nested list:
 
 - list item 1
 - list item 2
@@ -267,7 +267,7 @@ You can create what looks like checkboxes and display completed tasks with a che
 
 ## Code
 
-This category deals with inline code and various typs of code blocks and none of them accept text effects:
+This category deals with inline code and various typs of code blocks and none of them accept Styles:
 
 - Inline code
 - Code blocks
@@ -283,7 +283,7 @@ Use a `single backtick` before and after text to display it as inline code:
 
 ### Tab
 
-It took me a hile how to show the 3 backticks for a code block. For that and other tricky markdown that will not dispay, hit the <kbd>TAB</kbd> button twice then enter your code
+It took me a while how to show the 3 backticks for a code block. For that and other tricky markdown that will not dispay, hit the <kbd>TAB</kbd> button twice then enter your code:
 
     This is a TAB code block, check with `backticks`
 
@@ -293,6 +293,7 @@ To add code that requires more than 1 line then use 3 backticks, hit <kbd>ENTER<
 
     ```
     some code here
+    more here
     ```
 
 ```
@@ -306,7 +307,7 @@ a {
 
 ### Language block
 
-This is what you want to use. To highlight parts of your code add the language after the opening triple backticks. You'll have to do your own research but so far the following languages work: `md`, `html`, `css`, `js` or `javascript`, `php`, `xml`, `python`, `sql`, `apacheconf` (for Apache servers). I tried using `node` and `npm` for my node-npm repo but it had no effect.
+This is what you want to use. To highlight parts of your code add the language after the opening triple backticks. You'll have to do your own research but so far the following languages work: `md`, `html`, `css`, `js` or `javascript`, `php`, `xml`, `python`, `sql`, and `apacheconf` (for Apache servers). I tried using `node` and `npm` for my node-npm repo but it had no effect.
 
     ```css
     rules here
@@ -318,18 +319,25 @@ a {
   text-decoration: none;
 }
 ```
+
 **HTML**:
+
 ```html
 <img href="http://somewhere.com" />
 ```
+
 **JavaScript**:
+
 ```js
 console.log(${variable})
 ```
+
 **PHP**:
+
 ```php
 <?php the_content(); ?>
 ```
+
 [Back to Top](#back-to-top "Table of contents")
 
 ### Diff
@@ -356,10 +364,10 @@ This is really nice for highlighting text or code that was changed. Use `diff` a
 This is an odd category with 3 effects, one of which you have probably only seen in discord:
 
 - Comments
-- Discord hidden text
-- Hidden content
+- Spoiler text
+- Details
 
-Only hidden text accepts text effects.
+Only Spoiler text accepts text effects.
 
 ### Comments
 
@@ -372,7 +380,7 @@ This is a nice way to add a comment in the editor view of your markdown file. Th
 
 ### Spoiler
 
-On Discord you may sometimes see a black rectangle that reveals text or code when you click on it. Use double pipes before and after the text/code that you want to conceal:
+On Discord you may sometimes see a black rectangle that reveals text or code when you click on it. Use double pipes before and after the word(s)/code that you want to conceal:
 
     ||Spoiler text|| in Discord
 
@@ -412,7 +420,7 @@ This isn't a markdown thing but it is another example of using HTML tags in a Ma
 
 ## Misc
 
-The elements in this category are all unique and do not fit into any of the other categories:
+The elements in this category are all unique and do not fit into any of the other category:
 
 - Headings
 - Blockquotes
@@ -426,22 +434,24 @@ All elements in this category accept text effects except for the obvious one: im
 
 ### Headings
 
-There are 6 headings just like in HTML. Use a single hashtag for H1 and 6 hashtags for H6. The top title of this docuement is an H1 with a single hash, this section (Basic markdown) uses 2 hashtags, and this sub-section (Headings and paragraphs) uses 3 hashtags. 
+There are 6 headings just like in HTML. Use a single hashtag for H1 and 6 hashtags for H6. The top title of this docuement is an H1 with a single hash, this section (**Misc**) uses 2 hashtags, and this sub-section (**Headings**) uses 3 hashtags. 
 
 **NOTE**: There is an automatic horizontal rule added when you use syntax for H1 and H2.
 
     # MARKDOWN CHEAT SHEET (Heading 1)
-    ## Text effects (Heading 2)
-    ### Headings and paragraphs (heading 3)
+    ## Styles (Heading 2)
+    ### Headings (heading 3)
     ### Heading 4 (you most likely will not use H5 or H6) 
 
-Here is an example of using Bold, Italic and Strikethrough in a heading:
+Here is an example of using Bold, Italic, and Strikethrough in a heading:
 
     ## ~~A Literal~~ **Table** of *Contents*
 
 [Back to Top](#back-to-top "Table of contents")
 
 ### Blockquotes
+
+This is a nice effect but I don't know why you would use it on GitHub:
 
 > Use a greater than sign (>) to quote a team member
 > 
@@ -452,7 +462,7 @@ Here is an example of using Bold, Italic and Strikethrough in a heading:
 
 ### Tables
 
-I only used this for the Pull Requests and Issues I opened on freeCodeCamp. That table is a list of common prefixes to include in your titles (See the Git commands link above). Here is a generic table. I will not explain all of this but pay attention to the syntax that is creating the column divisions and alignment:
+Here is a generic table but the Table of Contents above is another version. The pipes create the columns, the colons with dashes create the alignment:
 
 | Left aligned | Center aligned | Right aligned |
 | :----------- | :-----------: | -----------: |
@@ -489,7 +499,7 @@ Use 3 asterisks or dashes with or without a space to create a horizontal rule:
 
 ### Images
 
-Images use the same syntax except for the addition of an exclamation mark immdiately before the opening square bracket. You can also use optional title text:
+Images use the same syntax as **Links** except for the addition of an exclamation mark immediately before the opening square bracket. You can also use the optional title text:
 
 ![picture alt text](https://via.placeholder.com/150 'Title is optional')
 
@@ -499,7 +509,7 @@ Images use the same syntax except for the addition of an exclamation mark immdia
 
 ### Emojis
 
-I'm not a huge fan of emojis, but here are some that I would consider using. The syntax is the emoji code inbetween colons:
+I'm not a huge fan of emojis, but here are some that I would consider using. The syntax is the emoji code in between colons:
 
     :Emoji_code:
 
@@ -511,7 +521,7 @@ I'm not a huge fan of emojis, but here are some that I would consider using. The
 
 ### HTML entities
 
-This actually is not a markdown thing but it's nice having a list for use in your README files. Especally if you are a dev who loves and specializes in say science or math, etc. Here are the most used ones:
+This actually is not a markdown thing but it's nice having a list for use in your README files. This would be helpful if you are a dev who loves and specializes in say science or math, etc. Here are the most used ones:
 
 **Common**:
 | Entity | Result| Title |
@@ -519,7 +529,7 @@ This actually is not a markdown thing but it's nice having a list for use in you
 | `&copy;` | &copy; | Copyright |
 | `&reg;` | &reg; | Registered TM |
 | `&trade;` | &trade; | Trademark |
-| `&commat;` | &commat; | At symbol | 
+| `&commat;` | &commat; | Self-explanatory | 
 | `&larr;` | &larr; | Left arrow | 
 | `&rarr;` | &rarr; | Right arrow | 
 | `&uarr;` | &uarr; | Up arrow | 
@@ -572,7 +582,7 @@ Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;)
 | `&#9838;`| &#9838; | Music natural |
 | `&#9839;`| &#9839; | Music sharp |
 | `&#119070;`| &#119070; | G-clef |
-| `&#119092;`| &#119092; | Common time|
+| `&#119092;`| &#119092; | Common time |
 | `&#119093;`| &#119093; | Cut time |
 | `&#248;`| &#248; | Half-diminished 7th |
 | `&sung;`| &sung; | 8th note |
@@ -580,8 +590,8 @@ Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;)
 **Miscellaneous**:
 | Entity | Result| Title |
 | ---- | ---- | ---- |
-| `&not;` | &not; | Negation |
-| `&macr;` | &macr; | Spacing Macron |
+| `&not;` | &not; | Negation (?) |
+| `&macr;` | &macr; | Spacing Macron (?) |
 | `&spades;` | &spades; | Spade | 
 | `&clubs;` | &clubs; | Club | 
 | `&hearts;` | &hearts; | Heart | 
@@ -590,11 +600,11 @@ Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;)
 | `&starf;`| &starf; | Filled star |
 | `&female;`| &female; | Female |
 | `&male;`| &male; | Male |
-| `&laquo;` | &laquo; | Left quote? |
-| `&raquo;` | &raquo; | Right quote? |
+| `&laquo;` | &laquo; | Left quote (?) |
+| `&raquo;` | &raquo; | Right quote (?) |
 | `&para;` | &para; | Paragraph | 
-| `&ndash;` | &ndash; | En dash? | 
-| `&mdash;` | &mdash; | Em dash? | 
+| `&ndash;` | &ndash; | En dash (?) | 
+| `&mdash;` | &mdash; | Em dash (?) | 
 
 **Hotkey list**:
 
@@ -621,34 +631,32 @@ Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;)
 
 ## Notes
 
-The one thing I want to look into is using videos, animated GIFs and more HTML tags in your profile and MD files. 
+The one thing I want to look into is using videos, animated GIFs, and more HTML tags in your profile and MD files. Oh, and also 2 and 3-column layouts. STOPPED
 
-I used a GitHub generator for my Profile README. In there are `<p>`, `<a>`, `<img>` tags. In the Details section above there are `<details>`, `<summary>`, and `<p>` tags. I found this gist called <q>HTML Tags You Can Use on GitHub</q>. So that makes
-
-That document mentions that you can also use a number of them. Here they are with the ones I used above: 
+I used a GitHub generator for my Profile README. In there are `<p>`, `<a>`, and `<img>` tags. In the Details section above, there are `<details>`, `<summary>`, and `<p>` tags. I found this gist called <q>HTML Tags You Can Use on GitHub</q>. That document mentions that you can also use a number of different tags. Here they are with the ones I used above: 
 
 Block tags
-- `<p>`: Why?
+- `<p>`: Why? A-ha! In my profile generated text, the `<p>` tags have inline styles! That's why: `<p align="left">`
 - `<div>`: Why?
 - `<details>`, and `<summary>`: Why?
-- `<dl>`, `<dt>`, and `<dd>`: Definition details tag (added below).
+- `<dl>`, `<dt>`, and `<dd>`: Definition details tag (added below). Nice indentation.
 
 Inline tags
-- `<a>`: Why? Because of the atributes maybe? 
-- `<img>`: Why? Because of the atributes maybe? 
-- `<samp>`: <samp>Outputs text in monospace font</samp> like this line
+- `<a>`: Why? Because of the atributes maybe? In my profile readme is `target="_blank"`
+- `<img>`: Why? Because of the atributes maybe? Profile readme has `width="40" height="40"` 
+- `<samp>`: <samp>Outputs text in monospace font like this line.</samp> 
 - `<sub>`: Subscript<sub>1</sub>
-- `<sup>`: Subscript<sup>2</sup>
+- `<sup>`: Superscript<sup>2</sup>
 - `<ins>`: Gives you an <ins>underlined</ins> effect.
 - `<del>`: Similar to <del>strikethrough</del>.
 - `<var>`: Used for variables and is similar to <var>italics</var>.
 - `<q>`: I used this above in the title for the GitHub gist, but it adds <q>quotes around text</q>.
-- `<kbd>`: Keyboard thing
+- `<kbd>`: Keyboard thing (in many of the above sections)
 
 `<a>` tag attributes: hreflang, media, rel, target (**YES**), type
 `<img>` tag attributes: height, width, sizes
 
-`dl`, `dt`, and `dd` example:
+**`dl`, `dt`, and `dd` example**:
 <dl>
   <dt>Markdown</dt>
   <dd>The language used for your GitHub files</dd>
@@ -661,15 +669,15 @@ Inline tags
 </dl>
 ```
 
-Personally, I will look into incorrrporating those tags into my README files and maybe try out EVERY HTML tag but when I have more time.
+Personally, I will look into using those tags in my README files and maybe try out *EVERY* HTML tag - when I have more time.
 
 [Back to Top](#back-to-top "Table of contents")
 
 ## Resources
 
 1. [Daring Fireball](https://daringfireball.net/projects/markdown/basics "Detailed markdown syntax") - more markdown documentation
-1. [Complete list of github markdown emojis](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia) - Emojis
-1. [GitHub emoji list](https://gist.github.com/rxaviers/7360908) - Emojis
+1. [Complete list of github markdown emojis](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia) - Emojis list
+1. [GitHub emoji list](https://gist.github.com/rxaviers/7360908) - Emojis list
 1. [Shields.io](https://shields.io/) - Shields for your projects
 
 [Back to Top](#back-to-top "Table of contents")
