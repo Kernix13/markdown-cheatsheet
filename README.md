@@ -13,7 +13,7 @@ I'm breaking up all the markdown syntax into 6 categories:
 
 I'll explain what those mean in each section. But the point is that the first one (Styles) can be applied to all or some of the elements in each category with the exception of the Code category. That will make sense when you read each category descripion and notes.
 
-**NOTE**: To view markdown in VS Code hit CTRL+SHIFT+V or click the preview button at top right in line with the file name tabs.
+**NOTE**: To view markdown in VS Code hit <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+V or click the preview button at top right in line with the file name tabs.
 
 <a id="back-to-top"></a>
 
@@ -53,7 +53,7 @@ I'll explain what those mean in each section. But the point is that the first on
 
 Since paragraphs are a thing of their own, let's cover that one first:
 
-**Paragaphs**: Just use regular text but make sure to hit the *ENTER* key twice. Sometimes if you only hit ENTER once, the text will de displayed as the element directly above it.
+**Paragaphs**: Just use regular text but make sure to hit the <kbd>ENTER</kbd> key twice. Sometimes if you only hit <kbd>ENTER</kbd> once, the text will de displayed as the element directly above it.
 
 ## Styles
 
@@ -68,6 +68,8 @@ You can apply these effects to all or some of the words in:
 - Hidden (Spoiler only)
 
 These do not work for the obvious ones (Horizontal Rules, Images, and Emojis), and for all elements in the Code category. 
+
+[Back to Top](#back-to-top "Table of contents")
 
 ### Bold
 
@@ -183,7 +185,7 @@ You can use all text effects but with some exceptions: None of the effects work 
 
 ### Unordered
 
-**Unordered lists**: You can use either an asterisk or a dash followed by a space to make a bulleted list. I prefer using a dash since you do not need to use the *SHIFT* key:
+**Unordered lists**: You can use either an asterisk or a dash followed by a space to make a bulleted list. I prefer using a dash since you do not need to use the <kbd>SHIFT</kbd> key:
 
 - list item 1
 - list item 2
@@ -269,7 +271,7 @@ This category deals with inline code and various typs of code blocks and none of
 
 - Inline code
 - Code blocks
-- Tab code blocks
+- <kbd>TAB</kbd> code blocks
 - Code highlighting blocks
 - Diff code blocks
 
@@ -281,13 +283,13 @@ Use a `single backtick` before and after text to display it as inline code:
 
 ### Tab
 
-It took me a hile how to show the 3 backticks for a code block. For that and other tricky markdown that will not dispay, hit the *TAB* button twice then enter your code
+It took me a hile how to show the 3 backticks for a code block. For that and other tricky markdown that will not dispay, hit the <kbd>TAB</kbd> button twice then enter your code
 
     This is a TAB code block, check with `backticks`
 
 ### Generic
 
-To add code that requires more than 1 line then use 3 backticks, hit *ENTER*, add your code block, hit *ENTER* again and add 3 more back ticks. 
+To add code that requires more than 1 line then use 3 backticks, hit <kbd>ENTER</kbd>, add your code block, hit <kbd>ENTER</kbd> again and add 3 more back ticks. 
 
     ```
     some code here
@@ -376,10 +378,6 @@ On Discord you may sometimes see a black rectangle that reveals text or code whe
 
 **NOTE**: This does not work on Slack or here on GitHub.
 
-I'm adding on definitions because I saw it on a Markdown post but it doesn't work for me. Perhaps this only works in Discord as well. Let me know if you know how to use that:
-
-    Definition: term : definition
-
 [Back to Top](#back-to-top "Table of contents")
 
 ### Details
@@ -388,12 +386,12 @@ This isn't a markdown thing but it is another example of using HTML tags in a Ma
 
 <details>
   <summary>Title 1</summary>
-  <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
+  <p>Some hidden content goes here</p>
+  Here is some more without <p> tags
 </details>
 <details>
   <summary>Title 2</summary>
-  <p>Content 2 Content 2 Content 2 Content 2 Content 2</p>
-  <p>Content 2 Content 2 Content 2 Content 2 Content 2</p>
+  <p>Same stuff here</p>
 </details>
 
 ```
@@ -485,7 +483,7 @@ Use 3 asterisks or dashes with or without a space to create a horizontal rule:
     * * * 
     ***
 
-**NOTE**: Make sure to hit _ENTER_ twice if you intend to use 3 asterisks witout spaces or it will set the text above it to an H3 tag.
+**NOTE**: Make sure to hit <kbd>ENTER</kbd> twice if you intend to use 3 asterisks witout spaces or it will set the text above it to an H3 tag.
 
 [Back to Top](#back-to-top "Table of contents")
 
@@ -515,16 +513,18 @@ I'm not a huge fan of emojis, but here are some that I would consider using. The
 
 This actually is not a markdown thing but it's nice having a list for use in your README files. Especally if you are a dev who loves and specializes in say science or math, etc. Here are the most used ones:
 
-**Generic**:
+**Common**:
 | Entity | Result| Title |
 | ---- | ---- | ---- |
 | `&copy;` | &copy; | Copyright |
 | `&reg;` | &reg; | Registered TM |
 | `&trade;` | &trade; | Trademark |
 | `&commat;` | &commat; | At symbol | 
-| `` | | | 
-| `` | | | 
-| `` | | | 
+| `&larr;` | &larr; | Left arrow | 
+| `&rarr;` | &rarr; | Right arrow | 
+| `&uarr;` | &uarr; | Up arrow | 
+| `&darr;` | &darr; | Down arrow | 
+| `&or;` | &or; | Down angle | 
 
 
 **Financial**:
@@ -542,8 +542,8 @@ Math and science:
 | `&sup2;` | 3&sup2; | Supercript 2 | 
 | `&#8322;` | H&#8322;O | Subscript 2 | 
 | `&#8323;` | NO&#8323;| Subscript 3 | 
-| `&frac14;` | &frac14; | Fractions | 
-| `&frac38;` | &frac38; | Fractions | 
+| `&frac14;` | &frac14; | 1/4 fraction | 
+| `&frac38;` | &frac38; | 3/8 fraction | 
 | `&times;` | &times; | Multiplication | 
 | `&divide;` | &divide; | Division | 
 | `&minus;` | &minus; | Subtraction | 
@@ -582,11 +582,6 @@ Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;)
 | ---- | ---- | ---- |
 | `&not;` | &not; | Negation |
 | `&macr;` | &macr; | Spacing Macron |
-| `&or;` | &or; | Down angle | 
-| `&larr;` | &larr; | Left arrow | 
-| `&rarr;` | &rarr; | Right arrow | 
-| `&uarr;` | &uarr; | Up arrow | 
-| `&darr;` | &darr; | Down arrow | 
 | `&spades;` | &spades; | Spade | 
 | `&clubs;` | &clubs; | Club | 
 | `&hearts;` | &hearts; | Heart | 
@@ -600,7 +595,6 @@ Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;)
 | `&para;` | &para; | Paragraph | 
 | `&ndash;` | &ndash; | En dash? | 
 | `&mdash;` | &mdash; | Em dash? | 
-
 
 **Hotkey list**:
 
@@ -627,7 +621,47 @@ Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;)
 
 ## Notes
 
-Nothing right now
+The one thing I want to look into is using videos, animated GIFs and more HTML tags in your profile and MD files. 
+
+I used a GitHub generator for my Profile README. In there are `<p>`, `<a>`, `<img>` tags. In the Details section above there are `<details>`, `<summary>`, and `<p>` tags. I found this gist called <q>HTML Tags You Can Use on GitHub</q>. So that makes
+
+That document mentions that you can also use a number of them. Here they are with the ones I used above: 
+
+Block tags
+- `<p>`: Why?
+- `<div>`: Why?
+- `<details>`, and `<summary>`: Why?
+- `<dl>`, `<dt>`, and `<dd>`: Definition details tag (added below).
+
+Inline tags
+- `<a>`: Why? Because of the atributes maybe? 
+- `<img>`: Why? Because of the atributes maybe? 
+- `<samp>`: <samp>Outputs text in monospace font</samp> like this line
+- `<sub>`: Subscript<sub>1</sub>
+- `<sup>`: Subscript<sup>2</sup>
+- `<ins>`: Gives you an <ins>underlined</ins> effect.
+- `<del>`: Similar to <del>strikethrough</del>.
+- `<var>`: Used for variables and is similar to <var>italics</var>.
+- `<q>`: I used this above in the title for the GitHub gist, but it adds <q>quotes around text</q>.
+- `<kbd>`: Keyboard thing
+
+`<a>` tag attributes: hreflang, media, rel, target (**YES**), type
+`<img>` tag attributes: height, width, sizes
+
+`dl`, `dt`, and `dd` example:
+<dl>
+  <dt>Markdown</dt>
+  <dd>The language used for your GitHub files</dd>
+</dl>
+
+```
+<dl>
+  <dt>Markdown</dt>
+  <dd>The language used for your GitHub files</dd>
+</dl>
+```
+
+Personally, I will look into incorrrporating those tags into my README files and maybe try out EVERY HTML tag but when I have more time.
 
 [Back to Top](#back-to-top "Table of contents")
 
@@ -636,6 +670,7 @@ Nothing right now
 1. [Daring Fireball](https://daringfireball.net/projects/markdown/basics "Detailed markdown syntax") - more markdown documentation
 1. [Complete list of github markdown emojis](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia) - Emojis
 1. [GitHub emoji list](https://gist.github.com/rxaviers/7360908) - Emojis
+1. [Shields.io](https://shields.io/) - Shields for your projects
 
 [Back to Top](#back-to-top "Table of contents")
 
