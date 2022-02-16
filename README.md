@@ -357,10 +357,8 @@ I'm not a huge fan of emojis, but here are some that I would consider using. The
     :Emoji_code:
 
 `:+1:`,  `:smile:`, `:star:`, `:exclamation:`, `:question:`, `:thumbsdown:`, `:point_right:`, `:point_left:`, `:heart:`, `:sound:`, `:lock:`, `:email:`, `:guitar:`, `:one:`, `:two:` (and other #'s), `:arrow_left:`, `:arrow_right:`, `:arrow_up:`, `:x:`, `:link:`, `:copyright:`, and `:white_check_mark:`
-
-Attemptin bold and italic for emojis:
-
-Regular is :+1: and then as bold **:+1:**
+- - - 
+:+1:,  :smile:, :star:, :exclamation:, :question:, :thumbsdown:, :point_right:, :point_left:, :heart:, :sound:, :lock:, :email:, :guitar:, :one:, :two: (and other #'s), :arrow_left:, :arrow_right:, :arrow_up:, :x:, :link:, :copyright:, and :white_check_mark:
 
 ```
 :+1: and :smile: and :star: and :exclamation: and :question: and :thumbsdown: and :point_right: and :point_left: and :heart: and :sound: and :lock: and :email: and :guitar: and :one: and :two: etc :arrow_left: and :arrow_right: and :arrow_up: and :x: and :link: and :copyright: and :white_check_mark:
