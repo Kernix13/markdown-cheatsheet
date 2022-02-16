@@ -25,10 +25,10 @@ I'll explain what those mean in each section. But the point is that the first on
 1. [Links](#links)
    1. [External links](#external-links)
    1. [Anchor links](#anchor-links)
-   1. [Footnote links](footnote-links)
+   1. [Footnote links](#footnote-links)
 1. [Lists](#lists)
    1. [Unordered lists](#unordered-lists)
-   1. [Ordered lists](#ordered-list)
+   1. [Ordered lists](#ordered-lists)
    1. [Nested lists](#nested-lists)
    1. [Task lists](#task-lists)
 1. [Code](#code)
@@ -51,6 +51,8 @@ I'll explain what those mean in each section. But the point is that the first on
    1. [HTML entities](#html-entities)
 1. [Notes](#notes)
 1. [Other markdown resources](#other-markdown-resources)
+
+- - - 
 
 ## Text effects
 
@@ -94,6 +96,8 @@ If you wanted to you could also do **~~bold strikethrough~~**, _~~_italic strike
 
 [Back to Top](#back-to-top "Table of contents")
 
+- - - 
+
 ## Links
 
 This category accepts all text effects and includes:
@@ -111,6 +115,8 @@ Here is a link to my [Beginner Git Commands](https://github.com/Kernix13/beginne
     [Link text](URL "Optional link title")
 
 **NOTE**: Only use a title if it adds information. Don't set the title text to be the same as the link text.
+
+[Back to Top](#back-to-top "Table of contents")
 
 ### Anchor links
 
@@ -179,6 +185,8 @@ You can use all text effects but with some exceptions: None of the effects work 
 
 - list item 1
 - list item 2
+
+[Back to Top](#back-to-top "Table of contents")
 
 ### Ordered lists
 
@@ -317,6 +325,7 @@ console.log(${variable})
 ```php
 <?php the_content(); ?>
 ```
+[Back to Top](#back-to-top "Table of contents")
 
 ### Diff code blocks
 
@@ -334,6 +343,8 @@ This is really nice for highlighting text or code that was changed. Use `diff` a
     ```
 
 [Back to Top](#back-to-top "Table of contents")
+
+- - - 
 
 ## Hidden
 
@@ -395,6 +406,8 @@ This has the same effect as an accordian. I'm not sure why you would use this bu
 ```
 
 [Back to Top](#back-to-top "Table of contents")
+
+- - - 
 
 ## Unique
 
@@ -555,6 +568,8 @@ Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;)
 ## Notes
 
 Nothing right now
+
+[Back to Top](#back-to-top "Table of contents")
 
 ## Other markdown resources
 
