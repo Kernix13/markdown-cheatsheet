@@ -12,7 +12,7 @@ I'm breaking up all the markdown syntax into 7 categories (I'll explain what tho
 1. Hidden
 1. Visual
 
-**NOTE**: To view markdown in VS Code hit <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+V or click the preview button at top right in line with the file name tabs.
+**NOTE**: To view markdown> in VS Code hit <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+`V` or click the preview button at top right in line with the file name tabs.
 
 <a id="back-to-top"></a>
 
@@ -683,6 +683,12 @@ Inline tags
 ```
 
 Personally, I will look into using those tags in my README files and maybe try out *EVERY* HTML tag - when I have more time.
+
+Tags tested that work: 
+
+- `<small>`: This is <small>smaller text</small>  
+- `<button>`: <button type="button">Hello!</button>
+- `<hr>`
 
 [Back to Top](#back-to-top "Table of contents")
 
