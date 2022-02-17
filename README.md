@@ -2,16 +2,15 @@
 
 Use this markdown cheat cheat as a guide for writing your markdown files. If you like it then clone or fork it, or at least click the **star** button. You can also check out the [Markdown Cheat Sheet article](https://kernixwebdesign.com/website/code/markdown-cheat-sheet-beginners/) I wrote, though it is not as inclusive as this guide.
 
-I'm breaking up all the markdown syntax into 6 categories:
+I'm breaking up all the markdown syntax into 7 categories (I'll explain what those mean in each section):
 
 1. Styles
+1. Miscellaneous
 1. Links
 1. Lists
 1. Code 
 1. Hidden
-1. Miscellaneous
-
-I'll explain what those mean in each section. But the point is that the first one (**Styles**) can be applied to all or some of the elements in each category with the exception of the Code category. That will make sense when you read each category descripion and notes.
+1. Visual
 
 **NOTE**: To view markdown in VS Code hit <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+V or click the preview button at top right in line with the file name tabs.
 
@@ -24,6 +23,10 @@ I'll explain what those mean in each section. But the point is that the first on
 | **[Styles](#styles)**: | [Bold](#bold) | `N/A` |
 |                        | [Italic](#italic) | `N/A` |
 |                        | [Strike thru](#strike-thru) | `N/A` | 
+| **[Misc](#misc)**:     | [Headings](#headings) | **Yes** |
+|                        | [Blockquotes](#blockquotes) | **Yes** |
+|                        | [Tables](#tables) | **Yes** |
+|                        | [Horizontal rules](#horizontal-rules) | No |
 | **[Links](#links)**:     | [External](#external) | **Yes** |
 |                          | [Anchor](#anchor)   | **Yes** |
 |                          | [Footnotes](#footnotes) | **Yes** |
@@ -31,24 +34,20 @@ I'll explain what those mean in each section. But the point is that the first on
 |                          | [Ordered](#ordered)   | **Yes** |
 |                          | [Nested](#nested)    | **Yes** |
 |                          | [Tasks](#tasks)     | No |
-| **[Code](#code)**:        | [Inline](#inline) | No |
+| **[Code](#code)**:        | [Inline](#inline) | **Yes*** |
 |                           | [Tab](#tab) | No |
 |                           | [Generic](#generic) | No |
 |                           | [Language block](#language-block) | No |
 |                           | [Diff](#diff) | No |
-| **[Hidden](#hidden)**: | [Comments](#comments) | No |
-|                       | [Spoiler](#spoiler) | **Yes** |
-|                        | [Details](#details) | No |
-| **[Misc](#misc)**: | [Headings](#headings) | **Yes** |
-|                | [Blockquotes](#blockquotes) | **Yes** |
-|                | [Tables](#tables) | **Yes** |
-|                | [Horizontal rules](#horizontal-rules) | **Yes*** |
-|                | [Images](#images) | No |
-|                | [Emojis](#emojis) | No |
-|                | [HTML entities](#html-entities) | No |
+| **[Hidden](#hidden)**:  | [Comments](#comments) | No |
+|                         | [Spoiler](#spoiler) | **Yes** |
+|                         | [Details](#details) | No |
+| **[Visual](#visual)**:  | [Images](#images) | No |
+|                         | [Emojis](#emojis) | No |
+|                         | [HTML entities](#html-entities) | **Yes*** |
 | **[Notes](#notes)** | N/A | |
 | **[Resources](#resources)** | N/A | |
-
+~~`<cite>`~~
 - - - 
 
 Since paragraphs are a thing of their own, let's cover that one first:
@@ -57,17 +56,16 @@ Since paragraphs are a thing of their own, let's cover that one first:
 
 ## Styles
 
-This category deals with the styling of individual words and can be used with every category except the Code category.
-
-You can apply these effects to all or some of the words in:
+This category deals with the styling of individual words and can be used with every category with a few exceptions. You may not have thought of it but you can apply these effects to all or some of the words in:
 
 - Headings
+- Links
 - Blockquotes
 - Table cell values
 - HTML entities (except strikethrough)
 - Hidden (Spoiler only)
 
-These do not work for the obvious ones (Horizontal Rules, Images, and Emojis), and for all elements in the Code category. 
+These do not work for the obvious ones (Horizontal Rules, Images, and Emojis), and for all elements in the Code category except inline code. 
 
 [Back to Top](#back-to-top "Table of contents")
 
@@ -102,6 +100,87 @@ If you want, you can also do **~~bold strikethrough~~**, _~~_italic strikethroug
 
 - - - 
 
+## Misc
+
+The elements in this category are all unique and do not fit into any of the other category:
+
+- Headings
+- Blockquotes
+- Tables
+- Horizontal rules
+- Images
+- Emojis
+- HTML entities
+
+All elements in this category accept text effects except for the obvious one: images, emojis and horizontal rules.
+
+### Headings
+
+There are 6 headings just like in HTML. Use a single hashtag for H1 and 6 hashtags for H6. The top title of this docuement is an H1 with a single hash, this section (**Misc**) uses 2 hashtags, and this sub-section (**Headings**) uses 3 hashtags. 
+
+**NOTE**: There is an automatic horizontal rule added when you use syntax for H1 and H2.
+
+    # MARKDOWN CHEAT SHEET (Heading 1)
+    ## Styles (Heading 2)
+    ### Headings (heading 3)
+    ### Heading 4 (you most likely will not use H5 or H6) 
+
+Here is an example of using Bold, Italic, and Strikethrough in a heading:
+
+    ## ~~A Literal~~ **Table** of *Contents*
+
+[Back to Top](#back-to-top "Table of contents")
+
+### Blockquotes
+
+This is a nice effect but I don't know why you would use it on GitHub:
+
+> Use a greater than sign (>) to quote a team member
+> 
+> Create a space like above using > with no text
+
+    > use greater than sign (>) for a blockquote
+
+
+### Tables
+
+Here is a generic table but the Table of Contents above is another version. The pipes create the columns, the colons with dashes create the alignment:
+
+| Left aligned | Center aligned | Right aligned |
+| :----------- | :-----------: | -----------: |
+| Content Left | Content Center | Content Right |
+| Content Left | Content Center | Content Right |
+| *Italic* | **Bold** | ~~Strikethrough~~ |
+| Content Left | Content Center | Content Right |
+
+```
+| Left aligned | Center aligned | Right aligned |
+| :----------- | :-----------: | -----------: |
+| Content Left | Content Center | Content Right |
+| Content Left | Content Center | Content Right |
+| Content Left | Content Center | Content Right |
+| Content Left | Content Center | Content Right |
+```
+
+[Back to Top](#back-to-top "Table of contents")
+
+### Horizontal rules
+
+Use 3 asterisks or dashes with or without a space to create a horizontal rule:
+
+- - - 
+
+    - - - 
+    ---
+    * * * 
+    ***
+
+**NOTE**: Make sure to hit <kbd>ENTER</kbd> twice if you intend to use 3 asterisks witout spaces or it will set the text above it to an H3 tag.
+
+[Back to Top](#back-to-top "Table of contents")
+
+- - - 
+
 ## Links
 
 This category accepts all text effects and includes:
@@ -119,6 +198,14 @@ Here is a link to my [Beginner Git Commands](https://github.com/Kernix13/beginne
     [Link text](URL "Optional link title")
 
 **NOTE**: Only use a title if it adds information. Don't set the title text to be the same as the link text.
+
+Here is a bold, italic and strikethrough link:
+
+- **[Google](https://google.com)**
+- *[Google](https://google.com)*
+- ~~[Google](https://google.com)~~
+
+Why would you use a strikethorugh effect on a link? I'm not sure. MAybe it would be better to do that than to remove a link in a members area. Otherwise the customer service department may get swamped with tickets.
 
 [Back to Top](#back-to-top "Table of contents")
 
@@ -196,9 +283,9 @@ You can use all text effects but with some exceptions: None of the effects work 
 
 **Ordered lists**: use a number followed by  a period (1., 2., 3. etc.) to create an ordered list. :
 
-1. Ordered item 1
-1. Ordered item 2
-1. Ordered item 3
+1. Ordered **item** 1
+1. Ordered *item* 2
+1. Ordered ~~item 3~~
 
 ```
 1. Ordered item 1
@@ -418,84 +505,9 @@ This isn't a markdown thing but it is another example of using HTML tags in a Ma
 
 - - - 
 
-## Misc
+## Visual
 
-The elements in this category are all unique and do not fit into any of the other category:
-
-- Headings
-- Blockquotes
-- Tables
-- Horizontal rules
-- Images
-- Emojis
-- HTML entities
-
-All elements in this category accept text effects except for the obvious one: images, emojis and horizontal rules.
-
-### Headings
-
-There are 6 headings just like in HTML. Use a single hashtag for H1 and 6 hashtags for H6. The top title of this docuement is an H1 with a single hash, this section (**Misc**) uses 2 hashtags, and this sub-section (**Headings**) uses 3 hashtags. 
-
-**NOTE**: There is an automatic horizontal rule added when you use syntax for H1 and H2.
-
-    # MARKDOWN CHEAT SHEET (Heading 1)
-    ## Styles (Heading 2)
-    ### Headings (heading 3)
-    ### Heading 4 (you most likely will not use H5 or H6) 
-
-Here is an example of using Bold, Italic, and Strikethrough in a heading:
-
-    ## ~~A Literal~~ **Table** of *Contents*
-
-[Back to Top](#back-to-top "Table of contents")
-
-### Blockquotes
-
-This is a nice effect but I don't know why you would use it on GitHub:
-
-> Use a greater than sign (>) to quote a team member
-> 
-> Create a space like above using > with no text
-
-    > use greater than sign (>) for a blockquote
-
-
-### Tables
-
-Here is a generic table but the Table of Contents above is another version. The pipes create the columns, the colons with dashes create the alignment:
-
-| Left aligned | Center aligned | Right aligned |
-| :----------- | :-----------: | -----------: |
-| Content Left | Content Center | Content Right |
-| Content Left | Content Center | Content Right |
-| Content Left | Content Center | Content Right |
-| Content Left | Content Center | Content Right |
-
-```
-| Left aligned | Center aligned | Right aligned |
-| :----------- | :-----------: | -----------: |
-| Content Left | Content Center | Content Right |
-| Content Left | Content Center | Content Right |
-| Content Left | Content Center | Content Right |
-| Content Left | Content Center | Content Right |
-```
-
-[Back to Top](#back-to-top "Table of contents")
-
-### Horizontal rules
-
-Use 3 asterisks or dashes with or without a space to create a horizontal rule:
-
-- - - 
-
-    - - - 
-    ---
-    * * * 
-    ***
-
-**NOTE**: Make sure to hit <kbd>ENTER</kbd> twice if you intend to use 3 asterisks witout spaces or it will set the text above it to an H3 tag.
-
-[Back to Top](#back-to-top "Table of contents")
+The three sections below deal with adding vidual elements to your markdowb file: `images`, `emojis`, `HTML entities`.
 
 ### Images
 
@@ -631,7 +643,7 @@ Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;)
 
 ## Notes
 
-The one thing I want to look into is using videos, animated GIFs, and more HTML tags in your profile and MD files. Oh, and also 2 and 3-column layouts. STOPPED
+The one thing I want to look into is using videos, animated GIFs, and more HTML tags in my profile and MD files. Oh, and also column layouts with tables I assume.
 
 I used a GitHub generator for my Profile README. In there are `<p>`, `<a>`, and `<img>` tags. In the Details section above, there are `<details>`, `<summary>`, and `<p>` tags. I found this gist called <q>HTML Tags You Can Use on GitHub</q>. That document mentions that you can also use a number of different tags. Here they are with the ones I used above: 
 
