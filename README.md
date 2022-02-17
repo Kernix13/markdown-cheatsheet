@@ -177,6 +177,8 @@ Use 3 asterisks or dashes with or without a space to create a horizontal rule:
 
 **NOTE**: Make sure to hit <kbd>ENTER</kbd> twice if you intend to use 3 asterisks witout spaces or it will set the text above it to an H3 tag.
 
+<hr>
+
 [Back to Top](#back-to-top "Table of contents")
 
 - - - 
@@ -687,8 +689,8 @@ Personally, I will look into using those tags in my README files and maybe try o
 
 Tags tested that work: 
 
-- `<small>`: This is <small>smaller text</small>  
-- `<button>`: <button type="button">Hello!</button>
+- `<small>`: This is <small>smaller text</small>  Nope, did not work
+- `<button>`: <button type="button">Hello!</button> Nope, did not work
 - `<hr>`
 
 [Back to Top](#back-to-top "Table of contents")
