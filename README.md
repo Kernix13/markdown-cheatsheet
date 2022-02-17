@@ -667,6 +667,7 @@ Inline tags
 - `<kbd>`: Keyboard thing (in many of the above sections)
 
 `<a>` tag attributes: hreflang, media, rel, target (**YES**), type
+
 `<img>` tag attributes: height, width, sizes
 
 **`dl`, `dt`, and `dd` example**:
