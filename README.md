@@ -533,7 +533,9 @@ I'm not a huge fan of emojis, but here are some that I would consider using. The
 
 ### HTML entities
 
-This actually is not a markdown thing but it's nice having a list for use in your README files. This would be helpful if you are a dev who loves and specializes in say science or math, etc. Here are the most used ones:
+This actually is not a markdown thing but it's nice having a list for use in your README files. This would be helpful if have a client needing work with a science website, math site, music site, etc. 
+
+Bold, Italic and strikethough work for some of the elements below but not for all of them. And strikethorugh works the least of all. It's up for you to test them. Here is my list:
 
 **Common**:
 | Entity | Result| Title |
@@ -546,8 +548,6 @@ This actually is not a markdown thing but it's nice having a list for use in you
 | `&rarr;` | &rarr; | Right arrow | 
 | `&uarr;` | &uarr; | Up arrow | 
 | `&darr;` | &darr; | Down arrow | 
-| `&or;` | &or; | Down angle | 
-
 
 **Financial**:
 | Entity | Result| Title |
@@ -556,7 +556,7 @@ This actually is not a markdown thing but it's nice having a list for use in you
 | `&pound;` | &pound; | Pound |
 | `&euro;` | **&euro;** | Euro |
 
-Math and science:
+**Math and science**:
 | Entity | Result| Title |
 | ---- | ---- | ---- |
 | `&deg;` | &deg; | Degree | 
@@ -582,6 +582,7 @@ Math and science:
 | `&ge;` | &ge; | Greater or equal | 
 | `&ang;` | &ang; | Angle |
 | `&angmsd;`| &angmsd; | Measured angle |
+| `&or;` | &or; | Down angle | 
 
 **NOTE**: For subscripts 0 thru 9, change the last number, e.g.:
 
@@ -602,8 +603,6 @@ Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;)
 **Miscellaneous**:
 | Entity | Result| Title |
 | ---- | ---- | ---- |
-| `&not;` | &not; | Negation (?) |
-| `&macr;` | &macr; | Spacing Macron (?) |
 | `&spades;` | &spades; | Spade | 
 | `&clubs;` | &clubs; | Club | 
 | `&hearts;` | &hearts; | Heart | 
@@ -612,9 +611,11 @@ Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;)
 | `&starf;`| &starf; | Filled star |
 | `&female;`| &female; | Female |
 | `&male;`| &male; | Male |
+| `&para;` | &para; | Paragraph | 
+| `&not;` | &not; | Negation (?) |
+| `&macr;` | &macr; | Spacing Macron (?) |
 | `&laquo;` | &laquo; | Left quote (?) |
 | `&raquo;` | &raquo; | Right quote (?) |
-| `&para;` | &para; | Paragraph | 
 | `&ndash;` | &ndash; | En dash (?) | 
 | `&mdash;` | &mdash; | Em dash (?) | 
 
