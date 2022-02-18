@@ -652,7 +652,7 @@ I used a GitHub generator for my Profile README. In there are `<p>`, `<a>`, and 
 
 Block tags
 - `<p>`: Why? A-ha! In my profile generated text, the `<p>` tags have inline styles! That's why: `<p align="left">`
-- `<div>`: Why?
+- `<div>`: Why? To add styling. I added a div with underscores and spaces as a separation between H2 sections and the text above - looks good.
 - `<details>`, and `<summary>`: Why?
 - `<dl>`, `<dt>`, and `<dd>`: Definition details tag (added below). Nice indentation.
 
@@ -687,11 +687,13 @@ Inline tags
 
 Personally, I will look into using those tags in my README files and maybe try out *EVERY* HTML tag - when I have more time.
 
-Tags tested that work: 
+Tags tested: 
 
 - `<small>`: This is <small>smaller text</small>  Nope, did not work
 - `<button>`: <button type="button">Hello!</button> Nope, did not work
-- `<hr>`
+- `<hr>`: Thicker than an H1 & H2 line, thinner than 3 dashes
+- `<table>`: Too much work
+- `<div>`: For styling and spacing
 
 [Back to Top](#back-to-top "Table of contents")
 
@@ -732,4 +734,100 @@ Tags tested that work:
 | `&#9798;`| &#9798; | Neptune |
 | `&#9799;`| &#9799; | Pluto |
 
+ -->
+
+ <!--
+ ### HTML Tags Tested
+
+#### Block
+
+| HTML Tag     | Tested? | Works? | Why Use? |
+| ---------:   | :-----: | :----: | :-----:  | 
+| <address>    | - | - | - |
+| <article>    | - | - | - |
+| <aside>      | - | - | - |
+| <blockquote> | - | - | - |
+| <details>    | Yes    | Yes     | Not sure |
+| <dialog>     | - | - | - |
+| <dd>         | Yes    | Yes     | Indent   |
+| <div>        | Yes    | Yes     | Styling   |
+| <dl>         | Yes    | Yes     | Indent   |
+| <dt>         | Yes    | Yes     | Indent   |
+| <fieldset>   | - | - | - |
+| <figcaption> | - | - | - |
+| <figure>     | - | - | - |
+| <footer>     | - | - | - |
+| <form>       | - | - | - |
+| h1-h6        | - | - | - |
+| <header>     | - | - | - |
+| <hgroup>     | - | - | - |
+| <hr>         | Yes | Yes | Different size |
+| <li>         | - | - | - |
+| <main>       | - | - | - |
+| <nav>        | - | - | - |
+| <ol>         | - | - | - |
+| <p>          | Yes | Yes | Inline CSS |
+| <pre>        | - | - | - |
+| <section>    | - | - | - |
+| <table>      | Yes | Yes | DON'T |
+| <ul>         | - | - | - |
+
+#### Inline
+| HTML Tag     | Tested? | Works? | Why Use? |
+| ---------:   | :-----: | :----: | :-----:  | 
+| <a>          | Yes | Yes | Inline CSS |
+| <abbr>       | - | - | - |
+| <acronym>    | - | - | - |
+| <audio>      | - | - | - |
+| <b>          | - | - | - |
+| <bdi>        | - | - | - |
+| <bdo>        | - | - | - |
+| <big>        | - | - | - |
+| <br>         | - | - | - |
+| <button>     | Yes | No | - |
+| <canvas>     | - | - | - |
+| <cite>       | - | - | - |
+| <code>       | - | - | - |
+| <data>       | - | - | - |
+| <datalist>   | - | - | - |
+| <del>        | Yes | Yes | No |
+| <dfn>        | - | - | - |
+| <em>         | - | - | - |
+| <embed>      | - | - | - |
+| <i>          | - | - | - |
+| <iframe>     | - | - | - |
+| <img>        | Yes | Yes | Inline CSS |
+| <input>      | - | - | - |
+| <ins>        | Yes | Yes | Underline |
+| <kbd>        | Yes | Yes | Styling/Visual |
+| <label>      | - | - | - |
+| <map>        | - | - | - |
+| <mark>       | - | - | - |
+| <meter>      | - | - | - |
+| <noscript>   | - | - | - |
+| <object>     | - | - | - |
+| <output>     | - | - | - |
+| <picture>    | - | - | - |
+| <progress>   | - | - | - |
+| <q>          | Yes | Yes | Not sure |
+| <ruby>       | - | - | - |
+| <s>          | - | - | - |
+| <samp>       | Yes | Yes | Monospaced font |
+| <script>     | - | - | - |
+| <select>     | - | - | - |
+| <slot>       | - | - | - |
+| <small>      | Yes | No | - |
+| <span>       | - | - | - |
+| <strong>     | - | - | - |
+| <sub>        | Yes | Yes | Subscript |
+| <sup>        | Yes | Yes | Superscript |
+| <svg>        | - | - | - |
+| <template>   | - | - | - |
+| <textarea>   | - | - | - |
+| <time>       | - | - | - |
+| <u>          | - | - | - |
+| <tt>         | - | - | - |
+| <var>        | Yes | Yes | No |
+| <video>      | - | - | - |
+| <wbr>        | - | - | - |
  -->
