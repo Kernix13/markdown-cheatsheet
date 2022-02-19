@@ -157,7 +157,7 @@ Table tag test: inline css?
 | `<code>`       | Yes     | Yes        | Yes        | DON'T    |
 | `<data>`       | NO      | -          | -          |          |
 | `<datalist>`   | NO      | -          | -          |          |
-| `<del>`        | Yes     | Yes        | No         |          |
+| `<del>`        | Yes     | Yes        | No         | strikethru |
 | `<dfn>`        | Yes     | Yes        | -          |          |
 | `<em>`         | Yes     | Yes        | -          |          |
 | `<embed>`      | Yes     | No         | -          |          |
@@ -203,15 +203,6 @@ Testing `a` tag: _blank, and inline styles DID NOT WORK
 <a href="https://google.com" target="_blank" style="text-decoration: overline underline; font-family: cursive">GOOGLE</a>
 
 Testing `audio` tag: DID NOT DISPLAY
-<audio controls>
-  <source src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3" type="audio/mp3">
-  <!-- <source src="horse.mp3" type="audio/mpeg"> -->
-  Your browser does not support the audio tag.
-  <embed type="audio/mp3"
-       src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3"
-       width="300"
-       height="200">
-</audio>
 
 `b` and `strong` tags test: <br> ALL DISPLAYED
 <b>Bold text</b> same as in **markdown** and how about <strong> the strong tag</strong>.
@@ -230,27 +221,11 @@ This is <em>em tag italics</em> same as in *markdown* and how about <i>the i tag
 
 `embed` tag test: DID NOT DISPLAY
 
-<embed type="video/mp4"
-src="https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164"
-width="300"
-height="200">
-<embed type="video/mp4"
-src="https://player.vimeo.com/external/194837908.sd.mp4"
-width="300"
-height="200">
-
 `ins` and `u` tags test: u tag DID NOT WORK ins tag DID!
 
 Will this <u>be displayed as underlined</u> and what about <ins>the ins tag</ins></u>?
 
 `iframe` tag test: DID NOT DISPLAY
-
-<iframe id="inlineFrameExample"
-    title="Inline Frame Example"
-    width="300"
-    height="200"
-    src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
-</iframe>
 
 `mark` tag test: DID NOT DISPLAY
 
@@ -276,15 +251,6 @@ H<sub>2</sub> and 2<sup>3</sup> and <sup>o</sup>7
 
 `svg` tag test: DID NOT DISPLAY
 
-<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg" stroke="red" fill="grey">
-  <circle cx="50" cy="50" r="40" />
-  <circle cx="150" cy="50" r="4" />
-
-  <svg viewBox="0 0 10 10" x="200" width="100">
-    <circle cx="5" cy="5" r="4" />
-  </svg>
-</svg>
-
 `time` tag test: DID NOT WORK
 
 <p>The Cure will be celebrating their 40th anniversary on <time datetime="2018-07-07">July 7</time> in London's Hyde Park.</p>
@@ -294,14 +260,6 @@ H<sub>2</sub> and 2<sup>3</sup> and <sup>o</sup>7
 This is a <var>test of the var tag</var>, why would you use it?>
 
 `video` tag test: DID NOT DISPLAY
-
-<video controls width="250">
-
-<source src="https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164"
-        type="video/mp4">
-
-Sorry, your browser doesn't support embedded videos.
-</video>
 
 `q` and `kbd` tags: WORKED
 
