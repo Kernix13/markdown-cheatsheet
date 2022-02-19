@@ -154,7 +154,7 @@ Table tag test: inline css?
 | `<button>`     | Yes     | No         | -          |          |
 | `<canvas>`     | No      | -          | -          |          |
 | `<cite>`       | No      | -          | -          |          |
-| `<code>`       | - | - | - | |
+| `<code>`       | Yes     | - | - | |
 | `<data>`       | - | - | - | |
 | `<datalist>`   | - | - | - | |
 | `<del>`        | Yes | Yes | No | |
@@ -200,7 +200,7 @@ Table tag test: inline css?
 
 Testing a tag:
 
-<a href="https://google.com" target="_blank" style="text-decoration: overline underline; font-family: serif">GOOGLE</a>
+<a href="https://google.com" target="_blank" style="text-decoration: overline underline; font-family: cursive">GOOGLE</a>
 
 Testing audio tag: did not display
 <audio controls>
