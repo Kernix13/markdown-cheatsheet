@@ -22,7 +22,7 @@
 | `<footer>`     | NO      | skip       | -          | -        |
 | `<form>`       | No      | skip       | -          | -        |
 | h1-h6          | Yes     | Yes        | Yes        | Inline CSS? |
-| `<header>`     | Yes     | Yes        | -          | -        |
+| `<header>`     | NO      | -          | -          | -        |
 | `<hgroup>`     | Yes     | skip       | -          | -        |
 | `<hr>`         | Yes     | Yes        |            | diff sizes? |
 | `<li>`         | Yes     |Yes         | Yes        | Inline CSS? |
@@ -146,7 +146,7 @@ Table tag test: inline css?
 | `<abbr>`       | NO      | -          | -          |          |
 | `<acronym>`    | NO      | -          | -          |          |
 | `<audio>`      | YES     | NO         | -          |          |
-| `<b>`          | Yes     | Yes        | -          |          |
+| `<b>`          | Yes     | Yes        | -          | Bold?    |
 | `<bdi>`        | No      | -          | -          |          |
 | `<bdo>`        | No      | -          | -          |          |
 | `<big>`        | No      | -          | -          |          |
@@ -262,15 +262,15 @@ This is a <mark>mark tag</mark>, does it work?
 明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp>
 </ruby>
 
-`samp` tag test: DID NOT DISPLAY
+`samp` tag test: WORKED
 
 <p>This is regular text. <samp>Keyboard not found. Press F1 to continue</samp> and so is this.</p>
 
-`small` tag test: WORKED
+`small` and `big` tags test: DID NOT DISPLAY
 
-<p>This is regular text. <small>The content is small</small>, but this isn't.</p>
+<p>This is regular text. <small>The content is small</small>, but this isn't. This is <big>Big deprecated text</big></p>
 
-`sub` and `sup` tags test:
+`sub` and `sup` tags test: WORKED
 
 H<sub>2</sub> and 2<sup>3</sup> and <sup>o</sup>7
 
@@ -303,3 +303,27 @@ This is a <var>test of the var tag</var>, why would you use it?>
 Sorry, your browser doesn't support embedded videos.
 </video>
 
+`q` and `kbd` tags: WORKED
+
+The q tag wraps text in quotes, the kbd tag wraps keyboard stull in a styled format like with <kbd>CTRL</kbd> or <kbd>SHIFT</kbd>.
+
+## Block tags that worked
+
+
+Duplicates markdown: 
+`blockquote`, headings, `hr`, `ol` `ul` `li`, `pre`, `table`
+
+Worked but unsure of use: 
+`address`, `details` with `summary` (hidden content), `dl` `dt` `dd` (indent), `div` (spacer?) 
+
+> Do they accept inline CSS?
+
+## Inline tags that worked
+
+Duplicates markdown:
+`a`, `b` and `strong` (BOLD), `code`, `del` and `s` (Strikethrough), `em` and `i` and `var` (Italics), 
+
+Worked but unsure of use:
+`br` (line break), `ins` (underlines), sub and sup (Obvious), `samp` (Monospaced font), `q` (), `kbd` (format)
+
+> Do they accept inline CSS?
