@@ -161,8 +161,8 @@ Table tag test: inline css?
 | `<dfn>`        | Yes     | NO         | -          |          |
 | `<em>`         | Yes     | Yes        | -          | italics   |
 | `<embed>`      | Yes     | No         | -          |          |
-| `<i>`          | Yes     | Yes        | -          |          |
-| `<iframe>`     | Yes     | No         | -          | italics   |
+| `<i>`          | Yes     | Yes        | -          | italics |
+| `<iframe>`     | Yes     | No         | -          |        |
 | `<img>`        | Yes     | Yes        |            | Inline CSS? |
 | `<input>`      | No      | -          | -          |          |
 | `<ins>`        | Yes     | Yes        |            | Underline |
@@ -295,7 +295,7 @@ Duplicates markdown:
 `a`, `b` and `strong` (BOLD), `code`, `del` and `s` (Strikethrough), `em` and `i` and `var` (Italics), `img` (width, align [left, center, right])
 
 Worked but unsure of use:
-`br` (line break), `ins` (underline), sub and sup (Obvious), `samp` (Monospaced font), `q` (quotes), `kbd` (format)
+`br` (line break), `ins` (underline), `sub` and `sup` (Obvious), `samp` (Monospaced font), `q` (quotes), `kbd` (format)
 
 > Do they accept inline CSS?
 
@@ -315,3 +315,18 @@ Attributes:
 - `sub`, `sup`: global
 
 Global attributes: id, class, draggable, **style**, **title**, tabindex, data-*, contenteditable, autofocus, 
+
+The only tags worth using:
+- `div` for dividers using - or _ or = or other characters
+- `headings` for anchor links with html entities
+- `br` for line breaks of paragrpah text like the `address` tag
+- `img` to set width and height and align of center or right
+- `p` for align center or right
+- `ins` for underline
+- `kbd` for keyboard chars or other keys
+- `q` maybe for "unique" <q>quotes</q>
+- `samp` for monospaced font
+- `sup` and `sub` for super and subscript
+- maybe `dl` `dt` `dd` for the indent definition type of style
+
+Unless I can find inline styles or attributes that work with all of the above and/or the following: `blockquote`, `ol` `ul` `li`, `table`, `address`, or `a`.
