@@ -6,7 +6,7 @@
 
 | HTML Tag       | Tested? | Displayed? | Correctly? | Why Use? |
 | ---------:     | :-----: | :--------: | :-------:  | :------: |
-| `<address>`    | Yes     | NO         | no italics | -        |
+| `<address>`    | Yes     | YES        | yes & no   | p tags directly below each other      |
 | `<article>`    | NO      | skip       | -          | -        |
 | `<aside>`      | NO      | skip       | -          | -        |
 | `<blockquote>` | Yes     | YES        | Yes        | Inline CSS? |
@@ -36,21 +36,21 @@
 | `<ul>`         | Yes     | Yes        | Yes        | Inline CSS  |
 
 Address tag check
-<address>
+  <address>
+      <a href="mailto:jim@rock.com">jim@rock.com</a><br>
+      <a href="tel:+13115552368">(311) 555-2368</a><br>
+      Mozilla Foundation<br>
+      331 E Evelyn Ave<br>
+      Mountain View, CA 94041<br>
+      USA
+  </address><br>
+
   <a href="mailto:jim@rock.com">jim@rock.com</a><br>
   <a href="tel:+13115552368">(311) 555-2368</a><br>
-  Mozilla Foundation<br>
-  331 E Evelyn Ave<br>
-  Mountain View, CA 94041<br>
-  USA
-</address><br>
-
-<a href="mailto:jim@rock.com">jim@rock.com</a><br>
-<a href="tel:+13115552368">(311) 555-2368</a><br>
-Dark side of the moon
-130 miles away
-Above Earth
-Space
+  Dark side of the moon
+  130 miles away
+  Above Earth
+  Space
 
 Blockquote tag check:
 <blockquote cite="https://www.huxley.net/bnw/four.html">
