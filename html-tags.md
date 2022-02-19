@@ -194,7 +194,7 @@ Table tag test: inline css?
 | `<time>`       | Yes | - | - | |
 | `<u>`          | Yes | - | - | |
 | `<tt>`         | No      | -          | -          |          |
-| `<var>`        | Yes | Yes | No | |
+| `<var>`        | Yes | Yes | No | ITALICS? |
 | `<video>`      | - | - | - | |
 | `<wbr>`        | - | - | - | | 
 
@@ -262,11 +262,11 @@ This is a <mark>mark tag</mark>, does it work?
 明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp>
 </ruby>
 
-`samp` tag test:
+`samp` tag test: DID NOT DISPLAY
 
 <p>This is regular text. <samp>Keyboard not found. Press F1 to continue</samp> and so is this.</p>
 
-`small` tag test:
+`small` tag test: WORKED
 
 <p>This is regular text. <small>The content is small</small>, but this isn't.</p>
 
@@ -274,7 +274,7 @@ This is a <mark>mark tag</mark>, does it work?
 
 H<sub>2</sub> and 2<sup>3</sup> and <sup>o</sup>7
 
-`svg` tag test:
+`svg` tag test: DID NOT DISPLAY
 
 <svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg" stroke="red" fill="grey">
   <circle cx="50" cy="50" r="40" />
@@ -285,15 +285,15 @@ H<sub>2</sub> and 2<sup>3</sup> and <sup>o</sup>7
   </svg>
 </svg>
 
-`time` tag test:
+`time` tag test: DID NOT WORK
 
 <p>The Cure will be celebrating their 40th anniversary on <time datetime="2018-07-07">July 7</time> in London's Hyde Park.</p>
 
-`var` tag test:
+`var` tag test: ANOTHER VERSION OF ITALICS?
 
-This is a <var>test of the var tag</var, why would you use it?>
+This is a <var>test of the var tag</var>, why would you use it?>
 
-`video` tag test:
+`video` tag test: DID NOT DISPLAY
 
 <video controls width="250">
 
