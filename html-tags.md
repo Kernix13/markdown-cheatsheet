@@ -317,7 +317,7 @@ Attributes:
 Global attributes: id, class, draggable, **style**, **title**, tabindex, data-*, contenteditable, autofocus, 
 
 The only tags worth using:
-- `div` for dividers using - or _ or = or other characters
+- `div` for dividers using - or _ or = or other characters (no use br tags)
 - `p` for align center or right
 - `headings` for anchor links with html entities
 - `br` for line breaks of paragrpah text like the `address` tag
