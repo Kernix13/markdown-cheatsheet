@@ -318,10 +318,10 @@ Global attributes: id, class, draggable, **style**, **title**, tabindex, data-*,
 
 The only tags worth using:
 - `div` for dividers using - or _ or = or other characters
+- `p` for align center or right
 - `headings` for anchor links with html entities
 - `br` for line breaks of paragrpah text like the `address` tag
 - `img` to set width and height and align of center or right
-- `p` for align center or right
 - `ins` for underline
 - `kbd` for keyboard chars or other keys
 - `q` maybe for "unique" <q>quotes</q>
@@ -330,3 +330,13 @@ The only tags worth using:
 - maybe `dl` `dt` `dd` for the indent definition type of style
 
 Unless I can find inline styles or attributes that work with all of the above and/or the following: `blockquote`, `ol` `ul` `li`, `table`, `address`, or `a`.
+
+## testing **double asterisks** and <b>the b tag</b> and the <strong>strong tag</strong>
+<br><br>
+<p align="center">Paragraph align="center"</p>
+<p align="right">Paragraph align="right"</p>
+<div align="center">div align="center"</div>
+<div align="right">div align="right"</div>
+
+<h2 align="center"><ins>Centered h2</ins></h2>
+<h2 align="right">Right h2</h2>
