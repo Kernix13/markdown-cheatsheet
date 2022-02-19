@@ -324,7 +324,6 @@ The only tags worth using:
 - `img` to set width and height and align of center or right
 - `ins` for underline
 - `kbd` for keyboard chars or other keys
-- `q` maybe for "unique" <q>quotes</q>
 - `samp` for monospaced font
 - `sup` and `sub` for super and subscript
 - maybe `dl` `dt` `dd` for the indent definition type of style
@@ -333,7 +332,7 @@ Unless I can find inline styles or attributes that work with all of the above an
 
 ## testing **double asterisks** and <b>the b tag</b> and the <strong>strong tag</strong>
 <br><br>
-<p align="center">Paragraph align="center"</p>
+<p align="center">Paragraph align="center", 2 br tags above</p>
 <p align="right">Paragraph align="right"</p>
 <div align="center">div align="center"</div>
 <div align="right">div align="right"</div>
