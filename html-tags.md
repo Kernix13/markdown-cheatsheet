@@ -149,7 +149,7 @@ Table tag test: inline css?
 | `<b>`          | Yes     | Yes        | -          | Bold?    |
 | `<bdi>`        | No      | -          | -          |          |
 | `<bdo>`        | No      | -          | -          |          |
-| `<big>`        | No      | -          | -          |          |
+| `<big>`        | Yes     | No          | -          |          |
 | `<br>`         | YES     | YES        | YES        | Line breaks|
 | `<button>`     | Yes     | No         | -          |          |
 | `<canvas>`     | No      | -          | -          |          |
@@ -158,11 +158,11 @@ Table tag test: inline css?
 | `<data>`       | NO      | -          | -          |          |
 | `<datalist>`   | NO      | -          | -          |          |
 | `<del>`        | Yes     | Yes        | No         | strikethru |
-| `<dfn>`        | Yes     | Yes        | -          |          |
-| `<em>`         | Yes     | Yes        | -          |          |
+| `<dfn>`        | Yes     | NO         | -          |          |
+| `<em>`         | Yes     | Yes        | -          | italics   |
 | `<embed>`      | Yes     | No         | -          |          |
 | `<i>`          | Yes     | Yes        | -          |          |
-| `<iframe>`     | Yes     | No         | -          |          |
+| `<iframe>`     | Yes     | No         | -          | italics   |
 | `<img>`        | Yes     | Yes        |            | Inline CSS? |
 | `<input>`      | No      | -          | -          |          |
 | `<ins>`        | Yes     | Yes        |            | Underline |
@@ -188,15 +188,15 @@ Table tag test: inline css?
 | `<strong>`     | Yes     | Yes        | -          | Bold     |
 | `<sub>`        | Yes     | Yes        |            | Subscript |
 | `<sup>`        | Yes     | Yes        |            | Subscript |
-| `<svg>`        | Yes | - | - | |
+| `<svg>`        | Yes     | No         | -          |          |
 | `<template>`   | No      | -          | -          |          |
 | `<textarea>`   | No      | -          | -          |          |
-| `<time>`       | Yes | - | - | |
-| `<u>`          | Yes | - | - | |
+| `<time>`       | Yes     | No         | -          |          |
+| `<u>`          | Yes     | No         | -          |          |
 | `<tt>`         | No      | -          | -          |          |
-| `<var>`        | Yes | Yes | No | ITALICS? |
-| `<video>`      | - | - | - | |
-| `<wbr>`        | - | - | - | | 
+| `<var>`        | Yes     | Yes        | No         | ITALICS? |
+| `<video>`      | Yes     | No         | -          |          |
+| `<wbr>`        | No      | -          | -          |          | 
 
 Testing `a` tag: _blank, and inline styles DID NOT WORK
 
@@ -263,7 +263,7 @@ This is a <var>test of the var tag</var>, why would you use it?>
 
 `q` and `kbd` tags: WORKED
 
-The q tag wraps text in quotes, the kbd tag wraps keyboard stull in a styled format like with <kbd>CTRL</kbd> or <kbd>SHIFT</kbd>.
+The <q>q tag wraps text in quotes</q>, the kbd tag wraps keyboard stull in a styled format like with <kbd>CTRL</kbd> or <kbd>SHIFT</kbd>.
 
 ## Block tags that worked
 
@@ -282,6 +282,6 @@ Duplicates markdown:
 `a`, `b` and `strong` (BOLD), `code`, `del` and `s` (Strikethrough), `em` and `i` and `var` (Italics), 
 
 Worked but unsure of use:
-`br` (line break), `ins` (underlines), sub and sup (Obvious), `samp` (Monospaced font), `q` (), `kbd` (format)
+`br` (line break), `ins` (underline), sub and sup (Obvious), `samp` (Monospaced font), `q` (quotes), `kbd` (format)
 
 > Do they accept inline CSS?
