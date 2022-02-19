@@ -277,8 +277,8 @@ Worked but unsure of use:
 > Do they accept inline CSS?
 
 Attributes:
-- `blockquote`: 
-- `h1`: global
+- `blockquote`: global
+- `h1`: global, align (left, center, right)
 - `ol`, `ul`: global
 - `li`: global
 - `pre`: global
@@ -287,11 +287,12 @@ Attributes:
 - `details`, `summary`: global  
 - `dl`, `dt`, `dd`: global
 - `div`: global
+- `p`: global, align (left, center, right)
 
 ## Inline tags that worked
 
 Duplicates markdown:
-`a`, `b` and `strong` (BOLD), `code`, `del` and `s` (Strikethrough), `em` and `i` and `var` (Italics), 
+`a`, `b` and `strong` (BOLD), `code`, `del` and `s` (Strikethrough), `em` and `i` and `var` (Italics), `img` (width, align [left, center, right])
 
 Worked but unsure of use:
 `br` (line break), `ins` (underline), sub and sup (Obvious), `samp` (Monospaced font), `q` (quotes), `kbd` (format)
@@ -299,17 +300,18 @@ Worked but unsure of use:
 > Do they accept inline CSS?
 
 Attributes:
-- `a`: target did not work
+- `a`: target did not work, no title attribute, no style attribute - DON'T USE!
 - `b`, `strong`: global
+- `br`: global
 - `code`: global  
 - `del`, `s`: na, global
 - `em`, `i`, `var`: global
-- `br`: global
-- `span`: global
+- `img`: align, width
 - `ins`: na
-- `sub`, `sup`: global
-- `samp`: global
-- `q`: global
 - `kbd`: global
+- `q`: global
+- `samp`: global
+- `span`: global
+- `sub`, `sup`: global
 
 Global attributes: id, class, draggable, **style**, **title**, tabindex, data-*, contenteditable, autofocus, 
