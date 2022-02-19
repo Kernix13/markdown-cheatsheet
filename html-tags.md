@@ -6,34 +6,34 @@
 
 | HTML Tag       | Tested? | Works? | Why Use? |
 | ---------:     | :-----: | :----: | :-----:  | 
-| `<address>`    | Yes     | -      | - |
-| `<article>`    | Skip    | -      | -        |
-| `<aside>`      | Skip    | -      | -        |
-| `<blockquote>` | Yes     | -      | - |
+| `<address>`    | Yes     | NO     | - |
+| `<article>`    | NO    | skip   | -        |
+| `<aside>`      | NO    | skip   | -        |
+| `<blockquote>` | Yes     | YES      | ? |
 | `<details>`    | Yes     | Yes    | Not sure |
-| `<dialog>`     | Yes     | -      | - |
+| `<dialog>`     | Yes     | NO      | - |
 | `<dd>`         | Yes     | Yes    | Indent   |
 | `<div>`        | Yes     | Yes    | Styling   |
 | `<dl>`         | Yes     | Yes    | Indent   |
 | `<dt>`         | Yes     | Yes    | Indent   |
-| `<fieldset>`   | N/A     | -      | - |
+| `<fieldset>`   | NO     | -      | - |
 | `<figcaption>` | Yes     | -      | - |
 | `<figure>`     | Yes     | -      | - |
-| `<footer>`     | Skip    | -      | - |
-| `<form>`       | No      | -      | - |
+| `<footer>`     | NO    | skip      | - |
+| `<form>`       | No      | skip     | - |
 | h1-h6          | Yes     | Yes    | ??? |
-| `<header>`     | Skip    | -      | - |
-| `<hgroup>`     | Skip    | -      | - |
+| `<header>`     | Yes    | Yes      | - |
+| `<hgroup>`     | Yes    | skip      | - |
 | `<hr>`         | Yes     | Yes    | Different size |
-| `<li>`         | Yes     | -      | - |
-| `<main>`       | Skip    | -      | - |
-| `<nav>`        | Skip    | -      | - |
-| `<ol>`         | Yes     | -      | - |
+| `<li>`         | Yes     |Yes      | - |
+| `<main>`       | NO    | skip     | - |
+| `<nav>`        | NO    | skip     | - |
+| `<ol>`         | Yes     | Yes      | - |
 | `<p>`          | Yes     | Yes    | Inline CSS |
-| `<pre>`        | YEs     | -      | - |
-| `<section>`    | Skip    | -      | - |
+| `<pre>`        | Yes     | Yes      | - |
+| `<section>`    | NO    | skip     | - |
 | `<table>`      | Yes     | Yes    | not work it |
-| `<ul>`         | Yes     | -      | - |
+| `<ul>`         | Yes     | Yes      | - |
 
 Address tag check
 <address>
@@ -43,7 +43,14 @@ Address tag check
   331 E Evelyn Ave<br>
   Mountain View, CA 94041<br>
   USA
-</address>
+</address><br>
+
+  <a href="mailto:jim@rock.com">jim@rock.com</a><br>
+  <a href="tel:+13115552368">(311) 555-2368</a><br>
+  Mozilla Foundation
+  331 E Evelyn Ave
+  Mountain View, CA 94041
+  USA
 
 Blockquote tag check:
 <blockquote cite="https://www.huxley.net/bnw/four.html">
@@ -62,8 +69,14 @@ Figure, img, and figcaption tags check
 <figure>
     <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg"
          alt="Elephant at sunset" width="200px">
-    <figcaption>An artistic eye</figcaption>
+    <figcaption>An artistic eye but does it wrap when exceeds the length of the image? With figure element</figcaption>
 </figure>
+<img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" alt="Elephant at sunset" width="200px">
+<figcaption>An artistic eye but does it wrap when exceeds the length of the image? Without figure element</figcaption>
+<img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" alt="Elephant at sunset" width="200px">
+<!-- <br> -->
+An artistic eye but does it wrap when exceeds the length of the image? Without figure  and figcaptionelement
+
 
 Headings and hgroup tag check
 <hgroup>
