@@ -146,7 +146,7 @@ Table tag test: inline css?
 | `<abbr>`       | NO      | -          | -          |          |
 | `<acronym>`    | NO      | -          | -          |          |
 | `<audio>`      | YES     | NO         | -          |          |
-| `<b>`          | Yes     | - | - | |
+| `<b>`          | Yes     | Yes        | -          |          |
 | `<bdi>`        | No      | -          | -          |          |
 | `<bdo>`        | No      | -          | -          |          |
 | `<big>`        | No      | -          | -          |          |
@@ -162,14 +162,14 @@ Table tag test: inline css?
 | `<em>`         | Yes     | Yes        | -          |          |
 | `<embed>`      | Yes     | No         | -          |          |
 | `<i>`          | Yes     | Yes        | -          |          |
-| `<iframe>`     | Yes     | -          | -          |          |
+| `<iframe>`     | Yes     | No         | -          |          |
 | `<img>`        | Yes     | Yes        |            | Inline CSS? |
 | `<input>`      | No      | -          | -          |          |
 | `<ins>`        | Yes     | Yes        |            | Underline |
 | `<kbd>`        | Yes     | Yes        |            | Styling/Visual |
 | `<label>`      | No      | -          | -          |          |
 | `<map>`        | No      | -          | -          |          |
-| `<mark>`       | Yes     | -          | -          |          |
+| `<mark>`       | Yes     | NO         | -          |          |
 | `<meter>`      | No      | -          | -          |          |
 | `<noscript>`   | No      | -          | -          |          |
 | `<object>`     | No      | -          | -          |          |
@@ -177,32 +177,32 @@ Table tag test: inline css?
 | `<picture>`    | ?       | ?          | ?          | ?        |
 | `<progress>`   | No      | -          | -          |          |
 | `<q>`          | Yes     | Yes        |            | Not sure |
-| `<ruby>`       | Yes     | -          | -          |          |
-| `<s>`          | Yes     | Yes        | -          |          |
+| `<ruby>`       | Yes     | Yes        | -          | DON'T    |
+| `<s>`          | Yes     | Yes        | -          | strikethru |
 | `<samp>`       | Yes     | Yes        |            | Monospaced font |
 | `<script>`     | No      | -          | -          |          |
 | `<select>`     | No      | -          | -          |          |
-| `<slot>`       | - | - | - | |
-| `<small>`      | Yes | No | - | |
-| `<span>`       | - | - | - | |
-| `<strong>`     | - | - | - | |
-| `<sub>`        | Yes | Yes | Subscript | |
-| `<sup>`        | Yes | Yes | Superscript | |
-| `<svg>`        | - | - | - | |
-| `<template>`   | - | - | - | |
+| `<slot>`       | No      | -          | -          |          |
+| `<small>`      | Yes     | No         | -          |          |
+| `<span>`       | Yes     | -          | -          | Why?     |
+| `<strong>`     | Yes     | Yes        | -          | Bold     |
+| `<sub>`        | Yes     | Yes        |            | Subscript |
+| `<sup>`        | Yes     | Yes        |            | Subscript |
+| `<svg>`        | Yes | - | - | |
+| `<template>`   | No      | -          | -          |          |
 | `<textarea>`   | No      | -          | -          |          |
-| `<time>`       | - | - | - | |
+| `<time>`       | Yes | - | - | |
 | `<u>`          | Yes | - | - | |
-| `<tt>`         | - | - | - | |
+| `<tt>`         | No      | -          | -          |          |
 | `<var>`        | Yes | Yes | No | |
 | `<video>`      | - | - | - | |
 | `<wbr>`        | - | - | - | | 
 
-Testing `a` tag:
+Testing `a` tag: _blank, and inline styles DID NOT WORK
 
 <a href="https://google.com" target="_blank" style="text-decoration: overline underline; font-family: cursive">GOOGLE</a>
 
-Testing `audio` tag: did not display
+Testing `audio` tag: DID NOT DISPLAY
 <audio controls>
   <source src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3" type="audio/mp3">
   <!-- <source src="horse.mp3" type="audio/mpeg"> -->
@@ -213,33 +213,37 @@ Testing `audio` tag: did not display
        height="200">
 </audio>
 
-`b` and `strong` tags test: <br>
+`b` and `strong` tags test: <br> ALL DISPLAYED
 <b>Bold text</b> same as in **markdown** and how about <strong> the strong tag</strong>.
 
-`code` tag test:
+`code` tag test: SAME AS BACKTICKS 
 
 This is a test of the <code>code tag</code> same as `backticks` I bet.
 
-`del` & `s` tags test:
+`del` & `s` tags test: BOTH WORKED
 
 <del>Strikethrough text</del> same as in ~~markdown~~ and how about <s>the s tag</s>.
 
-`dfn`, `em` and `i` tags test:
+`dfn`, `em` and `i` tags test: EM and I WORKED, DFN DID NOT 
 
 This is <em>em tag italics</em> same as in *markdown* and how about <i>the i tag</i> and <dfn>the dfn tag</dfn>.
 
-`embed` tag test:
+`embed` tag test: DID NOT DISPLAY
 
 <embed type="video/mp4"
-       src="https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164"
-       width="300"
-       height="200">
+src="https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164"
+width="300"
+height="200">
+<embed type="video/mp4"
+src="https://player.vimeo.com/external/194837908.sd.mp4"
+width="300"
+height="200">
 
-`ins` and `u` tags test:
+`ins` and `u` tags test: u tag DID NOT WORK ins tag DID!
 
 Will this <u>be displayed as underlined</u> and what about <ins>the ins tag</ins></u>?
 
-`iframe` tag test:
+`iframe` tag test: DID NOT DISPLAY
 
 <iframe id="inlineFrameExample"
     title="Inline Frame Example"
@@ -248,12 +252,54 @@ Will this <u>be displayed as underlined</u> and what about <ins>the ins tag</ins
     src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
 </iframe>
 
-`mark` tag test:
+`mark` tag test: DID NOT DISPLAY
 
 This is a <mark>mark tag</mark>, does it work?
 
-`ruby` tag test:
+`ruby` tag test: worked but no need
 
 <ruby>
 明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp>
 </ruby>
+
+`samp` tag test:
+
+<p>This is regular text. <samp>Keyboard not found. Press F1 to continue</samp> and so is this.</p>
+
+`small` tag test:
+
+<p>This is regular text. <small>The content is small</small>, but this isn't.</p>
+
+`sub` and `sup` tags test:
+
+H<sub>2</sub> and 2<sup>3</sup> and <sup>o</sup>7
+
+`svg` tag test:
+
+<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg" stroke="red" fill="grey">
+  <circle cx="50" cy="50" r="40" />
+  <circle cx="150" cy="50" r="4" />
+
+  <svg viewBox="0 0 10 10" x="200" width="100">
+    <circle cx="5" cy="5" r="4" />
+  </svg>
+</svg>
+
+`time` tag test:
+
+<p>The Cure will be celebrating their 40th anniversary on <time datetime="2018-07-07">July 7</time> in London's Hyde Park.</p>
+
+`var` tag test:
+
+This is a <var>test of the var tag</var, why would you use it?>
+
+`video` tag test:
+
+<video controls width="250">
+
+<source src="https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164"
+        type="video/mp4">
+
+Sorry, your browser doesn't support embedded videos.
+</video>
+
