@@ -145,15 +145,15 @@ Table tag test: inline css?
 | `<a>`          | Yes     | Yes        |            | Target, Inline CSS?|
 | `<abbr>`       | NO      | -          | -          |          |
 | `<acronym>`    | NO      | -          | -          |          |
-| `<audio>`      | - | - | - | |
-| `<b>`          | - | - | - | |
-| `<bdi>`        | - | - | - | |
-| `<bdo>`        | - | - | - | |
-| `<big>`        | - | - | - | |
-| `<br>`         | - | - | - | |
-| `<button>`     | Yes | No | - | |
-| `<canvas>`     | - | - | - | |
-| `<cite>`       | - | - | - | |
+| `<audio>`      | YES     | NO         | -          |          |
+| `<b>`          | Yes     | - | - | |
+| `<bdi>`        | No      | -          | -          |          |
+| `<bdo>`        | No      | -          | -          |          |
+| `<big>`        | No      | -          | -          |          |
+| `<br>`         | YES     | YES        | YES        | Line breaks|
+| `<button>`     | Yes     | No         | -          |          |
+| `<canvas>`     | No      | -          | -          |          |
+| `<cite>`       | No      | -          | -          |          |
 | `<code>`       | - | - | - | |
 | `<data>`       | - | - | - | |
 | `<datalist>`   | - | - | - | |
@@ -200,11 +200,20 @@ Table tag test: inline css?
 
 Testing a tag:
 
-<a href="https://google.com" target="_blank" style="text-decoration: none;">Google</a>
+<a href="https://google.com" target="_blank" style="text-decoration: overline underline; font-family: serif">GOOGLE</a>
 
-Testing audio tag: 
+Testing audio tag: did not display
 <audio controls>
   <source src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3" type="audio/mp3">
   <!-- <source src="horse.mp3" type="audio/mpeg"> -->
   Your browser does not support the audio tag.
 </audio>
+
+b tag test: <br>
+<b>Bold?</b>
+
+code tag test:
+
+This is a test of the <code>code tag</code> same as `backticks` I bet.
+
+
