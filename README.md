@@ -532,6 +532,8 @@ I'm not a huge fan of emojis, but here are some that I would consider using. The
 - - - 
 :+1:,  :smile:, :star:, :exclamation:, :question:, :thumbsdown:, :point_right:, :point_left:, :heart:, :sound:, :lock:, :email:, :guitar:, :one:, :two: (and other #'s), :arrow_left:, :arrow_right:, :arrow_up:, :x:, :link:, :copyright:, and :white_check_mark:
 
+**NOTE**: I will be moving these into their own file after I pick and choose all the professional looking ones from the Emoji links below.
+
 [Back to Top](#back-to-top "Table of contents")
 
 ### HTML entities
@@ -641,6 +643,8 @@ Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;)
 | Left | ← |
 | Right | → |
 
+**NOTE**: I will be moving these into their own file after I find more of them for different subject areas.
+
 [Back to Top](#back-to-top "Table of contents")
 
 - - - 
@@ -740,98 +744,3 @@ Tags tested:
 | `&#9799;`| &#9799; | Pluto |
 
  -->
-
-
-### HTML Tags Tested
-
-#### Block Level Tags
-
-| HTML Tag     | Tested? | Works? | Why Use? |
-| ---------:   | :-----: | :----: | :-----:  | 
-| `<address>`    | - | - | - |
-| `<article>`    | - | - | - |
-| `<aside>`      | - | - | - |
-| `<blockquote>` | - | - | - |
-| `<details>`    | Yes    | Yes     | Not sure |
-| `<dialog>`     | - | - | - |
-| `<dd>`         | Yes    | Yes     | Indent   |
-| `<div>`        | Yes    | Yes     | Styling   |
-| `<dl>`         | Yes    | Yes     | Indent   |
-| `<dt>`         | Yes    | Yes     | Indent   |
-| `<fieldset>`   | - | - | - |
-| `<figcaption>` | - | - | - |
-| `<figure>`     | - | - | - |
-| `<footer>`     | - | - | - |
-| `<form>`       | - | - | - |
-| h1-h6        | - | - | - |
-| `<header>`     | - | - | - |
-| `<hgroup>`     | - | - | - |
-| `<hr>`         | Yes | Yes | Different size |
-| `<li>`         | - | - | - |
-| `<main>`       | - | - | - |
-| `<nav>`        | - | - | - |
-| `<ol>`         | - | - | - |
-| `<p>`          | Yes | Yes | Inline CSS |
-| `<pre>`        | - | - | - |
-| `<section>`    | - | - | - |
-| `<table>`      | Yes | Yes | DON'T |
-| `<ul>`         | - | - | - |
-
-#### Inline Tags
-| HTML Tag     | Tested? | Works? | Why Use? |
-| ---------:   | :-----: | :----: | :-----:  | 
-| `<a>`          | Yes | Yes | Inline CSS |
-| `<abbr>`       | - | - | - |
-| `<acronym>`    | - | - | - |
-| `<audio>`      | - | - | - |
-| `<b>`          | - | - | - |
-| `<bdi>`        | - | - | - |
-| `<bdo>`        | - | - | - |
-| `<big>`        | - | - | - |
-| `<br>`         | - | - | - |
-| `<button>`     | Yes | No | - |
-| `<canvas>`     | - | - | - |
-| `<cite>`       | - | - | - |
-| `<code>`       | - | - | - |
-| `<data>`       | - | - | - |
-| `<datalist>`   | - | - | - |
-| `<del>`        | Yes | Yes | No |
-| `<dfn>`        | - | - | - |
-| `<em>`         | - | - | - |
-| `<embed>`      | - | - | - |
-| `<i>`          | - | - | - |
-| `<iframe>`     | - | - | - |
-| `<img>`        | Yes | Yes | Inline CSS |
-| `<input>`      | - | - | - |
-| `<ins>`        | Yes | Yes | Underline |
-| `<kbd>`        | Yes | Yes | Styling/Visual |
-| `<label>`      | - | - | - |
-| `<map>`        | - | - | - |
-| `<mark>`       | - | - | - |
-| `<meter>`      | - | - | - |
-| `<noscript>`   | - | - | - |
-| `<object>`     | - | - | - |
-| `<output>`     | - | - | - |
-| `<picture>`    | - | - | - |
-| `<progress>`   | - | - | - |
-| `<q>`          | Yes | Yes | Not sure |
-| `<ruby>`       | - | - | - |
-| `<s>`          | - | - | - |
-| `<samp>`       | Yes | Yes | Monospaced font |
-| `<script>`     | - | - | - |
-| `<select>`     | - | - | - |
-| `<slot>`       | - | - | - |
-| `<small>`      | Yes | No | - |
-| `<span>`       | - | - | - |
-| `<strong>`     | - | - | - |
-| `<sub>`        | Yes | Yes | Subscript |
-| `<sup>`        | Yes | Yes | Superscript |
-| `<svg>`        | - | - | - |
-| `<template>`   | - | - | - |
-| `<textarea>`   | - | - | - |
-| `<time>`       | - | - | - |
-| `<u>`          | - | - | - |
-| `<tt>`         | - | - | - |
-| `<var>`        | Yes | Yes | No |
-| `<video>`      | - | - | - |
-| `<wbr>`        | - | - | - |
