@@ -63,7 +63,7 @@ Blockquote tag check: no diff from gt key so will it accept inline css?
 Figure, img, and figcaption tags check: displayed but as a paragraph
 <figure>
     <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg"
-         alt="Elephant at sunset" width="200px">
+         alt="An eye" width="200px">
     <figcaption>An artistic eye but does it wrap when exceeds the length of the image? With figure element</figcaption>
 </figure>
 
@@ -142,7 +142,7 @@ Table tag test: inline css?
 
 | HTML Tag       | Tested? | Displayed? | Correctly? | Why Use? |
 | ---------:     | :-----: | :--------: | :-------:  | :------: |
-| `<a>`          | Yes     | Yes        |            | Target, Inline CSS?|
+| `<a>`          | Yes     | Yes        | Yes        | no inline or target|
 | `<abbr>`       | NO      | -          | -          |          |
 | `<acronym>`    | NO      | -          | -          |          |
 | `<audio>`      | YES     | NO         | -          |          |
@@ -154,34 +154,34 @@ Table tag test: inline css?
 | `<button>`     | Yes     | No         | -          |          |
 | `<canvas>`     | No      | -          | -          |          |
 | `<cite>`       | No      | -          | -          |          |
-| `<code>`       | Yes     | - | - | |
-| `<data>`       | - | - | - | |
-| `<datalist>`   | - | - | - | |
-| `<del>`        | Yes | Yes | No | |
-| `<dfn>`        | - | - | - | |
-| `<em>`         | - | - | - | |
-| `<embed>`      | - | - | - | |
-| `<i>`          | - | - | - | |
-| `<iframe>`     | - | - | - | |
-| `<img>`        | Yes | Yes | Inline CSS | |
-| `<input>`      | - | - | - | |
-| `<ins>`        | Yes | Yes | Underline | |
-| `<kbd>`        | Yes | Yes | Styling/Visual | |
-| `<label>`      | - | - | - | |
-| `<map>`        | - | - | - | |
-| `<mark>`       | - | - | - | |
-| `<meter>`      | - | - | - | |
-| `<noscript>`   | - | - | - | |
-| `<object>`     | - | - | - | |
-| `<output>`     | - | - | - | |
-| `<picture>`    | - | - | - | |
-| `<progress>`   | - | - | - | |
-| `<q>`          | Yes | Yes | Not sure | |
-| `<ruby>`       | - | - | - | |
-| `<s>`          | - | - | - | |
-| `<samp>`       | Yes | Yes | Monospaced font | |
-| `<script>`     | - | - | - | |
-| `<select>`     | - | - | - | |
+| `<code>`       | Yes     | Yes        | Yes        | DON'T    |
+| `<data>`       | NO      | -          | -          |          |
+| `<datalist>`   | NO      | -          | -          |          |
+| `<del>`        | Yes     | Yes        | No         |          |
+| `<dfn>`        | Yes     | Yes        | -          |          |
+| `<em>`         | Yes     | Yes        | -          |          |
+| `<embed>`      | Yes     | No         | -          |          |
+| `<i>`          | Yes     | Yes        | -          |          |
+| `<iframe>`     | Yes     | -          | -          |          |
+| `<img>`        | Yes     | Yes        |            | Inline CSS? |
+| `<input>`      | No      | -          | -          |          |
+| `<ins>`        | Yes     | Yes        |            | Underline |
+| `<kbd>`        | Yes     | Yes        |            | Styling/Visual |
+| `<label>`      | No      | -          | -          |          |
+| `<map>`        | No      | -          | -          |          |
+| `<mark>`       | Yes     | -          | -          |          |
+| `<meter>`      | No      | -          | -          |          |
+| `<noscript>`   | No      | -          | -          |          |
+| `<object>`     | No      | -          | -          |          |
+| `<output>`     | No      | -          | -          |          |
+| `<picture>`    | ?       | ?          | ?          | ?        |
+| `<progress>`   | No      | -          | -          |          |
+| `<q>`          | Yes     | Yes        |            | Not sure |
+| `<ruby>`       | Yes     | -          | -          |          |
+| `<s>`          | Yes     | Yes        | -          |          |
+| `<samp>`       | Yes     | Yes        |            | Monospaced font |
+| `<script>`     | No      | -          | -          |          |
+| `<select>`     | No      | -          | -          |          |
 | `<slot>`       | - | - | - | |
 | `<small>`      | Yes | No | - | |
 | `<span>`       | - | - | - | |
@@ -190,30 +190,70 @@ Table tag test: inline css?
 | `<sup>`        | Yes | Yes | Superscript | |
 | `<svg>`        | - | - | - | |
 | `<template>`   | - | - | - | |
-| `<textarea>`   | - | - | - | |
+| `<textarea>`   | No      | -          | -          |          |
 | `<time>`       | - | - | - | |
-| `<u>`          | - | - | - | |
+| `<u>`          | Yes | - | - | |
 | `<tt>`         | - | - | - | |
 | `<var>`        | Yes | Yes | No | |
 | `<video>`      | - | - | - | |
 | `<wbr>`        | - | - | - | | 
 
-Testing a tag:
+Testing `a` tag:
 
 <a href="https://google.com" target="_blank" style="text-decoration: overline underline; font-family: cursive">GOOGLE</a>
 
-Testing audio tag: did not display
+Testing `audio` tag: did not display
 <audio controls>
   <source src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3" type="audio/mp3">
   <!-- <source src="horse.mp3" type="audio/mpeg"> -->
   Your browser does not support the audio tag.
+  <embed type="audio/mp3"
+       src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3"
+       width="300"
+       height="200">
 </audio>
 
-b tag test: <br>
-<b>Bold?</b>
+`b` and `strong` tags test: <br>
+<b>Bold text</b> same as in **markdown** and how about <strong> the strong tag</strong>.
 
-code tag test:
+`code` tag test:
 
 This is a test of the <code>code tag</code> same as `backticks` I bet.
 
+`del` & `s` tags test:
 
+<del>Strikethrough text</del> same as in ~~markdown~~ and how about <s>the s tag</s>.
+
+`dfn`, `em` and `i` tags test:
+
+This is <em>em tag italics</em> same as in *markdown* and how about <i>the i tag</i> and <dfn>the dfn tag</dfn>.
+
+`embed` tag test:
+
+<embed type="video/mp4"
+       src="https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164"
+       width="300"
+       height="200">
+
+`ins` and `u` tags test:
+
+Will this <u>be displayed as underlined</u> and what about <ins>the ins tag</ins></u>?
+
+`iframe` tag test:
+
+<iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    width="300"
+    height="200"
+    src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+</iframe>
+
+`mark` tag test:
+
+This is a <mark>mark tag</mark>, does it work?
+
+`ruby` tag test:
+
+<ruby>
+明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp>
+</ruby>
