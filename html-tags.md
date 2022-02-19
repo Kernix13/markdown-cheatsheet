@@ -4,36 +4,36 @@
 
 28 tags
 
-| HTML Tag       | Tested? | Works? | Why Use? |
-| ---------:     | :-----: | :----: | :-----:  | 
-| `<address>`    | Yes     | NO     | - |
-| `<article>`    | NO    | skip   | -        |
-| `<aside>`      | NO    | skip   | -        |
-| `<blockquote>` | Yes     | YES      | ? |
-| `<details>`    | Yes     | Yes    | Not sure |
-| `<dialog>`     | Yes     | NO      | - |
-| `<dd>`         | Yes     | Yes    | Indent   |
-| `<div>`        | Yes     | Yes    | Styling   |
-| `<dl>`         | Yes     | Yes    | Indent   |
-| `<dt>`         | Yes     | Yes    | Indent   |
-| `<fieldset>`   | NO     | -      | - |
-| `<figcaption>` | Yes     | -      | - |
-| `<figure>`     | Yes     | -      | - |
-| `<footer>`     | NO    | skip      | - |
-| `<form>`       | No      | skip     | - |
-| h1-h6          | Yes     | Yes    | ??? |
-| `<header>`     | Yes    | Yes      | - |
-| `<hgroup>`     | Yes    | skip      | - |
-| `<hr>`         | Yes     | Yes    | Different size |
-| `<li>`         | Yes     |Yes      | - |
-| `<main>`       | NO    | skip     | - |
-| `<nav>`        | NO    | skip     | - |
-| `<ol>`         | Yes     | Yes      | - |
-| `<p>`          | Yes     | Yes    | Inline CSS |
-| `<pre>`        | Yes     | Yes      | - |
-| `<section>`    | NO    | skip     | - |
-| `<table>`      | Yes     | Yes    | not work it |
-| `<ul>`         | Yes     | Yes      | - |
+| HTML Tag       | Tested? | Displayed? | Correctly? | Why Use? |
+| ---------:     | :-----: | :--------: | :-------:  | :------: |
+| `<address>`    | Yes     | NO         | no italics | -        |
+| `<article>`    | NO      | skip       | -          | -        |
+| `<aside>`      | NO      | skip       | -          | -        |
+| `<blockquote>` | Yes     | YES        | Yes        | Inline CSS? |
+| `<details>`    | Yes     | Yes        | Yes        | Not sure |
+| `<dialog>`     | Yes     | NO         | -          | -        |
+| `<dd>`         | Yes     | Yes        | Yes        | Indent   |
+| `<div>`        | Yes     | Yes        | ?          | Styling? |
+| `<dl>`         | Yes     | Yes        | Yes        | Indent   |
+| `<dt>`         | Yes     | Yes        | Yes        | Indent   |
+| `<fieldset>`   | NO      | -          | -          | -        |
+| `<figcaption>` | Yes     | NO         | NO         | -        |
+| `<figure>`     | Yes     | NO         | NO         | -        |
+| `<footer>`     | NO      | skip       | -          | -        |
+| `<form>`       | No      | skip       | -          | -        |
+| h1-h6          | Yes     | Yes        | Yes        | Inline CSS? |
+| `<header>`     | Yes     | Yes        | -          | -        |
+| `<hgroup>`     | Yes     | skip       | -          | -        |
+| `<hr>`         | Yes     | Yes        |            | diff sizes? |
+| `<li>`         | Yes     |Yes         | Yes        | Inline CSS? |
+| `<main>`       | NO      | skip       | -          | -        |
+| `<nav>`        | NO      | skip       | -          | -        |
+| `<ol>`         | Yes     | Yes        | Yes        | Inline CSS? |
+| `<p>`          | Yes     | Yes        | Yes        | Inline CSS? |
+| `<pre>`        | Yes     | Yes        | Yes        | Inline CSS? |
+| `<section>`    | NO      | skip       | -          | -        |
+| `<table>`      | Yes     | Yes        | Yes        | Inline CSS? |
+| `<ul>`         | Yes     | Yes        | Yes        | Inline CSS  |
 
 Address tag check
 <address>
@@ -45,12 +45,12 @@ Address tag check
   USA
 </address><br>
 
-  <a href="mailto:jim@rock.com">jim@rock.com</a><br>
-  <a href="tel:+13115552368">(311) 555-2368</a><br>
-  Mozilla Foundation
-  331 E Evelyn Ave
-  Mountain View, CA 94041
-  USA
+<a href="mailto:jim@rock.com">jim@rock.com</a><br>
+<a href="tel:+13115552368">(311) 555-2368</a><br>
+Dark side of the moon
+130 miles away
+Above Earth
+Space
 
 Blockquote tag check:
 <blockquote cite="https://www.huxley.net/bnw/four.html">
