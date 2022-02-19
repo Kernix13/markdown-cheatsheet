@@ -198,8 +198,9 @@ Table tag test: inline css?
 | `<video>`      | - | - | - | |
 | `<wbr>`        | - | - | - | | 
 
-Testing a tag
-<a href="https://google.com" target="_blank" style="text-decoration: none;">
+Testing a tag:
+
+<a href="https://google.com" target="_blank" style="text-decoration: none;">Google</a>
 
 Testing audio tag: 
 <audio controls>
