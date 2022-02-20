@@ -528,9 +528,9 @@ I'm not a huge fan of emojis, but here are some that I would consider using. The
 
     :Emoji_code:
 
-`:+1:`,  `:smile:`, `:star:`, `:exclamation:`, `:question:`, `:thumbsdown:`, `:point_right:`, `:point_left:`, `:heart:`, `:sound:`, `:lock:`, `:email:`, `:guitar:`, `:one:`, `:two:` (and other #'s), `:arrow_left:`, `:arrow_right:`, `:arrow_up:`, `:x:`, `:link:`, `:copyright:`, and `:white_check_mark:`
+`:+1:`, `:thumbsdown:`, `:alien:`, `:smile:`, `:star:`, `:exclamation:`, `:question:`, `:thumbsdown:`, `:point_right:`, `:point_left:`, `:heart:`, `:green_heart:`, `:mushroom:`, `:pizza:`, `:beer:`, `:sound:`, `:lock:`, `:email:`, `:guitar:`, `:one:`, `:two:` (and other #'s), `:arrow_left:`, `:arrow_right:`, `:arrow_up:`, `:x:`, `:link:`, `:copyright:`, and `:white_check_mark:`
 - - - 
-:+1:,  :smile:, :star:, :exclamation:, :question:, :thumbsdown:, :point_right:, :point_left:, :heart:, :sound:, :lock:, :email:, :guitar:, :one:, :two: (and other #'s), :arrow_left:, :arrow_right:, :arrow_up:, :x:, :link:, :copyright:, and :white_check_mark:
+:+1:,  :thumbsdown:, :alien:, :smile:, :star:, :exclamation:, :question:, :thumbsdown:, :point_right:, :point_left:, :heart:, :green_heart:, :mushroom:, :pizza:, :beer:, :sound:, :lock:, :email:, :guitar:, :one:, :two: (and other #'s), :arrow_left:, :arrow_right:, :arrow_up:, :x:, :link:, :copyright:, and :white_check_mark:
 
 **NOTE**: I will be moving these into their own file after I pick and choose all the professional looking ones from the Emoji links below.
 
@@ -820,7 +820,7 @@ Tags tested:
 1. [Daring Fireball](https://daringfireball.net/projects/markdown/basics "Detailed markdown syntax") - more markdown documentation
 1. [Complete list of github markdown emojis](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia) - Emojis list
 1. [GitHub emoji list](https://gist.github.com/rxaviers/7360908) - Emojis list
-1. [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet)
+1. [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet) - Excellent!
 1. [Emoji list](https://github.com/caiyongji/emoji-list)
 1. [HTML Entities](http://mcdlr.com/8/)
 1. [HTML Entities2](https://www.toptal.com/designers/htmlarrows/symbols/)
