@@ -45,8 +45,10 @@ I'm breaking up all the markdown syntax into 7 categories (I'll explain what tho
 | **[Visual](#visual)**:  | [Images](#images) | No |
 |                         | [Emojis](#emojis) | No |
 |                         | [HTML entities](#html-entities) | **Yes*** |
-| **[Notes](#notes)** | N/A | |
-| **[Resources](#resources)** | N/A | |
+| **[Notes](#notes)**     | - | - |
+|                         | [Block level HTML tags that work](#block-level-HTML-tags-that-work) | - |
+|                         | [Inline HTML tags that work](#inline-HTML-tags-that-work) | - |
+| **[Resources](#resources)** | - | - |
 
 <!-- ~~`<cite>`~~ -->
 - - - 
@@ -770,7 +772,7 @@ I used a GitHub generator for my Profile README. In there are `<p>`, `<a>`, and 
 
 I tested every HTML tag that made sense. I skipped tags like `section`, `header`, `nav`, etc. Here is a breakdown of that testing.
 
-### Block level tags that worked
+### Block level HTML tags that work
 
 *Duplicates markdown*: `blockquote`, `h1` thru `h6`, `hr`, `ol` `ul` `li`, `pre`, `table`
 
@@ -794,7 +796,7 @@ I tested every HTML tag that made sense. I skipped tags like `section`, `header`
 
 Unless there is a way to display the tags differently, then I do not see the point of using `pre`, `table`, `lists`, or `blockquote`. Especially the `table` tag since there are a lot of tags you need to enter.
 
-### Inline tags that worked
+### Inline HTML tags that work
 
 *Duplicates markdown*: `a`, `b` and `strong` (display as Bold), `code`, `del` and `s` (display as Strikethrough), `em` and `i` and `var` (display as Italic), `img` (width, align [center, right])
 
@@ -860,13 +862,13 @@ Here is an example of an Emoji in an `<a>` tag: <a href="#emojis">:smile: Emoji 
 
     <h3 id="commands-after-initial-push">&#10551; Commands after initial push</h3>
 
-And here are 2 images with `align="center"` and `width="200px"` in a table:
+And here are 2 images with and `width="200px"` in a table. The first has `align="right"` and the second has `align="left"`:
 
 |       |       | 
 | :---: | :---: |
-| <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px" align="left"> | <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px" align="right"> |
+| <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px" align="right"> | <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px" align="left"> |
 
-I don't know of another method to get images on a row other than using a table. Here is the image with a `title` and `align="center"` in a `<div>` tag though you could use `align="right"` as well:
+I don't know of another method to get images on a row other than using a table. Here is the image with a `title`, and a `<div>` tag with `align="center"` though you could use `align="right"` as well:
 
 <div align="center"><img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px" title="Image example"></div>
 
