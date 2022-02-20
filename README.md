@@ -70,7 +70,7 @@ This category deals with the styling of individual words and can be used with ev
 
 These do not work for the obvious ones (Horizontal Rules, Images, and Emojis), and for all elements in the Code category except inline code. 
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Bold
 
@@ -99,7 +99,7 @@ These do not work for the obvious ones (Horizontal Rules, Images, and Emojis), a
 
 If you want, you can also do **~~bold strikethrough~~**, _~~_italic strikethrough_~~, and ***~~bold italic strikethrough~~***.
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 - - - 
 
@@ -132,7 +132,7 @@ Here is an example of using Bold, Italic, and Strikethrough in a heading:
 
     ## ~~A Literal~~ **Table** of *Contents*
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Blockquotes
 
@@ -165,7 +165,7 @@ Here is a generic table but the Table of Contents above is another version. The 
 | Content Left | Content Center | Content Right |
 ```
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Horizontal rules
 
@@ -182,7 +182,7 @@ Use 3 asterisks or dashes with or without a space to create a horizontal rule:
 
 <hr>
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 - - - 
 
@@ -212,7 +212,7 @@ Here is a bold, italic and strikethrough link:
 
 Why would you use a strikethorugh effect on a link? I'm not sure. MAybe it would be better to do that than to remove a link in a members area. Otherwise the customer service department may get swamped with tickets.
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Anchor
 
@@ -237,7 +237,7 @@ Here is the matching link for the above:
 
     [Back to Top](#back-to-top)
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Footnotes
 
@@ -260,7 +260,7 @@ Here is the actual footnote syntax:
 [^1]: This is footnote number one.
 [^2]: Here is the second footnote.
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 - - - 
 
@@ -282,7 +282,7 @@ You can use all text effects but with some exceptions: None of the effects work 
 - list item 1
 - list item 2
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Ordered
 
@@ -299,7 +299,7 @@ You can use all text effects but with some exceptions: None of the effects work 
 ```
 **NOTE**: By using "1" for each list item, you can cut & paste to change the order of items and the numbering will change to match the new order. 
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Nested
 
@@ -335,7 +335,7 @@ For a nested ordered list, do the same as for nested unordered lists - align the
 1. Ordered item 3
 ```
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Tasks
 
@@ -353,7 +353,7 @@ You can create what looks like checkboxes and display completed tasks with a che
   - [x] completed subtask
 ```
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 - - - 
 
@@ -394,7 +394,7 @@ a {
 }
 ```
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 
 ### Language block
@@ -430,7 +430,7 @@ console.log(${variable})
 <?php the_content(); ?>
 ```
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Diff
 
@@ -447,7 +447,7 @@ This is really nice for highlighting text or code that was changed. Use `diff` a
     + this is what it was changed to
     ```
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 - - - 
 
@@ -478,7 +478,7 @@ On Discord you may sometimes see a black rectangle that reveals text or code whe
 
 **NOTE**: This does not work on Slack or here on GitHub.
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Details
 
@@ -506,7 +506,7 @@ This isn't a markdown thing but it is another example of using HTML tags in a Ma
 </details>
 ```
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 - - - 
 
@@ -522,7 +522,7 @@ Images use the same syntax as **Links** except for the addition of an exclamatio
 
     ![picture alt](https://via.placeholder.com/150 'Title is optional')
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Emojis
 
@@ -564,7 +564,7 @@ Miscellaneous/playful: :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mu
     :link:, :copyright:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:, 
 
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### HTML entities
 
@@ -589,7 +589,6 @@ Bold, Italic and strikethough work for some of the elements below but not for al
 | `&#9990;` | &#9990; | Phone |
 | `&#9986;` | &#9986; | Scissors |
 | `&#9888;` | &#9888; | Warning |
-
 
 **Directional**:
 | Entity | Result| Title |
@@ -818,7 +817,6 @@ http://thenewcode.com/1005/Writing-Musical-Notation-on-Web-Pages-The-Basics
 | `&#10029;`| &#10029; | Pentagram |
 
 **Hotkey list**:
-
 | Key | Symbol |
 | --- | --- |
 | Option | ⌥ |
@@ -835,7 +833,7 @@ http://thenewcode.com/1005/Writing-Musical-Notation-on-Web-Pages-The-Basics
 
 **NOTE**: I will be moving these into their own file after I find more of them for different subject areas.
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 - - - 
 
@@ -871,7 +869,7 @@ I tested every HTML tag that made sense. I skipped tags like `section`, `header`
 
 Unless there is a way to display the tags differently, then I do not see the point of using `pre`, `table`, `lists`, or `blockquote`. Especially the `table` tag since there are a lot of tags you need to enter.
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Inline HTML tags that work
 
@@ -911,7 +909,7 @@ The only tags worth using IMO:
 - `sup` and `sub` for superscript and subscript
 - `dl` `dt` `dd` maybe for the indentation of the definition
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 <br><br>
 
@@ -986,7 +984,7 @@ Finally, here is code to copy instead of having to type it out each time:
 <div align="center"><img src="link.png" width="200px" title="Image example"></div>
 ```
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ## Resources
 
@@ -999,5 +997,5 @@ Finally, here is code to copy instead of having to type it out each time:
 1. [HTML Entities](http://mcdlr.com/8/) - maybe only a few unique vs the above link
 1. [Shields.io](https://shields.io/) - Shields for your projects
 
-[Back to Top](#back-to-top "Table of contents")
+<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
