@@ -45,10 +45,9 @@ I'm breaking up all the markdown syntax into 7 categories (I'll explain what tho
 | **[Visual](#visual)**:  | [Images](#images) | No |
 |                         | [Emojis](#emojis) | No |
 |                         | [HTML entities](#html-entities) | **Yes*** |
-| **[Notes](#notes)**     | - | - |
-|                         | [Block level HTML tags that work](#block-level-HTML-tags-that-work) | - |
+| **[Notes](#notes)**     | [Block level HTML tags that work](#block-level-HTML-tags-that-work) | - |
 |                         | [Inline HTML tags that work](#inline-HTML-tags-that-work) | - |
-| **[Resources](#resources)** | - | - |
+| **[Resources](#resources)** | N/A | - |
 
 <!-- ~~`<cite>`~~ -->
 - - - 
@@ -838,7 +837,7 @@ The only tags worth using IMO:
 
 #### Some Examples
 
-The large gap above the title is from 2 `<br>` tags.
+The large gap above the title is from 2 `<br>` tags. Use only one for a normal separation.
 
 | HTML Tag | Result |
 | :------- | :----: |
@@ -862,7 +861,7 @@ Here is an example of an Emoji in an `<a>` tag: <a href="#emojis">:smile: Emoji 
 
     <h3 id="commands-after-initial-push">&#10551; Commands after initial push</h3>
 
-And here are 2 images with and `width="200px"` in a table. The first has `align="right"` and the second has `align="left"`:
+And here are 2 images with `width="200px"` in a table. The first has `align="right"` and the second has `align="left"`:
 
 |       |       | 
 | :---: | :---: |
@@ -871,6 +870,8 @@ And here are 2 images with and `width="200px"` in a table. The first has `align=
 I don't know of another method to get images on a row other than using a table. Here is the image with a `title`, and a `<div>` tag with `align="center"` though you could use `align="right"` as well:
 
 <div align="center"><img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px" title="Image example"></div>
+
+<br>
 
 **`dl`, `dt`, and `dd`** example (use for indentation):
 <dl>
