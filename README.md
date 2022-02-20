@@ -530,11 +530,34 @@ I'm not a huge fan of emojis, but here are some that I would consider using. The
 
     :Emoji_code:
 
-`:+1:`, `:thumbsdown:`, `:alien:`, `:smile:`, `:star:`, `:exclamation:`, `:question:`, `:thumbsdown:`, `:point_right:`, `:point_left:`, `:heart:`, `:green_heart:`, `:mushroom:`, `:pizza:`, `:beer:`, `:sound:`, `:lock:`, `:email:`, `:guitar:`, `:one:`, `:two:` (and other #'s), `:arrow_left:`, `:arrow_right:`, `:arrow_up:`, `:x:`, `:link:`, `:copyright:`, and `:white_check_mark:`
-- - - 
-:+1:,  :thumbsdown:, :alien:, :smile:, :star:, :exclamation:, :question:, :thumbsdown:, :point_right:, :point_left:, :heart:, :green_heart:, :mushroom:, :pizza:, :beer:, :sound:, :lock:, :email:, :guitar:, :one:, :two: (and other #'s), :arrow_left:, :arrow_right:, :arrow_up:, :x:, :link:, :copyright:, and :white_check_mark:
+Approval: :+1:, :smile:, :ok_hand:, :white_check_mark:, :heavy_check_mark:, :star:, :star2:, :heart:, :exclamation:,
 
-**NOTE**: I will be moving these into their own file after I pick and choose all the professional looking ones from the Emoji links below.
+    :+1:, :smile:, :ok_hand:, :white_check_mark:, :heavy_check_mark:, :star:, :star2:, :heart:, :exclamation:,
+
+Disapproval, questions, problems: :-1:, :question:, :grey_question:, :x:, :boom:, :bomb:, :astonished:, :warning:, :interrobang:, 
+
+    questions: :-1:, :question:, :grey_question:, :x:, :boom:, :bomb:, :astonished:, :warning:, :interrobang:, 
+
+Directional: :point_right:, :point_left:, :arrow_left:, :arrow_right:, :arrow_up:, :arrow_down:
+
+    :point_right:, :point_left:, :arrow_left:, :arrow_right:, :arrow_up:, :arrow_down:
+
+Time, alarms: :bell:, :no_bell:, :hourglass:, :alarm_clock:, :watch:,:calendar:, 
+
+    :bell:, :no_bell:, :hourglass:, :alarm_clock:, :watch:, :calendar:, 
+
+Weather: :sunny:, :cloud:, :snowflake:, :zap:, :high_brightness:
+
+    :sunny:, :cloud:, :snowflake:, :zap:, :high_brightness:
+
+Office/Business: :scissors:, :pushpin:, :paperclip:, :phone:, :copyright:, :email:, 
+
+    :scissors:, :pushpin:, :paperclip:, :phone:, :copyright:, :email:, 
+
+Miscellaneous/playful: :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mushroom:, :pizza:, :beer:, :icecream:, :sound:, :speaker:, :lock:, :guitar:, :one:, :two: (and other #'s), :link:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:, 
+
+    :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mushroom:, :pizza:, :beer:, :icecream:, :sound:, :speaker:, :lock:, :email:, :guitar:, :one:, :two: (and other #'s), :link:, :copyright:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:, 
+
 
 [Back to Top](#back-to-top "Table of contents")
 
