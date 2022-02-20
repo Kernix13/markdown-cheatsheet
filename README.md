@@ -530,13 +530,15 @@ I'm not a huge fan of emojis, but here are some that I would consider using. The
 
     :Emoji_code:
 
-Approval: :+1:, :smile:, :ok_hand:, :white_check_mark:, :heavy_check_mark:, :star:, :star2:, :heart:, :exclamation:,
+Approval: :+1:, :smile:, :ok_hand:, :white_check_mark:, :heavy_check_mark:, :star:, :star2:, :heart:, :exclamation:
 
-    :+1:, :smile:, :ok_hand:, :white_check_mark:, :heavy_check_mark:, :star:, :star2:, :heart:, :exclamation:,
+    :+1:, :smile:, :ok_hand:, :white_check_mark:, :heavy_check_mark:, 
+    :star:, :star2:, :heart:, :exclamation:
 
-Disapproval, questions, problems: :-1:, :question:, :grey_question:, :x:, :boom:, :bomb:, :astonished:, :warning:, :interrobang:, 
+Disapproval, questions, problems: :-1:, :question:, :grey_question:, :x:, :boom:, :bomb:, :astonished:, :warning:, :interrobang:
 
-    questions: :-1:, :question:, :grey_question:, :x:, :boom:, :bomb:, :astonished:, :warning:, :interrobang:, 
+    questions: :-1:, :question:, :grey_question:, :x:, :boom:, :bomb:, 
+    :astonished:, :warning:, :interrobang:
 
 Directional: :point_right:, :point_left:, :arrow_left:, :arrow_right:, :arrow_up:, :arrow_down:
 
@@ -554,9 +556,12 @@ Office/Business: :scissors:, :pushpin:, :paperclip:, :phone:, :copyright:, :emai
 
     :scissors:, :pushpin:, :paperclip:, :phone:, :copyright:, :email:, 
 
-Miscellaneous/playful: :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mushroom:, :pizza:, :beer:, :icecream:, :sound:, :speaker:, :lock:, :guitar:, :one:, :two: (and other #'s), :link:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:, 
+Miscellaneous/playful: :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mushroom:, :pizza:, :beer:, :icecream:, :sound:, :speaker:, :lock:, :guitar:, :one:, :two: (and other #'s), 
+:link:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:, 
 
-    :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mushroom:, :pizza:, :beer:, :icecream:, :sound:, :speaker:, :lock:, :email:, :guitar:, :one:, :two: (and other #'s), :link:, :copyright:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:, 
+    :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mushroom:, :pizza:, :beer:, 
+    :icecream:, :sound:, :speaker:, :lock:, :email:, :guitar:, :one:, :two: (and other #'s), 
+    :link:, :copyright:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:, 
 
 
 [Back to Top](#back-to-top "Table of contents")
