@@ -862,7 +862,7 @@ And here are 2 images with `align="center"` and `width="200px"` in a table:
 
 |       |       | 
 | :---: | :---: |
-| image | image |
+| <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px"> | <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px"> |
 
 **`dl`, `dt`, and `dd`** example (use for indentation):
 <dl>
