@@ -612,17 +612,28 @@ Bold, Italic and strikethough work for some of the elements below but not for al
 
 Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;), change 8320 to 8322 for subscript 2 (Two&#8322;), etc.
 
+<!-- 
+http://thenewcode.com/1005/Writing-Musical-Notation-on-Web-Pages-The-Basics 
+-->
 **Music**:
 | Entity | Result| Title |
 | ---- | ---- | ---- |
 | `&#9837;`| &#9837; | Music flat |
 | `&#9838;`| &#9838; | Music natural |
 | `&#9839;`| &#9839; | Music sharp |
+| `&#119082;`| &#119082; | Double Sharp |
+| `&#119083;`| &#119083; | Double flat |
 | `&#119070;`| &#119070; | G-clef |
+| `&#119070;`| &#119073; | C-clef |
+| `&#119070;`| &#119074; | F-clef |
 | `&#119092;`| &#119092; | Common time |
 | `&#119093;`| &#119093; | Cut time |
 | `&#248;`| &#248; | Half-diminished 7th |
+| `&#9833;`| &#9833; | Quarter note |
 | `&sung;`| &sung; | 8th note |
+| `&#9834;`| &#9834; | 8th note |
+| `&#9835;`| &#9835; | Beamed 8th note |
+| `&#9836;`| &#9836; | Beamed 16th note |
 
 **Miscellaneous**:
 | Entity | Result| Title |
