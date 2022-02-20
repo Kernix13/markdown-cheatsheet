@@ -556,7 +556,7 @@ Office/Business: :scissors:, :pushpin:, :paperclip:, :phone:, :copyright:, :emai
 
     :scissors:, :pushpin:, :paperclip:, :phone:, :copyright:, :email:, 
 
-Miscellaneous/playful: :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mushroom:, :pizza:, :beer:, :icecream:, :sound:, :speaker:, :lock:, :guitar:, :one:, :two: (and other #'s), 
+Miscellaneous/playful: :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mushroom:, :pizza:, :beer:, :icecream:, :sound:, :speaker:, :lock:, :guitar:, :one:, :two: (and other #'s), <br>
 :link:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:, 
 
     :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mushroom:, :pizza:, :beer:, 
