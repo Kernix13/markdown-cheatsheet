@@ -146,7 +146,7 @@ This is a nice effect but I don't know why you would use it on GitHub:
 
 Here is a generic table but the Table of Contents above is another version. The pipes create the columns, the colons with dashes create the alignment:
 
-| Left aligned | Center aligned | Right aligned |
+| Left aligned Content | Center aligned Content | Right aligned Content |
 | :----------- | :-----------: | -----------: |
 | Content Left | Content Center | Content Right |
 | Content Left | Content Center | Content Right |
@@ -154,7 +154,7 @@ Here is a generic table but the Table of Contents above is another version. The 
 | Content Left | Content Center | Content Right |
 
 ```
-| Left aligned | Center aligned | Right aligned |
+| Left aligned Content | Center aligned Content | Right aligned Content |
 | :----------- | :-----------: | -----------: |
 | Content Left | Content Center | Content Right |
 | Content Left | Content Center | Content Right |
