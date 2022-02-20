@@ -542,24 +542,33 @@ This actually is not a markdown thing but it's nice having a list for use in you
 
 Bold, Italic and strikethough work for some of the elements below but not for all of them. And strikethorugh works the least of all. It's up for you to test them. Here is my list:
 
-**Common**:
+**Business & Financial**:
 | Entity | Result| Title |
 | ---- | ---- | ---- |
 | `&copy;` | &copy; | Copyright |
-| `&reg;` | &reg; | Registered TM |
+| `&#8471;` | &#8471; | Sound Copyright |
 | `&trade;` | &trade; | Trademark |
-| `&commat;` | &commat; | Self-explanatory | 
+| `&reg;` | &reg; | Registered TM |
+| `&cent;` | &cent; | Cent |
+| `&pound;` | &pound; | Pound |
+| `&euro;` | **&euro;** | Euro |
+
+
+**Directional**:
+| Entity | Result| Title |
+| ---- | ---- | ---- |
 | `&larr;` | &larr; | Left arrow | 
 | `&rarr;` | &rarr; | Right arrow | 
 | `&uarr;` | &uarr; | Up arrow | 
 | `&darr;` | &darr; | Down arrow | 
-
-**Financial**:
-| Entity | Result| Title |
-| ---- | ---- | ---- |
-| `&cent;` | &cent; | Cent |
-| `&pound;` | &pound; | Pound |
-| `&euro;` | **&euro;** | Euro |
+| `&#8598;` | &#8598; | Northwest arrow |
+| `&#8599;` | &#8599; | Northeast arrow |
+| `&#8600;` | &#8600; | Southeast arrow |
+| `&#8601;` | &#8601; | Southwest arrow |
+| `&#9650;` | &#9650; | Up triangle |
+| `&#9650;` | &#9660; | Down triangle |
+| `&#9650;` | &#9654; | Right triangle |
+| `&#9650;` | &#9664; | Left triangle |
 
 **Math and science**:
 | Entity | Result| Title |
@@ -577,6 +586,7 @@ Bold, Italic and strikethough work for some of the elements below but not for al
 | `&empty;` | &empty; | Empty | 
 | `&Phi;` | &Phi; | Phi | 
 | `&pi;` | &pi; | Pi | 
+| `&#8486;` | &#8486; | Omega | 
 | `&sum;` | &sum; | Sum | 
 | `&radic;` | &radic; | Square root | 
 | `&infin;` | &infin; | Infinity | 
@@ -617,12 +627,77 @@ Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;)
 | `&female;`| &female; | Female |
 | `&male;`| &male; | Male |
 | `&para;` | &para; | Paragraph | 
-| `&not;` | &not; | Negation (?) |
-| `&macr;` | &macr; | Spacing Macron (?) |
-| `&laquo;` | &laquo; | Left quote (?) |
-| `&raquo;` | &raquo; | Right quote (?) |
-| `&ndash;` | &ndash; | En dash (?) | 
-| `&mdash;` | &mdash; | Em dash (?) | 
+| `&#167;` | &#167; | Selection sign | 
+| `&#9992;` | &#9992; | Airplane | 
+| `&#10007;` | &#10007; | Ballot X | 
+| `&#10008;` | &#10008; | Heavy Ballot X | 
+| `&#9728;` | &#9728; | Black Sun | 
+| `&#9788;` | &#9788; | White Sun | 
+| `&#x2601;` | &#x2601; | Cloud | 
+| `&#x2602;` | &#x2602; | Umbrella | 
+| `&not;` | &not; | Negation |
+| `&macr;` | &macr; | Spacing Macron |
+| `&laquo;` | &laquo; | Left quote |
+| `&raquo;` | &raquo; | Right quote |
+| `&ndash;` | &ndash; | En dash | 
+| `&mdash;` | &mdash; | Em dash | 
+| `&#8416;` | &#8416; | Circle slash |
+| `&#9752;` | &#9752; | Shamrock |
+| `&#9774;` | &#9774; | Peace symbol |
+
+**Astrology**:
+| Entity | Result| Title |
+| ---- | ---- | ---- |
+| `&oplus;` | &oplus; | Earth | 
+| `&#9793;` | &#9793; | Earth | 
+| `&#9800;`| &#9800; | Aries |
+| `&#9801;`| &#9801; | Taurus |
+| `&#9802;`| &#9802; | Gemini |
+| `&#9803;`| &#9803; | Cancer |
+| `&#9804;`| &#9804; | Leo |
+| `&#9805;`| &#9805; | Virgo |
+| `&#9806;`| &#9806; | Libra |
+| `&#9807;`| &#9807; | Scorpio |
+| `&#9808;`| &#9808; | Sagittarius |
+| `&#9809;`| &#9809; | Capricorn |
+| `&#9810;`| &#9810; | Aquarius |
+| `&#9811;`| &#9811; | Pisces |
+| `&#9791;`| &#9791; | Mercury |
+| `&#9792;`| &#9792; | Venus|
+| `&#9794;`| &#9794; | Mars |
+| `&#9795;`| &#9795; | Jupiter |
+| `&#9796;`| &#9796; | Saturn |
+| `&#9797;`| &#9797; | Uranus |
+| `&#9798;`| &#9798; | Neptune |
+| `&#9799;`| &#9799; | Pluto |
+| `&#9740;`| &#9740; | Conjunction |
+| `&#9741;`| &#9741; | Opposition |
+| `&#9738;`| &#9738; | Ascending node |
+| `&#9739;`| &#9739; | Descending node |
+
+**Esoteric**:
+| Entity | Result| Title |
+| ---- | ---- | ---- |
+| `&#8501;`| &#8501; | Aleph |
+| `&#8502;`| &#8502; | Bet/Beth |
+| `&#8503;`| &#8503; | Gimel |
+| `&#8504;`| &#8504; | Dalet/Daleth |
+| `&#9764;`| &#9764; | Caduceus |
+| `&#9765;`| &#9765; | Ankh |
+| `&#9766;`| &#9766; | Orthodox Cross |
+| `&#9767;`| &#9767; | Chi Rho |
+| `&#9768;`| &#9768; | Cross or Lorraine |
+| `&#9769;`| &#9769; | Cross of Jerusalem |
+| `&#9775;`| &#9775; | Yin Tan, Ying Yang |
+| `&#9776;`| &#9776; | Heaven I-Ching |
+| `&#9777;`| &#9777; | Lake |
+| `&#9778;`| &#9778; | Fire |
+| `&#9779;`| &#9779; | Thunder |
+| `&#9780;`| &#9780; | Wind |
+| `&#9781;`| &#9781; | Water |
+| `&#9782;`| &#9782; | Mountain |
+| `&#9783;`| &#9783; | Earth |
+| `&#9784;`| &#9784; | Wheel of Dharma |
 
 **Hotkey list**:
 
@@ -638,10 +713,7 @@ Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;)
 | Power | ⌽ |
 | Return | ↩ |
 | Delete | ⌫ |
-| Up | ↑ |
-| Down | ↓ |
-| Left | ← |
-| Right | → |
+
 
 **NOTE**: I will be moving these into their own file after I find more of them for different subject areas.
 
@@ -715,32 +787,3 @@ Tags tested:
 
 [Back to Top](#back-to-top "Table of contents")
 
-<!-- 
-
-**Esoteric**:
-| Entity | Result| Title |
-| ---- | ---- | ---- |
-| `&oplus;` | &oplus; | Earth | 
-| `&#9793;` | &#9793; | Earth | 
-| `&#9800;`| &#9800; | Aries |
-| `&#9801;`| &#9801; | Taurus |
-| `&#9802;`| &#9802; | Gemini |
-| `&#9803;`| &#9803; | Cancer |
-| `&#9804;`| &#9804; | Leo |
-| `&#9805;`| &#9805; | Virgo |
-| `&#9806;`| &#9806; | Libra |
-| `&#9807;`| &#9807; | Scorpio |
-| `&#9808;`| &#9808; | Sagittarius |
-| `&#9809;`| &#9809; | Capricorn |
-| `&#9810;`| &#9810; | Aquarius |
-| `&#9811;`| &#9811; | Pisces |
-| `&#9791;`| &#9791; | Mercury |
-| `&#9792;`| &#9792; | Venus|
-| `&#9794;`| &#9794; | Mars |
-| `&#9795;`| &#9795; | Jupiter |
-| `&#9796;`| &#9796; | Saturn |
-| `&#9797;`| &#9797; | Uranus |
-| `&#9798;`| &#9798; | Neptune |
-| `&#9799;`| &#9799; | Pluto |
-
- -->
