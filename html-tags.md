@@ -267,18 +267,16 @@ The <q>q tag wraps text in quotes</q>, the kbd tag wraps keyboard stull in a sty
 
 ## Block tags that worked
 
+Duplicates markdown: `blockquote`, `h1` thru `h6`, `hr`, `ol` `ul` `li`, `pre`, `table`
 
-Duplicates markdown: 
-`blockquote`, headings, `hr`, `ol` `ul` `li`, `pre`, `table`
+Worked but unsure of use: address`, `details` with `summary`, `dl` `dt` `dd` (indent), `div`
 
-Worked but unsure of use: 
-`address`, `details` with `summary` (hidden content), `dl` `dt` `dd` (indent), `div` (spacer?) 
-
-> Do they accept inline CSS?
+> Is align an attribute? How do I find similar attributes like that?
 
 Attributes:
 - `blockquote`: global
-- `h1`: global, align (left, center, right)
+- `h1` thru `h4`: global, align (center, right)
+- `h5` and `h6`: Same as above, very small font size!
 - `ol`, `ul`: global
 - `li`: global
 - `pre`: global
@@ -288,6 +286,8 @@ Attributes:
 - `dl`, `dt`, `dd`: global
 - `div`: global
 - `p`: global, align (left, center, right)
+
+Unless there is a way to display the tags differently, then I do not see the point of using `pre`, `table`, `lists`, or `blockquote`. Especially the table tag since there are a lot of tags you need to enter.
 
 ## Inline tags that worked
 

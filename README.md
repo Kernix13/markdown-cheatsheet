@@ -764,9 +764,60 @@ http://thenewcode.com/1005/Writing-Musical-Notation-on-Web-Pages-The-Basics
 
 ## Notes
 
-The one thing I want to look into is using videos, animated GIFs, and more HTML tags in my profile and MD files. Oh, and also column layouts with tables I assume.
+The one thing I want to look into is using videos, animated GIFs, and more HTML tags in my markdown files. Oh, and also column layouts with tables I assume.
 
-I used a GitHub generator for my Profile README. In there are `<p>`, `<a>`, and `<img>` tags. In the Details section above, there are `<details>`, `<summary>`, and `<p>` tags. I found this gist called <q>HTML Tags You Can Use on GitHub</q>. That document mentions that you can also use a number of different tags. Here they are with the ones I used above: 
+I used a GitHub generator for my Profile README. In there are `<p>`, `<a>`, and `<img>` tags. In the Details section above, there are `<details>`, `<summary>`, and `<p>` tags. I found this gist called <q>[HTML Tags You Can Use on GitHub](https://gist.github.com/seanh/13a93686bf4c2cb16e658b3cf96807f2)</q>. That document mentions some tags you can use. 
+
+I tested every HTML tag that made sense. I skipped tags like `section`, `header`, `nav`, etc. Here is a breakdown of that testing.
+
+### Block level tags that worked
+
+Duplicates markdown: `blockquote`, `h1` thru `h6`, `hr`, `ol` `ul` `li`, `pre`, `table`
+
+Worked but unsure of use: address`, `details` with `summary`, `dl` `dt` `dd` (indent), `div`
+
+> Is align an attribute? How do I find similar attributes like that?
+
+Attributes:
+- `blockquote`: global
+- `h1` thru `h4`: global, align (center, right)
+- `h5` and `h6`: Same as above, very small font size!
+- `ol`, `ul`: global
+- `li`: global
+- `pre`: global
+- `table`: global
+- `address`: global
+- `details`, `summary`: global  
+- `dl`, `dt`, `dd`: global
+- `div`: global
+- `p`: global, align (left, center, right)
+
+Unless there is a way to display the tags differently, then I do not see the point of using `pre`, `table`, `lists`, or `blockquote`. Especially the `table` tag since there are a lot of tags you need to enter.
+
+## Inline tags that worked
+
+Duplicates markdown: `a`, `b` and `strong` (display as Bold), `code`, `del` and `s` (display as Strikethrough), `em` and `i` and `var` (display as Italic), `img` (width, align [center, right])
+
+Worked but unsure of use: `br` (line break), `ins` (underline), `sup` and `sub` (superscript and subscript), `samp` (Monospaced font), `q` (quotes), `kbd` (keyboard keys)
+
+Attributes:
+- `a`: target did not work, no title attribute, no style attribute - DON'T USE!
+- `b`, `strong`: global
+- `br`: global
+- `code`: global  
+- `del`, `s`: na, global
+- `em`, `i`, `var`: global
+- `img`: align, width
+- `ins`: na
+- `kbd`: global
+- `q`: global
+- `samp`: global
+- `span`: global
+- `sub`, `sup`: global
+
+Some *Global attributes* that may have a use: id, draggable, **style**, **title**, tabindex, contenteditable, autofocus. 
+
+> What is ***align***? Do all these accept inline CSS?
 
 Block tags
 - `<p>`: Why? A-ha! In my profile generated text, the `<p>` tags have inline styles! That's why: `<p align="left">`
@@ -823,7 +874,7 @@ Tags tested:
 1. [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet) - Excellent!
 1. [Emoji list](https://github.com/caiyongji/emoji-list)
 1. [HTML Entities](http://mcdlr.com/8/)
-1. [HTML Entities2](https://www.toptal.com/designers/htmlarrows/symbols/)
+1. [HTML Entities2](https://www.toptal.com/designers/htmlarrows/symbols/) - Excellent!
 1. [Shields.io](https://shields.io/) - Shields for your projects
 
 [Back to Top](#back-to-top "Table of contents")
