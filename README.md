@@ -851,7 +851,9 @@ The large gap above the title is from 2 `<br>` tags.
 <h3 align="right">H3 tag with align="right"</h3>
 <p align="right">Paragraph tag with align="right"</p>
 
-Here is an example of an HTML entity in an `<a>` tag: <a href="#html-entities">&uarr; HTML Sections</a>
+> I think an H2 heading that is center aligned would looke great but not a paragraph. 
+
+Here is an example of an HTML entity in an `<a>` tag: <a href="#html-entities">&uarr; HTML Entities Section</a><br>
 Here is an example of an Emoji in an `<a>` tag: <a href="#emojis">:smile: Emoji section</a>
 
 **NOTE**: For my anchor links (same page) in my [Beginner Git Commands](https://github.com/Kernix13/beginner-git-commands) repo, I wanted to use a downward arrow that points to the right for my H3 sections. I could not do that with `[text](#text)` so I had to use an `<a>` tag. In that same repo I use a `div` tag with underscores with spaces between them for a visual separation between the start of H2 sections and the end of the section above. Here is an example of an H3 with the arrow entity code with an `id` for the anchor link in the Table of Contents:
@@ -864,19 +866,39 @@ And here are 2 images with `align="center"` and `width="200px"` in a table:
 | :---: | :---: |
 | <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px"> | <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px"> |
 
+I don't know of another method to get images on a row other than using a table. Here is the image with a `title` and `align="center"` in a `<div>` tag though you could do right as well:
+
+<div align="center"><img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px" title="Image example"></div>
+
 **`dl`, `dt`, and `dd`** example (use for indentation):
 <dl>
-  <dt>Markdown</dt>
-  <dd>The language used for your GitHub files</dd>
+  <dt>Markdown Cheat Sheet</dt>
+  <dd>A quick source for making your readme files look great!</dd>
 </dl>
 
 ```
 <dl>
-  <dt>Markdown</dt>
-  <dd>The language used for your GitHub files</dd>
+  <dt>Markdown Cheat Sheet</dt>
+  <dd>A quick source for making your readme files look great!</dd>
 </dl>
 ```
 Pertaining to spacers in between sections, I am experimenting with 8-16px high PNG files with a gradient. I have one of those in my Beginner Git Commands. I want to make one with the gradient colors used for dark and light mode here on GitHub. 
+
+Also, let's look at the small font-size for H5 and H6 tags (Markdown version). Where/when would using these be useful?
+
+#### How about H4 as a comparison
+
+##### Really small H5 heading
+
+###### Even smaller text for an H6
+
+Finally, here are generic code to copy instead of having to type it out each time:
+```
+<h3 align="center">Heading3</h3>
+<p align="right">Paragraph</p>
+<img src="link.png" width="200px" title="title" align"center" alt="whatever">
+<div align="center"><img src="link.png" width="200px" title="Image example"></div>
+```
 
 [Back to Top](#back-to-top "Table of contents")
 

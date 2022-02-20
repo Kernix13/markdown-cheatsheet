@@ -65,6 +65,9 @@ Figure, img, and figcaption tags check: displayed but as a paragraph
     <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg"
          alt="An eye" width="200px">
     <figcaption>An artistic eye but does it wrap when exceeds the length of the image? With figure element</figcaption>
+    <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg"
+         alt="An eye" width="200px">
+    <figcaption>An artistic eye but does it wrap when exceeds the length of the image? With figure element</figcaption>
 </figure>
 
 Headings and hgroup tag check: no effect for hgroup, inline for headings?
