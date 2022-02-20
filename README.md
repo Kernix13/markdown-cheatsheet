@@ -858,7 +858,7 @@ I tested every HTML tag that made sense. I skipped tags like `section`, `header`
 - `address`: global
 - `details`, `summary`: global  
 - `dl`, `dt`, `dd`: global
-- `div`: global
+- `div`: global, align (left, center, right)
 - `p`: global, align (left, center, right)
 
 Unless there is a way to display the tags differently, then I do not see the point of using `pre`, `table`, `lists`, or `blockquote`. Especially the `table` tag since there are a lot of tags you need to enter.
