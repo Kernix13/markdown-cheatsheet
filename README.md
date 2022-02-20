@@ -626,7 +626,7 @@ Bold, Italic and strikethough work for some of the elements below but not for al
 | `&Phi;` | &Phi; | Phi | 
 | `&pi;` | &pi; | Pi | 
 | `&#8486;` | &#8486; | Omega | 
-| `&sum;` | &sum; | Sum | 
+| `&sum;` | &sum; | Sum, Sigma | 
 | `&radic;` | &radic; | Square root | 
 | `&infin;` | &infin; | Infinity | 
 | `&sim;` | &sim; | Proportional | 
@@ -659,11 +659,52 @@ http://thenewcode.com/1005/Writing-Musical-Notation-on-Web-Pages-The-Basics
 | `&#119092;`| &#119092; | Common time |
 | `&#119093;`| &#119093; | Cut time |
 | `&#248;`| &#248; | Half-diminished 7th |
+| `&#119132;`| &#119132; | Breve |
+| `&#119133;`| &#119133; | Whole note |
+| `&#119134;`| &#119134; | Half note |
 | `&#9833;`| &#9833; | Quarter note |
+| `&#119135;`| &#119135; | Quarter note |
 | `&sung;`| &sung; | 8th note |
 | `&#9834;`| &#9834; | 8th note |
+| `&#119136;`| &#119136; | 8th note |
 | `&#9835;`| &#9835; | Beamed 8th note |
+| `&#119137;`| &#119137; | 16th note |
 | `&#9836;`| &#9836; | Beamed 16th note |
+| `&#119094;`| &#119094; | Octave |
+| `&#119057;` | &#119057; | Fermata | 
+| `&#119058;` | &#119058; | Breath mark | 
+| `&#119059;` | &#119059; | Caesura | 
+| `&#119046;` | &#119046; | Left repeat |
+| `&#119047;` | &#119047; | Right repeat |
+| `&#119048;` | &#119048; | Repeat |
+| `&#119049;` | &#119049; | Dal Segno |
+| `&#119050;` | &#119050; | Da Capo |
+| `&#119051;` | &#119051; | Segno |
+| `&#119052;` | &#119052; | Coda |
+| `&#119183;` | &#119183; | Piano |
+| `&#119184;` | &#119184; | Mezzo |
+| `&#119185;` | &#119185; | Forte |
+| `&#119186;` | &#119186; | Crescendo |
+| `&#119187;` | &#119187; | Decrescendo |
+| `&#119040;` | &#119040; | Single barline |
+| `&#119041;` | &#119041; | Double barline |
+| `&#119042;` | &#119042; | Final barline |
+| `&#119217;` | &#119217; | Glissando up |
+| `&#119218;` | &#119218; | Glissando down |
+| `&#119188;` | &#119188; | Grace note |
+| `&#119191;` | &#119191; | Turn |
+| `&#119192;` | &#119192; | Inverted turn |
+| `&#119081;` | &#119081; | Full measure rest |
+| `&#119098;` | &#119098; | Dbl whole note rest |
+| `&#119099;` | &#119099; | Whole rest |
+| `&#119100;` | &#119100; | Half rest |
+| `&#119101;` | &#119101; | Quarter rest |
+| `&#119102;` | &#119102; | Eigth rest |
+| `&#119103;` | &#119103; | Sixteenth rest |
+| `&#119060;` | &#119060; | Brace |
+| `&#119061;` | &#119061; | Bracket |
+| `&#119163;` | &#119163; | Accent |
+| `&#119164;` | &#119164; | Staccato |
 
 **Miscellaneous**:
 | Entity | Result| Title |
@@ -732,10 +773,16 @@ http://thenewcode.com/1005/Writing-Musical-Notation-on-Web-Pages-The-Basics
 | `&#9797;`| &#9797; | Uranus |
 | `&#9798;`| &#9798; | Neptune |
 | `&#9799;`| &#9799; | Pluto |
-| `&#9740;`| &#9740; | Conjunction |
-| `&#9741;`| &#9741; | Opposition |
 | `&#9738;`| &#9738; | Ascending node |
 | `&#9739;`| &#9739; | Descending node |
+| `&#9740;`| &#9740; | Conjunction (0&deg;) |
+| ``|  | Semi-sextile (30&deg;) |
+| `&ang;`| &ang; | Semi-square (45&deg;) |
+| ``|  | Sextile (60&deg;) |
+| `&#9744;`| &#9744; | Square (90&deg;) |
+| ``|  | Trine (120&deg;) |
+| ``|  | Quincunx (150&deg;) |
+| `&#9741;`| &#9741; | Opposition (180&deg;) |
 
 **Esoteric**:
 | Entity | Result| Title |
