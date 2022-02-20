@@ -772,13 +772,13 @@ I tested every HTML tag that made sense. I skipped tags like `section`, `header`
 
 ### Block level tags that worked
 
-Duplicates markdown: `blockquote`, `h1` thru `h6`, `hr`, `ol` `ul` `li`, `pre`, `table`
+*Duplicates markdown*: `blockquote`, `h1` thru `h6`, `hr`, `ol` `ul` `li`, `pre`, `table`
 
-No markdown equivalent: address`, `details` with `summary`, `dl` `dt` `dd` (indent), `div`
+*No markdown equivalent*: `address`, `details` with `summary`, `dl` `dt` `dd` (indent), `div`
 
-> Is align an attribute? How do I find similar attributes like that?
+> Is **align** an attribute? How do I find similar attributes like that?
 
-Attributes:
+**Attributes**:
 - `blockquote`: global
 - `h1` thru `h4`: global, align (center, right)
 - `h5` and `h6`: Same as above, very small font size!
@@ -796,11 +796,11 @@ Unless there is a way to display the tags differently, then I do not see the poi
 
 ### Inline tags that worked
 
-Duplicates markdown: `a`, `b` and `strong` (display as Bold), `code`, `del` and `s` (display as Strikethrough), `em` and `i` and `var` (display as Italic), `img` (width, align [center, right])
+*Duplicates markdown*: `a`, `b` and `strong` (display as Bold), `code`, `del` and `s` (display as Strikethrough), `em` and `i` and `var` (display as Italic), `img` (width, align [center, right])
 
-No markdown equivalent: `br` (line break), `ins` (underline), `sup` and `sub` (superscript and subscript), `samp` (Monospaced font), `q` (quotes), `kbd` (keyboard keys), `span`
+*No markdown equivalent*: `br` (line break), `ins` (underline), `sup` and `sub` (superscript and subscript), `samp` (Monospaced font), `q` (quotes), `kbd` (keyboard keys), `span`
 
-Attributes:
+**Attributes**:
 - `a`: target="_blank" did not work
 - `b`, `strong`: global
 - `br`: global
@@ -823,7 +823,7 @@ The only tags worth using IMO:
 - `a` for anchor links with HTML entities in the link text, `target="_blank"` doesn't work
 - `headings` align center or right
 - `p` for align center or right
-- `div` as visual dividers using dash (-) or underscore (_) or equals (=) or other characters. But can't you just use the characters instaed?
+- `div` as visual dividers using dash (-) or underscore (_) or equals (=) or other characters. But can't you just use the characters instead?
 - `br` for line breaks of paragrpah text like the `address` tag or as a alternate spacer to `div`
 - `img` to set width and height and align of center or right
 - `ins` for underline
@@ -851,7 +851,7 @@ The large gap above the title is from 2 `<br>` tags.
 <h3 align="right">H3 tag with align="right"</h3>
 <p align="right">Paragraph tag with align="right"</p>
 
-> I think an H2 heading that is center aligned would looke great but not a paragraph. 
+> I think an H2 heading that is center aligned would look great but not a paragraph. When would align right look good?
 
 Here is an example of an HTML entity in an `<a>` tag: <a href="#html-entities">&uarr; HTML Entities Section</a><br>
 Here is an example of an Emoji in an `<a>` tag: <a href="#emojis">:smile: Emoji section</a>
@@ -864,9 +864,9 @@ And here are 2 images with `align="center"` and `width="200px"` in a table:
 
 |       |       | 
 | :---: | :---: |
-| <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px"> | <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px"> |
+| <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px" align="left"> | <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px" align="right"> |
 
-I don't know of another method to get images on a row other than using a table. Here is the image with a `title` and `align="center"` in a `<div>` tag though you could do right as well:
+I don't know of another method to get images on a row other than using a table. Here is the image with a `title` and `align="center"` in a `<div>` tag though you could use `align="right"` as well:
 
 <div align="center"><img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px" title="Image example"></div>
 
@@ -882,7 +882,7 @@ I don't know of another method to get images on a row other than using a table. 
   <dd>A quick source for making your readme files look great!</dd>
 </dl>
 ```
-Pertaining to spacers in between sections, I am experimenting with 8-16px high PNG files with a gradient. I have one of those in my Beginner Git Commands. I want to make one with the gradient colors used for dark and light mode here on GitHub. 
+Pertaining to spacers in between sections, I am experimenting with 8-16px high PNG files with a gradient. I have one of those in my *Beginner Git Commands* repo. I want to make one with the gradient colors used for dark and light mode here on GitHub. 
 
 Also, let's look at the small font-size for H5 and H6 tags (Markdown version). Where/when would using these be useful?
 
@@ -892,11 +892,14 @@ Also, let's look at the small font-size for H5 and H6 tags (Markdown version). W
 
 ###### Even smaller text for an H6
 
-Finally, here are generic code to copy instead of having to type it out each time:
+Finally, here is code to copy instead of having to type it out each time:
 ```
 <h3 align="center">Heading3</h3>
+
 <p align="right">Paragraph</p>
+
 <img src="link.png" width="200px" title="title" align"center" alt="whatever">
+
 <div align="center"><img src="link.png" width="200px" title="Image example"></div>
 ```
 
