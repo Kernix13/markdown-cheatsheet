@@ -379,14 +379,6 @@ It took me a while how to show the 3 backticks for a code block (next section). 
 
     This is a code block madeby hitting TAB 2 X's
 
-Here is a <kbd>TAB</kbd> codeblock so that you can use a triple-backtick code block:
-
-        ```
-        *, *::before, *::after {
-            box-sizing: border-box;
-        }
-        ```
-
 ### Generic
 
 To add code that requires more than 1 line then use 3 backticks, hit <kbd>ENTER</kbd>, add your code block, hit <kbd>ENTER</kbd> again and add 3 more back ticks. 
