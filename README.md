@@ -551,7 +551,14 @@ Bold, Italic and strikethough work for some of the elements below but not for al
 | `&reg;` | &reg; | Registered TM |
 | `&cent;` | &cent; | Cent |
 | `&pound;` | &pound; | Pound |
-| `&euro;` | **&euro;** | Euro |
+| `&euro;` | &euro; | Euro |
+| `&#9993;` | &#9993; | Envelope |
+| `&check;` | &check; | Check mark |
+| `&#9998;` | &#9998; | Pencil |
+| `&#10002;` | &#10002; | Pen tip |
+| `&#9990;` | &#9990; | Phone |
+| `&#9986;` | &#9986; | Scissors |
+| `&#9888;` | &#9888; | Warning |
 
 
 **Directional**:
@@ -566,9 +573,11 @@ Bold, Italic and strikethough work for some of the elements below but not for al
 | `&#8600;` | &#8600; | Southeast arrow |
 | `&#8601;` | &#8601; | Southwest arrow |
 | `&#9650;` | &#9650; | Up triangle |
-| `&#9650;` | &#9660; | Down triangle |
-| `&#9650;` | &#9654; | Right triangle |
-| `&#9650;` | &#9664; | Left triangle |
+| `&#9660;` | &#9660; | Down triangle |
+| `&#9654;` | &#9654; | Right triangle |
+| `&#9664;` | &#9664; | Left triangle |
+| `&#10146;` | &#10146; | Arrowhead |
+| `&#10139;` | &#10139; | Drafting point |
 
 **Math and science**:
 | Entity | Result| Title |
@@ -623,6 +632,12 @@ Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;)
 | `&hearts;` | &hearts; | Heart | 
 | `&diams;` | &diams; | Diamond |
 | `&star;`| &star; | Star |
+| `&#9812;`| &#9812; | King |
+| `&#9813;`| &#9813; | Queen |
+| `&#9814;`| &#9814; | Rook |
+| `&#9815;`| &#9815; | Bishop |
+| `&#9816;`| &#9816; | Knight |
+| `&#9817;`| &#9817; | Pawn |
 | `&starf;`| &starf; | Filled star |
 | `&female;`| &female; | Female |
 | `&male;`| &male; | Male |
@@ -634,6 +649,7 @@ Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;)
 | `&#9728;` | &#9728; | Black Sun | 
 | `&#9788;` | &#9788; | White Sun | 
 | `&#x2601;` | &#x2601; | Cloud | 
+| `&#10052;` | &#10052; | Snowflake | 
 | `&#x2602;` | &#x2602; | Umbrella | 
 | `&not;` | &not; | Negation |
 | `&macr;` | &macr; | Spacing Macron |
@@ -644,12 +660,15 @@ Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;)
 | `&#8416;` | &#8416; | Circle slash |
 | `&#9752;` | &#9752; | Shamrock |
 | `&#9774;` | &#9774; | Peace symbol |
+| `&#10084;` | &#10084; | Heavy heart |
 
 **Astrology**:
 | Entity | Result| Title |
 | ---- | ---- | ---- |
 | `&oplus;` | &oplus; | Earth | 
 | `&#9793;` | &#9793; | Earth | 
+| `&#9737;` | &#9737; | Sun | 
+| `&#9790;` | &#9790; | Moon | 
 | `&#9800;`| &#9800; | Aries |
 | `&#9801;`| &#9801; | Taurus |
 | `&#9802;`| &#9802; | Gemini |
@@ -664,7 +683,9 @@ Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;)
 | `&#9811;`| &#9811; | Pisces |
 | `&#9791;`| &#9791; | Mercury |
 | `&#9792;`| &#9792; | Venus|
+| `&female;`| &female; | Venus|
 | `&#9794;`| &#9794; | Mars |
+| `&male;`| &male; | Mars |
 | `&#9795;`| &#9795; | Jupiter |
 | `&#9796;`| &#9796; | Saturn |
 | `&#9797;`| &#9797; | Uranus |
@@ -682,13 +703,14 @@ Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;)
 | `&#8502;`| &#8502; | Bet/Beth |
 | `&#8503;`| &#8503; | Gimel |
 | `&#8504;`| &#8504; | Dalet/Daleth |
-| `&#9764;`| &#9764; | Caduceus |
+| `&#9764;`| &#9764; | Caduceus Staff |
+| `&#9877;`| &#9877; | Staff of Aesculapius |
 | `&#9765;`| &#9765; | Ankh |
 | `&#9766;`| &#9766; | Orthodox Cross |
 | `&#9767;`| &#9767; | Chi Rho |
 | `&#9768;`| &#9768; | Cross or Lorraine |
 | `&#9769;`| &#9769; | Cross of Jerusalem |
-| `&#9775;`| &#9775; | Yin Tan, Ying Yang |
+| `&#9775;`| &#9775; | Yin Yan, Ying Yang |
 | `&#9776;`| &#9776; | Heaven I-Ching |
 | `&#9777;`| &#9777; | Lake |
 | `&#9778;`| &#9778; | Fire |
@@ -697,7 +719,15 @@ Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;)
 | `&#9781;`| &#9781; | Water |
 | `&#9782;`| &#9782; | Mountain |
 | `&#9783;`| &#9783; | Earth |
+| `&#9866;`| &#9866; | Yang |
+| `&#9867;`| &#9867; | Yin |
+| `&#9868;`| &#9868; | Greater Yang |
+| `&#9869;`| &#9869; | Greater Yin |
+| `&#9870;`| &#9870; | Lesser Yang |
+| `&#9871;`| &#9871; | Lesser Yin |
 | `&#9784;`| &#9784; | Wheel of Dharma |
+| `&#10017;`| &#10017; | Seal of Solomon |
+| `&#10029;`| &#10029; | Pentagram |
 
 **Hotkey list**:
 
