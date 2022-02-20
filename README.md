@@ -47,6 +47,7 @@ I'm breaking up all the markdown syntax into 7 categories (I'll explain what tho
 |                         | [HTML entities](#html-entities) | **Yes*** |
 | **[Notes](#notes)**     | [Block level HTML tags that work](#block-level-HTML-tags-that-work) | - |
 |                         | [Inline HTML tags that work](#inline-HTML-tags-that-work) | - |
+|                         | [HTML tag examples](#html-tag-examples) | - |
 | **[Resources](#resources)** | N/A | - |
 
 <!-- ~~`<cite>`~~ -->
@@ -795,6 +796,8 @@ I tested every HTML tag that made sense. I skipped tags like `section`, `header`
 
 Unless there is a way to display the tags differently, then I do not see the point of using `pre`, `table`, `lists`, or `blockquote`. Especially the `table` tag since there are a lot of tags you need to enter.
 
+[Back to Top](#back-to-top "Table of contents")
+
 ### Inline HTML tags that work
 
 *Duplicates markdown*: `a`, `b` and `strong` (display as Bold), `code`, `del` and `s` (display as Strikethrough), `em` and `i` and `var` (display as Italic), `img` (width, align [center, right])
@@ -833,9 +836,11 @@ The only tags worth using IMO:
 - `sup` and `sub` for superscript and subscript
 - `dl` `dt` `dd` maybe for the indentation of the definition
 
+[Back to Top](#back-to-top "Table of contents")
+
 <br><br>
 
-#### Some Examples
+#### HTML tag examples
 
 The large gap above the title is from 2 `<br>` tags. Use only one for a normal separation.
 
