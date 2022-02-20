@@ -110,12 +110,9 @@ The elements in this category are all unique and do not fit into any of the othe
 - Headings
 - Blockquotes
 - Tables
-- Horizontal rules
-- Images
-- Emojis
-- HTML entities
+- Horizontal rule
 
-All elements in this category accept text effects except for the obvious one: images, emojis and horizontal rules.
+All elements in this category accept text effects except for horizontal rule.
 
 ### Headings
 
@@ -829,9 +826,6 @@ http://thenewcode.com/1005/Writing-Musical-Notation-on-Web-Pages-The-Basics
 | Power | ⌽ |
 | Return | ↩ |
 | Delete | ⌫ |
-
-
-**NOTE**: I will be moving these into their own file after I find more of them for different subject areas.
 
 <div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
