@@ -919,7 +919,7 @@ Finally, here is code to copy instead of having to type it out each time:
 1. [Complete list of github markdown emojis](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia) - Emojis list
 1. [GitHub emoji list](https://gist.github.com/rxaviers/7360908) - Emojis list
 1. [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet) - Excellent!
-1. [Emoji list](https://github.com/caiyongji/emoji-list)
+1. [Emoji list](https://github.com/caiyongji/emoji-list) - there are a lot here as well
 1. [HTML Entities2](https://www.toptal.com/designers/htmlarrows/symbols/) - Excellent!
 1. [HTML Entities](http://mcdlr.com/8/) - maybe only a few unique vs the above link
 1. [Shields.io](https://shields.io/) - Shields for your projects
