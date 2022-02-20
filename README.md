@@ -234,6 +234,8 @@ Here is the matching link for the above:
 
     [Back to Top](#back-to-top)
 
+I actually changed my 'Back to Top' link to be an `<a>` link inside of a `<div>` so that I could align the link to the right. 
+
 <div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Footnotes
@@ -356,7 +358,7 @@ You can create what looks like checkboxes and display completed tasks with a che
 
 ## Code
 
-This category deals with inline code and various typs of code blocks and none of them accept Styles:
+This category deals with inline code and various typs of code blocks and none of them accept Styles with the exception of `inline`:
 
 - Inline code
 - Code blocks
@@ -370,19 +372,29 @@ Use a `single backtick` before and after text to display it as inline code:
 
     `single backtick`
 
+Here are examples on inline as **`bold`**, *`italic`*, and ~~`strikethrough`~~.
 ### Tab
 
-It took me a while how to show the 3 backticks for a code block. For that and other tricky markdown that will not dispay, hit the <kbd>TAB</kbd> button twice then enter your code:
+It took me a while how to show the 3 backticks for a code block (next section). For that and other tricky markdown that will not dispay, hit the <kbd>TAB</kbd> button twice then enter your code:
 
-    This is a TAB code block, check with `backticks`
+    This is a code block madeby hitting TAB 2 X's
+
+Here is a <kbd>TAB</kbd> codeblock so that you can use a triple-backtick code block:
+
+        ```
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        ```
 
 ### Generic
 
 To add code that requires more than 1 line then use 3 backticks, hit <kbd>ENTER</kbd>, add your code block, hit <kbd>ENTER</kbd> again and add 3 more back ticks. 
 
     ```
-    some code here
-    more here
+    *, *::before, *::after {
+            box-sizing: border-box;
+        }
     ```
 
 ```
