@@ -774,7 +774,7 @@ I tested every HTML tag that made sense. I skipped tags like `section`, `header`
 
 Duplicates markdown: `blockquote`, `h1` thru `h6`, `hr`, `ol` `ul` `li`, `pre`, `table`
 
-Worked but unsure of use: address`, `details` with `summary`, `dl` `dt` `dd` (indent), `div`
+No markdown equivalent: address`, `details` with `summary`, `dl` `dt` `dd` (indent), `div`
 
 > Is align an attribute? How do I find similar attributes like that?
 
@@ -794,14 +794,14 @@ Attributes:
 
 Unless there is a way to display the tags differently, then I do not see the point of using `pre`, `table`, `lists`, or `blockquote`. Especially the `table` tag since there are a lot of tags you need to enter.
 
-## Inline tags that worked
+### Inline tags that worked
 
 Duplicates markdown: `a`, `b` and `strong` (display as Bold), `code`, `del` and `s` (display as Strikethrough), `em` and `i` and `var` (display as Italic), `img` (width, align [center, right])
 
-Worked but unsure of use: `br` (line break), `ins` (underline), `sup` and `sub` (superscript and subscript), `samp` (Monospaced font), `q` (quotes), `kbd` (keyboard keys)
+No markdown equivalent: `br` (line break), `ins` (underline), `sup` and `sub` (superscript and subscript), `samp` (Monospaced font), `q` (quotes), `kbd` (keyboard keys), `span`
 
 Attributes:
-- `a`: target did not work, no title attribute, no style attribute - DON'T USE!
+- `a`: target="_blank" did not work
 - `b`, `strong`: global
 - `br`: global
 - `code`: global  
@@ -819,29 +819,54 @@ Some *Global attributes* that may have a use: id, draggable, **style**, **title*
 
 > What is ***align***? Do all these accept inline CSS?
 
-Block tags
-- `<p>`: Why? A-ha! In my profile generated text, the `<p>` tags have inline styles! That's why: `<p align="left">`
-- `<div>`: Why? To add styling. I added a div with underscores and spaces as a separation between H2 sections and the text above - looks good.
-- `<details>`, and `<summary>`: Why?
-- `<dl>`, `<dt>`, and `<dd>`: Definition details tag (added below). Nice indentation.
+The only tags worth using IMO:
+- `a` for anchor links with HTML entities in the link text, `target="_blank"` doesn't work
+- `headings` align center or right
+- `p` for align center or right
+- `div` as visual dividers using dash (-) or underscore (_) or equals (=) or other characters. But can't you just use the characters instaed?
+- `br` for line breaks of paragrpah text like the `address` tag or as a alternate spacer to `div`
+- `img` to set width and height and align of center or right
+- `ins` for underline
+- `kbd` for keyboard keys
+- `samp` for monospaced font as a styling choice
+- `sup` and `sub` for superscript and subscript
+- `dl` `dt` `dd` maybe for the indentation of the definition
 
-Inline tags
-- `<a>`: Why? Because of the atributes maybe? In my profile readme is `target="_blank"`
-- `<img>`: Why? Because of the atributes maybe? Profile readme has `width="40" height="40"` 
-- `<samp>`: <samp>Outputs text in monospace font like this line.</samp> 
-- `<sub>`: Subscript<sub>1</sub>
-- `<sup>`: Superscript<sup>2</sup>
-- `<ins>`: Gives you an <ins>underlined</ins> effect.
-- `<del>`: Similar to <del>strikethrough</del>.
-- `<var>`: Used for variables and is similar to <var>italics</var>.
-- `<q>`: I used this above in the title for the GitHub gist, but it adds <q>quotes around text</q>.
-- `<kbd>`: Keyboard thing (in many of the above sections)
+<br><br>
 
-`<a>` tag attributes: hreflang, media, rel, target (**YES**), type
+#### Some Examples
 
-`<img>` tag attributes: height, width, sizes
+The large gap above the title is from 2 `<br>` tags.
 
-**`dl`, `dt`, and `dd` example**:
+| HTML Tag | Result |
+| :------- | :----: |
+| `ins` | <ins>underlined text</ins> |
+| `kbd` | <kbd>CTRL</kbd>+<kbd>C</kbd>, <kbd>ENTER</kbd> |
+| `samp` | <samp>This is monospaced font</samp> |
+| `sup` | 2<sup>3</sup> |
+| `sub` | H<sub>2</sub>O |
+
+<h3 align="center">H3 tag with align="center"</h3>
+<p align="center">Paragraph tag with align="center"</p>
+<h3 align="right">H3 tag with align="right"</h3>
+<p align="right">Paragraph tag with align="right"</p>
+
+Here is an example of an HTML entity in an `<a>` tag: <a href="#html-entities">&uarr; HTML Sections</a>
+Here is an example of an Emoji in an `<a>` tag: <a href="#emojis">:smile: Emoji section</a>
+
+**NOTE**: For my anchor links (same page) in my [Beginner Git Commands](https://github.com/Kernix13/beginner-git-commands) repo, I wanted to use a downward arrow that points to the right for my H3 sections. I could not do that with `[text](#text)` so I had to use an `<a>` tag. In that same repo I use a `div` tag with underscores with spaces between them for a visual separation between the start of H2 sections and the end of the section above. Here is an example of an H3 with the arrow entity code with an `id` for the anchor link in the Table of Contents:
+
+    <h3 id="commands-after-initial-push">&#10551; Commands after initial push</h3>
+
+And here are 2 images with `align="center"` and `width="200px"` in a table:
+
+|       |       | 
+| :---: | :---: |
+| <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg"
+         alt="An eye" width="200px"> | <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg"
+         alt="An eye" width="200px"> |
+
+**`dl`, `dt`, and `dd`** example (use for indentation):
 <dl>
   <dt>Markdown</dt>
   <dd>The language used for your GitHub files</dd>
@@ -853,16 +878,7 @@ Inline tags
   <dd>The language used for your GitHub files</dd>
 </dl>
 ```
-
-Personally, I will look into using those tags in my README files and maybe try out *EVERY* HTML tag - when I have more time.
-
-Tags tested: 
-
-- `<small>`: This is <small>smaller text</small>  Nope, did not work
-- `<button>`: <button type="button">Hello!</button> Nope, did not work
-- `<hr>`: Thicker than an H1 & H2 line, thinner than 3 dashes
-- `<table>`: Too much work
-- `<div>`: For styling and spacing
+Pertaining to spacers in between sections, I am experimenting with 8-16px high PNG files with a gradient. I have one of those in my Beginner Git Commands. I want to make one with the gradient colors used for dark and light mode here on GitHub. 
 
 [Back to Top](#back-to-top "Table of contents")
 
@@ -873,8 +889,8 @@ Tags tested:
 1. [GitHub emoji list](https://gist.github.com/rxaviers/7360908) - Emojis list
 1. [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet) - Excellent!
 1. [Emoji list](https://github.com/caiyongji/emoji-list)
-1. [HTML Entities](http://mcdlr.com/8/)
 1. [HTML Entities2](https://www.toptal.com/designers/htmlarrows/symbols/) - Excellent!
+1. [HTML Entities](http://mcdlr.com/8/) - maybe only a few unique vs the above link
 1. [Shields.io](https://shields.io/) - Shields for your projects
 
 [Back to Top](#back-to-top "Table of contents")
