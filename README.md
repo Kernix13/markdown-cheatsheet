@@ -14,7 +14,7 @@ I'm breaking up all the markdown syntax into 7 categories (I'll explain what tho
 
 **NOTE**: To view markdown> in VS Code hit <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+`V` or click the preview button at top right in line with the file name tabs.
 
-<a id="back-to-top"></a>
+<div id="back-to-top"></div>
 
 ## ~~A Literal~~ **Table** of *Contents*
 
@@ -63,6 +63,7 @@ This category deals with the styling of individual words and can be used with ev
 
 - Headings
 - Links
+- Lists (Not Tasks)
 - Blockquotes
 - Table cell values
 - HTML entities (except strikethrough)
@@ -121,13 +122,15 @@ There are 6 headings just like in HTML. Use a single hashtag for H1 and 6 hashta
 **NOTE**: There is an automatic horizontal rule added when you use syntax for H1 and H2.
 
     # MARKDOWN CHEAT SHEET (Heading 1)
-    ## Styles (Heading 2)
+    ## Misc (Heading 2)
     ### Headings (heading 3)
     ### Heading 4 (you most likely will not use H5 or H6) 
 
 Here is an example of using Bold, Italic, and Strikethrough in a heading:
 
     ## ~~A Literal~~ **Table** of *Contents*
+
+As you can see, strikethrough and italic worked on the heading, but using bold did not increase the font weight for the word `Table`.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -144,7 +147,11 @@ This is a nice effect but I don't know why you would use it on GitHub:
 
 ### Tables
 
-Here is a generic table but the Table of Contents above is another version. The pipes create the columns, the colons with dashes create the alignment:
+Here is a generic table but the Table of Contents above is another version. The pipes create the columns, the colons with dashes create the alignment: 
+
+- A colon on the left of the dashes is left-aligned, 
+- A colon on the right is right-aligned, 
+- And a colon on both ends is centered
 
 | Left aligned Content | Center aligned Content | Right aligned Content |
 | :----------- | :-----------: | -----------: |
@@ -152,6 +159,8 @@ Here is a generic table but the Table of Contents above is another version. The 
 | Content Left | Content Center | Content Right |
 | *Italic* | **Bold** | ~~Strikethrough~~ |
 | Content Left | Content Center | Content Right |
+
+<br>
 
 ```
 | Left aligned Content | Center aligned Content | Right aligned Content |
@@ -166,7 +175,7 @@ Here is a generic table but the Table of Contents above is another version. The 
 
 ### Horizontal rules
 
-Use 3 asterisks or dashes with or without a space to create a horizontal rule:
+Use 3 asterisks or 3 dashes with or without a space to create a horizontal rule:
 
 - - - 
 
@@ -207,20 +216,20 @@ Here is a bold, italic and strikethrough link:
 - *[Google](https://google.com)*
 - ~~[Google](https://google.com)~~
 
-Why would you use a strikethorugh effect on a link? I'm not sure. MAybe it would be better to do that than to remove a link in a members area. Otherwise the customer service department may get swamped with tickets.
+Why would you use a strikethorugh effect on a link? I'm not sure. For a page under construction, being moved, etc?
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Anchor
 
-**Same page anchor links**: This can be done in at least two different ways. For all the links in the table of contents I use the simpler method. But for the **Back to Top** link I use an actual `<a>` tag.
+**Same page anchor links**: This can be done in at least two ways. For all the links in the table of contents above I use the simpler method. But for the **Back to Top** link I use an actual `<a>` tag.
 
-For the simple links, use the same syntax as for **Links** above with 2 exceptions for the URL part:
+For the simple links, use the same syntax as for **External Links** above with 2 exceptions for the URL part:
 
-- precede the *URL* with a hashtag
-- use the exact same text as where you are linking to but
-  - all the text needs to be in lowercase, and
-  - all words need to be connected with a dash (no spaces)  
+1. Precede the *URL* with a hashtag
+1. Use the exact same text as where you are linking to but...
+   1. All the text needs to be in lowercase, and
+   1. All words need to be connected with a dash (no spaces)  
 
 Here is an example for the *Strike thru* section:
 
@@ -234,13 +243,20 @@ Here is the matching link for the above:
 
     [Back to Top](#back-to-top)
 
-I actually changed my 'Back to Top' link to be an `<a>` link inside of a `<div>` so that I could align the link to the right. 
+I actually changed my 'Back to Top' link to be an `<a>` link inside of a `<div>` so that I could align the link to the right and use an HTML entity for an arrow up:
+
+```
+<div id="back-to-top"></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+```
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Footnotes
 
-**Footnote links**: I assume footnotes would be useful in a very technical or long README file. Use square brackets where you want a footnote link to appear and use a caret symbol (^) followed by the number of the footnote. Then below that add the same syntax followed by a colon and the note itself. That will make the footnote text appear at the bottom of your file: 
+**Footnote links**: I assume footnotes would be useful in a very technical or long README file. Use square brackets where you want a footnote link to appear and use a caret symbol (^) followed by the number of the footnote. 
+
+Then below that add the same syntax followed by a colon and the note itself - none of that will display on the page. That will make the footnote text appear at the bottom of your file: 
 
 Footnote.[^1]
 
@@ -272,7 +288,7 @@ This category has:
 - Nested lists
 - Task lists
 
-You can use all text effects but with some exceptions: None of the effects work for Task lists, and you don't seem to be able to use VS Code shortcuts (<kbd>SHIFT+*</kbd>, etc) - you have to manually type *, _ or ~. 
+You can use all text effects but with some exceptions: None of the effects work for Task lists, and you don't seem to be able to use VS Code shortcuts (<kbd>SHIFT+*</kbd>, etc) - you have to manually type `*`, `_` or `~`. 
 
 ### Unordered
 
@@ -285,7 +301,7 @@ You can use all text effects but with some exceptions: None of the effects work 
 
 ### Ordered
 
-**Ordered lists**: use a number followed by  a period (1., 2., 3. etc.) to create an ordered list. :
+**Ordered lists**: use a number followed by  a period (1., 2., 3. etc.) and then a space to create an ordered list:
 
 1. Ordered **item** 1
 1. Ordered *item* 2
@@ -302,7 +318,7 @@ You can use all text effects but with some exceptions: None of the effects work 
 
 ### Nested
 
-**Nested list**: Use the <kbd>SPACEBAR</kbd> key to align directly beneath the first character in the parent list item to create a nested list:
+**Nested list**: Use the <kbd>SPACEBAR</kbd> key to align the dash or asterisk directly beneath the first character in the parent list item to create a nested list:
 
 - list item 1
 - list item 2
@@ -364,7 +380,7 @@ This category deals with inline code and various typs of code blocks and none of
 - Code blocks
 - <kbd>TAB</kbd> code blocks
 - Code highlighting blocks
-- Diff code blocks
+- `Diff` code blocks
 
 ### Inline
 
@@ -400,7 +416,7 @@ a {
 
 ### Language block
 
-This is what you want to use. To highlight parts of your code add the language after the opening triple backticks. You'll have to do your own research but so far the following languages work: `md`, `html`, `css`, `js` or `javascript`, `php`, `xml`, `python`, `sql`, and `apacheconf` (for Apache servers). I tried using `node` and `npm` for my node-npm repo but it had no effect.
+This is what you want to use for code blocks. To highlight parts of your code add the language after the opening triple backticks. You'll have to do your own research but so far the following languages work: `md`, `html`, `css`, `js` or `javascript`, `php`, `xml`, `python`, `sql`, and `apacheconf` (for Apache servers). I tried using `node` and `npm` for my node-npm repo but it had no effect.
 
     ```css
     rules here
@@ -454,7 +470,7 @@ This is really nice for highlighting text or code that was changed. Use `diff` a
 
 ## Hidden
 
-This is an odd category with 3 effects, one of which you have probably only seen in discord:
+This is an odd category with 3 effects, one of which you have probably only seen on Discord:
 
 - Comments
 - Spoiler text
@@ -464,7 +480,7 @@ Only Spoiler text accepts text effects.
 
 ### Comments
 
-This is a nice way to add a comment in the editor view of your markdown file. This would be good for teams members editing a documentation page for a new section. The best way is to use HTML syntax:
+This is a nice way to add a comment in the editor view of your markdown file. This would be good for teams members editing a documentation page. The best way is to use HTML syntax:
 
 <!-- There is a comment here that you can't see -->
 
@@ -488,22 +504,22 @@ This isn't a markdown thing but it is another example of using HTML tags in a Ma
 <details>
   <summary>Title 1</summary>
   <p>Some hidden content goes here</p>
-  Here is some more without <p> tags
+  Here is some more without `<p>` tags
 </details>
 <details>
   <summary>Title 2</summary>
   <p>Same stuff here</p>
 </details>
 
-```
+```html
 <details>
   <summary>Title 1</summary>
-  <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
+  <p>Some hidden content goes here</p>
+  Here is some more without `<p>` tags
 </details>
 <details>
   <summary>Title 2</summary>
-  <p>Content 2 Content 2 Content 2 Content 2 Content 2</p>
-  <p>Content 2 Content 2 Content 2 Content 2 Content 2</p>
+  <p>Same stuff here</p>
 </details>
 ```
 
@@ -513,7 +529,7 @@ This isn't a markdown thing but it is another example of using HTML tags in a Ma
 
 ## Visual
 
-The three sections below deal with adding vidual elements to your markdowb file: `images`, `emojis`, `HTML entities`.
+The three sections below deal with adding visual elements to your markdowb file: `images`, `emojis`, and `HTML entities`.
 
 ### Images
 
@@ -538,38 +554,39 @@ Approval: :+1:, :smile:, :ok_hand:, :white_check_mark:, :heavy_check_mark:, :sta
 
 Disapproval, questions, problems: :-1:, :question:, :grey_question:, :x:, :boom:, :bomb:, :astonished:, :warning:, :interrobang:
 
-    questions: :-1:, :question:, :grey_question:, :x:, :boom:, :bomb:, 
-    :astonished:, :warning:, :interrobang:
+    :-1:, :question:, :grey_question:, :x:, :boom:, :bomb:, :astonished:, :warning:, :interrobang:
+    
 
 Directional: :point_right:, :point_left:, :arrow_left:, :arrow_right:, :arrow_up:, :arrow_down:
 
     :point_right:, :point_left:, :arrow_left:, :arrow_right:, :arrow_up:, :arrow_down:
 
-Time, alarms: :bell:, :no_bell:, :hourglass:, :alarm_clock:, :watch:,:calendar:, 
+Time, alarms: :bell:, :no_bell:, :hourglass:, :alarm_clock:, :watch:, :calendar:
 
-    :bell:, :no_bell:, :hourglass:, :alarm_clock:, :watch:, :calendar:, 
+    :bell:, :no_bell:, :hourglass:, :alarm_clock:, :watch:, :calendar:
 
 Weather: :sunny:, :cloud:, :snowflake:, :zap:, :high_brightness:
 
     :sunny:, :cloud:, :snowflake:, :zap:, :high_brightness:
 
-Office/Business: :scissors:, :pushpin:, :paperclip:, :phone:, :copyright:, :email:, 
+Office/Business: :scissors:, :pushpin:, :paperclip:, :phone:, :copyright:, :email:
 
-    :scissors:, :pushpin:, :paperclip:, :phone:, :copyright:, :email:, 
+    :scissors:, :pushpin:, :paperclip:, :phone:, :copyright:, :email:
 
 Miscellaneous/playful: :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mushroom:, :pizza:, :beer:, :icecream:, :sound:, :speaker:, :lock:, :guitar:, :one:, :two: (and other #'s), <br>
-:link:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:, 
+:link:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:
 
-    :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mushroom:, :pizza:, :beer:, 
-    :icecream:, :sound:, :speaker:, :lock:, :email:, :guitar:, :one:, :two: (and other #'s), 
-    :link:, :copyright:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:, 
+```emoji
+:alien:, :green_heart:, :blue_heart:, :purple_heart:, :mushroom:, :pizza:, :beer:, :icecream:, :sound:, :speaker:, :lock:, :guitar:, :one:, :two: (and other #'s), 
+:link:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:
+```
 
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### HTML entities
 
-This actually is not a markdown thing but it's nice having a list for use in your README files. This would be helpful if have a client needing work with a science website, math site, music site, etc. 
+This actually is not a markdown thing but it's nice having a list for use in your README files. This would be helpful if you have a client needing work with a science website, math site, music site, etc. 
 
 Bold, Italic and strikethough work for some of the elements below but not for all of them. And strikethorugh works the least of all. It's up for you to test them. Here is my list:
 
