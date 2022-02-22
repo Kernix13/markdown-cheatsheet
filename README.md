@@ -377,7 +377,7 @@ Here are examples on inline as **`bold`**, *`italic`*, and ~~`strikethrough`~~.
 
 It took me a while how to show the 3 backticks for a code block (next section). For that and other tricky markdown that will not dispay, hit the <kbd>TAB</kbd> button twice then enter your code:
 
-    This is a code block madeby hitting TAB 2 X's
+    This is a code block made by hitting TAB 2 X's
 
 ### Generic
 
@@ -395,7 +395,7 @@ a {
 }
 ```
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&Uarr; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 
 ### Language block
@@ -431,7 +431,7 @@ console.log(${variable})
 <?php the_content(); ?>
 ```
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&mapstoup; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Diff
 
@@ -448,7 +448,7 @@ This is really nice for highlighting text or code that was changed. Use `diff` a
     + this is what it was changed to
     ```
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&uArr; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 - - - 
 
@@ -479,7 +479,7 @@ On Discord you may sometimes see a black rectangle that reveals text or code whe
 
 **NOTE**: This does not work on Slack or here on GitHub.
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Details
 
