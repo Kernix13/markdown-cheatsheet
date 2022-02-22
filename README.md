@@ -504,7 +504,7 @@ This isn't a markdown thing but it is another example of using HTML tags in a Ma
 <details>
   <summary>Title 1</summary>
   <p>Some hidden content goes here</p>
-  Here is some more without `<p>` tags
+  Here is some more without a paragraph tag
 </details>
 <details>
   <summary>Title 2</summary>
@@ -515,7 +515,7 @@ This isn't a markdown thing but it is another example of using HTML tags in a Ma
 <details>
   <summary>Title 1</summary>
   <p>Some hidden content goes here</p>
-  Here is some more without `<p>` tags
+  Here is some more without a paragraph tag
 </details>
 <details>
   <summary>Title 2</summary>
@@ -591,6 +591,8 @@ Miscellaneous/playful: :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mu
 This actually is not a markdown thing but it's nice having a list for use in your README files. This would be helpful if you have a client needing work with a science website, math site, music site, etc. 
 
 Bold, Italic and strikethough work for some of the elements below but not for all of them. And strikethorugh works the least of all. It's up for you to test them. Here is my list:
+
+<br>
 
 **Business & Financial**:
 | Entity | Result| Title |
