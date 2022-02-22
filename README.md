@@ -70,7 +70,7 @@ This category deals with the styling of individual words and can be used with ev
 
 These do not work for the obvious ones (Horizontal Rules, Images, and Emojis), and for all elements in the Code category except inline code. 
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Bold
 
@@ -99,7 +99,7 @@ These do not work for the obvious ones (Horizontal Rules, Images, and Emojis), a
 
 If you want, you can also do **~~bold strikethrough~~**, _~~_italic strikethrough_~~, and ***~~bold italic strikethrough~~***.
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 - - - 
 
@@ -129,7 +129,7 @@ Here is an example of using Bold, Italic, and Strikethrough in a heading:
 
     ## ~~A Literal~~ **Table** of *Contents*
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Blockquotes
 
@@ -162,7 +162,7 @@ Here is a generic table but the Table of Contents above is another version. The 
 | Content Left | Content Center | Content Right |
 ```
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Horizontal rules
 
@@ -179,7 +179,7 @@ Use 3 asterisks or dashes with or without a space to create a horizontal rule:
 
 <hr>
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 - - - 
 
@@ -209,7 +209,7 @@ Here is a bold, italic and strikethrough link:
 
 Why would you use a strikethorugh effect on a link? I'm not sure. MAybe it would be better to do that than to remove a link in a members area. Otherwise the customer service department may get swamped with tickets.
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Anchor
 
@@ -236,7 +236,7 @@ Here is the matching link for the above:
 
 I actually changed my 'Back to Top' link to be an `<a>` link inside of a `<div>` so that I could align the link to the right. 
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Footnotes
 
@@ -259,7 +259,7 @@ Here is the actual footnote syntax:
 [^1]: This is footnote number one.
 [^2]: Here is the second footnote.
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 - - - 
 
@@ -281,7 +281,7 @@ You can use all text effects but with some exceptions: None of the effects work 
 - list item 1
 - list item 2
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Ordered
 
@@ -298,7 +298,7 @@ You can use all text effects but with some exceptions: None of the effects work 
 ```
 **NOTE**: By using "1" for each list item, you can cut & paste to change the order of items and the numbering will change to match the new order. 
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Nested
 
@@ -334,7 +334,7 @@ For a nested ordered list, do the same as for nested unordered lists - align the
 1. Ordered item 3
 ```
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Tasks
 
@@ -352,7 +352,7 @@ You can create what looks like checkboxes and display completed tasks with a che
   - [x] completed subtask
 ```
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 - - - 
 
@@ -395,7 +395,7 @@ a {
 }
 ```
 
-<div align="right">&Uarr; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 
 ### Language block
@@ -431,7 +431,7 @@ console.log(${variable})
 <?php the_content(); ?>
 ```
 
-<div align="right">&mapstoup; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Diff
 
@@ -448,7 +448,7 @@ This is really nice for highlighting text or code that was changed. Use `diff` a
     + this is what it was changed to
     ```
 
-<div align="right">&uArr; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 - - - 
 
@@ -507,7 +507,7 @@ This isn't a markdown thing but it is another example of using HTML tags in a Ma
 </details>
 ```
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 - - - 
 
@@ -523,7 +523,7 @@ Images use the same syntax as **Links** except for the addition of an exclamatio
 
     ![picture alt](https://via.placeholder.com/150 'Title is optional')
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Emojis
 
@@ -565,7 +565,7 @@ Miscellaneous/playful: :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mu
     :link:, :copyright:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:, 
 
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### HTML entities
 
@@ -831,7 +831,7 @@ http://thenewcode.com/1005/Writing-Musical-Notation-on-Web-Pages-The-Basics
 | Return | ↩ |
 | Delete | ⌫ |
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 - - - 
 
@@ -867,7 +867,7 @@ I tested every HTML tag that made sense. I skipped tags like `section`, `header`
 
 Unless there is a way to display the tags differently, then I do not see the point of using `pre`, `table`, `lists`, or `blockquote`. Especially the `table` tag since there are a lot of tags you need to enter.
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Inline HTML tags that work
 
@@ -907,7 +907,7 @@ The only tags worth using IMO:
 - `sup` and `sub` for superscript and subscript
 - `dl` `dt` `dd` maybe for the indentation of the definition
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 <br><br>
 
@@ -982,7 +982,7 @@ Finally, here is code to copy instead of having to type it out each time:
 <div align="center"><img src="link.png" width="200px" title="Image example"></div>
 ```
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ## Resources
 
@@ -991,9 +991,9 @@ Finally, here is code to copy instead of having to type it out each time:
 1. [GitHub emoji list](https://gist.github.com/rxaviers/7360908) - Emojis list
 1. [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet) - Excellent!
 1. [Emoji list](https://github.com/caiyongji/emoji-list) - there are a lot here as well
-1. [HTML Entities2](https://www.toptal.com/designers/htmlarrows/symbols/) - Excellent!
-1. [HTML Entities](http://mcdlr.com/8/) - maybe only a few unique vs the above link
+1. [HTML Entities](https://www.toptal.com/designers/htmlarrows/symbols/) - Excellent!
+1. [HTML Entities2](http://mcdlr.com/8/) - maybe only a few unique vs the above link
 1. [Shields.io](https://shields.io/) - Shields for your projects
 
-<div align="right"><a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
