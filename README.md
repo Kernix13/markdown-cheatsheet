@@ -554,7 +554,8 @@ Approval: :+1:, :smile:, :ok_hand:, :white_check_mark:, :heavy_check_mark:, :sta
 
 Disapproval, questions, problems: :-1:, :question:, :grey_question:, :x:, :boom:, :bomb:, :astonished:, :warning:, :interrobang:
 
-    :-1:, :question:, :grey_question:, :x:, :boom:, :bomb:, :astonished:, :warning:, :interrobang:
+    :-1:, :question:, :grey_question:, :x:, :boom:, :bomb:, :astonished:, 
+    :warning:, :interrobang:
     
 
 Directional: :point_right:, :point_left:, :arrow_left:, :arrow_right:, :arrow_up:, :arrow_down:
@@ -577,7 +578,8 @@ Miscellaneous/playful: :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mu
 :link:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:
 
 ```emoji
-:alien:, :green_heart:, :blue_heart:, :purple_heart:, :mushroom:, :pizza:, :beer:, :icecream:, :sound:, :speaker:, :lock:, :guitar:, :one:, :two: (and other #'s), 
+:alien:, :green_heart:, :blue_heart:, :purple_heart:, :mushroom:, :pizza:, :beer:, 
+:icecream:, :sound:, :speaker:, :lock:, :guitar:, :one:, :two: (and other #'s), 
 :link:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:
 ```
 
@@ -608,6 +610,8 @@ Bold, Italic and strikethough work for some of the elements below but not for al
 | `&#9986;` | &#9986; | Scissors |
 | `&#9888;` | &#9888; | Warning |
 
+<br>
+
 **Directional**:
 | Entity | Result| Title |
 | ---- | ---- | ---- |
@@ -625,6 +629,8 @@ Bold, Italic and strikethough work for some of the elements below but not for al
 | `&#9664;` | &#9664; | Left triangle |
 | `&#10146;` | &#10146; | Arrowhead |
 | `&#10139;` | &#10139; | Drafting point |
+
+<br>
 
 **Math and science**:
 | Entity | Result| Title |
@@ -662,6 +668,9 @@ Zero&#8320; code = `&#8320;` so change 8320 to 8321 for subscript 1 (One&#8321;)
 <!-- 
 http://thenewcode.com/1005/Writing-Musical-Notation-on-Web-Pages-The-Basics 
 -->
+
+<br>
+
 **Music**:
 | Entity | Result| Title |
 | ---- | ---- | ---- |
@@ -723,6 +732,8 @@ http://thenewcode.com/1005/Writing-Musical-Notation-on-Web-Pages-The-Basics
 | `&#119163;` | &#119163; | Accent |
 | `&#119164;` | &#119164; | Staccato |
 
+<br>
+
 **Miscellaneous**:
 | Entity | Result| Title |
 | ---- | ---- | ---- |
@@ -760,6 +771,8 @@ http://thenewcode.com/1005/Writing-Musical-Notation-on-Web-Pages-The-Basics
 | `&#9752;` | &#9752; | Shamrock |
 | `&#9774;` | &#9774; | Peace symbol |
 | `&#10084;` | &#10084; | Heavy heart |
+
+<br>
 
 **Astrology**:
 | Entity | Result| Title |
@@ -801,6 +814,8 @@ http://thenewcode.com/1005/Writing-Musical-Notation-on-Web-Pages-The-Basics
 | ``|  | Quincunx (150&deg;) |
 | `&#9741;`| &#9741; | Opposition (180&deg;) |
 
+<br>
+
 **Esoteric**:
 | Entity | Result| Title |
 | ---- | ---- | ---- |
@@ -834,6 +849,8 @@ http://thenewcode.com/1005/Writing-Musical-Notation-on-Web-Pages-The-Basics
 | `&#10017;`| &#10017; | Seal of Solomon |
 | `&#10029;`| &#10029; | Pentagram |
 
+<br>
+
 **Hotkey list**:
 | Key | Symbol |
 | --- | --- |
@@ -854,7 +871,7 @@ http://thenewcode.com/1005/Writing-Musical-Notation-on-Web-Pages-The-Basics
 
 ## Notes
 
-The one thing I want to look into is using videos, animated GIFs, and more HTML tags in my markdown files. Oh, and also column layouts with tables I assume.
+The one thing I want to look into is using videos, animated GIFs, more HTML tags in my markdown files, and also column layouts using tables.
 
 I used a GitHub generator for my Profile README. In there are `<p>`, `<a>`, and `<img>` tags. In the Details section above, there are `<details>`, `<summary>`, and `<p>` tags. I found this gist called <q>[HTML Tags You Can Use on GitHub](https://gist.github.com/seanh/13a93686bf4c2cb16e658b3cf96807f2)</q>. That document mentions some tags you can use. 
 
