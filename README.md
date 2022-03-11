@@ -808,12 +808,12 @@ http://thenewcode.com/1005/Writing-Musical-Notation-on-Web-Pages-The-Basics
 | `&#9738;`| &#9738; | Ascending node |
 | `&#9739;`| &#9739; | Descending node |
 | `&#9740;`| &#9740; | Conjunction (0&deg;) |
-| ``|  | Semi-sextile (30&deg;) |
+| `&#9914;`| &#9914; | Semi-sextile (30&deg;) |
 | `&ang;`| &ang; | Semi-square (45&deg;) |
-| ``|  | Sextile (60&deg;) |
+| `&#9913;`| &#9913; | Sextile (60&deg;) |
 | `&#9744;`| &#9744; | Square (90&deg;) |
 | ``|  | Trine (120&deg;) |
-| ``|  | Quincunx (150&deg;) |
+| ``| &#9915; | Quincunx (150&deg;) |
 | `&#9741;`| &#9741; | Opposition (180&deg;) |
 
 <br>
@@ -850,6 +850,8 @@ http://thenewcode.com/1005/Writing-Musical-Notation-on-Web-Pages-The-Basics
 | `&#9784;`| &#9784; | Wheel of Dharma |
 | `&#10017;`| &#10017; | Seal of Solomon |
 | `&#10029;`| &#10029; | Pentagram |
+
+NOTE: I ned to get the number ranges for the categories of entities. Check out the first entry of HTML symbols on W3Schools called [UTF-8 General Punctuation](https://www.w3schools.com/charsets/ref_utf_punctuation.asp).
 
 <br>
 
