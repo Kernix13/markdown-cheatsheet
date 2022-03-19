@@ -26,7 +26,7 @@ I'm breaking up all the markdown syntax into 7 categories (I'll explain what tho
 |                        | [Underline](#underline) | `N/A` | 
 | **[Misc](#misc)**:     | [Headings](#headings) | **Yes** |
 |                        | [Blockquotes](#blockquotes) | **Yes** |
-|                        | [Descriptions](#descriptions) | No |
+|                        | [Descriptions](#descriptions) | **Yes*** |
 |                        | [Tables](#tables) | **Yes** |
 |                        | [Horizontal rules](#horizontal-rules) | No |
 | **[Links](#links)**:     | [External](#external) | **Yes** |
@@ -160,15 +160,15 @@ This is a nice effect but I don't know why you would use it on GitHub:
 
 ### Descriptions
 
-The `dl`, `dt`, and `dd` tags work great for descriptons, definitions, etc. FYI, the first "d" stands for description, so the tags are 
+The `dl`, `dt`, and `dd` tags work great for descriptons, definitions, etc. FYI, the first "d" stands for description, so the tags are. The text in the tags can only be styled with the HTML tags related to bold, italic, strikethrough, or underline. As you can see, I used the `ins`, `b`, `em`, and `s` tags in the example below:
 
 - `dl`: description list, the wrapper element for the other two
 - `dt`: description term, that which you are defining or pointing out
 - `dd`: description details, the actual definition or explanantion
 
 <dl>
-  <dt>Description List</dt>
-  <dd>Represents a description list. The <ins>dl</ins> element encloses a list of groups of terms (specified using the <ins><em>dt</em></ins> element) and descriptions (provided by <ins>dd</ins> elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs).</dd>
+  <dt>Description <ins>List</ins></dt>
+  <dd>Represents a description list. The <ins><b><em>dl</em></b></ins> element encloses a list of groups of terms (specified using the <ins><b><em>dt</em></b></ins> element) and descriptions (provided by <ins><b><em>dd</em></b></ins> elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs) (<s>ignore</s>).</dd>
 </dl>
 
 
