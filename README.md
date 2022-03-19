@@ -246,6 +246,7 @@ Here is a bold, italic and strikethrough link:
 - **[Google](https://google.com)**
 - *[Google](https://google.com)*
 - ~~[Google](https://google.com)~~
+- <ins>[Google](https://google.com)</ins>
 
 Why would you use a strikethorugh effect on a link? I'm not sure. For a page under construction, being moved, etc?
 
