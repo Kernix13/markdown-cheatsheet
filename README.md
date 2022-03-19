@@ -25,6 +25,7 @@ I'm breaking up all the markdown syntax into 7 categories (I'll explain what tho
 |                        | [Strike thru](#strike-thru) | `N/A` | 
 | **[Misc](#misc)**:     | [Headings](#headings) | **Yes** |
 |                        | [Blockquotes](#blockquotes) | **Yes** |
+|                        | [Descriptions](#descriptions) | **Yes** |
 |                        | [Tables](#tables) | **Yes** |
 |                        | [Horizontal rules](#horizontal-rules) | No |
 | **[Links](#links)**:     | [External](#external) | **Yes** |
@@ -65,6 +66,7 @@ This category deals with the styling of individual words and can be used with ev
 - Links
 - Lists (Not Tasks)
 - Blockquotes
+- Descriptions
 - Table cell values
 - HTML entities (except strikethrough)
 - Hidden (Spoiler only)
@@ -110,6 +112,7 @@ The elements in this category are all unique and do not fit into any of the othe
 
 - Headings
 - Blockquotes
+- Descriptions
 - Tables
 - Horizontal rule
 
@@ -143,6 +146,16 @@ This is a nice effect but I don't know why you would use it on GitHub:
 > Create a space like above using > with no text
 
     > use greater than sign (>) for a blockquote
+
+
+### Descriptions
+
+The `dl`, `dt`, and `dd` tags workgood for descriptons, definitions, etc.
+
+<dl>
+  <dt>**Markdown** _Cheat_ ~~Sheet~~</dt>
+  <dd>A quick source for making your readme files look great!</dd>
+</dl>
 
 
 ### Tables
