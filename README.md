@@ -16,7 +16,7 @@ I'm breaking up all the markdown syntax into 7 categories (I'll explain what tho
 
 <div id="back-to-top"></div>
 
-## ~~A Literal~~ **Table** of *Contents*
+## ~~A Literal~~ <ins>Table</ins> of _Contents_
 
 | Category | Element | Accepts styles? | 
 | -------: | :------ | :-------------: |
@@ -106,10 +106,10 @@ If you want, you can also do **~~bold strikethrough~~**, _~~_italic strikethroug
 
 The links are GitHub are blue, bold and underlined. The `<ins>` HTML tag underlines text and is normal font color and normal font-weight. No one familiar with GitHub will confuse it for a link. It's another styling effect that I find more useful than srikethrough.
 
-This is <ins>text underlined</ins> with the ins HTML tag.
+This is <ins>text underlined</ins> with the `ins` HTML tag.
 
 ```
-This is <ins>text underlined</ins> with the ins HTML tag.
+This is <ins>text underlined</ins> with the `ins` HTML tag.
 ```
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
@@ -181,7 +181,7 @@ Here is a generic table but the Table of Contents above is another version. The 
 | Content Left | Content Center | Content Right |
 | Content Left | Content Center | Content Right |
 | *Italic* | **Bold** | ~~Strikethrough~~ |
-| Content Left | Content Center | Content Right |
+| <ins>Underlined</ins> | Content Center | Content Right |
 
 <br>
 
