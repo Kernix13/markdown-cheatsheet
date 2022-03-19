@@ -126,7 +126,7 @@ The elements in this category are all unique and do not fit into any of the othe
 - Tables
 - Horizontal rule
 
-All elements in this category accept text effects except for horizontal rule.
+All elements in this category accept text effects except for horizontal rule, and with an exception for descriptions.
 
 ### Headings
 
@@ -151,11 +151,13 @@ As you can see, strikethrough and italic worked on the heading, but using bold d
 
 This is a nice effect but I don't know why you would use it on GitHub:
 
-> Use a greater than sign (>) to quote a team member
+> Use a **greater** than _sign_ (>) to quote a team member
 > 
-> Create a space like above using > with no text
+> Create a <ins>space</ins> like above using > with no text (~~ignore~~)
 
-    > use greater than sign (>) for a blockquote
+    > Use a **greater** than _sign_ (>) to quote a team member
+    > 
+    > Create a <ins>space</ins> like above using > with no text (~~ignore~~)
 
 <br />
 
