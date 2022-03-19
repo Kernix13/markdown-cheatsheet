@@ -2,6 +2,8 @@
 
 All HTML tags tested to see their effect in a markdown file.
 
+<div id="back-to-top"></div>
+
 ## Table of contents
 
 1. [Block level tags](#block-level-tags)
@@ -16,6 +18,8 @@ All HTML tags tested to see their effect in a markdown file.
    1. [Formatting text tags](#formatting-text-tags)
    1. [Inline that worked](#inline-that-worked)
    1. [Inline tag examples](#-nline-tag-examples)
+1. [Block tags that worked](#block-tags-that-worked)
+1. [Inline tags that worked](#inline-tags-that-worked)
 
 ## Block level tags
 
@@ -49,6 +53,8 @@ All HTML tags tested to see their effect in a markdown file.
 | `<figure>`     | Yes     | NO         | NO         | -        |
 | `<form>`       | No      | skip       | -          | -        |
 
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+
 ### Unique HTML tags
 
 8 TAGS WITH ALTERNATE FORMATIING THAT WORKED:
@@ -67,6 +73,8 @@ All HTML tags tested to see their effect in a markdown file.
 | `<table>`      | Yes     | Yes        | Yes        | Inline CSS?    |
 
 NOTE: `dd`, `dt`, `dl` > 1st 'd' stands for description, 'l' for list, 't' for term, and 2nd 'd' for details, or description list, description term, description details.
+
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 <br />
 
@@ -88,6 +96,8 @@ NOTE: `dd`, `dt`, `dl` > 1st 'd' stands for description, 'l' for list, 't' for t
 | `<ul>`         | Yes     | Yes        | Yes        | Inline CSS? |
 | `<li>`         | Yes     | Yes        | Yes        | Inline CSS? |
 | **bold test**  | _italic_  | ~~strikethough~~ |    |              |
+
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Block tag examples
 
@@ -221,6 +231,7 @@ Table tag test: inline css? Bold, italic and strikethough do not work in table c
 </tbody>
 </table>
 
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ## Inline tags
 
@@ -256,7 +267,7 @@ Table tag test: inline css? Bold, italic and strikethough do not work in table c
 | `<tt>`         | No      | N/A |
 | `<wbr>`        | No      | N/A | 
 
-<br />
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Inline that did not work
 
@@ -279,8 +290,7 @@ Table tag test: inline css? Bold, italic and strikethough do not work in table c
 | `<var>`        | Yes     | Yes        | No          | Italic     |
 | `<video>`      | Yes     | No         | No          | -         |
 
-<br />
-
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Formatting text tags
 
@@ -296,7 +306,7 @@ Table tag test: inline css? Bold, italic and strikethough do not work in table c
 | `<i>`          | Yes     | Yes        | -          | italic     |
 | `<ins>`        | Yes     | Yes        | -          | **_Underline_**  |
 
-<br />
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Inline that worked
 
@@ -316,6 +326,7 @@ Table tag test: inline css? Bold, italic and strikethough do not work in table c
 | `<sub>`        | Yes     | Yes        | Yes        | Subscript!       |
 | `<sup>`        | Yes     | Yes        | Yes        | Superscript!     |
 
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Inline tag examples
 
@@ -349,11 +360,17 @@ This is <em>em tag italics</em> same as in *markdown* and how about <i>the i tag
 
 `embed` tag test: DID NOT DISPLAY
 
+<embed type="video/mp4" src="https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164" width="450" height="300">
+
 `ins` and `u` tags test: u tag DID NOT WORK ins tag DID!
 
 Will this <u>be displayed as underlined</u> and what about <ins>the ins tag</ins></u>?
 
 `iframe` tag test: DID NOT DISPLAY
+
+<iframe id="inlineFrameExample" title="Inline Frame Example" width="300" height="200"
+  src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik">
+</iframe>
 
 `mark` tag test: DID NOT DISPLAY
 
@@ -393,6 +410,8 @@ This is a <var>test of the var tag</var>, why would you use it?>
 
 The <q>q tag wraps text in quotes</q>, the kbd tag wraps keyboard stull in a styled format like with <kbd>CTRL</kbd> or <kbd>SHIFT</kbd>.
 
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+
 ## Block tags that worked
 
 Duplicates markdown: `blockquote`, `h1` thru `h6`, `hr`, `ol` `ul` `li`, `pre`, `table`
@@ -416,6 +435,8 @@ Attributes:
 - `p`: global, align (left, center, right)
 
 Unless there is a way to display the tags differently, then I do not see the point of using `pre`, `table`, `lists`, or `blockquote`. Especially the table tag since there are a lot of tags you need to enter.
+
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ## Inline tags that worked
 
@@ -467,3 +488,5 @@ Unless I can find inline styles or attributes that work with all of the above an
 
 <h2 align="center"><ins>Centered h2</ins></h2>
 <h2 align="right">Right h2</h2>
+
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
