@@ -17,7 +17,7 @@ All HTML tags tested to see their effect in a markdown file.
    1. [Inline that did not work](#inline-that-did-not-work)
    1. [Formatting text tags](#formatting-text-tags)
    1. [Inline that worked](#inline-that-worked)
-   1. [Inline tag examples](#-nline-tag-examples)
+   1. [Inline tag examples](#inline-tag-examples)
 1. [Block tags that worked](#block-tags-that-worked)
 1. [Inline tags that worked](#inline-tags-that-worked)
 
@@ -358,6 +358,8 @@ This is <em>em tag italics</em> same as in *markdown* and how about <i>the i tag
 
 <p>A <dfn id="def-validator">validator</dfn> is a program that checks for syntax errors in code or documents.</p>
 
+<button>Button tag</button>
+
 `embed` tag test: DID NOT DISPLAY
 
 <embed type="video/mp4" src="https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164" width="450" height="300">
@@ -396,6 +398,15 @@ H<sub>2</sub> and 2<sup>3</sup> and <sup>o</sup>7
 
 `svg` tag test: DID NOT DISPLAY
 
+<svg viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg" stroke="red" fill="grey">
+  <circle cx="50" cy="50" r="40" />
+  <circle cx="150" cy="50" r="4" />
+
+  <svg viewBox="0 0 10 10" x="200" width="100">
+    <circle cx="5" cy="5" r="4" />
+  </svg>
+</svg>
+
 `time` tag test: DID NOT WORK
 
 <p>The Cure will be celebrating their 40th anniversary on <time datetime="2018-07-07">July 7</time> in London's Hyde Park.</p>
@@ -405,6 +416,13 @@ H<sub>2</sub> and 2<sup>3</sup> and <sup>o</sup>7
 This is a <var>test of the var tag</var>, why would you use it?>
 
 `video` tag test: DID NOT DISPLAY
+
+<video controls width="250">
+  <source
+    src="https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164"
+    type="video/mp4">
+  Sorry, your browser doesn't support embedded videos.
+</video>
 
 `q` and `kbd` tags: WORKED
 
