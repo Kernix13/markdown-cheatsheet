@@ -885,7 +885,7 @@ I tested every HTML tag that made sense. I skipped tags like `section`, `header`
 
 *Duplicates markdown*: `blockquote`, `h1` thru `h6`, `hr`, `ol` `ul` `li`, `pre`, `table`
 
-*No markdown equivalent*: `details` with `summary`, `dl` `dt` `dd` (indent), `div`
+*No markdown equivalent*: `details` with `summary`, `dl` `dt` `dd` (indent), `div`, `fieldset` with or without `legend`.
 
 > Is **align** an attribute? How do I find similar attributes like that?
 

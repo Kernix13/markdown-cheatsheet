@@ -1,10 +1,29 @@
 # HTML Tags that can be used in Markdown files
 
+All HTML tags tested to see their effect in a markdown file.
+
+## Table of contents
+
+1. [Block level tags](#block-level-tags)
+   1. [Semanic tags](#semanic-tags)
+   1. [Skipped block tags](#skipped-block-tags)
+   1. [Unique HTML tags](#unique-html-tags)
+   1. [HTML markdon versions](#html-markdon-versions)
+   1. [Block tag examples](#block-tag-examples)
+1. [Inline tags](#inline-tags)
+   1. [Skipped inline tags](#skipped-inline-tags)
+   1. [Inline that did not work](#inline-that-did-not-work)
+   1. [Formatting text tags](#formatting-text-tags)
+   1. [Inline that worked](#inline-that-worked)
+   1. [Inline tag examples](#-nline-tag-examples)
+
 ## Block level tags
 
 28 tags total
 
-8 Semantic tags: SKIP
+### Semanic tags
+
+9 Semantic tags: SKIP
 
 | HTML Tag       | Tested? | Displayed? | 
 | ---------:     | :-----: | :--------: |
@@ -14,12 +33,13 @@
 | `<header>`     | NO      | N/A       | 
 | `<hgroup>`     | Yes     | N/A       |
 | `<main>`       | NO      | N/A       | 
+| `<menu>`       | NO      | N/A       | 
 | `<nav>`        | NO      | N/A       | 
 | `<section>`    | NO      | N/A       | 
 
-<br />
+### Skipped block tags
 
-6 tags skipped or did not display correctly. Forms, and therefore fieldsets, may need actions to work.
+5 tags skipped or did not display correctly. Forms, and therefore fieldsets, may need actions to work.
 
 | HTML Tag       | Tested? | Displayed? | Correctly? | Why Use? |
 | ---------:     | :-----: | :--------: | :-------:  | :------: |
@@ -27,27 +47,30 @@
 | `<dialog>`     | Yes     | NO         | -          | -        |
 | `<figcaption>` | Yes     | NO         | NO         | -        |
 | `<figure>`     | Yes     | NO         | NO         | -        |
-| `<fieldset>`   | NO      | -          | -          | -        |
 | `<form>`       | No      | skip       | -          | -        |
 
-<br />
+### Unique HTML tags
 
 8 TAGS WITH ALTERNATE FORMATIING THAT WORKED:
 
 | HTML Tag       | Tested? | Displayed? | Correctly? | Why Use? |
-| ---------:     | :-----: | :--------: | :-------:  | :------: |
-| `<blockquote>` | Yes     | YES        | Yes        | Inline CSS? |
-| `<hr>`         | Yes     | Yes        | Yes        | diff size? |
-| `<dd>`         | Yes     | Yes        | Yes        | Indent   |
-| `<dl>`         | Yes     | Yes        | Yes        | Indent   |
-| `<dt>`         | Yes     | Yes        | Yes        | Indent   |
+| ---------:     | :-----: | :--------: | :-------:  | :------:       |
+| `<blockquote>` | Yes     | YES        | Yes        | Inline CSS?    |
+| `<hr>`         | Yes     | Yes        | Yes        | diff size?     |
+| `<dd>`         | Yes     | Yes        | Yes        | Indent         |
+| `<dl>`         | Yes     | Yes        | Yes        | Indent         |
+| `<dt>`         | Yes     | Yes        | Yes        | Indent         |
 | `<details>`    | Yes     | Yes        | Yes        | Hidden content |
+| `<fieldset>`   | Yes     | Yes        | Yes        | -              |
+| `<legend>`     | Yes     | Yes        | Yes        | -              |
 | `<pre>`        | Yes     | Yes        | Yes        | NO NEED TO USE |
-| `<table>`      | Yes     | Yes        | Yes        | Inline CSS? |
+| `<table>`      | Yes     | Yes        | Yes        | Inline CSS?    |
 
-NOTE: dd, dt, dl > 1st 'd' stands for description, 'l' for list, 't' for term, and 2nd 'd' for details, or description list, description term, description details.
+NOTE: `dd`, `dt`, `dl` > 1st 'd' stands for description, 'l' for list, 't' for term, and 2nd 'd' for details, or description list, description term, description details.
 
 <br />
+
+### HTML markdon versions
 
 11 TAGS THAT WORKED BUT ALREADY HAVE CORRESPONDING MARKDOWN TAGS:
 
@@ -65,6 +88,19 @@ NOTE: dd, dt, dl > 1st 'd' stands for description, 'l' for list, 't' for term, a
 | `<ul>`         | Yes     | Yes        | Yes        | Inline CSS? |
 | `<li>`         | Yes     | Yes        | Yes        | Inline CSS? |
 | **bold test**  | _italic_  | ~~strikethough~~ |    |              |
+
+### Block tag examples
+
+  <fieldset>
+    Some text here inside a `fieldset` tag. **Bold**, _italic_, ~~strikethrough~~.
+  </fieldset>
+
+<br />
+
+  <fieldset>
+    <legend>Legend tag: **Bold**, _italic_, ~~strikethrough~~</legend>
+    <code>fieldset</code> tag with a legend tag, inut tags don't display
+  </fieldset>
 
 Address tag check (Did not display as italic and needed `br` tags to display as block? Also, `tel` did not diaply as a link)
   <address>
@@ -117,7 +153,7 @@ Headings and hgroup tag check: no effect for hgroup, inline for headings?
   <p>PARAGRAPH SIZE COMPARED TO HEADING 2 SIZE</p>
   <h3>HEADING 3 SIZE COMPARED TO PARAGRAPH SIZE</h3>
   <p>PARAGRAPH SIZE COMPARED TO HEADING 3 SIZE</p>
-  <h4>MATCH -> HEADING 4 SIZE EQUALS PARAGRAPH SIZE (bold)</h4>
+  <h4>MATCH -> HEADING 4 SIZE EQUALS PARAGRAPH SIZE (bold )</h4>
    <p>MATCH -> PARAGRAPH SIZE EQUALS HEADING 4 SIZE (plain)</p>
   <h5>HEADING 5 SIZE COMPARED TO PARAGRAPH SIZE</h5>
   <p>PARAGRAPH SIZE COMPARED TO HEADING 5 SIZE</p>
@@ -185,24 +221,12 @@ Table tag test: inline css? Bold, italic and strikethough do not work in table c
 </tbody>
 </table>
 
+
 ## Inline tags
 
 55 tags total
 
-8 tags for formatting:
-
-| HTML Tag       | Tested? | Displayed? | Correctly? | Why Use?   |
-| ---------:     | :-----: | :--------: | :-------:  | :------:   |
-| `<b>`          | Yes     | Yes        | -          | Bold       |
-| `<strong>`     | Yes     | Yes        | -          | Bold       |
-| `<del>`        | Yes     | Yes        | No         | strikethru |
-| `<s>`          | Yes     | Yes        | -          | strikethru |
-| `<em>`         | Yes     | Yes        | -          | italic     |
-| `<i>`          | Yes     | Yes        | -          | italic     |
-| `<var>`        | Yes     | Yes        | No         | Italic     |
-| `<ins>`        | Yes     | Yes        |            | Underline  |
-
-<br />
+### Skipped inline tags
 
 23 tags not even tested because they would not provide value, have no visual distinction, or have no application for a markdown file:
 
@@ -234,47 +258,77 @@ Table tag test: inline css? Bold, italic and strikethough do not work in table c
 
 <br />
 
-11 tags tested but did not display:
+### Inline that did not work
+
+14 tags tested but did not display:
 
 | HTML Tag       | Tested? | Displayed? | Correctly? | Why Use? |
 | ---------:     | :-----: | :--------: | :-------:  | :------: |
-| `<audio>`      | YES     | NO         | -          |          |
-| `<big>`        | Yes     | No         | -          |          |
-| `<button>`     | Yes     | No         | -          |          |
-| `<dfn>`        | Yes     | NO         | -          |          |
-| `<embed>`      | Yes     | No         | -          |          |
-| `<iframe>`     | Yes     | No         | -          |          |
-| `<small>`      | Yes     | No         | -          |          |
-| `<svg>`        | Yes     | No         | -          |          |
-| `<time>`       | Yes     | No         | -          |          |
-| `<u>`          | Yes     | No         | -          |          |
-| `<video>`      | Yes     | No         | -          |          |
+| `<audio>`      | YES     | NO         | No          | -         |
+| `<big>`        | Yes     | No         | No          | -         |
+| `<button>`     | Yes     | No         | No          | -         |
+| `<dfn>`        | Yes     | NO         | No          | -         |
+| `<embed>`      | Yes     | No         | No          | -         |
+| `<iframe>`     | Yes     | No         | No          | -         |
+| `<mark>`       | Yes     | NO         | ???         | ???       |
+| `<picture>`    | yES     | ???        | ???         | ???       |
+| `<small>`      | Yes     | No         | No          | -         |
+| `<svg>`        | Yes     | No         | No          | -         |
+| `<time>`       | Yes     | No         | No          | -         |
+| `<u>`          | Yes     | No         | No          | -         |
+| `<var>`        | Yes     | Yes        | No          | Italic     |
+| `<video>`      | Yes     | No         | No          | -         |
 
 <br />
 
-13 tags tested and that worked:
 
-| HTML Tag       | Tested? | Displayed? | Correctly? | Why Use? |
-| ---------:     | :-----: | :--------: | :-------:  | :------: |
+### Formatting text tags
+
+6 TAGS FOR FORMATTING THAT WORKED:
+
+| HTML Tag       | Tested? | Displayed? | Correctly? | Why Use?   |
+| ---------:     | :-----: | :--------: | :-------:  | :------:   |
+| `<b>`          | Yes     | Yes        | -          | Bold       |
+| `<strong>`     | Yes     | Yes        | -          | Bold       |
+| `<s>`          | Yes     | Yes        | -          | strikethru |
+| `<del>`        | Yes     | Yes        | -          | strikethru |
+| `<em>`         | Yes     | Yes        | -          | italic     |
+| `<i>`          | Yes     | Yes        | -          | italic     |
+| `<ins>`        | Yes     | Yes        | -          | **_Underline_**  |
+
+<br />
+
+### Inline that worked
+
+11 TAGS TESTED THAT WORK:
+
+| HTML Tag       | Tested? | Displayed? | Correctly? | Why Use?         |
+| ---------:     | :-----: | :--------: | :-------:  | :------:         |
 | `<a>`          | Yes     | Yes        | Yes        | no inline or target|
-| `<br>`         | YES     | YES        | YES        | Line breaks|
-| `<code>`       | Yes     | Yes        | Yes        | NO NEED TO USE |
-| `<img>`        | Yes     | Yes        |            | Inline CSS? |
-| `<kbd>`        | Yes     | Yes        |            | Styling/Visual |
-| `<mark>`       | Yes     | NO         | -          |          |
-| `<picture>`    | ?       | ?          | ?          | ?        |
-| `<q>`          | Yes     | Yes        |            | Not sure |
-| `<ruby>`       | Yes     | Yes        | -          | NOT APPLICABLE |
-| `<samp>`       | Yes     | Yes        |            | Monospaced font! |
-| `<span>`       | Yes     | -          | -          | Uses?     |
-| `<sub>`        | Yes     | Yes        |            | Subscript! |
-| `<sup>`        | Yes     | Yes        |            | Superscript! |
+| `<br>`         | YES     | YES        | YES        | Line breaks      |
+| `<code>`       | Yes     | Yes        | Yes        | NO NEED TO USE   |
+| `<img>`        | Yes     | Yes        | Yes        | Inline CSS?      |
+| `<kbd>`        | Yes     | Yes        | Yes        | Styling/Visual   |
+| `<q>`          | Yes     | Yes        | Yes        | Not sure         |
+| `<ruby>`       | Yes     | Yes        | -          | NOT APPLICABLE   |
+| `<samp>`       | Yes     | Yes        | Yes        | Monospaced font! |
+| `<span>`       | Yes     | N/A        | Yes        | Uses?            |
+| `<sub>`        | Yes     | Yes        | Yes        | Subscript!       |
+| `<sup>`        | Yes     | Yes        | Yes        | Superscript!     |
+
+
+### Inline tag examples
 
 Testing `a` tag: _blank, and inline styles DID NOT WORK
 
 <a href="https://google.com" target="_blank" style="text-decoration: overline underline; font-family: cursive">GOOGLE</a>
 
-Testing `audio` tag: DID NOT DISPLAY
+Testing `audio` tag: visually appeared but does not function.
+
+<audio controls src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3">
+    Your browser does not support the
+    <code>audio</code> element.
+</audio>
 
 `b` and `strong` tags test: <br> ALL DISPLAYED
 <b>Bold text</b> same as in **markdown** and how about <strong> the strong tag</strong>.
@@ -289,7 +343,9 @@ This is a test of the <code>code tag</code> same as `backticks` I bet.
 
 `dfn`, `em` and `i` tags test: EM and I WORKED, DFN DID NOT 
 
-This is <em>em tag italics</em> same as in *markdown* and how about <i>the i tag</i> and <dfn>the dfn tag</dfn>.
+This is <em>em tag italics</em> same as in *markdown* and how about <i>the i tag</i> and <dfn>the dfn tag</dfn>. 
+
+<p>A <dfn id="def-validator">validator</dfn> is a program that checks for syntax errors in code or documents.</p>
 
 `embed` tag test: DID NOT DISPLAY
 
