@@ -160,11 +160,15 @@ This is a nice effect but I don't know why you would use it on GitHub:
 
 ### Descriptions
 
-The `dl`, `dt`, and `dd` tags workgood for descriptons, definitions, etc.
+The `dl`, `dt`, and `dd` tags work great for descriptons, definitions, etc. FYI, the first "d" stands for description, so the tags are 
+
+- `dl`: description list, the wrapper element for the other two
+- `dt`: description term, that which you are defining or pointing out
+- `dd`: description details, the actual definition or explanantion
 
 <dl>
-  <dt>Markdown Cheat Sheet</dt>
-  <dd>A **quick** _source_ ~~for~~ making your readme files look great!</dd>
+  <dt>Description List</dt>
+  <dd>Represents a description list. The <ins>dl</ins> element encloses a list of groups of terms (specified using the <ins><em>dt</em></ins> element) and descriptions (provided by <ins>dd</ins> elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs).</dd>
 </dl>
 
 
