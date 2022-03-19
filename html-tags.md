@@ -287,7 +287,6 @@ Table tag test: inline css? Bold, italic and strikethough do not work in table c
 | `<svg>`        | Yes     | No         | No          | -         |
 | `<time>`       | Yes     | No         | No          | -         |
 | `<u>`          | Yes     | No         | No          | -         |
-| `<var>`        | Yes     | Yes        | No          | Italic     |
 | `<video>`      | Yes     | No         | No          | -         |
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
@@ -304,6 +303,7 @@ Table tag test: inline css? Bold, italic and strikethough do not work in table c
 | `<del>`        | Yes     | Yes        | -          | strikethru |
 | `<em>`         | Yes     | Yes        | -          | italic     |
 | `<i>`          | Yes     | Yes        | -          | italic     |
+| `<var>`        | Yes     | Yes        | No         | Italic     |
 | `<ins>`        | Yes     | Yes        | -          | **_Underline_**  |
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
@@ -334,7 +334,7 @@ Testing `a` tag: _blank, and inline styles DID NOT WORK
 
 <a href="https://google.com" target="_blank" style="text-decoration: overline underline; font-family: cursive">GOOGLE</a>
 
-Testing `audio` tag: visually appeared but does not function.
+Testing `audio` tag: visually appeared in VS Code preview but not on GitHub and does not function.
 
 <audio controls src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3">
     Your browser does not support the
@@ -358,7 +358,7 @@ This is <em>em tag italics</em> same as in *markdown* and how about <i>the i tag
 
 <p>A <dfn id="def-validator">validator</dfn> is a program that checks for syntax errors in code or documents.</p>
 
-<button>Button tag</button>
+<button>Button tag does not work</button>
 
 `embed` tag test: DID NOT DISPLAY
 
@@ -378,7 +378,7 @@ Will this <u>be displayed as underlined</u> and what about <ins>the ins tag</ins
 
 This is a <mark>mark tag</mark>, does it work?
 
-`ruby` tag test: worked but no need
+`ruby` tag test: worked but not applicable to me
 
 <ruby>
 明日 <rp>(</rp><rt>Ashita</rt><rp>)</rp>
@@ -386,7 +386,7 @@ This is a <mark>mark tag</mark>, does it work?
 
 `samp` tag test: WORKED
 
-<p>This is regular text. <samp>Keyboard not found. Press F1 to continue</samp> and so is this.</p>
+<p>This is regular text. <samp>SAMP monospaced text: Keyboard not found. Press F1 to continue</samp> and so is this.</p>
 
 `small` and `big` tags test: DID NOT DISPLAY
 
@@ -434,7 +434,7 @@ The <q>q tag wraps text in quotes</q>, the kbd tag wraps keyboard stull in a sty
 
 Duplicates markdown: `blockquote`, `h1` thru `h6`, `hr`, `ol` `ul` `li`, `pre`, `table`
 
-Worked but unsure of use: address`, `details` with `summary`, `dl` `dt` `dd` (indent), `div`
+Worked but unsure of use: `details` with `summary`, `dl` `dt` `dd` (indent), `div`
 
 > Is align an attribute? How do I find similar attributes like that?
 
@@ -461,7 +461,7 @@ Unless there is a way to display the tags differently, then I do not see the poi
 Duplicates markdown:
 `a`, `b` and `strong` (BOLD), `code`, `del` and `s` (Strikethrough), `em` and `i` and `var` (Italics), `img` (width, align [left, center, right])
 
-Worked but unsure of use:
+Worked:
 `br` (line break), `ins` (underline), `sub` and `sup` (Obvious), `samp` (Monospaced font), `q` (quotes), `kbd` (format)
 
 > Do they accept inline CSS?
