@@ -2,38 +2,69 @@
 
 ## Block level tags
 
-28 tags
+28 tags total
+
+8 Semantic tags: SKIP
+
+| HTML Tag       | Tested? | Displayed? | 
+| ---------:     | :-----: | :--------: |
+| `<article>`    | NO      | N/A       | 
+| `<aside>`      | NO      | N/A       | 
+| `<footer>`     | NO      | N/A       | 
+| `<header>`     | NO      | N/A       | 
+| `<hgroup>`     | Yes     | N/A       |
+| `<main>`       | NO      | N/A       | 
+| `<nav>`        | NO      | N/A       | 
+| `<section>`    | NO      | N/A       | 
+
+<br />
+
+6 tags skipped or did not display correctly. Forms, and therefore fieldsets, may need actions to work.
 
 | HTML Tag       | Tested? | Displayed? | Correctly? | Why Use? |
 | ---------:     | :-----: | :--------: | :-------:  | :------: |
-| `<address>`    | Yes     | YES        | yes & no   | p tags directly below each other      |
-| `<article>`    | NO      | skip       | -          | -        |
-| `<aside>`      | NO      | skip       | -          | -        |
-| `<blockquote>` | Yes     | YES        | Yes        | Inline CSS? |
-| `<details>`    | Yes     | Yes        | Yes        | Not sure |
+| `<address>`    | Yes     | YES        | No         | no italics, needed br tags |
 | `<dialog>`     | Yes     | NO         | -          | -        |
-| `<dd>`         | Yes     | Yes        | Yes        | Indent   |
-| `<div>`        | Yes     | Yes        | ?          | Styling? |
-| `<dl>`         | Yes     | Yes        | Yes        | Indent   |
-| `<dt>`         | Yes     | Yes        | Yes        | Indent   |
-| `<fieldset>`   | NO      | -          | -          | -        |
 | `<figcaption>` | Yes     | NO         | NO         | -        |
 | `<figure>`     | Yes     | NO         | NO         | -        |
-| `<footer>`     | NO      | skip       | -          | -        |
+| `<fieldset>`   | NO      | -          | -          | -        |
 | `<form>`       | No      | skip       | -          | -        |
-| h1-h6          | Yes     | Yes        | Yes        | Inline CSS? |
-| `<header>`     | NO      | -          | -          | -        |
-| `<hgroup>`     | Yes     | skip       | -          | -        |
-| `<hr>`         | Yes     | Yes        |            | diff sizes? |
-| `<li>`         | Yes     |Yes         | Yes        | Inline CSS? |
-| `<main>`       | NO      | skip       | -          | -        |
-| `<nav>`        | NO      | skip       | -          | -        |
-| `<ol>`         | Yes     | Yes        | Yes        | Inline CSS? |
-| `<p>`          | Yes     | Yes        | Yes        | Inline CSS? |
-| `<pre>`        | Yes     | Yes        | Yes        | DON'T    |
-| `<section>`    | NO      | skip       | -          | -        |
+
+<br />
+
+8 TAGS WITH ALTERNATE FORMATIING THAT WORKED:
+
+| HTML Tag       | Tested? | Displayed? | Correctly? | Why Use? |
+| ---------:     | :-----: | :--------: | :-------:  | :------: |
+| `<blockquote>` | Yes     | YES        | Yes        | Inline CSS? |
+| `<hr>`         | Yes     | Yes        | Yes        | diff size? |
+| `<dd>`         | Yes     | Yes        | Yes        | Indent   |
+| `<dl>`         | Yes     | Yes        | Yes        | Indent   |
+| `<dt>`         | Yes     | Yes        | Yes        | Indent   |
+| `<details>`    | Yes     | Yes        | Yes        | Hidden content |
+| `<pre>`        | Yes     | Yes        | Yes        | NO NEED TO USE |
 | `<table>`      | Yes     | Yes        | Yes        | Inline CSS? |
-| `<ul>`         | Yes     | Yes        | Yes        | Inline CSS  |
+
+NOTE: dd, dt, dl > 1st 'd' stands for description, 'l' for list, 't' for term, and 2nd 'd' for details, or description list, description term, description details.
+
+<br />
+
+11 TAGS THAT WORKED BUT ALREADY HAVE CORRESPONDING MARKDOWN TAGS:
+
+| HTML Tag       | Tested? | Displayed? | Correctly? | Why Use? |
+| ---------:     | :-----: | :--------: | :-------:  | :------: |
+| `<div>`        | Yes     | Yes        | Yes        | Inline CSS? |
+| `<p>`          | Yes     | Yes        | Yes        | Inline CSS? |
+| `<h1>`         | Yes     | Yes        | Yes        | Inline CSS? |
+| `<h2>`         | Yes     | Yes        | Yes        | Inline CSS? |
+| `<h3>`         | Yes     | Yes        | Yes        | Inline CSS? |
+| `<h4>`         | Yes     | Yes        | Yes        | Inline CSS? |
+| `<h5>`         | Yes     | Yes        | Yes        | Inline CSS? |
+| `<h6>`         | Yes     | Yes        | Yes        | Inline CSS? |
+| `<ol>`         | Yes     | Yes        | Yes        | Inline CSS? |
+| `<ul>`         | Yes     | Yes        | Yes        | Inline CSS? |
+| `<li>`         | Yes     | Yes        | Yes        | Inline CSS? |
+| **bold test**  | _italic_  | ~~strikethough~~ |    |              |
 
 Address tag check (Did not display as italic but lines were directly below each other but was that the br tags and not the address tags? Also, `tel` did not diaply as a link)
   <address>
@@ -80,6 +111,21 @@ Headings and hgroup tag check: no effect for hgroup, inline for headings?
   <h6>six</h6>
 </hgroup>
 
+  <h1>HEADING 1 SIZE COMPARED TO PARAGRAPH SIZE</h1>
+  <p>PARAGRAPH SIZE COMPARED TO HEADING 1 SIZE</p>
+  <h2>HEADING 2 SIZE COMPARED TO PARAGRAPH SIZE</h2>
+  <p>PARAGRAPH SIZE COMPARED TO HEADING 2 SIZE</p>
+  <h3>HEADING 3 SIZE COMPARED TO PARAGRAPH SIZE</h3>
+  <p>PARAGRAPH SIZE COMPARED TO HEADING 3 SIZE</p>
+  <h4>MATCH -> HEADING 4 SIZE EQUALS PARAGRAPH SIZE</h4>
+   <p>MATCH -> PARAGRAPH SIZE EQUALS HEADING 4 SIZE</p>
+  <h5>HEADING 5 SIZE COMPARED TO PARAGRAPH SIZE</h5>
+  <p>PARAGRAPH SIZE COMPARED TO HEADING 5 SIZE</p>
+  <h6>HEADING 6 SIZE COMPARED TO PARAGRAPH SIZE</h6>
+  <p>PARAGRAPH SIZE COMPARED TO HEADING 6 SIZE</p>
+
+Takeaway: Consider `h5` or `#####` and `h6` or `######` for a smaller font size block element. 
+
 ol, li, ul tags check: all worked, inline css?
 <ul>
   <li>unordered</li>
@@ -88,14 +134,14 @@ ol, li, ul tags check: all worked, inline css?
   <li>ordered</li>
 </ol>
 
-Pre tag check: exactly the same as code blocks
+Pre tag check: exactly the same as code blocks BUT WITHOUT CODE HIGHLIGHTING
 <pre>
   function testFx() {
     console.log("Hello");
   }
 </pre>
 
-Table tag test: inline css?
+Table tag test: inline css? Bold, italic and strikethough do not work in table cells, but they do in markdown tables!!!
 <table>
 <thead>
 <tr>
