@@ -366,7 +366,7 @@ This is <em>em tag italics</em> same as in *markdown* and how about <i>the i tag
 
 Will this <u>be displayed as underlined</u> and what about <ins>the ins tag</ins></u>?
 
-`iframe` tag test: DID NOT DISPLAY
+`iframe` tag test: DID NOT DISPLAY and for some reason displays the code unlike the other elements that just did not display.
 
 <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik" id="inlineFrameExample" title="Inline Frame Example" width="300" height="200">
 </iframe>
