@@ -141,7 +141,7 @@ There are 6 headings just like in HTML. Use a single hashtag for H1 and 6 hashta
 
 Here is an example of using Bold, Italic, and Strikethrough in a heading:
 
-    ## ~~A Literal~~ **Table** of *Contents*
+    ## ~~A Literal~~ <ins>Table</ins> of _Contents_
 
 As you can see, strikethrough and italic worked on the heading, but using bold did not increase the font weight for the word `Table`.
 
@@ -157,6 +157,7 @@ This is a nice effect but I don't know why you would use it on GitHub:
 
     > use greater than sign (>) for a blockquote
 
+<br />
 
 ### Descriptions
 
@@ -171,6 +172,7 @@ The `dl`, `dt`, and `dd` tags work great for descriptons, definitions, etc. FYI,
   <dd>Represents a description list. The <ins><b><em>dl</em></b></ins> element encloses a list of groups of terms (specified using the <ins><b><em>dt</em></b></ins> element) and descriptions (provided by <ins><b><em>dd</em></b></ins> elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs) (<s>ignore</s>).</dd>
 </dl>
 
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Tables
 
@@ -181,21 +183,21 @@ Here is a generic table but the Table of Contents above is another version. The 
 - And a colon on both ends is centered
 
 | Left aligned Content | Center aligned Content | Right aligned Content |
-| :----------- | :-----------: | -----------: |
-| Content Left | Content Center | Content Right |
-| Content Left | Content Center | Content Right |
-| *Italic* | **Bold** | ~~Strikethrough~~ |
-| <ins>Underlined</ins> | Content Center | Content Right |
+| :-----------         | :-----------:          | -----------: |
+| Content Left         | Content Center         | Content Right |
+| Content Left         | Content Center         | Content Right |
+| *Italic*             | **Bold**               | ~~Strikethrough~~ |
+| <ins>Underlined</ins> | Content Center        | Content Right |
 
 <br>
 
 ```
 | Left aligned Content | Center aligned Content | Right aligned Content |
-| :----------- | :-----------: | -----------: |
-| Content Left | Content Center | Content Right |
-| Content Left | Content Center | Content Right |
-| Content Left | Content Center | Content Right |
-| Content Left | Content Center | Content Right |
+| :-----------         | :-----------:          | -----------: |
+| Content Left         | Content Center         | Content Right |
+| Content Left         | Content Center         | Content Right |
+| *Italic*             | **Bold**               | ~~Strikethrough~~ |
+| <ins>Underlined</ins> | Content Center        | Content Right |
 ```
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
