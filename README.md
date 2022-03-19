@@ -885,7 +885,7 @@ I tested every HTML tag that made sense. I skipped tags like `section`, `header`
 
 *Duplicates markdown*: `blockquote`, `h1` thru `h6`, `hr`, `ol` `ul` `li`, `pre`, `table`
 
-*No markdown equivalent*: `address`, `details` with `summary`, `dl` `dt` `dd` (indent), `div`
+*No markdown equivalent*: `details` with `summary`, `dl` `dt` `dd` (indent), `div`
 
 > Is **align** an attribute? How do I find similar attributes like that?
 
@@ -897,7 +897,6 @@ I tested every HTML tag that made sense. I skipped tags like `section`, `header`
 - `li`: global
 - `pre`: global
 - `table`: global
-- `address`: global
 - `details`, `summary`: global  
 - `dl`, `dt`, `dd`: global
 - `div`: global, align (left, center, right)
@@ -937,7 +936,7 @@ The only tags worth using IMO:
 - `headings` align center or right
 - `p` for align center or right
 - `div` as visual dividers using dash (-) or underscore (_) or equals (=) or other characters. But can't you just use the characters instead?
-- `br` for line breaks of paragrpah text like the `address` tag or as a alternate spacer to `div`
+- `br` for line breaks of paragrpah text or as a alternate spacer to `div`
 - `img` to set width and height and align of center or right
 - `ins` for underline
 - `kbd` for keyboard keys

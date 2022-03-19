@@ -66,7 +66,7 @@ NOTE: dd, dt, dl > 1st 'd' stands for description, 'l' for list, 't' for term, a
 | `<li>`         | Yes     | Yes        | Yes        | Inline CSS? |
 | **bold test**  | _italic_  | ~~strikethough~~ |    |              |
 
-Address tag check (Did not display as italic but lines were directly below each other but was that the br tags and not the address tags? Also, `tel` did not diaply as a link)
+Address tag check (Did not display as italic and needed `br` tags to display as block? Also, `tel` did not diaply as a link)
   <address>
       <a href="mailto:jim@rock.com">jim@rock.com</a><br>
       <a href="tel:+13115552368">(311) 555-2368</a><br>
@@ -117,8 +117,8 @@ Headings and hgroup tag check: no effect for hgroup, inline for headings?
   <p>PARAGRAPH SIZE COMPARED TO HEADING 2 SIZE</p>
   <h3>HEADING 3 SIZE COMPARED TO PARAGRAPH SIZE</h3>
   <p>PARAGRAPH SIZE COMPARED TO HEADING 3 SIZE</p>
-  <h4>MATCH -> HEADING 4 SIZE EQUALS PARAGRAPH SIZE</h4>
-   <p>MATCH -> PARAGRAPH SIZE EQUALS HEADING 4 SIZE</p>
+  <h4>MATCH -> HEADING 4 SIZE EQUALS PARAGRAPH SIZE (bold)</h4>
+   <p>MATCH -> PARAGRAPH SIZE EQUALS HEADING 4 SIZE (plain)</p>
   <h5>HEADING 5 SIZE COMPARED TO PARAGRAPH SIZE</h5>
   <p>PARAGRAPH SIZE COMPARED TO HEADING 5 SIZE</p>
   <h6>HEADING 6 SIZE COMPARED TO PARAGRAPH SIZE</h6>
@@ -187,65 +187,88 @@ Table tag test: inline css? Bold, italic and strikethough do not work in table c
 
 ## Inline tags
 
-55 tags
+55 tags total
+
+8 tags for formatting:
+
+| HTML Tag       | Tested? | Displayed? | Correctly? | Why Use?   |
+| ---------:     | :-----: | :--------: | :-------:  | :------:   |
+| `<b>`          | Yes     | Yes        | -          | Bold       |
+| `<strong>`     | Yes     | Yes        | -          | Bold       |
+| `<del>`        | Yes     | Yes        | No         | strikethru |
+| `<s>`          | Yes     | Yes        | -          | strikethru |
+| `<em>`         | Yes     | Yes        | -          | italic     |
+| `<i>`          | Yes     | Yes        | -          | italic     |
+| `<var>`        | Yes     | Yes        | No         | Italic     |
+| `<ins>`        | Yes     | Yes        |            | Underline  |
+
+<br />
+
+23 tags not even tested because they would not provide value, have no visual distinction, or have no application for a markdown file:
+
+| HTML Tag       | Tested? | Displayed? | 
+| ---------:     | :-----: | :--------: | 
+| `<abbr>`       | NO      | N/A |
+| `<acronym>`    | NO      | N/A |
+| `<bdi>`        | No      | N/A |
+| `<bdo>`        | No      | N/A |
+| `<canvas>`     | No      | N/A |
+| `<cite>`       | No      | N/A |
+| `<data>`       | NO      | N/A |
+| `<datalist>`   | NO      | N/A |
+| `<input>`      | No      | N/A |
+| `<label>`      | No      | N/A |
+| `<map>`        | No      | N/A |
+| `<meter>`      | No      | N/A |
+| `<noscript>`   | No      | N/A |
+| `<object>`     | No      | N/A |
+| `<output>`     | No      | N/A |
+| `<progress>`   | No      | N/A |
+| `<script>`     | No      | N/A |
+| `<select>`     | No      | N/A |
+| `<slot>`       | No      | N/A |
+| `<template>`   | No      | N/A |
+| `<textarea>`   | No      | N/A |
+| `<tt>`         | No      | N/A |
+| `<wbr>`        | No      | N/A | 
+
+<br />
+
+11 tags tested but did not display:
+
+| HTML Tag       | Tested? | Displayed? | Correctly? | Why Use? |
+| ---------:     | :-----: | :--------: | :-------:  | :------: |
+| `<audio>`      | YES     | NO         | -          |          |
+| `<big>`        | Yes     | No         | -          |          |
+| `<button>`     | Yes     | No         | -          |          |
+| `<dfn>`        | Yes     | NO         | -          |          |
+| `<embed>`      | Yes     | No         | -          |          |
+| `<iframe>`     | Yes     | No         | -          |          |
+| `<small>`      | Yes     | No         | -          |          |
+| `<svg>`        | Yes     | No         | -          |          |
+| `<time>`       | Yes     | No         | -          |          |
+| `<u>`          | Yes     | No         | -          |          |
+| `<video>`      | Yes     | No         | -          |          |
+
+<br />
+
+13 tags tested and that worked:
 
 | HTML Tag       | Tested? | Displayed? | Correctly? | Why Use? |
 | ---------:     | :-----: | :--------: | :-------:  | :------: |
 | `<a>`          | Yes     | Yes        | Yes        | no inline or target|
-| `<abbr>`       | NO      | -          | -          |          |
-| `<acronym>`    | NO      | -          | -          |          |
-| `<audio>`      | YES     | NO         | -          |          |
-| `<b>`          | Yes     | Yes        | -          | Bold?    |
-| `<bdi>`        | No      | -          | -          |          |
-| `<bdo>`        | No      | -          | -          |          |
-| `<big>`        | Yes     | No          | -          |          |
 | `<br>`         | YES     | YES        | YES        | Line breaks|
-| `<button>`     | Yes     | No         | -          |          |
-| `<canvas>`     | No      | -          | -          |          |
-| `<cite>`       | No      | -          | -          |          |
-| `<code>`       | Yes     | Yes        | Yes        | DON'T    |
-| `<data>`       | NO      | -          | -          |          |
-| `<datalist>`   | NO      | -          | -          |          |
-| `<del>`        | Yes     | Yes        | No         | strikethru |
-| `<dfn>`        | Yes     | NO         | -          |          |
-| `<em>`         | Yes     | Yes        | -          | italics   |
-| `<embed>`      | Yes     | No         | -          |          |
-| `<i>`          | Yes     | Yes        | -          | italics |
-| `<iframe>`     | Yes     | No         | -          |        |
+| `<code>`       | Yes     | Yes        | Yes        | NO NEED TO USE |
 | `<img>`        | Yes     | Yes        |            | Inline CSS? |
-| `<input>`      | No      | -          | -          |          |
-| `<ins>`        | Yes     | Yes        |            | Underline |
 | `<kbd>`        | Yes     | Yes        |            | Styling/Visual |
-| `<label>`      | No      | -          | -          |          |
-| `<map>`        | No      | -          | -          |          |
 | `<mark>`       | Yes     | NO         | -          |          |
-| `<meter>`      | No      | -          | -          |          |
-| `<noscript>`   | No      | -          | -          |          |
-| `<object>`     | No      | -          | -          |          |
-| `<output>`     | No      | -          | -          |          |
 | `<picture>`    | ?       | ?          | ?          | ?        |
-| `<progress>`   | No      | -          | -          |          |
 | `<q>`          | Yes     | Yes        |            | Not sure |
-| `<ruby>`       | Yes     | Yes        | -          | DON'T    |
-| `<s>`          | Yes     | Yes        | -          | strikethru |
-| `<samp>`       | Yes     | Yes        |            | Monospaced font |
-| `<script>`     | No      | -          | -          |          |
-| `<select>`     | No      | -          | -          |          |
-| `<slot>`       | No      | -          | -          |          |
-| `<small>`      | Yes     | No         | -          |          |
-| `<span>`       | Yes     | -          | -          | Why?     |
-| `<strong>`     | Yes     | Yes        | -          | Bold     |
-| `<sub>`        | Yes     | Yes        |            | Subscript |
-| `<sup>`        | Yes     | Yes        |            | Subscript |
-| `<svg>`        | Yes     | No         | -          |          |
-| `<template>`   | No      | -          | -          |          |
-| `<textarea>`   | No      | -          | -          |          |
-| `<time>`       | Yes     | No         | -          |          |
-| `<u>`          | Yes     | No         | -          |          |
-| `<tt>`         | No      | -          | -          |          |
-| `<var>`        | Yes     | Yes        | No         | ITALICS? |
-| `<video>`      | Yes     | No         | -          |          |
-| `<wbr>`        | No      | -          | -          |          | 
+| `<ruby>`       | Yes     | Yes        | -          | NOT APPLICABLE |
+| `<samp>`       | Yes     | Yes        |            | Monospaced font! |
+| `<span>`       | Yes     | -          | -          | Uses?     |
+| `<sub>`        | Yes     | Yes        |            | Subscript! |
+| `<sup>`        | Yes     | Yes        |            | Superscript! |
 
 Testing `a` tag: _blank, and inline styles DID NOT WORK
 
