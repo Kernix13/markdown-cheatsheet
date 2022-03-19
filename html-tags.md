@@ -76,8 +76,6 @@ NOTE: `dd`, `dt`, `dl` > 1st 'd' stands for description, 'l' for list, 't' for t
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
-<br />
-
 ### HTML markdon versions
 
 11 TAGS THAT WORKED BUT ALREADY HAVE CORRESPONDING MARKDOWN TAGS:
@@ -297,14 +295,14 @@ Table tag test: inline css? Bold, italic and strikethough do not work in table c
 
 | HTML Tag       | Tested? | Displayed? | Correctly? | Why Use?   |
 | ---------:     | :-----: | :--------: | :-------:  | :------:   |
-| `<b>`          | Yes     | Yes        | -          | Bold       |
-| `<strong>`     | Yes     | Yes        | -          | Bold       |
-| `<s>`          | Yes     | Yes        | -          | strikethru |
-| `<del>`        | Yes     | Yes        | -          | strikethru |
-| `<em>`         | Yes     | Yes        | -          | italic     |
-| `<i>`          | Yes     | Yes        | -          | italic     |
-| `<var>`        | Yes     | Yes        | No         | Italic     |
-| `<ins>`        | Yes     | Yes        | -          | **_Underline_**  |
+| `<b>`          | Yes     | Yes        | -          | <b>Bold</b> |
+| `<strong>`     | Yes     | Yes        | -          | <strong>Bold</strong> |
+| `<s>`          | Yes     | Yes        | -          | <s>strikethru</s> |
+| `<del>`        | Yes     | Yes        | -          | <del>strikethru</del> |
+| `<em>`         | Yes     | Yes        | -          | <em>italic</em> |
+| `<i>`          | Yes     | Yes        | -          | <i>italic</i> |
+| `<var>`        | Yes     | Yes        | No         | <var>Italic</var>     |
+| `<ins>`        | Yes     | Yes        | -          | <ins>Underline</ins>  |
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 

@@ -23,9 +23,10 @@ I'm breaking up all the markdown syntax into 7 categories (I'll explain what tho
 | **[Styles](#styles)**: | [Bold](#bold) | `N/A` |
 |                        | [Italic](#italic) | `N/A` |
 |                        | [Strike thru](#strike-thru) | `N/A` | 
+|                        | [Underline](#underline) | `N/A` | 
 | **[Misc](#misc)**:     | [Headings](#headings) | **Yes** |
 |                        | [Blockquotes](#blockquotes) | **Yes** |
-|                        | [Descriptions](#descriptions) | **Yes** |
+|                        | [Descriptions](#descriptions) | No |
 |                        | [Tables](#tables) | **Yes** |
 |                        | [Horizontal rules](#horizontal-rules) | No |
 | **[Links](#links)**:     | [External](#external) | **Yes** |
@@ -66,7 +67,6 @@ This category deals with the styling of individual words and can be used with ev
 - Links
 - Lists (Not Tasks)
 - Blockquotes
-- Descriptions
 - Table cell values
 - HTML entities (except strikethrough)
 - Hidden (Spoiler only)
@@ -101,6 +101,16 @@ These do not work for the obvious ones (Horizontal Rules, Images, and Emojis), a
     ~~double tildes~~
 
 If you want, you can also do **~~bold strikethrough~~**, _~~_italic strikethrough_~~, and ***~~bold italic strikethrough~~***.
+
+### Underline
+
+The links are GitHub are blue, bold and underlined. The `<ins>` HTML tag underlines text and is normal font color and normal font-weight. No one familiar with GitHub will confuse it for a link. It's another styling effect that I find more useful than srikethrough.
+
+This is <ins>text underlined</ins> with the ins HTML tag.
+
+```
+This is <ins>text underlined</ins> with the ins HTML tag.
+```
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -153,8 +163,8 @@ This is a nice effect but I don't know why you would use it on GitHub:
 The `dl`, `dt`, and `dd` tags workgood for descriptons, definitions, etc.
 
 <dl>
-  <dt>**Markdown** _Cheat_ ~~Sheet~~</dt>
-  <dd>A quick source for making your readme files look great!</dd>
+  <dt>Markdown Cheat Sheet</dt>
+  <dd>A **quick** _source_ ~~for~~ making your readme files look great!</dd>
 </dl>
 
 
