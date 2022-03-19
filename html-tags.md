@@ -486,7 +486,8 @@ Global attributes: id, class, draggable, **style**, **title**, tabindex, data-*,
 The only tags worth using:
 - `div` for dividers using - or _ or = or other characters (no use br tags)
 - `p` for align center or right
-- `headings` for anchor links with html entities
+- `headings` for anchor links with html entities or for center or right alignment
+- `h5` and `h6` for smaller than paragraph size block elements
 - `br` for line breaks of paragrpah text like the `address` tag
 - `img` to set width and height and align of center or right
 - `ins` for underline
@@ -494,8 +495,9 @@ The only tags worth using:
 - `samp` for monospaced font
 - `sup` and `sub` for super and subscript
 - maybe `dl` `dt` `dd` for the indent definition type of style
+- maybe `span`
 
-Unless I can find inline styles or attributes that work with all of the above and/or the following: `blockquote`, `ol` `ul` `li`, `table`, `address`, or `a`.
+Skip the following unless I can find inline styles or attributes that work with the following: `blockquote`, `ol` `ul` `li`, `table`, `address`, or `a`. As for bold, italic, and strikehrough, just use the markdown versions.
 
 ## testing **double asterisks** and <b>the b tag</b> and the <strong>strong tag</strong>
 <br><br>

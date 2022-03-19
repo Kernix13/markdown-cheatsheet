@@ -980,7 +980,7 @@ And here are 2 images with `width="200px"` in a table. The first has `align="rig
 | :---: | :---: |
 | <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px" align="right"> | <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px" align="left"> |
 
-I don't know of another method to get images on a row other than using a table. Here is the image with a `title`, and a `<div>` tag with `align="center"` though you could use `align="right"` as well:
+I don't know of another method to get images on a row other than using a table. Note that the actual href values are to my website but they are linking to github and are links that pen in a new page (???)Here is the image with a `title`, and a `<div>` tag with `align="center"` though you could use `align="right"` as well:
 
 <div align="center"><img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px" title="Image example"></div>
 
