@@ -43,12 +43,14 @@ All HTML tags tested to see their effect in a markdown file.
 
 ### Skipped block tags
 
-5 tags skipped or did not display correctly. Forms, and therefore fieldsets, may need actions to work.
+7 tags skipped or did not display correctly. Forms, and therefore fieldsets, may need actions to work.
 
 | HTML Tag       | Tested? | Displayed? | Correctly? | Why Use? |
 | ---------:     | :-----: | :--------: | :-------:  | :------: |
 | `<address>`    | Yes     | YES        | No         | no italics, needed br tags |
 | `<dialog>`     | Yes     | NO         | -          | -        |
+| `<fieldset>`   | Yes     | Yes        | Yes        | -              |
+| `<legend>`     | Yes     | Yes        | Yes        | -              |
 | `<figcaption>` | Yes     | NO         | NO         | -        |
 | `<figure>`     | Yes     | NO         | NO         | -        |
 | `<form>`       | No      | skip       | -          | -        |
@@ -67,8 +69,6 @@ All HTML tags tested to see their effect in a markdown file.
 | `<dl>`         | Yes     | Yes        | Yes        | Indent         |
 | `<dt>`         | Yes     | Yes        | Yes        | Indent         |
 | `<details>`    | Yes     | Yes        | Yes        | Hidden content |
-| `<fieldset>`   | Yes     | Yes        | Yes        | -              |
-| `<legend>`     | Yes     | Yes        | Yes        | -              |
 | `<pre>`        | Yes     | Yes        | Yes        | NO NEED TO USE |
 | `<table>`      | Yes     | Yes        | Yes        | Inline CSS?    |
 
@@ -271,7 +271,7 @@ Table tag test: inline css? Bold, italic and strikethough do not work in table c
 
 ### Inline that did not work
 
-14 tags tested but did not display:
+13 tags tested but did not display:
 
 | HTML Tag       | Tested? | Displayed? | Correctly? | Why Use? |
 | ---------:     | :-----: | :--------: | :-------:  | :------: |
@@ -293,7 +293,7 @@ Table tag test: inline css? Bold, italic and strikethough do not work in table c
 
 ### Formatting text tags
 
-6 TAGS FOR FORMATTING THAT WORKED:
+8 TAGS FOR FORMATTING THAT WORKED:
 
 | HTML Tag       | Tested? | Displayed? | Correctly? | Why Use?   |
 | ---------:     | :-----: | :--------: | :-------:  | :------:   |
