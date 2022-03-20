@@ -23,6 +23,7 @@ All HTML tags tested to see their effect in a markdown file. Checkout [MDN HTML 
    1. [Inline tag examples](#inline-tag-examples)
 1. [Block tags that worked](#block-tags-that-worked)
 1. [Inline tags that worked](#inline-tags-that-worked)
+   1. [More testing](#more-testing)
 
 <br />
 
@@ -597,8 +598,19 @@ The only tags worth using:
 
 Skip the following unless I can find inline styles or attributes that work with the following: `blockquote`, `ol` `ul` `li`, `table`, `address`, or `a`. As for bold, italic, and strikehrough, just use the markdown versions.
 
-## testing **double asterisks** and <b>the b tag</b> and the <strong>strong tag</strong>
-<br><br>
+### More testing
+
+abbr tag: did not display correctly
+
+<p>You can use <abbr title="Cascading Style Sheets">CSS</abbr> to style your <abbr title="HyperText Markup Language">HTML</abbr>.</p>
+
+Cite tag - italic link? did not display correctly
+
+<cite><a href="http://www.george-orwell.org/1984/0.html">Nineteen Eighty-Four</a></cite>
+<br />
+<p><cite>Nineteen Eighty-Four (without link)</cite></p>
+<br />
+
 <p align="center">Paragraph align="center", 2 br tags above</p>
 <p align="right">Paragraph align="right"</p>
 <div align="center">div align="center"</div>
@@ -609,15 +621,3 @@ Skip the following unless I can find inline styles or attributes that work with 
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
-### Testing
-
-abbr tag: did not display correctly
-
-<p>You can use <abbr title="Cascading Style Sheets">CSS</abbr> to style your <abbr title="HyperText Markup Language">HTML</abbr>.</p>
-
-Cite tag - italic link? did not display correctly
-
-  <cite><a href="http://www.george-orwell.org/1984/0.html">Nineteen Eighty-Four</a></cite>
-  <br />
-  <p><cite>Nineteen Eighty-Four (without link)</cite></p>
-  <br />

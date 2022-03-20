@@ -104,7 +104,9 @@ If you want, you can also do **~~bold strikethrough~~**, _~~_italic strikethroug
 
 ### Underline
 
-The links on GitHub are blue, bold and underlined (<ins>on hover</ins>). The `<ins>` HTML tag underlines text and is normal font color and normal font-weight. No one familiar with GitHub will confuse it for a link. It's another styling effect that I find more useful than srikethrough.
+This can only be done with the `<ins>` HTML tag. This is not part of Markdown.
+
+The links on GitHub are blue, bold and underlined (<ins>on hover</ins>). The `<ins>` HTML tag underlines text and has normal font color and normal font-weight. No one familiar with GitHub will confuse it for a link. It's another styling effect that I find more useful than srikethrough.
 
 This is <ins>text underlined</ins> with the `ins` HTML tag.
 
