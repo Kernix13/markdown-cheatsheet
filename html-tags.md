@@ -1,11 +1,14 @@
 # HTML Tags that can be used in Markdown files
 
-All HTML tags tested to see their effect in a markdown file.
+All HTML tags tested to see their effect in a markdown file. Checkout [MDN HTML elements reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) for a logical breakdown on all HTML tags.
+
+
 
 <div id="back-to-top"></div>
 
 ## Table of contents
 
+1. [All tags](#all-tags)
 1. [Block level tags](#block-level-tags)
    1. [Semanic tags](#semanic-tags)
    1. [Skipped block tags](#skipped-block-tags)
@@ -20,6 +23,102 @@ All HTML tags tested to see their effect in a markdown file.
    1. [Inline tag examples](#inline-tag-examples)
 1. [Block tags that worked](#block-tags-that-worked)
 1. [Inline tags that worked](#inline-tags-that-worked)
+
+<br />
+
+## All tags
+
+From MDN:
+
+Top level: Interesting section for the elements about the page - the root element is `<html>`
+
+| Root      | Element   | Element   | Element | Element       |
+| ---:      | :----:     | :----:    | :----:   | :----:         |
+| `<head>`  |           |           |           |             | 
+| Common:   | `<meta>`  | `<link>`  | `<title>` | `<script>`  |
+| Uncommon: | `<base>`  | `<style>` |           |             |
+
+<br />
+
+Next is the `<body>` tag which contains all the elements that you tend to work with and that are being tested in this file. After that are the semantic **_Content Sectioning_** tags. It makes no sense to test the semantic tags:
+
+| Type          | Tag         | Tag       | Tag         | Tag         | 
+| ---:          | :----:      | :----:    | :----:      | :----:      | 
+| Semantic:     | `<article>` | `<aside>` | `<footer>`  | `<header>`  | 
+|               | `<main>`    | `<menu>`  | `<nav>`     | `<section>` |
+| Non-semantic: | `<address>` | `<h1>`    | `<h2>`      | `<h3>`      |
+|               | `<h4>`      | `<h5>`    | `<h6>`      | `<hr>`      |
+|    
+
+<br />
+
+The next MDN section is called **_Text Content_**:
+
+| Type     | Tag            | Tag       | Tag     | Tag     | Tag     | 
+| ---:     | :----:         | :----:    | :----:  | :----:  | :----:  |
+| Solo tags: | `<blockquote>` | `<div>` | `<p>`   | `<pre>` | `<dialog>` |
+| Grouped tags: | `<dl>`         | `<dt>`    | `<dd>`  |         |         |
+|          | `<details>` | `<summary>` | - | - | - |   
+|          | `<figcaption>` | `<figure>` | -      | -       | -       |
+|          | `<li>`         | `<ol>`    | `<ul>`  | -       | -       |     
+
+
+<br />
+
+The next section is huge: Inline text semantics
+
+| Type          | Tag     | Tag      | Tag      | Tag     | Tag     | 
+| ---:          | :----:  | :----:   | :----:   | :----:  | :----:  |
+| Solo content: | `<a>`   | `<abbr>` | `<br>`   | `<bdi>` | `<bdo>` | 
+|               | `<br>`  | `<cite>` | `<code>` | `<data>` | `<kbd>` | 
+|               | `<samp>` | `<small>` | `<span>` | `<sub>` | `<sup>` |
+|               | `<time>` | `<var>` | `<wbr>`  | -       | `       | 
+| Solo format:  | `<b>`   | `<dfn>`  | `<em>`   | `<i>`   | `<kbd>` |
+|               | `<q>`   | `<s>`    | `<strong>` | `<del>` | `<ins>` |       | 
+| Connected:    | `<rp>`  | `<rt>`    | `<ruby>` | -      | -       |
+
+<br />
+
+Image and multimedia:
+
+| Element | Element | Element |
+| :---    | :----   | :----   |
+| `<area>` | `<audio>` | `<img>` |
+| `<map>` | `<track>` | `<video>` |
+
+<br /> 
+
+Miscellaneous -> Embedded content, canvas, SVG and MathML:
+
+| Type      | Element | Element | Element |
+| :---      | :----:   | :----:   | :----:   |
+| Main tag: | `<embed>` | `<iframe>` | `<object>` | 
+|           | `<picture>` | `<portal>` | `<svg>` |
+|           | `<math>` | `<canvas`> | `<noscript>` |
+| Support tags: | `<param>` | `<source>` | - |
+
+<br />
+
+The `<table>` tag: 
+
+- MAIN: `<table>`, `<thead>`, `<tbody>`, `<tfoot> `
+- OTHER: `<col>`, `<colgroup>`, `<td>`, `<th>`, `<tr>`
+
+<br />
+
+The `<form>` tag: 
+
+- MAIN: `<form>` and `<fieldset>` with `<legend>`
+- GROUPED: `<datalist>`, `<option>`, `<optgroup>`, and `<select>`
+- OTHER: `<button>`, `<input>`, `<label>`, `<meter>`, `<output>`, `<progress>`, `<textarea>`
+
+<br />
+
+Wierd ones: `<slot>`, `<template>`
+
+Depricated: `<acronym>`, `<applet>`, `<basefont>`, `<bgsound>`, `<big>`, `<blink>`, `<center>`, `<content>`, `<dir>`, `<font>`, `<frame>`, `<frameset>`, `<hgroup>`, `<image>`, `<keygen>`, `<marquee>`, `<menuitem>`, `<nobr>`, `<noembed>`, `<noframes>`, `<plaintext>`, `<rb>`, `<rtc>`, `<shadow>`, `<spacer>`, `<strike>`, `<tt>`, and `<xmp>`.
+
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ## Block level tags
 
