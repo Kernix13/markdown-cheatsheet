@@ -346,6 +346,15 @@ You can use all text effects but with some exceptions: None of the effects work 
 ```
 **NOTE**: By using "1" for each list item, you can cut & paste to change the order of items and the numbering will change to match the new order. 
 
+Does this make sense? You can use both unordered and ordered together -> bullets with roamn numerals, or numbers with bullets:
+
+1. - What?
+1. - Really?
+1. - Why?
+- 10. What is this
+- 15. Again?
+- 50. Any use cases?
+
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Nested
