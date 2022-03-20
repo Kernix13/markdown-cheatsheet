@@ -30,7 +30,7 @@ All HTML tags tested to see their effect in a markdown file. Checkout [MDN HTML 
 
 From MDN:
 
-Top level: Interesting section for the elements about the page - the root element is `<html>`
+Top level: Interesting section for the elements about the page - the root element is `<html>`. SKIP ALL OF THESE!
 
 | Root      | Element   | Element   | Element | Element       |
 | ---:      | :----:     | :----:    | :----:   | :----:         |
@@ -48,7 +48,6 @@ Next is the `<body>` tag which contains all the elements that you tend to work w
 |               | `<main>`    | `<menu>`  | `<nav>`     | `<section>` |
 | Non-semantic: | `<address>` | `<h1>`    | `<h2>`      | `<h3>`      |
 |               | `<h4>`      | `<h5>`    | `<h6>`      | `<hr>`      |
-|    
 
 <br />
 
@@ -57,7 +56,7 @@ The next MDN section is called **_Text Content_**:
 | Type     | Tag            | Tag       | Tag     | Tag     | Tag     | 
 | ---:     | :----:         | :----:    | :----:  | :----:  | :----:  |
 | Solo tags: | `<blockquote>` | `<div>` | `<p>`   | `<pre>` | `<dialog>` |
-| Grouped tags: | `<dl>`         | `<dt>`    | `<dd>`  |         |         |
+| Grouped tags: | `<dl>`         | `<dt>`    | `<dd>`  | -        | -        |
 |          | `<details>` | `<summary>` | - | - | - |   
 |          | `<figcaption>` | `<figure>` | -      | -       | -       |
 |          | `<li>`         | `<ol>`    | `<ul>`  | -       | -       |     
