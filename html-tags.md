@@ -116,8 +116,6 @@ The `<form>` tag:
 
 Wierd ones: `<slot>`, `<template>`
 
-Depricated: `<acronym>`, `<applet>`, `<basefont>`, `<bgsound>`, `<big>`, `<blink>`, `<center>`, `<content>`, `<dir>`, `<font>`, `<frame>`, `<frameset>`, `<hgroup>`, `<image>`, `<keygen>`, `<marquee>`, `<menuitem>`, `<nobr>`, `<noembed>`, `<noframes>`, `<plaintext>`, `<rb>`, `<rtc>`, `<shadow>`, `<spacer>`, `<strike>`, `<tt>`, and `<xmp>`.
-
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ## Block level tags
@@ -618,6 +616,10 @@ Cite tag - italic link? did not display correctly
 
 <h2 align="center"><ins>Centered h2</ins></h2>
 <h2 align="right">Right h2</h2>
+
+I tried some depricated tags hoping they may work in Markdown but the ones I tried did not work:
+
+Depricated: `<acronym>`, `<applet>`, `<basefont>`, `<bgsound>`, `<big>`, `<blink>`, `<center>`, `<content>`, `<dir>`, `<font>`, `<frame>`, `<frameset>`, `<hgroup>`, `<image>`, `<keygen>`, `<marquee>`, `<menuitem>`, `<nobr>`, `<noembed>`, `<noframes>`, `<plaintext>`, `<rb>`, `<rtc>`, `<shadow>`, `<spacer>`, `<strike>`, `<tt>`, and `<xmp>`.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
