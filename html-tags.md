@@ -611,11 +611,11 @@ Skip the following unless I can find inline styles or attributes that work with 
 
 ### Testing
 
-abbr tag:
+abbr tag: did not display correctly
 
 <p>You can use <abbr title="Cascading Style Sheets">CSS</abbr> to style your <abbr title="HyperText Markup Language">HTML</abbr>.</p>
 
-Cite tag - italic link?
+Cite tag - italic link? did not display correctly
 
   <cite><a href="http://www.george-orwell.org/1984/0.html">Nineteen Eighty-Four</a></cite>
   <br />
