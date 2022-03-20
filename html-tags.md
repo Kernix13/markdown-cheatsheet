@@ -40,7 +40,7 @@ Top level: Interesting section for the elements about the page - the root elemen
 
 <br />
 
-Next is the `<body>` tag which contains all the elements that you tend to work with and that are being tested in this file. After that are the semantic **_Content Sectioning_** tags. It makes no sense to test the semantic tags:
+Next is the `<body>` tag which contains all the elements that you tend to work with and that are being tested in this file. After that are the semantic **_Content Sectioning_** tags. It makes no sense to test the semantic tags, and all the non-semantic tags work except for address:
 
 | Type          | Tag         | Tag       | Tag         | Tag         | 
 | ---:          | :----:      | :----:    | :----:      | :----:      | 
@@ -341,6 +341,7 @@ Table tag test: inline css? Bold, italic and strikethough do not work in table c
 | ---------:     | :-----: | :--------: | 
 | `<abbr>`       | NO      | N/A |
 | `<acronym>`    | NO      | N/A |
+| `<area>`       | NO      | N/A | 
 | `<bdi>`        | No      | N/A |
 | `<bdo>`        | No      | N/A |
 | `<canvas>`     | No      | N/A |
@@ -349,11 +350,12 @@ Table tag test: inline css? Bold, italic and strikethough do not work in table c
 | `<datalist>`   | NO      | N/A |
 | `<input>`      | No      | N/A |
 | `<label>`      | No      | N/A |
-| `<map>`        | No      | N/A |
+| `<map>`        | No      | N/A |   
 | `<meter>`      | No      | N/A |
 | `<noscript>`   | No      | N/A |
 | `<object>`     | No      | N/A |
 | `<output>`     | No      | N/A |
+| `<portal>`     | No      | N/A |  
 | `<progress>`   | No      | N/A |
 | `<script>`     | No      | N/A |
 | `<select>`     | No      | N/A |
@@ -378,6 +380,7 @@ Table tag test: inline css? Bold, italic and strikethough do not work in table c
 | `<embed>`      | Yes     | No         | No          | -         |
 | `<iframe>`     | Yes     | No         | No          | -         |
 | `<mark>`       | Yes     | NO         | ???         | ???       |
+| `math`         | Yes     | Yes        | No          | - |         
 | `<picture>`    | yES     | ???        | ???         | ???       |
 | `<small>`      | Yes     | No         | No          | -         |
 | `<svg>`        | Yes     | No         | No          | -         |
@@ -605,3 +608,16 @@ Skip the following unless I can find inline styles or attributes that work with 
 <h2 align="right">Right h2</h2>
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+
+### Testing
+
+abbr tag:
+
+<p>You can use <abbr title="Cascading Style Sheets">CSS</abbr> to style your <abbr title="HyperText Markup Language">HTML</abbr>.</p>
+
+Cite tag - italic link?
+
+  <cite><a href="http://www.george-orwell.org/1984/0.html">Nineteen Eighty-Four</a></cite>
+  <br />
+  <p><cite>Nineteen Eighty-Four (without link)</cite></p>
+  <br />
