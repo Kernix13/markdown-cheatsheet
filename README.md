@@ -725,8 +725,8 @@ http://thenewcode.com/1005/Writing-Musical-Notation-on-Web-Pages-The-Basics
 | `&#119082;`| &#119082; | Double Sharp |
 | `&#119083;`| &#119083; | Double flat |
 | `&#119070;`| &#119070; | G-clef |
-| `&#119070;`| &#119073; | C-clef |
-| `&#119070;`| &#119074; | F-clef |
+| `&#119073;`| &#119073; | C-clef |
+| `&#119074;`| &#119074; | F-clef |
 | `&#119092;`| &#119092; | Common time |
 | `&#119093;`| &#119093; | Cut time |
 | `&#248;`| &#248; | Half-diminished 7th |
