@@ -459,7 +459,7 @@ a {
 
 ### Language block
 
-This is what you want to use for code blocks. To highlight parts of your code add the language after the opening triple backticks. You'll have to do your own research but so far the following languages work: `md`, `html`, `css`, `js` or `javascript`, `php`, `xml`, `python`, `sql`, and `apacheconf` (for Apache servers). I tried using `node` and `npm` for my node-npm repo but it had no effect.
+This is what you want to use for code blocks. To highlight parts of your code add the language after the opening triple backticks. You'll have to do your own research but so far the following language bbreviations work: `md`, `html`, `css`, `js` or `javascript`, `jsx`, `php`, `xml`, `python`, `sql`, and `apacheconf` (for Apache servers). I tried using `node` and `npm` for my node-npm repo but it had no effect.
 
     ```css
     rules here
