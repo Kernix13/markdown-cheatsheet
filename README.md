@@ -18,42 +18,42 @@ I'm breaking up all the markdown syntax into 7 categories (I'll explain what tho
 
 ## ~~A Literal~~ <ins>Table</ins> of _Contents_
 
-|                    Category | Element                                                             | Accepts styles? |
-| --------------------------: | :------------------------------------------------------------------ | :-------------: |
-|      **[Basics](#basics)**: | [Paragraphs](#paragraphs)                                           |     **Yes**     |
-|                             | [Special characters](#special-characters)                           |      `N/A`      |
-|                             | [At mentions](#at-mentions)                                         |      `N/A`      |
-|      **[Styles](#styles)**: | [Bold](#bold)                                                       |      `N/A`      |
-|                             | [Italic](#italic)                                                   |      `N/A`      |
-|                             | [Strike thru](#strike-thru)                                         |      `N/A`      |
-|                             | [Underline](#underline)                                             |      `N/A`      |
-|          **[Misc](#misc)**: | [Headings](#headings)                                               |     **Yes**     |
-|                             | [Blockquotes](#blockquotes)                                         |     **Yes**     |
-|                             | [Descriptions](#descriptions)                                       |    **Yes\***    |
-|                             | [Tables](#tables)                                                   |     **Yes**     |
-|                             | [Horizontal rules](#horizontal-rules)                               |       No        |
-|        **[Links](#links)**: | [External](#external)                                               |     **Yes**     |
-|                             | [Anchor](#anchor)                                                   |     **Yes**     |
-|                             | [Footnotes](#footnotes)                                             |     **Yes**     |
-|        **[Lists](#lists)**: | [Unordered](#unordered)                                             |     **Yes**     |
-|                             | [Ordered](#ordered)                                                 |     **Yes**     |
-|                             | [Nested](#nested)                                                   |     **Yes**     |
-|                             | [Tasks](#tasks)                                                     |       No        |
-|          **[Code](#code)**: | [Inline](#inline)                                                   |    **Yes\***    |
-|                             | [Tab](#tab)                                                         |       No        |
-|                             | [Generic](#generic)                                                 |       No        |
-|                             | [Language block](#language-block)                                   |       No        |
-|                             | [Diff](#diff)                                                       |       No        |
-|      **[Hidden](#hidden)**: | [Comments](#comments)                                               |       No        |
-|                             | [Spoiler](#spoiler)                                                 |     **Yes**     |
-|                             | [Details](#details)                                                 |       No        |
-|      **[Visual](#visual)**: | [Images](#images)                                                   |       No        |
-|                             | [Emojis](#emojis)                                                   |       No        |
-|                             | [HTML entities](#html-entities)                                     |    **Yes\***    |
-|         **[Notes](#notes)** | [Block level HTML tags that work](#block-level-HTML-tags-that-work) |        -        |
-|                             | [Inline HTML tags that work](#inline-HTML-tags-that-work)           |        -        |
-|                             | [HTML tag examples](#html-tag-examples)                             |        -        |
-| **[Resources](#resources)** | N/A                                                                 |        -        |
+|                             Category | Element                                                             | Accepts styles? |
+| -----------------------------------: | :------------------------------------------------------------------ | :-------------: |
+|               **[Basics](#basics)**: | [Paragraphs](#paragraphs)                                           |     **Yes**     |
+|                                      | [Special characters](#special-characters)                           |      `N/A`      |
+|                                      | [At mentions](#at-mentions)                                         |      `N/A`      |
+|               **[Styles](#styles)**: | [Bold](#bold)                                                       |      `N/A`      |
+|                                      | [Italic](#italic)                                                   |      `N/A`      |
+|                                      | [Strike thru](#strike-thru)                                         |      `N/A`      |
+|                                      | [Underline](#underline)                                             |      `N/A`      |
+| **[Miscellaneous](#miscellaneous)**: | [Headings](#headings)                                               |     **Yes**     |
+|                                      | [Blockquotes](#blockquotes)                                         |     **Yes**     |
+|                                      | [Descriptions](#descriptions)                                       |    **Yes\***    |
+|                                      | [Tables](#tables)                                                   |     **Yes**     |
+|                                      | [Horizontal rules](#horizontal-rules)                               |       No        |
+|                 **[Links](#links)**: | [External](#external)                                               |     **Yes**     |
+|                                      | [Anchor](#anchor)                                                   |     **Yes**     |
+|                                      | [Footnotes](#footnotes)                                             |     **Yes**     |
+|                 **[Lists](#lists)**: | [Unordered](#unordered)                                             |     **Yes**     |
+|                                      | [Ordered](#ordered)                                                 |     **Yes**     |
+|                                      | [Nested](#nested)                                                   |     **Yes**     |
+|                                      | [Tasks](#tasks)                                                     |       No        |
+|                   **[Code](#code)**: | [Inline](#inline)                                                   |    **Yes\***    |
+|                                      | [Tab](#tab)                                                         |       No        |
+|                                      | [Generic](#generic)                                                 |       No        |
+|                                      | [Language block](#language-block)                                   |       No        |
+|                                      | [Diff](#diff)                                                       |       No        |
+|               **[Hidden](#hidden)**: | [Comments](#comments)                                               |       No        |
+|                                      | [Spoiler](#spoiler)                                                 |     **Yes**     |
+|                                      | [Details](#details)                                                 |       No        |
+|               **[Visual](#visual)**: | [Images](#images)                                                   |       No        |
+|                                      | [Emojis](#emojis)                                                   |       No        |
+|                                      | [HTML entities](#html-entities)                                     |    **Yes\***    |
+|                  **[Notes](#notes)** | [Block level HTML tags that work](#block-level-HTML-tags-that-work) |        -        |
+|                                      | [Inline HTML tags that work](#inline-HTML-tags-that-work)           |        -        |
+|                                      | [HTML tag examples](#html-tag-examples)                             |        -        |
+|          **[Resources](#resources)** | N/A                                                                 |        -        |
 
 <!-- ~~`<cite>`~~ -->
 
@@ -61,7 +61,7 @@ I'm breaking up all the markdown syntax into 7 categories (I'll explain what tho
 
 ## Basics
 
-This is a short section on basic paragraphs, the symbols used in MArkdown and how to escape them, and @mentions.
+This is a short section on basic paragraphs, the symbols used in Markdown and how to escape them, and @mentions.
 
 ### Paragraphs
 
@@ -71,7 +71,7 @@ Since paragraphs are a thing of their own, let's cover that one first:
 
 ### Special characters
 
-Here are the characters you will use in Markdown:
+Here are the characters you will use in Markdown. They will be covered in each section after this one:
 
 ````
 # Hast tags for headines and anchor links
@@ -100,9 +100,11 @@ _ underscore for italics
 
 ### At mentions
 
-AT mentions do not seem to work as links. This is an at mention test:
+At mentions do not seem to work as links. This is an at mention test:
 
-@Kernix13: Hello
+@Kernix13: Hello. This does not work in a markdown file, but it does create a link in Issues and PRs, maybe in other areas as well.
+
+==something==
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -165,7 +167,7 @@ This is <ins>text underlined</ins> with the `ins` HTML tag.
 
 ---
 
-## Misc
+## Miscellaneous
 
 The elements in this category are all unique and do not fit into any of the other category:
 
