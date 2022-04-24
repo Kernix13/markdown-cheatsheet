@@ -2,8 +2,9 @@
 
 Use this markdown cheat cheat as a guide for writing your markdown files. If you like it then clone or fork it, or at least click the **star** button. You can also check out the [Markdown Cheat Sheet article](https://kernixwebdesign.com/website/code/markdown-cheat-sheet-beginners/) I wrote, though it is not as inclusive as this guide.
 
-I'm breaking up all the markdown syntax into 7 categories (I'll explain what those mean in each section):
+I'm breaking up all the markdown syntax into 8 categories:
 
+1. Basics
 1. Styles
 1. Miscellaneous
 1. Links
@@ -95,16 +96,17 @@ _ underscore for italics
 3 - or * for horizontal rules
 " for titles to links
 <!-- for comments -->
-\ to escape any of the characters above
+\ to escape most of the characters above
+
+\* escape asterisk,
+\| escape pipe, etc...
 ````
 
 ### At mentions
 
 At mentions do not seem to work as links. This is an at mention test:
 
-@Kernix13: Hello. This does not work in a markdown file, but it does create a link in Issues and PRs, maybe in other areas as well.
-
-==something==
+@Kernix13: Hello. This does not work in a markdown file, but it does create a link in Issues and PRs, and maybe in other areas as well.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
