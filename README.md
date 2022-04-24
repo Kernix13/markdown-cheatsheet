@@ -23,7 +23,6 @@ I'm breaking up all the markdown syntax into 8 categories:
 | -----------------------------------: | :------------------------------------------------------------------ | :-------------: |
 |               **[Basics](#basics)**: | [Paragraphs](#paragraphs)                                           |     **Yes**     |
 |                                      | [Special characters](#special-characters)                           |      `N/A`      |
-|                                      | [At mentions](#at-mentions)                                         |      `N/A`      |
 |               **[Styles](#styles)**: | [Bold](#bold)                                                       |      `N/A`      |
 |                                      | [Italic](#italic)                                                   |      `N/A`      |
 |                                      | [Strike thru](#strike-thru)                                         |      `N/A`      |
@@ -36,6 +35,7 @@ I'm breaking up all the markdown syntax into 8 categories:
 |                 **[Links](#links)**: | [External](#external)                                               |     **Yes**     |
 |                                      | [Anchor](#anchor)                                                   |     **Yes**     |
 |                                      | [Footnotes](#footnotes)                                             |     **Yes**     |
+|                                      | [At mentions](#at-mentions)                                         |      `N/A`      |
 |                 **[Lists](#lists)**: | [Unordered](#unordered)                                             |     **Yes**     |
 |                                      | [Ordered](#ordered)                                                 |     **Yes**     |
 |                                      | [Nested](#nested)                                                   |     **Yes**     |
@@ -101,12 +101,6 @@ _ underscore for italics
 \* escape asterisk,
 \| escape pipe, etc...
 ````
-
-### At mentions
-
-At mentions do not seem to work as links. This is an at mention test:
-
-@Kernix13: Hello. This does not work in a markdown file, but it does create a link in Issues and PRs, and maybe in other areas as well.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -360,6 +354,12 @@ Here is the actual footnote syntax:
 
 [^1]: This is footnote number one.
 [^2]: Here is the second footnote.
+
+### At mentions
+
+At mentions do not seem to work as links. This is an at mention test:
+
+@Kernix13: Hello. This does not work in a markdown file, but it does create a link in Issues and PRs, and maybe in other areas as well.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
