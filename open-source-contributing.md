@@ -57,3 +57,5 @@ Miscellaneous:
 - for license look at https://choosealicense.com/
 - Great GitHub README profiles: https://github.com/nhcarrigan/nhcarrigan | https://github.com/santoshyadavdev/santoshyadavdev | https://github.com/salitha10/salitha10 | https://github.com/iresharma/iresharma | https://github.com/joesinghh |
 - Great link: https://github.com/abhisheknaiidu/awesome-github-profile-readme |
+
+- https://github.com/EddieHubCommunity/awesome-github-profiles/blob/main/profiles.md **STOPPED AT** : https://github.com/AmolShelke2
