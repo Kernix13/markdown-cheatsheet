@@ -45,6 +45,7 @@ I'm breaking up all the markdown syntax into 8 categories:
 |                                      | [Generic](#generic)                                                 |       No        |
 |                                      | [Language block](#language-block)                                   |       No        |
 |                                      | [Diff](#diff)                                                       |       No        |
+|                        [Math](#math) | **Yes**                                                             |
 |               **[Hidden](#hidden)**: | [Comments](#comments)                                               |       No        |
 |                                      | [Spoiler](#spoiler)                                                 |     **Yes**     |
 |                                      | [Details](#details)                                                 |       No        |
@@ -480,13 +481,14 @@ You can create what looks like checkboxes and display completed tasks with a che
 
 ## Code
 
-This category deals with inline code and various typs of code blocks and none of them accept Styles with the exception of `inline`:
+This category deals with inline code and various typs of code blocks and none of them accept Styles with the exception of `inline` and 'math expressions`:
 
 - Inline code
 - Code blocks
 - <kbd>TAB</kbd> code blocks
 - Code highlighting blocks
 - `Diff` code blocks
+- Math Expressions
 
 ### Inline
 
@@ -569,6 +571,47 @@ This is really nice for highlighting text or code that was changed. Use `diff` a
     - this code or text is the old version
     + this is what it was changed to
     ```
+
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+
+### Math
+
+Finally, per GitHub:
+
+> ...math expressions can be rendered in Markdown on GitHub using $$ as a delimiter for code blocks with math content or the $ delimiter for inline math expressions.
+
+1. Use a single dollar sign (`$`) at the beginning and end of an inline math expression.
+2. Use 2 dollar sign (`$$`) at the beginning and end for a block of math expressions.
+
+Inline example: this `$(ax^2 + bx + c = 0)$` renders as $(ax^2 + bx + c = 0)$.
+
+Inline exception: use `\$` to escape dollar sign in an equation.
+
+Inline exception 2: use `<span>$</span>` for inline use of dollar sign before a math expression.
+
+Block example: `$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$` renders as:
+
+$$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
+
+Block example 2: This `$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$` renders as:
+
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
+Here are the important symbols to know:
+
+- ^ = exponent, e.g. $a^3$
+- { } = required for certain expressions such as square root
+- \pm = plus\minus symbol: $\pm$
+- \sqrt = square root symbol: $\sqrt{b}$
+- \over = division: $a \over b$
+- \leq = less than or equal to: $\leq$
+- \geq = greater than or equal to: $\geq$
+- \ne = not equal to: $ \ne $
+- \sum = Sigma, summation symbol: $\sum$
+- \_val = sub-script value: $a_i$
+- \_{val=num}^n = start val and max (n) val for sum
+- \left = not sure, see summation above
+- \right = not sure, see summation above
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
