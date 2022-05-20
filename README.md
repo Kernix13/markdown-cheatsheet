@@ -613,7 +613,7 @@ Here are the important symbols to know:
 - \left = not sure, see summation above
 - \right = not sure, see summation above
 
-For some reason the symbols are not showing...
+For some reason the symbols in the lists above are not showing...
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
