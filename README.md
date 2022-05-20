@@ -45,7 +45,7 @@ I'm breaking up all the markdown syntax into 8 categories:
 |                                      | [Generic](#generic)                                                 |       No        |
 |                                      | [Language block](#language-block)                                   |       No        |
 |                                      | [Diff](#diff)                                                       |       No        |
-|                        [Math](#math) | **Yes**                                                             |
+|                                      | [Math](#math)                                                       |       No        |
 |               **[Hidden](#hidden)**: | [Comments](#comments)                                               |       No        |
 |                                      | [Spoiler](#spoiler)                                                 |     **Yes**     |
 |                                      | [Details](#details)                                                 |       No        |
@@ -585,7 +585,7 @@ Finally, per GitHub:
 
 Inline example: this `$(ax^2 + bx + c = 0)$` renders as $(ax^2 + bx + c = 0)$.
 
-Inline exception: use `\$` to escape dollar sign in an equation.
+Inline exception: use `\$` to escape, and therefore use, a dollar sign in an equation.
 
 Inline exception 2: use `<span>$</span>` for inline use of dollar sign before a math expression.
 
@@ -612,6 +612,8 @@ Here are the important symbols to know:
 - \_{val=num}^n = start val and max (n) val for sum
 - \left = not sure, see summation above
 - \right = not sure, see summation above
+
+For some reason the symbols are not showing...
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
