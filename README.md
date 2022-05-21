@@ -63,13 +63,13 @@ I'm breaking up all the markdown syntax into 8 categories:
 
 ## Basics
 
-This is a short section on basic paragraphs, the symbols used in Markdown and how to escape them, and @mentions.
+This is a short section on basic paragraphs, the symbols used in Markdown and how to escape them.
 
 ### Paragraphs
 
 Since paragraphs are a thing of their own, let's cover that one first:
 
-**Paragaphs**: Just use regular text but make sure to hit the <kbd>ENTER</kbd> key twice. Sometimes if you only hit <kbd>ENTER</kbd> once, the text will de displayed as the element directly above it or there will not be a line break.
+**Paragaphs**: Just use regular text but make sure to hit the <kbd>ENTER</kbd> key twice. Sometimes if you only hit <kbd>ENTER</kbd> once, the text will de displayed as the element directly above it _and_ there will not be a line break.
 
 ### Special characters
 
@@ -103,11 +103,13 @@ _ underscore for italics
 \| escape pipe, etc...
 ````
 
+**NOTE**: Some of the symbols have different effects when used in _Math Expressions_. See that section for information on those.
+
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ## Styles
 
-This category deals with the styling of individual words and can be used with every category with a few exceptions. You may not have thought of it but you can apply these effects to all or some of the words in:
+This category deals with the styling of words and can be used with every category with a few exceptions. You may not have thought of it but you can apply these effects to all or some of the words in:
 
 - Headings
 - Links
@@ -672,21 +674,21 @@ $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \
 
 Here are the important symbols to know:
 
-- ^ = exponent, e.g. $a^3$
-- { } = required for certain expressions such as square root
-- \pm = plus\minus symbol: $\pm$
-- \sqrt = square root symbol: $\sqrt{b}$
-- \over = division: $a \over b$
-- \leq = less than or equal to: $\leq$
-- \geq = greater than or equal to: $\geq$
-- \ne = not equal to: $ \ne $
-- \sum = Sigma, summation symbol: $\sum$
-- \_val = sub-script value: $a_i$
-- \_{val=num}^n = start val and max (n) val for sum
-- \Omega and \omega = greek Omega\omega
-- \int\_ = interval
+- `^` = exponent, e.g. $a^3$
+- `{ }` = required for certain expressions such as square root
+- `\pm` = plus\minus symbol: $\pm$
+- `\sqrt` = square root symbol: $\sqrt{b}$
+- `\over` = division: $a \over b$
+- `\leq` = less than or equal to: $\leq$
+- `\geq` = greater than or equal to: $\geq$
+- `\ne` = not equal to: $ \ne $
+- `\sum` = Sigma, summation symbol: $\sum$
+- `\val` = sub-script value: $a_i$
+- `\{val=num}^n` = start val and max (n) val for sum
+- `\Omega` and `\omega` = greek Omega or omega
+- `\int` = interval
 
-Not sure for the following: \left, \right, \frac, \partial, \rho, \nabla, \cdot, \vec, \mathrm
+Not sure for the following: `\left`, `\right`, `\frac`, `\partial`, `\rho`, `\nabla`, `\cdot`, `\vec`, `\mathrm`, ...
 
 For some reason the symbols in the lists above are not showing...
 
