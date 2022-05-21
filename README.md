@@ -699,7 +699,7 @@ For some reason the symbols in the lists above are not showing...
 
 Greek letters are commonly used in mathematics, and they are very easy to type in math mode. You just have to type the name of the letter after a backslash: if the first letter is lowercase, you will get a lowercase Greek letter, if the first letter is uppercase (and only the first letter), then you will get an uppercase letter. Note that some uppercase Greek letters look like Latin ones.
 
-Use `\alpha, \Alpha, \beta, \Beta, \gamma, \Gamma, \pi, \Pi, \phi, \varphi, \mu, \Phi, \Omega, \omega` for $\alpha \Alpha \beta \Beta \gamma \Gamma \pi \Pi \phi \varphi \mu \Phi \Omega \omega \Theta \theta$
+Use `\alpha, \Alpha, \beta, \Beta, \gamma, \Gamma, \pi, \Pi, \phi, \varphi, \mu, \Phi, \Omega, \omega` for $\alpha \beta \gamma \Gamma \pi \Pi \phi \varphi \mu \Phi \Omega \omega \Theta \theta$
 
 #### Examples for Operators
 
@@ -719,8 +719,9 @@ An underscore (`_`) can be used with a vertical bar (`{\displaystyle |}|`) to de
 
 A fraction is created using the `\frac{numerator}{denominator}` command. Use `\frac{n!}{k!(n-k)!} = \binom{n}{k}` for $$\frac{n!}{k!(n-k)!} = \binom{n}{k}$$
 
-You can embed fractions within fractions using ` \frac{\frac{1}{x}+\frac{1}{y}}{y-z}`: $$
-\frac{\frac{1}{x}+\frac{1}{y}}{y-z}$$
+You can embed fractions within fractions using `\frac{\frac{1}{x}+\frac{1}{y}}{y-z}`:
+
+$$\frac{\frac{1}{x}+\frac{1}{y}}{y-z}$$
 
 The `\tfrac` and `\dfrac` commands force the use of the respective styles, `\textstyle` and `\displaystyle`. Similarly, the `\tbinom` and `\dbinom` commands typeset the binomial coefficient.
 
@@ -737,7 +738,9 @@ Check out the Wikipedia article [LaTeX/Mathematics](https://en.wikibooks.org/wik
 - [Matrices and arrays](https://en.wikibooks.org/wiki/LaTeX/Mathematics#Matrices_and_arrays)
 - [Adding text to equations](https://en.wikibooks.org/wiki/LaTeX/Mathematics#Adding_text_to_equations)
 - [Formatting mathematics symbols](https://en.wikibooks.org/wiki/LaTeX/Mathematics#Formatting_mathematics_symbols)
-- For [color](https://en.wikibooks.org/wiki/LaTeX/Mathematics#Color) try `k = {\color{red}x} \mathbin{\color{blue}-} 2` for $k = {\color{red}x} \mathbin{\color{blue}-} 2$
+- [Color](https://en.wikibooks.org/wiki/LaTeX/Mathematics#Color)
+
+Color example: try `k = {\color{red}x} \mathbin{\color{blue}-} 2` for $k = {\color{red}x} \mathbin{\color{blue}-} 2$
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
