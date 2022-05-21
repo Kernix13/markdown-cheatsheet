@@ -643,7 +643,7 @@ The four sections below deal with adding visual elements to your markdowb file: 
 
 Images use the same syntax as **Links** except for the addition of an exclamation mark immediately before the opening square bracket. You can also use the optional title text:
 
-![picture alt text](https://via.placeholder.com/150 "Title is optional")
+![picture alt text](https://via.placeholder.com/150)
 
     ![picture alt](https://via.placeholder.com/150 'Title is optional')
 
