@@ -641,7 +641,7 @@ The four sections below deal with adding visual elements to your markdowb file: 
 
 ### Images
 
-Images use the same syntax as **Links** except for the addition of an exclamation mark immediately before the opening square bracket. You can also use the optional title text:
+Images use the same syntax as **Links** except for the addition of an exclamation mark immediately before the opening square bracket. You can also use the optional title text. The example image below shows the dimensions bu that is just an example. It's up to you to decide the image sizes you want for your files:
 
 ![picture alt text](https://kernixwebdesign.com/wp-content/uploads/2022/05/markdown-image.png)
 
