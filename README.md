@@ -643,9 +643,9 @@ The four sections below deal with adding visual elements to your markdowb file: 
 
 Images use the same syntax as **Links** except for the addition of an exclamation mark immediately before the opening square bracket. You can also use the optional title text:
 
-![picture alt text](https://everyguitarchord.com/wp-content/uploads/2019/04/guitar-player8.jpg)
+![picture alt text](https://kernixwebdesign.com/wp-content/uploads/2022/05/markdown-image.png)
 
-    ![picture alt](https://everyguitarchord.com/wp-content/uploads/2019/04/guitar-player8.jpg 'Title is optional')
+    ![picture alt](https://kernixwebdesign.com/wp-content/uploads/2022/05/markdown-image.png 'Title is optional')
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
