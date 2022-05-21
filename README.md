@@ -637,7 +637,7 @@ This isn't a markdown thing but it is another example of using HTML tags in a Ma
 
 ## Visual
 
-The four sections below deal with adding visual elements to your markdowb file: `images`, , `math expressions`, `emojis`, and `HTML entities`.
+The four sections below deal with adding _visual_ elements to your markdowb file that require some kind of extra code/syntax: `images`, `math expressions`, `emojis`, and `HTML entities`.
 
 ### Images
 
