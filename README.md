@@ -687,10 +687,57 @@ Here are the important symbols to know:
 - `\{val=num}^n` = start val and max (n) val for sum
 - `\Omega` and `\omega` = greek Omega or omega
 - `\int` = interval
+- `\bmod` and `\pmod` = modular operators
+- `\frac` = fractions
+- `\binom` = binomial coefficient
 
-Not sure for the following: `\left`, `\right`, `\frac`, `\partial`, `\rho`, `\nabla`, `\cdot`, `\vec`, `\mathrm`, ...
+Not sure for the following: `\left`, `\right`, `\forall`, `\partial`, `\rho`, `\nabla`, `\cdot`, `\vec`, `\mathrm`, `\in`, ...
 
 For some reason the symbols in the lists above are not showing...
+
+#### Examples for Greek letters
+
+Greek letters are commonly used in mathematics, and they are very easy to type in math mode. You just have to type the name of the letter after a backslash: if the first letter is lowercase, you will get a lowercase Greek letter, if the first letter is uppercase (and only the first letter), then you will get an uppercase letter. Note that some uppercase Greek letters look like Latin ones.
+
+Use `\alpha, \Alpha, \beta, \Beta, \gamma, \Gamma, \pi, \Pi, \phi, \varphi, \mu, \Phi, \Omega, \omega` for $\alpha \Alpha \beta \Beta \gamma \Gamma \pi \Pi \phi \varphi \mu \Phi \Omega \omega \Theta \theta$
+
+#### Examples for Operators
+
+An operator is a function that is written as a word: e.g. trigonometric functions (sin, cos, tan), logarithms and exponentials (log, exp), limits (lim), as well as trace and determinant (tr, det). https://en.wikibooks.org/wiki/LaTeX/Mathematics
+
+Use `\lim\limits_{x \to \infty} \exp(-x) = 0` for $\lim\limits_{x \to \infty} \exp(-x) = 0$
+
+#### Examples of Powers and indices
+
+Powers and indices are equivalent to superscripts and subscripts in normal text mode. The caret character (`^`) is used to raise something, and the underscore (`_`) is for lowering. For example, use `k_{n+1} = n^2 + k_n^2 - k_{n-1}` for $k_{n+1} = n^2 + k_n^2 - k_{n-1}$.
+
+For powers with more than one digit, surround the power with `{ }`: use `n^{22}` for $n^{22}$.
+
+An underscore (`_`) can be used with a vertical bar (`{\displaystyle |}|`) to denote evaluation using subscript notation: use `f(n) = n^5 + 4n^2 + 2 |_{n=17}` for $f(n) = n^5 + 4n^2 + 2 |_{n=17}$.
+
+#### Examples of Fractions and Binomials
+
+A fraction is created using the `\frac{numerator}{denominator}` command. Use `\frac{n!}{k!(n-k)!} = \binom{n}{k}` for $$\frac{n!}{k!(n-k)!} = \binom{n}{k}$$
+
+You can embed fractions within fractions using ` \frac{\frac{1}{x}+\frac{1}{y}}{y-z}`: $$
+\frac{\frac{1}{x}+\frac{1}{y}}{y-z}$$
+
+The `\tfrac` and `\dfrac` commands force the use of the respective styles, `\textstyle` and `\displaystyle`. Similarly, the `\tbinom` and `\dbinom` commands typeset the binomial coefficient.
+
+For relatively simple fractions, especially within the text, it may be more aesthetically pleasing to use powers and indices instead: `^3/_7` for $^3/_7$
+
+If you use them throughout the document, usage of `xfrac` package is recommended. This package provides `\sfrac` command to create slanted fractions. If fractions are used as an exponent, curly braces have to be used around the `\sfrac` command.
+
+Check out the Wikipedia article [LaTeX/Mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics) for more information.Or click on the following links for specific sections not covered above:
+
+- [Multiplication of two numbers](https://en.wikibooks.org/wiki/LaTeX/Mathematics#Multiplication_of_two_numbers)
+- [Roots](https://en.wikibooks.org/wiki/LaTeX/Mathematics#Roots)
+- [Sums and integrals](https://en.wikibooks.org/wiki/LaTeX/Mathematics#Sums_and_integrals)
+- [Brackets, braces and delimiters](https://en.wikibooks.org/wiki/LaTeX/Mathematics#Brackets,_braces_and_delimiters)
+- [Matrices and arrays](https://en.wikibooks.org/wiki/LaTeX/Mathematics#Matrices_and_arrays)
+- [Adding text to equations](https://en.wikibooks.org/wiki/LaTeX/Mathematics#Adding_text_to_equations)
+- [Formatting mathematics symbols](https://en.wikibooks.org/wiki/LaTeX/Mathematics#Formatting_mathematics_symbols)
+- For [color](https://en.wikibooks.org/wiki/LaTeX/Mathematics#Color) try `k = {\color{red}x} \mathbin{\color{blue}-} 2` for $k = {\color{red}x} \mathbin{\color{blue}-} 2$
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
