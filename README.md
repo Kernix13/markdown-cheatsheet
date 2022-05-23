@@ -703,7 +703,7 @@ Use `\alpha, \Alpha, \beta, \Beta, \gamma, \Gamma, \pi, \Pi, \phi, \varphi, \mu,
 
 #### Examples for Operators
 
-An operator is a function that is written as a word: e.g. trigonometric functions (sin, cos, tan), logarithms and exponentials (log, exp), limits (lim), as well as trace and determinant (tr, det). https://en.wikibooks.org/wiki/LaTeX/Mathematics
+An operator is a function that is written as a word: e.g. trigonometric functions (sin, cos, tan), logarithms and exponentials (log, exp), limits (lim), as well as trace and determinant (tr, det).
 
 Use `\lim\limits_{x \to \infty} \exp(-x) = 0` for $\lim\limits_{x \to \infty} \exp(-x) = 0$
 
@@ -741,6 +741,11 @@ Check out the Wikipedia article [LaTeX/Mathematics](https://en.wikibooks.org/wik
 - [Color](https://en.wikibooks.org/wiki/LaTeX/Mathematics#Color)
 
 Color example: try `k = {\color{red}x} \mathbin{\color{blue}-} 2` for $k = {\color{red}x} \mathbin{\color{blue}-} 2$
+
+Other links:
+
+- [MathJax](https://www.mathjax.org/)
+- GitHub blog ppost [Math support in Markdown](https://github.blog/2022-05-19-math-support-in-markdown/)
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
