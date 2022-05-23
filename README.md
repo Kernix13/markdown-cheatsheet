@@ -745,7 +745,7 @@ Color example: try `k = {\color{red}x} \mathbin{\color{blue}-} 2` for $k = {\col
 Other links:
 
 - [MathJax](https://www.mathjax.org/)
-- GitHub blog ppost [Math support in Markdown](https://github.blog/2022-05-19-math-support-in-markdown/)
+- GitHub blog post [Math support in Markdown](https://github.blog/2022-05-19-math-support-in-markdown/)
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
