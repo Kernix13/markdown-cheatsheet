@@ -557,7 +557,9 @@ console.log(${variable})
 <?php the_content(); ?>
 ```
 
-Here is the full list of supported languages and code syntax highlighting. Check out the rarticle [Languages Supported by Github Flavored Markdown](https://www.rubycoloredglasses.com/2013/04/languages-supported-by-github-flavored-markdown/) from 12-8-2020. Also check out the [highlight.js repo](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md):
+Here is the full list of supported languages and code syntax highlighting.
+
+Check out the rarticle [Languages Supported by Github Flavored Markdown](https://www.rubycoloredglasses.com/2013/04/languages-supported-by-github-flavored-markdown/) from 12-8-2020. Also check out the [highlight.js repo](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md):
 
 ```markdown
 actionscript3
