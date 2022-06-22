@@ -557,6 +557,65 @@ console.log(${variable})
 <?php the_content(); ?>
 ```
 
+Here is the full list of supported languages and code syntax highlighting. Check out the rarticle [Languages Supported by Github Flavored Markdown](https://www.rubycoloredglasses.com/2013/04/languages-supported-by-github-flavored-markdown/) from 12-8-2020. Also check out the [highlight.js repo](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md):
+
+```markdown
+actionscript3
+apache
+applescript
+asp
+brainfuck
+c
+cfm
+clojure
+cmake
+coffee-script, coffeescript, coffee
+cpp - C++
+cs
+csharp
+css
+csv
+bash
+diff
+elixir
+erb - HTML + Embedded Ruby
+go
+haml
+http
+java
+javascript
+js
+json
+jsx
+less
+lolcode
+make - Makefile
+markdown
+matlab
+nginx
+objectivec
+pascal
+PHP
+Perl
+python
+profile - python profiler output
+rust
+salt, saltstate - Salt
+shell, sh, zsh, bash - Shell scripting
+scss
+sql
+svg
+swift
+rb, jruby, ruby - Ruby
+smalltalk
+vim, viml - Vim Script
+volt
+vhdl
+vue
+xml - XML and also used for HTML with inline CSS and Javascript
+yaml
+```
+
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Diff
