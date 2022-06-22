@@ -559,7 +559,7 @@ console.log(${variable})
 
 Here is the full list of supported languages and code syntax highlighting.
 
-Check out the rarticle [Languages Supported by Github Flavored Markdown](https://www.rubycoloredglasses.com/2013/04/languages-supported-by-github-flavored-markdown/) from 12-8-2020. Also check out the [highlight.js repo](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md):
+Check out the article [Languages Supported by Github Flavored Markdown](https://www.rubycoloredglasses.com/2013/04/languages-supported-by-github-flavored-markdown/) from 12-8-2020. Also check out the [highlight.js](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md) repo:
 
 ```markdown
 actionscript3
