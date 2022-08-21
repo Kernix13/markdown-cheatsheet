@@ -96,7 +96,7 @@ _ underscore for italics
 > for blockquotes
 3 - or * for horizontal rules
 " for titles to links
-<!-- for comments -->
+<!-- for comments in markdown -->
 \ to escape most of the characters above
 
 \* escape asterisk,
@@ -655,6 +655,8 @@ This is a nice way to add a comment in the editor view of your markdown file. Th
 <!-- There is a comment here that you can't see -->
 
     <!-- There is a comment here that you can't see -->
+
+Comments used in language block code blocks will match the language. You can use the `CTRL+/` shortcut. For example, in JavaScript or PHP you will get `//` using that shortcut, or `/* */` in CSS, or `<!-- -->` in HTML.
 
 ### Spoiler
 
