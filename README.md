@@ -51,6 +51,7 @@ I'm breaking up all the markdown syntax into 8 categories:
 |               **[Visual](#visual)**: | [Images](#images)                                                   |       No        |
 |                                      | [Math](#math)                                                       |       No        |
 |                                      | [Emojis](#emojis)                                                   |       No        |
+|                                      | [Shields](#shields)                                                 |       No        |
 |                                      | [HTML entities](#html-entities)                                     |    **Yes\***    |
 |                  **[Notes](#notes)** | [Block level HTML tags that work](#block-level-HTML-tags-that-work) |        -        |
 |                                      | [Inline HTML tags that work](#inline-HTML-tags-that-work)           |        -        |
@@ -852,6 +853,40 @@ Miscellaneous/playful: :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mu
 :icecream:, :sound:, :speaker:, :lock:, :guitar:, :one:, :two: (and other #'s),
 :link:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:
 ```
+
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+
+### Shields
+
+[Shields.io](https://shields.io/) generates shields/badges for different apects of your repo. Here are the shields I have for my WriterAssist repo with descriptions above the badges:
+
+```md
+GitHub commit activity:
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/Kernix13/WriterAssist?style=flat-square)
+GitHub contributors:
+![GitHub contributors](https://img.shields.io/github/contributors/Kernix13/WriterAssist?style=flat-square)
+GitHub all releases:
+![GitHub all releases](https://img.shields.io/github/downloads/Kernix13/WriterAssist/total?style=flat-square)
+GitHub language count:
+![GitHub language count](https://img.shields.io/github/languages/count/Kernix13/WriterAssist?style=flat-square)
+GitHub top language:
+![GitHub top language](https://img.shields.io/github/languages/top/Kernix13/WriterAssist?style=flat-square)
+license
+![GitHub](https://img.shields.io/github/license/Kernix13/WriterAssist?style=flat-square)
+```
+
+In the beginning just add what you can, even if the values are `0`. Here are the badges I think are good for beginners:
+
+- **Analysis badges**: GitHub language count, GitHub top language, and GitHub search hit counter
+- **Size badge**: GitHub repo file count
+- **Downloads badge**: GitHub all releases
+- **Funding badge**: GitHub sponsors
+- **Issue tracking badges**: GitHub issue/pull request detail, GitHub issues, GitHub closed issues, ... (_what is hacktoberfest?_)
+- **License badge**: GitHub license
+- **Social badges**: GitHub followers, forks, repo stars, users stars, watchers, ...
+- **Version badge**: GitHub manifest version
+- **Activity badges**: GitHub contributors, GitHub commit activity, GitHub last commit, GitHub release date,
+- **Other badges**: GitHub discussions, GitHub package.json dynamic (keywords)
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
