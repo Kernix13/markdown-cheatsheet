@@ -858,7 +858,7 @@ Miscellaneous/playful: :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mu
 
 ### Shields
 
-[Shields.io](https://shields.io/) generates shields/badges for different apects of your repo. Here are the shields I have for my WriterAssist repo with descriptions above the badges:
+[Shields.io](https://shields.io/) generates shields/badges for different apects of your repo. Here are the shields I have for my [WriterAssist](https://github.com/Kernix13/WriterAssist) repo with descriptions above the badges:
 
 ```md
 GitHub commit activity:
