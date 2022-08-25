@@ -880,13 +880,19 @@ In the beginning just add what you can, even if the values are `0`. Here are the
 - **Analysis badges**: GitHub language count, GitHub top language, and GitHub search hit counter
 - **Size badge**: GitHub repo file count
 - **Downloads badge**: GitHub all releases
-- **Funding badge**: GitHub sponsors
+- **Funding badge**: GitHub sponsors (probably not for beginners)
 - **Issue tracking badges**: GitHub issue/pull request detail, GitHub issues, GitHub closed issues, ... (_what is hacktoberfest?_)
 - **License badge**: GitHub license
 - **Social badges**: GitHub followers, forks, repo stars, users stars, watchers, ...
 - **Version badge**: GitHub manifest version
 - **Activity badges**: GitHub contributors, GitHub commit activity, GitHub last commit, GitHub release date,
 - **Other badges**: GitHub discussions, GitHub package.json dynamic (keywords)
+
+Here is a breakdown of the links though Shield.io will build them out for you:
+
+```md
+https://img.shields.io/github/ + Label/ + user/ + repo + ?options
+```
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
