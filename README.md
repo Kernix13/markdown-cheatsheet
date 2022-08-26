@@ -902,7 +902,7 @@ Shield.io will build the links for you, but here is the breakdown of the structu
 https://img.shields.io/github/ + Label/ + user/ + repo + ?options
 ```
 
-If you want shields for a repo that you already have on another repo, then you do not have to go to the shields website. You can just change the repo part of the link. As of 8/26/2022 I have 3 shields for this repo. Here they are following the sequence above with `constant` standing for the string `https://img.shields.io/github/`:
+You do not have to go to the shields website if you want shields for a repo that you already have on another repo. Just change the repo part of the link. As of 8/26/2022 I have 3 shields for this repo. Here they are following the sequence above with `constant` standing for the string `https://img.shields.io/github/`:
 
 ```markdown
 <!-- Forks -->
