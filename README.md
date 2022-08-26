@@ -883,13 +883,13 @@ license
 ![GitHub](https://img.shields.io/github/license/Kernix13/WriterAssist?style=flat-square)
 ```
 
-In the beginning just add what you can, even if the values are `0`, though some fields with `0` will display a zero, others will not even display the badge. Here are the badges I think are good for beginners:
+In the beginning just add what you can, even if the values are `0`, though some shields with a `null` value will display a zero, others will not even display the badge. Here are the badges I think are good for beginners:
 
 - **Analysis badges**: GitHub language count, GitHub top language, and GitHub search hit counter
 - **Size badge**: GitHub repo file count
 - **Downloads badge**: GitHub all releases
 - **Funding badge**: GitHub sponsors (probably not for beginners)
-- **Issue tracking badges**: GitHub issue/pull request detail, GitHub issues, GitHub closed issues, ... (_what is hacktoberfest?_)
+- **Issue tracking badges**: GitHub issue/pull request detail, GitHub issues, GitHub closed issues, ...and many more, (_what is hacktoberfest?_)
 - **License badge**: GitHub license
 - **Social badges**: GitHub followers, forks, repo stars, users stars, watchers, ...
 - **Version badge**: GitHub manifest version
@@ -902,7 +902,7 @@ Shield.io will build the links for you, but here is the breakdown of the structu
 https://img.shields.io/github/ + Label/ + user/ + repo + ?options
 ```
 
-If you have shields that you want for a repo on another of your repos, then you do not have to go to the shields website. You can just change the repo part of the link. As of 8/26/2022 I have 3 shields for this repo. Here they are following the sequence above with `constant` standing for the string `https://img.shields.io/github/`:
+If you want shields for a repo that you already have on another repo, then you do not have to go to the shields website. You can just change the repo part of the link. As of 8/26/2022 I have 3 shields for this repo. Here they are following the sequence above with `constant` standing for the string `https://img.shields.io/github/`:
 
 ```markdown
 <!-- Forks -->
@@ -918,7 +918,11 @@ constant + commit-activity/y/Kernix13/markdown-cheatsheet?style=flat-square
 constant + contributors/Kernix13/markdown-cheatsheet?style=flat-square
 ```
 
-For the `?style=` part of the link, I like `flat-square` and `for-the-badge`. You can also choose _Copy HTML_ to get an `img` tag instead of a markdown link: `<img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/Kernix13/WriterAssist?style=for-the-badge">`.
+For the `?style=` part of the link, I like `flat-square` and `for-the-badge` (much larger). You can also choose _Copy HTML_ to get an `img` tag instead of a markdown link. I actually switched from the markdown syntax to an `img` tag inside of `<span>` tags to get them to display inline:
+
+```markdown
+<span><img alt="GitHub forks" src="https://img.shields.io/github/forks/Kernix13/markdown-cheatsheet?style=for-the-badge"></span>
+```
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
