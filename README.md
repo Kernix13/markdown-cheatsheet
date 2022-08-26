@@ -1247,9 +1247,9 @@ Unless there is a way to display the tags differently, then I do not see the poi
 
 ### Inline HTML tags that work
 
-_Duplicates markdown_: `a`, `b` and `strong` (display as Bold), `code`, `del` and `s` (display as Strikethrough), `em` and `i` and `var` (display as Italic), `img` (width, align [center, right])
+_Duplicates markdown_: `<a>`, `code`, `img` (width, align [center, right]), `b` and `strong` (display as Bold), `del` and `s` (display as Strikethrough), `em` and `i` and `var` (display as Italic).
 
-_No markdown equivalent_: `br` (line break), `ins` (underline), `sup` and `sub` (superscript and subscript), `samp` (Monospaced font), `q` (quotes), `kbd` (keyboard keys), `span`
+_No markdown equivalent_: `br` (line break), `ins` (underline), `sup` and `sub` (superscript and subscript), `samp` (Monospaced font), `q` (quotes), `kbd` (keyboard keys), `span`.
 
 **Attributes**:
 
@@ -1333,8 +1333,8 @@ I don't know of another method to get images on a row other than using a table. 
   <dt>Markdown Cheat Sheet</dt>
   <dd>A quick source for making your readme files look great!</dd>
 </dl>
-```
 
+```markdown
 <dl>
   <dt>Markdown Cheat Sheet</dt>
   <dd>A quick source for making your readme files look great!</dd>
@@ -1343,7 +1343,7 @@ I don't know of another method to get images on a row other than using a table. 
 
 Pertaining to spacers in between sections, I am experimenting with 8-16px high PNG files with a gradient. I have one of those in my _Beginner Git Commands_ repo. I want to make one with the gradient colors used for dark and light mode here on GitHub.
 
-Also, let's look at the small font-size for H5 and H6 tags (Markdown version). Where/when would using these be useful?
+Also, let's look at the small font-size for H5 and H6 tags (Markdown version). Regular paragraph size in markdown equals the font-size for `h4` or `###`. Where/when would using these be useful?
 
 #### How about H4 as a comparison
 
