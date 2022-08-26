@@ -1,6 +1,5 @@
 # MARKDOWN CHEAT SHEET
 
-![GitHub top language](https://img.shields.io/github/followers/Kernix13/markdown-cheatsheet?style=flat-square)
 ![GitHub top language](https://img.shields.io/github/forks/Kernix13/markdown-cheatsheet?style=flat-square)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/Kernix13/markdown-cheatsheet?style=flat-square)
 ![GitHub contributors](https://img.shields.io/github/contributors/Kernix13/markdown-cheatsheet?style=flat-square)
