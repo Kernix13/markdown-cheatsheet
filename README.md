@@ -709,7 +709,7 @@ This isn't a markdown thing but it is another example of using HTML tags in a Ma
 
 ## Visual
 
-The four sections below deal with adding visual-based elements to your markdown file that require some kind of extra code/syntax: `images`, `math expressions`, `emojis`, and `HTML entities`.
+The five sections below deal with adding visual-based elements to your markdown file that require some kind of extra code/syntax: `images`, `math expressions`, `emojis`, `shields`, and `HTML entities`.
 
 ### Images
 
