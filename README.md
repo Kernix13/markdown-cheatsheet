@@ -879,7 +879,7 @@ license
 ![GitHub](https://img.shields.io/github/license/Kernix13/WriterAssist?style=flat-square)
 ```
 
-In the beginning just add what you can, even if the values are `0`. Here are the badges I think are good for beginners:
+In the beginning just add what you can, even if the values are `0`, though some fields with `0` will display a zero, others will not even display the badge. Here are the badges I think are good for beginners:
 
 - **Analysis badges**: GitHub language count, GitHub top language, and GitHub search hit counter
 - **Size badge**: GitHub repo file count
