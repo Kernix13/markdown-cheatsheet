@@ -1,5 +1,10 @@
 # MARKDOWN CHEAT SHEET
 
+![GitHub top language](https://img.shields.io/github/followers/Kernix13/markdown-cheatsheet?style=flat-square)
+![GitHub top language](https://img.shields.io/github/forks/Kernix13/markdown-cheatsheet?style=flat-square)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/Kernix13/markdown-cheatsheet?style=flat-square)
+![GitHub contributors](https://img.shields.io/github/contributors/Kernix13/markdown-cheatsheet?style=flat-square)
+
 Use this markdown cheat cheat as a guide for writing your markdown files. If you like it then clone or fork it, or at least click the **star** button. You can also check out the [Markdown Cheat Sheet article](https://kernixwebdesign.com/website/code/markdown-cheat-sheet-beginners/) I wrote, though it is not as inclusive as this guide.
 
 I'm breaking up all the markdown syntax into 8 categories:
