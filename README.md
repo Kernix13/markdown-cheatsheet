@@ -892,11 +892,29 @@ In the beginning just add what you can, even if the values are `0`, though some 
 - **Activity badges**: GitHub contributors, GitHub commit activity, GitHub last commit, GitHub release date,
 - **Other badges**: GitHub discussions, GitHub package.json dynamic (keywords)
 
-Here is a breakdown of the links though Shield.io will build them out for you:
+Shield.io will build the links for you, but here is the breakdown of the structure:
 
-```md
+```markdown
 https://img.shields.io/github/ + Label/ + user/ + repo + ?options
 ```
+
+If you have shields that you want for a repo on another of your repos, then you do not have to go to the shields website. You can just change the repo part of the link. As of 8/26/2022 I have 3 shields for this repo. Here they are following the sequence above with `constant` standing for the string `https://img.shields.io/github/`:
+
+```markdown
+<!-- Forks -->
+
+constant + forks/Kernix13/markdown-cheatsheet?style=flat-square
+
+<!-- Commits -->
+
+constant + commit-activity/y/Kernix13/markdown-cheatsheet?style=flat-square
+
+<!-- Contributors -->
+
+constant + contributors/Kernix13/markdown-cheatsheet?style=flat-square
+```
+
+For the `?style=` part of the link, I like `flat-square` and `for-the-badge`. You can also choose _Copy HTML_ to get an `img` tag instead of a markdown link: `<img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/Kernix13/WriterAssist?style=for-the-badge">`.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -1307,8 +1325,8 @@ I don't know of another method to get images on a row other than using a table. 
   <dt>Markdown Cheat Sheet</dt>
   <dd>A quick source for making your readme files look great!</dd>
 </dl>
-
 ```
+
 <dl>
   <dt>Markdown Cheat Sheet</dt>
   <dd>A quick source for making your readme files look great!</dd>
