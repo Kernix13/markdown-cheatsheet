@@ -964,7 +964,7 @@ When you see a profile README with language/tool icons that you would like to us
 
 **NOTE 1**: The link attribute `target="_blank"` does not open links in a new tab.
 
-**NOTE 2**: You need to set the `width` and `height` for the devicons.
+**NOTE 2**: You need to set the `width` and `height` for the devicons. Currently I have 40 or 48 pixels for my devicons.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
