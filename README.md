@@ -86,7 +86,7 @@ Since paragraphs are a thing of their own, let's cover that one first:
 Here are the characters you will use in Markdown. They will be covered in each section after this one:
 
 ````
-# Has tags for headines and anchor links
+# Hash tags for headines and anchor links
 @ for at mentions
 [] for links, checked lists / tasks, and footnotes
 () for links
@@ -94,23 +94,20 @@ Here are the characters you will use in Markdown. They will be covered in each s
 ^ for footnote links
 x or X for tasks lists
 ` and ``` for inline code and codeblocks
-
 - and \*\* for italic and bold
-  \_ underscore for italics
-  ~~ for strikethrough
-  | for tables
-  : with dashes - for table cell alignments, for footnotes, and emojis
-  || double pipes for spoiler text on Discord
-
+\_ underscore for italics
+~~ for strikethrough
+| for tables
+: with dashes - for table cell alignments, for footnotes, and emojis
+|| double pipes for spoiler text on Discord
 * and a space for unordered lists
-  1, 2, 3, etc. for numbered lists
+1, 2, 3, etc. for numbered lists
 * and + for diff code blocks
-  > for blockquotes
-  > 3 - or \* for horizontal rules
-  > " for titles to links
-  <!-- for comments in markdown -->
-  \ to escape most of the characters above
-
+> for blockquotes
+> 3 - or \* for horizontal rules
+> " for titles to links
+<!-- for comments in markdown -->
+\ to escape most of the characters above
 \* escape asterisk,
 \| escape pipe, etc...
 ````
