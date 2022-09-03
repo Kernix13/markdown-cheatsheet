@@ -929,18 +929,14 @@ For the `?style=` part of the link, I like `flat-square` and `for-the-badge` (mu
 
 ### Devicons
 
-Devicons are the language and web tool icons you see mostly in people's profile README files. I found a list of all of them once but can't find it now. Here is an example of the code:
+Devicons are the language and web tool icons you see mostly in people's profile README files. I found a list of all of them once but can't find it now. Here is an example of the code you would use and check out [Devicons on GitHub](https://github.com/devicons/devicon/tree/master/icons) for the full list:
 
 ```markdown
-<!-- a repo for each icon -->
-
-https://github.com/devicons/devicon/tree/master/icons
-
 <!-- img src example -->
 
 https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg
 
-<!-- full example on an img tag inide a link tag -->
+<!-- full example on an img tag inside a link tag -->
 
 <a href="https://getbootstrap.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a>
 ```
