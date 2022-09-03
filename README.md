@@ -85,7 +85,7 @@ Since paragraphs are a thing of their own, let's cover that one first:
 
 Here are the characters you will use in Markdown. They will be covered in each section after this one:
 
-````markdown
+````
 # Hast tags for headines and anchor links
 
 @ for at mentions
