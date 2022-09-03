@@ -943,11 +943,17 @@ https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootst
 
 You will have to find all the language and tool icons that you want for your markdown files. Here are examples of Bootstrap and CSS3 devicons in 1) an `img` tag inside an `a` tag, 2) an `img` tag only, and 3) an `img` tag inside a `span` tag:
 
+#### Devicons in an anchor and image tag
+
 <a href="https://getbootstrap.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a>
 <a href="https://getbootstrap.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vs code" width="40" height="40"/> </a>
 
+#### Devicons in an image tag only
+
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vs code" width="40" height="40"/>
+
+#### Devicons in a span and image tag
 
 <span> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </span>
 <span> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vs code" width="40" height="40"/> </span>
