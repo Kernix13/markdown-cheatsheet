@@ -60,6 +60,7 @@ I'm breaking up all the markdown syntax into 8 categories:
 |                                      | [Math](#math)                                                       |       No        |
 |                                      | [Emojis](#emojis)                                                   |       No        |
 |                                      | [Shields](#shields)                                                 |       No        |
+|                                      | [Devicons](#devicons)                                               |       No        |
 |                                      | [HTML entities](#html-entities)                                     |    **Yes\***    |
 |                  **[Notes](#notes)** | [Block level HTML tags that work](#block-level-HTML-tags-that-work) |        -        |
 |                                      | [Inline HTML tags that work](#inline-HTML-tags-that-work)           |        -        |
@@ -923,6 +924,34 @@ For the `?style=` part of the link, I like `flat-square` and `for-the-badge` (mu
 ```markdown
 <span><img alt="GitHub forks" src="https://img.shields.io/github/forks/Kernix13/markdown-cheatsheet?style=for-the-badge"></span>
 ```
+
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+
+### Devicons
+
+Devicons are the language and web tool icons you see mostly in people's profile README files. I found a list of all of them once but can't find it now. Here is an example of the code:
+
+```markdown
+<!-- a repo for each icon -->
+
+https://github.com/devicons/devicon/tree/master/icons
+
+<!-- img src example -->
+
+https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg
+
+<!-- full example on an img tag inide a link tag -->
+
+<a href="https://getbootstrap.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a>
+```
+
+You will have to find all the language and tool icons that you want for your markdown files. Here is the bootstrap link and image along with just an image tag for the Bootstrap devicon shown in the code block above:
+
+<a href="https://getbootstrap.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a>
+
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
+
+I do not know why some people put links around the icons other than for having the icons inline. Your choice. But when you see a profile README with language/tool icons that you would like to use, then go into the markdown to get a copy of the `src` and then add it to your profile README.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
