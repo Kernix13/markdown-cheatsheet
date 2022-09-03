@@ -929,7 +929,7 @@ For the `?style=` part of the link, I like `flat-square` and `for-the-badge` (mu
 
 ### Devicons
 
-Devicons are the language and web tool icons you see mostly in people's profile README files. I found a list of all of them once but can't find it now. Here is an example of the code you would use and check out [Devicons on GitHub](https://github.com/devicons/devicon/tree/master/icons) for the full list:
+Devicons are the language and web tool icons you see mostly in people's profile README files. I found a list of all of them once but can't find it now. Here is an example of the code you would use and check out [Devicons on GitHub](https://github.com/devicons/devicon/tree/master/icons) for the full list languages and tools:
 
 ```markdown
 <!-- img src example -->
@@ -941,13 +941,20 @@ https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootst
 <a href="https://getbootstrap.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a>
 ```
 
-You will have to find all the language and tool icons that you want for your markdown files. Here is the bootstrap link and image along with just an image tag for the Bootstrap devicon shown in the code block above:
+You will have to find all the language and tool icons that you want for your markdown files. Here are examples of Bootstrap and CSS3 devicons in 1) an `img` tag inside an `a` tag, 2) an `img` tag only, and 3) an `img` tag inside a `span` tag:
 
 <a href="https://getbootstrap.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a>
+<a href="https://getbootstrap.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vs code" width="40" height="40"/> </a>
 
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vs code" width="40" height="40"/>
 
-I do not know why some people put links around the icons other than for having the icons inline. Your choice. But when you see a profile README with language/tool icons that you would like to use, then go into the markdown to get a copy of the `src` and then add it to your profile README.
+<span> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </span>
+<span> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vs code" width="40" height="40"/> </span>
+
+They are all inline. I do not know why some people put links around the icons. I think a span tag with `align="right"` or center would be best, although you can also add the `align` attribute to the `img` tag as well.
+
+When you see a profile README with language/tool icons that you would like to use, then go into the markdown to get a copy of the `src` and then add it to your profile README. Or go to the devicons repo linked above, search for your languages/tools in the icons folder and go into that folder. Click on an image, and if you like the image click the `Raw` button and copy the URL in the address bar.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
