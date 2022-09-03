@@ -958,9 +958,13 @@ You will have to find all the language and tool icons that you want for your mar
 <span> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </span>
 <span> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vs code" width="40" height="40"/> </span>
 
-They are all inline except for the `img` tags. I assume some people put links around the icons so that they are inline. That's fine I guess, but I think a span tag with `align="left"` or `center` would be best, although you could do `right` to have them stand out or as a visual change to the normal left alignment.
+They are all inline except for the sole `img` tags. I assume some people put links around the icons so that they are inline. That's fine I guess, but I think a span tag with `align="left"` or `center` would be best, although you could do `right` to have them stand out or as a visual change to the normal left alignment.
 
-When you see a profile README with language/tool icons that you would like to use, then go into the markdown to get a copy of the `src` and then add it to your profile README. Or go to the devicons repo linked above, search for your languages/tools in the icons folder and go into that folder. Click on an image, and if you like the image click the `Raw` button and copy the URL in the address bar.
+When you see a profile README with language/tool icons that you would like to use, then go into the markdown to get a copy of the `src` and then add it to your profile README. Or go to the devicons repo linked above, search for your languages/tools in the icons folder and go into that folder. Click on an image, and if you like the image click the `Raw` button and copy the URL in the address bar to use as the `src` attribute.
+
+**NOTE 1**: The link attribute `target="_blank"` does not open links in a new tab.
+
+**NOTE 2**: You need to set the `width` and `height` for the devicons.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
