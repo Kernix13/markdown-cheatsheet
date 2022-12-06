@@ -295,13 +295,11 @@ Use 3 asterisks or 3 dashes with or without a space to create a horizontal rule:
 
 ---
 
-```markdown
+```
+- - -
 ---
----
-
----
-
----
+* * *
+***
 ```
 
 **NOTE**: Make sure to hit <kbd>ENTER</kbd> twice if you intend to use 3 asterisks witout spaces or it will set the text above it to an H3 tag.
@@ -391,11 +389,7 @@ Footnote.[^1]
 
 Some other important footnote.[^2]
 
-Use this for where you want the link:
-
-```markdown
-[^1]
-```
+Use this for where you want the link: `[^1]`
 
 Here is the actual footnote syntax:
 
