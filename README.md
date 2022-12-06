@@ -252,10 +252,25 @@ The text in the tags can only be styled with the HTML tags related to bold, ital
   <dd>Represents a description list. The <ins><b><em>dl</em></b></ins> element encloses a list of groups of terms (specified using the <ins><b><em>dt</em></b></ins> element) and descriptions (provided by <ins><b><em>dd</em></b></ins> elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs) (<s>ignore</s>).</dd>
 </dl>
 
-```markdown
+```html
 <dl>
   <dt>Description <ins>List</ins></dt>
-  <dd>Represents a description list. The <ins><b><em>dl</em></b></ins> element encloses a list of groups of terms (specified using the <ins><b><em>dt</em></b></ins> element) and descriptions (provided by <ins><b><em>dd</em></b></ins> elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs) (<s>ignore</s>).</dd>
+  <dd>
+    Represents a description list. The
+    <ins
+      ><b><em>dl</em></b></ins
+    >
+    element encloses a list of groups of terms (specified using the
+    <ins
+      ><b><em>dt</em></b></ins
+    >
+    element) and descriptions (provided by
+    <ins
+      ><b><em>dd</em></b></ins
+    >
+    elements). Common uses for this element are to implement a glossary or to
+    display metadata (a list of key-value pairs) (<s>ignore</s>).
+  </dd>
 </dl>
 ```
 
