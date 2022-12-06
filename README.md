@@ -136,26 +136,34 @@ These do not work for the obvious ones (Horizontal Rules, Images, and Emojis), a
 
 **Bold**: use either 2 **asterisks** or 2 **underscores** before and after the text for bold styling. The preferred syntax is to use asterisks for bold:
 
-    **two asterisks**
-    __two underscores__
+```markdown
+**two asterisks**
+**two underscores**
+```
 
 ### Italic
 
 **Italic**: use a _single asterisk_ or _underscore_ before and after the text for italic styling. The preferred syntax is to use an underscore for italic:
 
-    *single asterisk*
-    _single underscore_
+```markdown
+_single asterisk_
+_single underscore_
+```
 
 **_Bold and Italic_**: use either **_3 asterisks_** or **_2 asterisks and 1 underscore_** for bold and italic text. The preffered syntax is the latter:
 
-    ***3 asterisks***
-    **_2 asterisks and and 1 underscore_**
+```markdown
+**_3 asterisks_**
+**_2 asterisks and and 1 underscore_**
+```
 
 ### Strike thru
 
 **Strikethrough**: use two tildes (~~) before and after text that you want to display as ~~strikethrough~~:
 
-    ~~double tildes~~
+```markdown
+~~double tildes~~
+```
 
 If you want, you can also do **~~bold strikethrough~~**, _~~\_italic strikethrough_~~, and \*\*\*~~bold italic strikethrough~~\*\*\*.
 
@@ -167,7 +175,7 @@ The links on GitHub are blue, bold and underlined (<ins>on hover</ins>). The `<i
 
 This is <ins>text underlined</ins> with the `ins` HTML tag.
 
-```
+```markdown
 This is <ins>text underlined</ins> with the `ins` HTML tag.
 ```
 
@@ -193,14 +201,21 @@ There are 6 headings just like in HTML. Use a single hashtag for H1 and 6 hashta
 
 **NOTE**: There is an automatic horizontal rule added when you use syntax for H1 and H2.
 
-    # MARKDOWN CHEAT SHEET (Heading 1)
-    ## Misc (Heading 2)
-    ### Headings (heading 3)
-    ### Heading 4 (you most likely will not use H5 or H6)
+```markdown
+# MARKDOWN CHEAT SHEET (Heading 1)
+
+## Misc (Heading 2)
+
+### Headings (heading 3)
+
+### Heading 4 (you most likely will not use H5 or H6)
+```
 
 Here is an example of using Bold, Italic, and Strikethrough in a heading:
 
-    ## ~~A Literal~~ <ins>Table</ins> of _Contents_
+```markdown
+## ~~A Literal~~ <ins>Table</ins> of _Contents_
+```
 
 As you can see, strikethrough and italic worked on the heading, but using bold did not increase the font weight for the word `Table`.
 
@@ -214,9 +229,11 @@ This is a nice effect but I don't know why you would use it on GitHub:
 >
 > Create a <ins>space</ins> like above using > with no text (~~ignore~~)
 
-    > Use a **greater** than _sign_ (>) to quote a team member
-    >
-    > Create a <ins>space</ins> like above using > with no text (~~ignore~~)
+```markdown
+> Use a **greater** than _sign_ (>) to quote a team member
+>
+> Create a <ins>space</ins> like above using > with no text (~~ignore~~)
+```
 
 <br />
 
@@ -235,7 +252,7 @@ The text in the tags can only be styled with the HTML tags related to bold, ital
   <dd>Represents a description list. The <ins><b><em>dl</em></b></ins> element encloses a list of groups of terms (specified using the <ins><b><em>dt</em></b></ins> element) and descriptions (provided by <ins><b><em>dd</em></b></ins> elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs) (<s>ignore</s>).</dd>
 </dl>
 
-```
+```markdown
 <dl>
   <dt>Description <ins>List</ins></dt>
   <dd>Represents a description list. The <ins><b><em>dl</em></b></ins> element encloses a list of groups of terms (specified using the <ins><b><em>dt</em></b></ins> element) and descriptions (provided by <ins><b><em>dd</em></b></ins> elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs) (<s>ignore</s>).</dd>
@@ -261,13 +278,13 @@ Here is a generic table but the Table of Contents above is another version. The 
 
 <br>
 
-```
-| Left aligned Content | Center aligned Content | Right aligned Content |
-| :-----------         | :-----------:          | -----------: |
-| Content Left         | Content Center         | Content Right |
-| Content Left         | Content Center         | Content Right |
-| *Italic*             | **Bold**               | ~~Strikethrough~~ |
-| <ins>Underlined</ins> | Content Center        | Content Right |
+```markdown
+| Left aligned Content  | Center aligned Content | Right aligned Content |
+| :-------------------- | :--------------------: | --------------------: |
+| Content Left          |     Content Center     |         Content Right |
+| Content Left          |     Content Center     |         Content Right |
+| _Italic_              |        **Bold**        |     ~~Strikethrough~~ |
+| <ins>Underlined</ins> |     Content Center     |         Content Right |
 ```
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
@@ -278,10 +295,14 @@ Use 3 asterisks or 3 dashes with or without a space to create a horizontal rule:
 
 ---
 
-    - - -
-    ---
-    * * *
-    ***
+```markdown
+---
+---
+
+---
+
+---
+```
 
 **NOTE**: Make sure to hit <kbd>ENTER</kbd> twice if you intend to use 3 asterisks witout spaces or it will set the text above it to an H3 tag.
 
@@ -305,7 +326,9 @@ This category accepts all text effects and includes:
 
 Here is a link to my [Beginner Git Commands](https://github.com/Kernix13/beginner-git-commands) repositiory. And here is the syntax:
 
-    [Link text](URL "Optional link title")
+```markdown
+[Link text](URL 'Optional link title')
+```
 
 **NOTE**: Only use a title if it adds information. Don't set the title text to be the same as the link text.
 
@@ -333,15 +356,21 @@ For the simple links, use the same syntax as for **External Links** above with 2
 
 Here is an example for the _Strike thru_ section:
 
-    [Strike thru](#strike-thru)
+```markdown
+[Strike thru](#strike-thru)
+```
 
 Here is the code for the anchor link using an HTML `<a>` tag:
 
-    <a id="back-to-top"></a>
+```html
+<a id="back-to-top"></a>
+```
 
 Here is the matching link for the above:
 
-    [Back to Top](#back-to-top)
+```markdown
+[Back to Top](#back-to-top)
+```
 
 I actually changed my 'Back to Top' link to be an `<a>` link inside of a `<div>` so that I could align the link to the right and use an HTML entity for an arrow up:
 
@@ -364,14 +393,16 @@ Some other important footnote.[^2]
 
 Use this for where you want the link:
 
-```
+```markdown
 [^1]
 ```
 
 Here is the actual footnote syntax:
 
-    [^1]: This is footnote number one.
-    [^2]: Here is the second footnote.
+```markdown
+[^1]: This is footnote number one.
+[^2]: Here is the second footnote.
+```
 
 [^1]: This is footnote number one.
 [^2]: Here is the second footnote.
@@ -414,7 +445,7 @@ You can use all text effects but with some exceptions: None of the effects work 
 1. Ordered _item_ 2
 1. Ordered ~~item 3~~
 
-```
+```markdown
 1. Ordered item 1
 1. Ordered item 2
 1. Ordered item 3
@@ -444,7 +475,7 @@ Does this make sense? You can use both unordered and ordered together -> bullets
   - child item 2
 - list item 3
 
-```
+```markdown
 - list item 1
 - list item 2
   - child item 1
@@ -460,7 +491,7 @@ For a nested ordered list, do the same as for nested unordered lists - align the
    1. Child item 2
 1. Ordered item 3
 
-```
+```markdown
 1. Ordered item 1
 1. Ordered item 2
    1. Child item 1
@@ -479,7 +510,7 @@ You can create what looks like checkboxes and display completed tasks with a che
   - [ ] incomplete subtask
   - [x] complete subtask
 
-```
+```markdown
 - [ ] incomplete task
 - [x] completed task
   - [ ] incomplete subtask
@@ -504,7 +535,9 @@ This category deals with inline code and various typs of code blocks and none of
 
 Use a `single backtick` before and after text to display it as inline code:
 
-    `single backtick`
+```markdown
+`single backtick`
+```
 
 Here are examples on inline as **`bold`**, _`italic`_, and ~~`strikethrough`~~.
 
@@ -663,7 +696,9 @@ This is a nice way to add a comment in the editor view of your markdown file. Th
 
 <!-- There is a comment here that you can't see -->
 
-    <!-- There is a comment here that you can't see -->
+```markdown
+<!-- There is a comment here that you can't see -->
+```
 
 Comments used in language block code blocks will match the language. You can use the `CTRL+/` shortcut. For example, in JavaScript or PHP you will get `//` using that shortcut, or `/* */` in CSS, or `<!-- -->` in HTML.
 
@@ -671,7 +706,9 @@ Comments used in language block code blocks will match the language. You can use
 
 On Discord you may sometimes see a black rectangle that reveals text or code when you click on it. Use double pipes before and after the word(s)/code that you want to conceal:
 
-    ||Spoiler text|| in Discord
+```markdown
+||Spoiler text|| in Discord
+```
 
 **NOTE**: This does not work on Slack or here on GitHub.
 
@@ -715,7 +752,7 @@ The five sections below deal with adding visual-based elements to your markdown 
 
 Images use the same syntax as **Links** except for the addition of an exclamation mark immediately before the opening square bracket. You can also use the optional title text. The example image below shows the dimensions but that is just an example. It's up to you to decide the image sizes you want for your files:
 
-![picture alt text](https://kernixwebdesign.com/wp-content/uploads/2022/05/markdown-image.png "Title is optional")
+![picture alt text](https://kernixwebdesign.com/wp-content/uploads/2022/05/markdown-image.png 'Title is optional')
 
     ![picture alt](https://kernixwebdesign.com/wp-content/uploads/2022/05/markdown-image.png 'Title is optional')
 
@@ -825,12 +862,16 @@ Other links:
 
 I'm not a huge fan of emojis, but here are some that I would consider using. The syntax is the emoji code in between colons:
 
-    :Emoji_code:
+```markdown
+:Emoji_code:
+```
 
 Approval: :+1:, :smile:, :ok_hand:, :white_check_mark:, :heavy_check_mark:, :star:, :star2:, :heart:, :exclamation:
 
+````markdown
     :+1:, :smile:, :ok_hand:, :white_check_mark:, :heavy_check_mark:,
     :star:, :star2:, :heart:, :exclamation:
+    ```
 
 Disapproval, questions, problems: :-1:, :question:, :grey_question:, :x:, :boom:, :bomb:, :astonished:, :warning:, :interrobang:
 
@@ -861,6 +902,7 @@ Miscellaneous/playful: :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mu
 :icecream:, :sound:, :speaker:, :lock:, :guitar:, :one:, :two: (and other #'s),
 :link:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:
 ```
+````
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -1408,7 +1450,7 @@ Finally, here is code to copy instead of having to type it out each time:
 
 ## Resources
 
-1. [Daring Fireball](https://daringfireball.net/projects/markdown/basics "Detailed markdown syntax") - more markdown documentation
+1. [Daring Fireball](https://daringfireball.net/projects/markdown/basics 'Detailed markdown syntax') - more markdown documentation
 1. [Complete list of github markdown emojis](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia) - Emojis list
 1. [GitHub emoji list](https://gist.github.com/rxaviers/7360908) - Emojis list
 1. [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet) - Excellent!
