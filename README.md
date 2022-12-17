@@ -902,6 +902,8 @@ Miscellaneous/playful: :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mu
 
 ### Shields
 
+> Check the file `shields.md` for a full list.
+
 [Shields.io](https://shields.io/) generates shields/badges for different apects of your repo. Here are the shields I have for my [WriterAssist](https://github.com/Kernix13/WriterAssist) repo with descriptions above the badges:
 
 ```md
@@ -964,7 +966,7 @@ For the `?style=` part of the link, I like `flat-square` and `for-the-badge` (mu
 
 ### Devicons
 
-Devicons are the language and web tool icons you see mostly in people's profile README files. I found a list of all of them once but can't find it now. Here is an example of the code you would use and check out [Devicons on GitHub](https://github.com/devicons/devicon/tree/master/icons) for the full list languages and tools:
+Devicons are the language and web tool icons you see mostly in people's profile README files. Check out [Devicons on GitHub](https://github.com/devicons/devicon/tree/master/icons) for the full list languages and tools and let me know if you find another/better list:
 
 ```markdown
 <!-- img src example -->
