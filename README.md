@@ -754,8 +754,6 @@ The five sections below deal with adding visual-based elements to your markdown 
 
 ### Images
 
-> STOPPED 
-
 Images use the same syntax as **Links** except for the addition of an exclamation mark (`!`) immediately before the opening square bracket. You can also use the optional title text. The example image below shows the dimensions but that is just an example. It's up to you to decide the image sizes you want for your files:
 
 ![picture alt text](https://kernixwebdesign.com/wp-content/uploads/2022/05/markdown-image.png 'Title is optional')
@@ -914,7 +912,7 @@ Miscellaneous/playful: :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mu
 
 ### Shields
 
-> Check the file `shields.md` for a full list.
+Check the file `shields.md` for a full list.
 
 [Shields.io](https://shields.io/) generates shields/badges for different apects of your repo. Here are the shields I have for my [WriterAssist](https://github.com/Kernix13/WriterAssist) repo with descriptions above the badges:
 
@@ -952,7 +950,7 @@ Shield.io will build the links for you, but here is the breakdown of the structu
 https://img.shields.io/github/ + Label/ + user/ + repo + ?options
 ```
 
-You do not have to go to the shields website if you want shields for a repo that you already have on another repo. Just change the repo part of the link. As of 8/26/2022 I have 3 shields for this repo. Here they are following the sequence above with `constant` standing for the string `https://img.shields.io/github/`:
+You do not have to go to the shields website if you want shields for a repo that you already. Just change the repo part of the link. As of 8/26/2022 I have 3 shields for this repo. Here they are following the sequence above with `constant` standing for the string `https://img.shields.io/github/`:
 
 ```markdown
 <!-- Forks -->
@@ -1007,13 +1005,13 @@ You will have to find all the language and tool icons that you want for your mar
 <span> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </span>
 <span> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="vs code" width="40" height="40"/> </span>
 
-They are all inline except for the sole `img` tags. I assume some people put links around the icons so that they are inline. That's fine I guess, but I think a span tag with `align="left"` or `center` would be best, although you could do `right` to have them stand out or as a visual change to the normal left alignment.
+They are all inline except for the sole `img` tags. I think a span tag with `align="left"` or `center` would be best, although you could do `right` to have them stand out or as a visual change to the normal left alignment.
 
 When you see a profile README with language/tool icons that you would like to use, then go into the markdown to get a copy of the `src` and then add it to your profile README. Or go to the devicons repo linked above, search for your languages/tools in the icons folder and go into that folder. Click on an image, and if you like the image click the `Raw` button and copy the URL in the address bar to use as the `src` attribute.
 
 **NOTE 1**: The link attribute `target="_blank"` does not open links in a new tab.
 
-**NOTE 2**: You need to set the `width` and `height` for the devicons `img` tags. Currently I have 40 or 48 pixels for my devicons. Find the pixel size that works for you.
+**NOTE 2**: You need to set the `width` and `height` for the devicon's `img` tags. Currently I have 40 or 48 pixels for my devicons. Find the pixel size that works for you.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -1032,6 +1030,7 @@ Bold, Italic and strikethough work for some of the elements below but not for al
 | `&#8471;` | &#8471; | Sound Copyright |
 | `&trade;` | &trade; | Trademark |
 | `&reg;` | &reg; | Registered TM |
+| `&dollar;` | &dollar; | Dollar |
 | `&cent;` | &cent; | Cent |
 | `&pound;` | &pound; | Pound |
 | `&euro;` | &euro; | Euro |
@@ -1303,6 +1302,8 @@ NOTE: I ned to get the number ranges for the categories of entities. Check out t
 ---
 
 ## Notes
+
+<!-- STOPPED EDITS/REVISIONS HERE DEC 18, 2022 -->
 
 The one thing I want to look into is using videos, animated GIFs, more HTML tags in my markdown files, and also column layouts using tables.
 
