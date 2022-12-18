@@ -1315,23 +1315,29 @@ I tested every HTML tag that made sense. I skipped tags like `section`, `header`
 
 _Duplicates markdown_: `blockquote`, `h1` thru `h6`, `hr`, `ol` `ul` `li`, `pre`, `table`
 
-_No markdown equivalent_: `details` with `summary`, `dl` `dt` `dd` (indent), `div`, `fieldset` with or without `legend`.
+_No markdown equivalent_: `details` with `summary`, `dl` `dt` `dd` (indent), `div`, and `span`.
 
 > Is **align** an attribute? How do I find similar attributes like that?
 
 **Attributes**:
 
-- `blockquote`: global
-- `h1` thru `h4`: global, align (center, right)
-- `h5` and `h6`: Same as above, very small font size!
-- `ol`, `ul`: global
-- `li`: global
-- `pre`: global
-- `table`: global
-- `details`, `summary`: global
-- `dl`, `dt`, `dd`: global
-- `div`: global, align (left, center, right)
-- `p`: global, align (left, center, right)
+> Is `align` an actual attribute or is it inline CSS?
+
+I have only found that the `align` attribute works, other than the obvious ones like `href` and `src`. Below are the HTML elements that worked when I used `align` though they may work for other elements:
+
+- `blockquote`: align (center, right)
+- `h1` thru `h4`: align (center, right)
+- `h5` and `h6`: align (center, right), very small font size!
+- `div`: align (center, right)
+- `p`: align (center, right)
+- `pre`: align (center, right) - looks odd
+- `ul`, `ol`, `li`: align (center, right) - looks odd
+
+<blockquote align="center">Testing alignment</blockquote>
+
+<pre align="center">
+<span>testing</span>
+</pre>
 
 Unless there is a way to display the tags differently, then I do not see the point of using `pre`, `table`, `lists`, or `blockquote`. Especially the `table` tag since there are a lot of tags you need to enter.
 
@@ -1339,25 +1345,16 @@ Unless there is a way to display the tags differently, then I do not see the poi
 
 ### Inline HTML tags that work
 
+> `img` tags display as block level unless nested in table cells or `<span>` tags
+
 _Duplicates markdown_: `<a>`, `code`, `img` (width, align [center, right]), `b` and `strong` (display as Bold), `del` and `s` (display as Strikethrough), `em` and `i` and `var` (display as Italic).
 
 _No markdown equivalent_: `br` (line break), `ins` (underline), `sup` and `sub` (superscript and subscript), `samp` (Monospaced font), `q` (quotes), `kbd` (keyboard keys), `span`.
 
-**Attributes**:
+**Attributes notes**:
 
-- `a`: target="\_blank" did not work
-- `b`, `strong`: global
-- `br`: global
-- `code`: global
-- `del`, `s`: na, global
-- `em`, `i`, `var`: global
-- `img`: align, width
-- `ins`: na
-- `kbd`: global
-- `q`: global
-- `samp`: global
-- `span`: global
-- `sub`, `sup`: global
+- `a`: target="_blank" does not work
+- `img`: align, width, and height all work
 
 Some _Global attributes_ that may have a use: id, draggable, **style**, **title**, tabindex, contenteditable, autofocus.
 
@@ -1365,12 +1362,12 @@ Some _Global attributes_ that may have a use: id, draggable, **style**, **title*
 
 The only tags worth using IMO:
 
-- `a` for anchor links with HTML entities in the link text, `target="_blank"` doesn't work
+- `a` for anchor links with HTML entities in the link text
 - `headings` align center or right
 - `p` for align center or right
 - `div` as visual dividers using dash (-) or underscore (\_) or equals (=) or other characters. But can't you just use the characters instead?
 - `br` for line breaks of paragrpah text or as a alternate spacer to `div`
-- `img` to set width and height and align of center or right
+- `img` to set width and height and align center or right
 - `ins` for underline
 - `kbd` for keyboard keys
 - `samp` for monospaced font as a styling choice
@@ -1413,7 +1410,7 @@ And here are 2 images with `width="200px"` in a table. The first has `align="rig
 | :--------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
 | <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px" align="right"> | <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px" align="left"> |
 
-I don't know of another method to get images on a row other than using a table. Note that the actual href values are to my website but they are linking to github and are links that pen in a new page (???)Here is the image with a `title`, and a `<div>` tag with `align="center"` though you could use `align="right"` as well:
+IT appears if you want to get 2 or more images/graphics on a row, you need to put them in table cells or nest them in `<span>` tags. Note that the actual href values are to my website but they are linking to github and are links that open in a new page. Here is the image with a `title`, and a `<div>` tag with `align="center"` though you could use `align="right"` as well:
 
 <div align="center"><img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px" title="Image example"></div>
 
@@ -1435,7 +1432,7 @@ I don't know of another method to get images on a row other than using a table. 
 
 Pertaining to spacers in between sections, I am experimenting with 8-16px high PNG files with a gradient. I have one of those in my _Beginner Git Commands_ repo. I want to make one with the gradient colors used for dark and light mode here on GitHub.
 
-Also, let's look at the small font-size for H5 and H6 tags (Markdown version). Regular paragraph size in markdown equals the font-size for `h4` or `###`. Where/when would using these be useful?
+Also, let's look at the small font-size for H5 and H6 tags (Markdown version). Regular paragraph size in markdown equals the font-size for `h4` or `###`. Where/when would using these be useful? H6 or 6 hashes is slightly larger than the footnote text at the bottom.
 
 #### How about H4 as a comparison
 
@@ -1467,5 +1464,6 @@ Finally, here is code to copy instead of having to type it out each time:
 1. [HTML Entities](https://www.toptal.com/designers/htmlarrows/symbols/) - Excellent!
 1. [HTML Entities2](http://mcdlr.com/8/) - maybe only a few unique vs the above link
 1. [Shields.io](https://shields.io/) - Shields for your projects
+1. [Devicons on Github](https://github.com/devicons/devicon/tree/master/icons): scan the list for icons you want to use.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
