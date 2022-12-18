@@ -27,8 +27,8 @@ I'm breaking up all the markdown syntax into 8 categories:
 
 ## ~~A Literal~~ <ins>Table</ins> of _Contents_
 
-|                             Category | Element                                                             | Accepts styles? |
-| -----------------------------------: | :------------------------------------------------------------------ | :-------------: |
+|           Category | Element     | Accepts styles? |
+| ---------------: | :------------ | :-------------: |
 |               **[Basics](#basics)**: | [Paragraphs](#paragraphs)                                           |     **Yes**     |
 |                                      | [Special characters](#special-characters)                           |      `N/A`      |
 |               **[Styles](#styles)**: | [Bold](#bold)                                                       |      `N/A`      |
@@ -87,27 +87,27 @@ Here are the characters you will use in Markdown. They will be covered in each s
 
 ````
 # Hash tags for headines and anchor links
-@ for at mentions
+@ at symbol for at mentions
 [] for links, checked lists / tasks, and footnotes
 () for links
 ! for images
 ^ for footnote links
 x or X for tasks lists
-` and ``` for inline code and codeblocks
-- and \*\* for italic and bold
-\_ underscore for italics
-~~ for strikethrough
-| for tables
+` and ``` for inline code and codeblocks respectively
+* and ** for italic and bold respectively
+_ underscore for italics
+~~ 2 tildes for strikethrough
+| for setting tables cells
 : with dashes - for table cell alignments, for footnotes, and emojis
 || double pipes for spoiler text on Discord
-* and a space for unordered lists
-1, 2, 3, etc. for numbered lists
+* or - and a space for unordered lists
+1., 2., 3., etc. for numbered lists
 * and + for diff code blocks
 > for blockquotes
-> 3 - or \* for horizontal rules
-> " for titles to links
+3 - or * for horizontal rules
+" for titles to links
 <!-- for comments in markdown -->
-\ to escape most of the characters above
+\ to escape most of the characters above, as in...
 \* escape asterisk,
 \| escape pipe, etc...
 ````
@@ -128,50 +128,50 @@ This category deals with the styling of words and can be used with every categor
 - HTML entities (except strikethrough)
 - Hidden (Spoiler only)
 
-These do not work for the obvious ones (Horizontal Rules, Images, and Emojis), and for all elements in the Code category except inline code.
+These do not work for the obvious ones (Horizontal Rules, Images, and Emojis), and for all options in the Code category except inline code.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Bold
 
-**Bold**: use either 2 **asterisks** or 2 **underscores** before and after the text for bold styling. The preferred syntax is to use asterisks for bold:
+**Bold**: use either 2 **asterisks** or 2 __underscores__ before and after the text for bold styling. The preferred syntax is to use asterisks for bold:
 
 ```markdown
 **two asterisks**
-**two underscores**
+__two underscores__
 ```
 
 ### Italic
 
-**Italic**: use a _single asterisk_ or _underscore_ before and after the text for italic styling. The preferred syntax is to use an underscore for italic:
+**Italic**: use a *single asterisk* or _underscore_ before and after the text for italic styling. The preferred syntax is to use an underscore for italics:
 
 ```markdown
-_single asterisk_
+*single asterisk*
 _single underscore_
 ```
 
-**_Bold and Italic_**: use either **_3 asterisks_** or **_2 asterisks and 1 underscore_** for bold and italic text. The preffered syntax is the latter:
+**_Bold and Italic_**: use either ***3 asterisks*** or **_2 asterisks and 1 underscore_** for bold and italic text. The preffered syntax is the latter:
 
 ```markdown
-**_3 asterisks_**
+***3 asterisks***
 **_2 asterisks and and 1 underscore_**
 ```
 
 ### Strike thru
 
-**Strikethrough**: use two tildes (~~) before and after text that you want to display as ~~strikethrough~~:
+**Strikethrough**: use two tildes `~~` (~~) before and after text that you want to display as ~~strikethrough~~:
 
-```markdown
+```
 ~~double tildes~~
 ```
 
-If you want, you can also do **~~bold strikethrough~~**, _~~\_italic strikethrough_~~, and \*\*\*~~bold italic strikethrough~~\*\*\*.
+If you want, you can also do **~~bold strikethrough~~**, _~~italic strikethrough~~_, and **_~~bold italic strikethrough~~_**.
 
 ### Underline
 
-This can only be done with the `<ins>` HTML tag. This is **_NOT_** part of Markdown.
+This can only be done with the `<ins>` HTML element. This is **_NOT_** part of Markdown.
 
-The links on GitHub are blue, bold and underlined (<ins>on hover</ins>). The `<ins>` HTML tag underlines text and has normal font color and normal font-weight. No one familiar with GitHub will confuse it for a link. It's another styling effect that I find more useful than srikethrough.
+The links on GitHub are blue, bold and underlined (<ins>on hover</ins>). The `<ins>` HTML element underlines text and has normal font color and normal font-weight. No one familiar with GitHub will confuse it for a link. It's another styling effect that I find more useful than srikethrough.
 
 This is <ins>text underlined</ins> with the `ins` HTML tag.
 
@@ -193,11 +193,11 @@ The elements in this category are all unique and do not fit into any of the othe
 - Tables
 - Horizontal rule
 
-All elements in this category accept text effects except for horizontal rule, and with an exception for descriptions.
+All elements in this category allow the text effects listed above except for horizontal rule, and with an exception for descriptions.
 
 ### Headings
 
-There are 6 headings just like in HTML. Use a single hashtag for H1 and 6 hashtags for H6. The top title of this docuement is an H1 with a single hash, this section (**Misc**) uses 2 hashtags, and this sub-section (**Headings**) uses 3 hashtags.
+There are 6 headings just like in HTML. Use a single hashtag for H1 and 6 hashtags for H6. The top title of this docuement is an H1 with a single hash, this section (**Miscellaneous**) uses 2 hashtags, and this sub-section (**Headings**) uses 3 hashtags.
 
 **NOTE**: There is an automatic horizontal rule added when you use syntax for H1 and H2.
 
@@ -217,13 +217,13 @@ Here is an example of using Bold, Italic, and Strikethrough in a heading:
 ## ~~A Literal~~ <ins>Table</ins> of _Contents_
 ```
 
-As you can see, strikethrough and italic worked on the heading, but using bold did not increase the font weight for the word `Table`.
+As you can see, strikethrough and italic worked on the heading, but using bold did not increase the font weight for headings because they are already bold.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Blockquotes
 
-This is a nice effect but I don't know why you would use it on GitHub:
+This is a nice effect which adds a border-left and padding-left to offset it from normal text:
 
 > Use a **greater** than _sign_ (>) to quote a team member
 >
@@ -239,7 +239,7 @@ This is a nice effect but I don't know why you would use it on GitHub:
 
 ### Descriptions
 
-The following are HTML tags, **_NOT_** a part of markdown. But they do give you a nice indentation for visual variety.
+The following are HTML tags, **_NOT_** a part of markdown, but they do give you a nice indentation for visual variety.
 
 The text in the tags can only be styled with the HTML tags related to bold, italic, strikethrough, or _underline_. As you can see, I used the `ins`, `b`, `em`, and `s` tags in the example below:
 
@@ -326,6 +326,7 @@ Here is a link to my [Beginner Git Commands](https://github.com/Kernix13/beginne
 
 ```markdown
 [Link text](URL 'Optional link title')
+[Kernix Web Design](https://kernixwebdesign.com/ 'Kernix Web Design Home page')
 ```
 
 **NOTE**: Only use a title if it adds information. Don't set the title text to be the same as the link text.
@@ -405,7 +406,7 @@ Here is the actual footnote syntax:
 
 At mentions do not seem to work as links. This is an at mention test:
 
-@Kernix13: Hello. This does not work in a markdown file, but it does create a link in Issues and PRs, and maybe in other areas as well.
+@Kernix13: Hello. This does not work in a markdown file, but it does create a link in Issues and PRs, and maybe in other areas as well. I need to do more research into this. Like Hidden text, this may only work on different platforms like Discord.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -420,14 +421,21 @@ This category has:
 - Nested lists
 - Task lists
 
-You can use all text effects but with some exceptions: None of the effects work for Task lists, and you don't seem to be able to use VS Code shortcuts (<kbd>SHIFT+_</kbd>, etc) - you have to manually type `_`, `\_`or`~`.
+You can use all text effects but with one exception: None of the effects work for Task lists.
 
 ### Unordered
 
-**Unordered lists**: You can use either an asterisk or a dash followed by a space to make a bulleted list. I prefer using a dash since you do not need to use the <kbd>SHIFT</kbd> key:
+**Unordered lists**: You can use either an asterisk (`*`) or a dash (`-`) followed by a space to make a bulleted list. I prefer using a dash since you do not need to use the <kbd>SHIFT</kbd> key:
 
-- list item 1
-- list item 2
+- _List item 1_
+- **List item 2**
+- List ~~item 3~~
+
+```markdown
+- _List item 1_
+- **List item 2**
+- List ~~item 3~~
+```
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -435,17 +443,17 @@ You can use all text effects but with some exceptions: None of the effects work 
 
 **Ordered lists**: use a number followed by a period (1., 2., 3. etc.) and then a space to create an ordered list:
 
-1. Ordered **item** 1
-1. Ordered _item_ 2
+1. Ordered **item 1**
+1. Ordered _item 2_
 1. Ordered ~~item 3~~
 
 ```markdown
-1. Ordered item 1
-1. Ordered item 2
-1. Ordered item 3
+1. Ordered **item 1**
+1. Ordered _item 2_
+1. Ordered ~~item 3~~
 ```
 
-**NOTE**: By using "1" for each list item, you can cut & paste to change the order of items and the numbering will change to match the new order.
+**NOTE**: By using "1." for each list item, you can cut & paste to change the order of items and the numbering will change to match the new order.
 
 Does this make sense? You can use both unordered and ordered together -> bullets with roamn numerals, or numbers with bullets:
 
@@ -461,20 +469,20 @@ Does this make sense? You can use both unordered and ordered together -> bullets
 
 ### Nested
 
-**Nested list**: Use the <kbd>SPACEBAR</kbd> key to align the dash or asterisk directly beneath the first character in the parent list item to create a nested list:
+**Nested list**: Use the <kbd>SPACEBAR</kbd> key to align the dash or asterisk directly beneath the first character in the parent list item above it to create a nested list:
 
-- list item 1
-- list item 2
-  - child item 1
-  - child item 2
-- list item 3
+- List item 1
+- List item 2
+  - Child item 1
+  - Child item 2
+- List item 3
 
 ```markdown
-- list item 1
-- list item 2
-  - child item 1
-  - child item 2
-- list item 3
+- List item 1
+- List item 2
+  - Child item 1
+  - Child item 2
+- List item 3
 ```
 
 For a nested ordered list, do the same as for nested unordered lists - align the number to be below the first character of the parent item:
@@ -499,16 +507,16 @@ For a nested ordered list, do the same as for nested unordered lists - align the
 
 You can create what looks like checkboxes and display completed tasks with a checkmark. It takes the form of an unordered list with the first characters being a set of square brackets which **_MUST_** have a space in them. For a completed task, add either a lower or uppercase "X":
 
-- [ ] incomplete task
-- [x] completed task
-  - [ ] incomplete subtask
-  - [x] complete subtask
+- [ ] Incomplete *task*
+- [x] Completed **task**
+  - [ ] Incomplete ~~subtask~~
+  - [x] Completed subtask
 
 ```markdown
-- [ ] incomplete task
-- [x] completed task
-  - [ ] incomplete subtask
-  - [x] completed subtask
+- [ ] Incomplete *task*
+- [x] Completed **task**
+  - [ ] Incomplete ~~subtask~~
+  - [x] Completed subtask
 ```
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
@@ -517,7 +525,7 @@ You can create what looks like checkboxes and display completed tasks with a che
 
 ## Code
 
-This category deals with inline code and various typs of code blocks and none of them accept Styles with the exception of `inline`:
+This category deals with inline code and various typs of code blocks and none of them accept Styles with the exception of `inline` and language code blocks using _markdown_ as the language:
 
 - Inline code
 - Code blocks
@@ -539,7 +547,7 @@ Here are examples on inline as **`bold`**, _`italic`_, and ~~`strikethrough`~~.
 
 It took me a while how to show the 3 backticks for a code block (next section). For that and other tricky markdown that will not dispay, hit the <kbd>TAB</kbd> button twice then enter your code:
 
-    This is a code block made by hitting TAB 2 X's
+    This is a **code** _block_ made by ~~hitting~~ TAB 2 X's
 
 ### Generic
 
@@ -552,16 +560,18 @@ To add code that requires more than 1 line then use 3 backticks, hit <kbd>ENTER<
     ```
 
 ```
-a {
-  text-decoration: none;
-}
+*, *::before, *::after {
+            box-sizing: border-box;
+        }
 ```
+
+**NOTE**: This is the only method I found to be able to actually show the triple back-ticks needed to create a code block.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Language block
 
-This is what you want to use for code blocks. To highlight parts of your code add the language after the opening triple backticks. You'll have to do your own research but so far the following language bbreviations work: `md`, `html`, `css`, `js` or `javascript`, `jsx`, `php`, `xml`, `python`, `sql`, and `apacheconf` (for Apache servers). I tried using `node` and `npm` for my node-npm repo but it had no effect.
+This is what you want to use for code blocks. To highlight parts of your code add the language after the opening triple backticks. You'll have to do your own research but so far I've used the following languages: `md` or `markdown`, `html`, `css`, `js` or `javascript`, `jsx`, `php`, `xml`, `python`, `sql`, `bash` or `shell` or `sh`, and `apacheconf` (for Apache servers). I tried using `node` and `npm` for my node-npm repo but it had no effect.
 
     ```css
     rules here
@@ -658,7 +668,7 @@ yaml
 
 ### Diff
 
-This is really nice for highlighting text or code that was changed. Use `diff` after the opening triple backticks. Then use a minus sign (-) for what was changed, and a plus symbol (+) for the new version:
+This is really nice for highlighting text or code that was changed. Use `diff` after the opening triple backticks. Then use a minus sign (`-`) for what was changed, and a plus symbol (`+`) for the new version:
 
 ```diff
 - this code or text is the old version
@@ -694,7 +704,7 @@ This is a nice way to add a comment in the editor view of your markdown file. Th
 <!-- There is a comment here that you can't see -->
 ```
 
-Comments used in language block code blocks will match the language. You can use the `CTRL+/` shortcut. For example, in JavaScript or PHP you will get `//` using that shortcut, or `/* */` in CSS, or `<!-- -->` in HTML.
+Comments used in language block code blocks will match the language. You can use the `CTRL+/` shortcut. For example, in JavaScript or PHP you will get `//` using that shortcut, or `**` in CSS, `#` in bash files, and `<!-- -->` in HTML.
 
 ### Spoiler
 
@@ -744,7 +754,9 @@ The five sections below deal with adding visual-based elements to your markdown 
 
 ### Images
 
-Images use the same syntax as **Links** except for the addition of an exclamation mark immediately before the opening square bracket. You can also use the optional title text. The example image below shows the dimensions but that is just an example. It's up to you to decide the image sizes you want for your files:
+> STOPPED 
+
+Images use the same syntax as **Links** except for the addition of an exclamation mark (`!`) immediately before the opening square bracket. You can also use the optional title text. The example image below shows the dimensions but that is just an example. It's up to you to decide the image sizes you want for your files:
 
 ![picture alt text](https://kernixwebdesign.com/wp-content/uploads/2022/05/markdown-image.png 'Title is optional')
 
@@ -763,7 +775,7 @@ Finally, per GitHub:
 
 Inline example: this `$(ax^2 + bx + c = 0)$` renders as $(ax^2 + bx + c = 0)$.
 
-Inline exception: use `\$` to escape, and therefore use, a dollar sign in an equation.
+Inline exception: use `\$` to escape, and therefore use, a dollar sign in an equation (`$(\$4.00 - \$1.50 = \$2.50)$`): $(\$4.00 - \$1.50 = \$2.50)$
 
 Inline exception 2: use `<span>$</span>` for inline use of dollar sign before a math expression.
 
@@ -796,13 +808,13 @@ Here are the important symbols to know:
 
 Not sure for the following: `\left`, `\right`, `\forall`, `\partial`, `\rho`, `\nabla`, `\cdot`, `\vec`, `\mathrm`, `\in`, ...
 
-For some reason the symbols in the lists above are not showing...
+For some reason the symbols in the lists above are not all displaying (?)
 
 #### Examples for Greek letters
 
 Greek letters are commonly used in mathematics, and they are very easy to type in math mode. You just have to type the name of the letter after a backslash: if the first letter is lowercase, you will get a lowercase Greek letter, if the first letter is uppercase (and only the first letter), then you will get an uppercase letter. Note that some uppercase Greek letters look like Latin ones.
 
-Use `\alpha, \Alpha, \beta, \Beta, \gamma, \Gamma, \pi, \Pi, \phi, \varphi, \mu, \Phi, \Omega, \omega` for $\alpha \beta \gamma \Gamma \pi \Pi \phi \varphi \mu \Phi \Omega \omega \Theta \theta$
+Use `\alpha, \Alpha, \beta, \Beta, \gamma, \Gamma, \pi, \Pi, \phi, \varphi, \mu, \Phi, \Omega, \omega` for $\alpha \beta \gamma \Gamma \pi \Pi \phi \varphi \mu \Phi \Omega \omega \Theta \theta$, etc.
 
 #### Examples for Operators
 
@@ -832,7 +844,7 @@ For relatively simple fractions, especially within the text, it may be more aest
 
 If you use them throughout the document, usage of `xfrac` package is recommended. This package provides `\sfrac` command to create slanted fractions. If fractions are used as an exponent, curly braces have to be used around the `\sfrac` command.
 
-Check out the Wikipedia article [LaTeX/Mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics) for more information.Or click on the following links for specific sections not covered above:
+Check out the Wikipedia article [LaTeX/Mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics) for more information. Or click on the following links for specific sections not covered above:
 
 - [Multiplication of two numbers](https://en.wikibooks.org/wiki/LaTeX/Mathematics#Multiplication_of_two_numbers)
 - [Roots](https://en.wikibooks.org/wiki/LaTeX/Mathematics#Roots)
@@ -862,10 +874,10 @@ I'm not a huge fan of emojis, but here are some that I would consider using. The
 
 Approval: :+1:, :smile:, :ok_hand:, :white_check_mark:, :heavy_check_mark:, :star:, :star2:, :heart:, :exclamation:
 
-````markdown
-    :+1:, :smile:, :ok_hand:, :white_check_mark:, :heavy_check_mark:,
-    :star:, :star2:, :heart:, :exclamation:
-    ```
+```markdown
+:+1:, :smile:, :ok_hand:, :white_check_mark:, :heavy_check_mark:,
+:star:, :star2:, :heart:, :exclamation:
+```
 
 Disapproval, questions, problems: :-1:, :question:, :grey_question:, :x:, :boom:, :bomb:, :astonished:, :warning:, :interrobang:
 
@@ -896,7 +908,7 @@ Miscellaneous/playful: :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mu
 :icecream:, :sound:, :speaker:, :lock:, :guitar:, :one:, :two: (and other #'s),
 :link:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:
 ```
-````
+
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
