@@ -5,8 +5,8 @@ tags:
   - frontmatter
   - markdown
 	- Others:
-		*.md
-		Astro
+	*.md
+	Astro
 category: Reference Docs
 ---
 
