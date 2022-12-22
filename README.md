@@ -315,7 +315,7 @@ Use 3 asterisks or 3 dashes with or without a space to create a horizontal rule:
 
 ### Frontmatter and YAML
 
-Frontmatter is markdown files is not something you will use in general, but you should at least be aware of it. The actual syntax for markdown frontmatter (or _front matter_) is YAML syntax. 
+Frontmatter in markdown files is not something you will use in general, but you should at least be aware of it. The actual syntax for markdown frontmatter (or _front matter_) is YAML syntax. 
 
 What is YAML? That is not pertinent to this repo, but GitHub actions are written in YAML. 
 
