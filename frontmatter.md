@@ -47,7 +47,7 @@ It's important to note that **Frontmatter is parsed as `YAML` blocks**, so the i
 - You can have multidimensional object arrays
 - You can use multi-line text blocks using the pipe method
 
-> NOTE: the indentation disaplyed in the code block below is "off". See the source code for the actual indentation used.
+> NOTE: the indentation displayed in the code block below is "off". See the source code for the actual indentation used.
 
 ```md
 ---
