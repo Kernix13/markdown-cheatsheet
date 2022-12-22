@@ -11,7 +11,7 @@ category: Reference Docs
 
 I had no knowledge of frontmatter until I started learning Astro. Here are some notes on what it is, some syntax tips, and notes on YAML in general.
 
-> I can't find why you would use them in Markdown files, except for blog posts in Astro. Would a keyword-rick `description` enable your repo to be found more often on searches?
+> I can't find why you would use them in Markdown files, except for blog posts in Astro. Would a keyword-rich `description` enable your repo to be found more often on searches?
 
 ## What exactly is Frontmatter
 
@@ -19,13 +19,13 @@ I had no knowledge of frontmatter until I started learning Astro. Here are some 
 
 Frontmatter is a way to identify metadata in Markdown files. Metadata can literally be anything you want it to be, but often it's used for data elements your page needs and you don't want to show directly.
 
-Some examples of common metadata are:
+Some examples of common metadata are (the table above the H1 at the top of this file is the frontmatter for the page):
 
 - Title of the post
 - Description for SEO purposes
 - Tags that belong to a document
 - The date it was written
-- The author
+- The author(s)
 
 To add Frontmatter to a Markdown document, you have to start by writing a three-dotted block at the top of your file:
 
@@ -35,18 +35,19 @@ title: Frontmatter section
 ---
 ```
 
-Everything in there will be seen as metadata
+Everything in there will be seen as metadata, and that block **_MUST_** be the first thing in your file!
 
 ## Basic Frontmatter options
 
 It's important to note that **Frontmatter is parsed as `YAML` blocks**, so the indentation is important
 
-- set regular variables with a colon setup
+- Set regular variables with a colon setup
 - Or convert them into an array of objects
-- you can even use the bracket way of defining arrays
-- you can have multidimensional object arrays
-- you can use multi-line text blocks, use the pipe method
+- You can even use the bracket way of defining arrays
+- You can have multidimensional object arrays
+- You can use multi-line text blocks using the pipe method
 
+> NOTE: the indentation disaplyed in the code block below is "off". See the source code for the actual indentation used.
 
 ```md
 ---
@@ -74,8 +75,6 @@ description: |
 
 Front matter is a snippet of YAML or Ruby data which sits at the top of a file between special line delimiters. You can think of front matter as a datastore consisting of one or more key-value pairs. 
 
-Front matter is a snippet of YAML or Ruby data which sits at the top of a file between special line delimiters. You can think of front matter as a datastore consisting of one or more key-value pairs
-
 Any file that contains a front matter block will be specially processed by Bridgetown.
 
 > What or who is _Bridgetown_?
@@ -88,7 +87,7 @@ Between these triple-dashed lines, you can set predefined variables or add custo
 
 [what-is-frontmatter.md](https://github.com/cuttlebelle/website/blob/master/content/documentation/what-is-frontmatter.md)
 
-With front-matter we can add more complex data to our content than just blobs of text. Front-matter has to be on the top of the file and begins and ends with three dashes ---. Front-matter is completely optional and each content partial has layout: partial as the default variable. You can overwrite that of course. index.yml files have layout: page as the default variable.
+With front-matter we can add more complex data to our content than just blobs of text. Front-matter has to be on the top of the file and begins and ends with three dashes `---`.
 
 ## Dendron: Frontmatter
 
