@@ -4,9 +4,9 @@ description: Using frontmatter in markdown files
 tags: 
   - frontmatter
   - markdown
-	- Others:
-	*.md
-	Astro
+  Others:
+    - *.md
+    - Astro
 category: Reference Docs
 ---
 
