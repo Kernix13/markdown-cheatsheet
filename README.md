@@ -321,6 +321,10 @@ What is YAML? That is not pertinent to this repo, but GitHub actions are written
 
 Check out the file in this repo named [frontmatter.md](https://github.com/Kernix13/markdown-cheatsheet/blob/master/frontmatter.md) for an example of how it displays at the top of the file, as well as a description of what frontmatter is, and notes on syntax and YAML.
 
+In that file I use frontmatter and it looks like it prints out as if it was a table. It has just 2 rows: 1st) the keys which become the table headers, and 2nd) the values in the first row. What is interesting is how the _tags_ are output with borders. I did not use nesting in that example, but I would assume that would
+
+> ERROR: `Error in user YAML: (<unknown>): did not find expected '-' indicator while parsing a block collection at line 4 column 3`
+
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ---
