@@ -13,15 +13,6 @@ I had no knowledge of frontmatter until I started learning Astro. Here are some 
 
 > I can't find why you would use them in Markdown files, except for blog posts in Astro. Would a keyword-rick `description` enable your repo to be found more often on searches?
 
----
-title: Testing front matter further down
-description: Testing
-tags: 
-  - frontmatter
-  - markdown
-category: Reference Docs
----
-
 ## What exactly is Frontmatter
 
 [What exactly is Frontmatter](https://daily-dev-tips.com/posts/what-exactly-is-frontmatter/)
