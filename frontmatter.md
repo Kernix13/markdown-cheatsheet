@@ -1,5 +1,4 @@
 ---
-layout: docs
 title: Markdown Front Matter
 date: 2022-12-21
 author: Various
