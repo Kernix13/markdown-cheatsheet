@@ -41,7 +41,8 @@ I'm breaking up all the markdown syntax into 8 categories:
 |                                      | [Blockquotes](#blockquotes)                                         |     **Yes**     |
 |                                      | [Descriptions](#descriptions)                                       |    **Yes\***    |
 |                                      | [Tables](#tables)                                                   |     **Yes**     |
-|                                      | [Horizontal rules](#horizontal-rules)                               |       No        |
+|  | [Horizontal rules](#horizontal-rules)   |  No  |
+|  | [Frontmatter and YAML](#frontmatter-and-yaml)   |  No  |
 |                 **[Links](#links)**: | [External](#external)                                               |     **Yes**     |
 |                                      | [Anchor](#anchor)                                                   |     **Yes**     |
 |                                      | [Footnotes](#footnotes)                                             |     **Yes**     |
@@ -194,8 +195,9 @@ The elements in this category are all unique and do not fit into any of the othe
 - Descriptions
 - Tables
 - Horizontal rule
+- Frontmatter
 
-All elements in this category allow the text effects listed above except for horizontal rule, and with an exception for descriptions.
+All elements in this category allow the text effects listed above except for horizontal rules and Frontmatter, and with an exception for descriptions.
 
 ### Headings
 
@@ -307,6 +309,17 @@ Use 3 asterisks or 3 dashes with or without a space to create a horizontal rule:
 **NOTE**: Make sure to hit <kbd>ENTER</kbd> twice if you intend to use 3 asterisks witout spaces or it will set the text above it to an H3 tag.
 
 <hr>
+
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<hr>
+
+### Frontmatter and YAML
+
+Frontmatter is markdown files is not something you will use in general, but you should at least be aware of it. The actual syntax for markdown frontmatter (or _front matter_) is YAML syntax. 
+
+What is YAML? That is not pertinent to this repo, but GitHub actions are written in YAML. 
+
+Check out the file in this repo named [frontmatter.md](https://github.com/Kernix13/markdown-cheatsheet/blob/master/frontmatter.md) for an example of how it displays at the top of the file, as well as a description of what frontmatter is, and notes on syntax and YAML.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
