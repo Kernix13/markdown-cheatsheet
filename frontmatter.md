@@ -1,11 +1,8 @@
 ---
 title: Markdown Front Matter
-date: 2022-12-21
-author: Various
-description: A description of what frontmatter is used for in markdown files
+description: Using frontmatter in markdown files
 tags: 
   - frontmatter
-  - front matter
   - markdown
 category: Reference Docs
 ---
@@ -15,6 +12,15 @@ category: Reference Docs
 I had no knowledge of frontmatter until I started learning Astro. Here are some notes on what it is, some syntax tips, and notes on YAML in general.
 
 > I can't find why you would use them in Markdown files, except for blog posts in Astro. Would a keyword-rick `description` enable your repo to be found more often on searches?
+
+---
+title: Testing front matter further down
+description: Testing
+tags: 
+  - frontmatter
+  - markdown
+category: Reference Docs
+---
 
 ## What exactly is Frontmatter
 
@@ -40,7 +46,7 @@ title: Frontmatter section
 
 Everything in there will be seen as metadata
 
-## basic Frontmatter optionspermalink
+## Basic Frontmatter options
 
 It's important to note that **Frontmatter is parsed as `YAML` blocks**, so the indentation is important
 
@@ -128,7 +134,7 @@ Sequences in YAML are represented by using the hyphen (`-`) and space. They are 
 
 Tip: Remember that the order matters with sequences but not with mappings.
 
-## Literals — Strings
+### Literals — Strings
 
 The string literals do not require to be quoted. It is only important to quote them when they contain a value that can be mistaken as a special character
 

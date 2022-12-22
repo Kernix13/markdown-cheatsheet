@@ -6,7 +6,7 @@
    1. I prefer the [MIT Version](https://choosealicense.com/licenses/mit/). Just enter your GitHub repo link in the right sidebar.
 1. Contributing Templates:
    1. [Contributor guidelines template](https://opensource.com/life/16/3/contributor-guidelines-template-and-tips)
-   1. Check [contrinuting-template](https://github.com/nayafia/contributing-template/blob/master/CONTRIBUTING-template.md)
+   1. Check [contributing-template](https://github.com/nayafia/contributing-template/blob/master/CONTRIBUTING-template.md)
    1. [Example 1](https://gist.github.com/briandk/3d2e8b3ec8daf5a27a62), [Example 2](https://gist.github.com/PurpleBooth/b24679402957c63ec426)
 1. [Contributor Covenant](https://www.contributor-covenant.org/): A Code of Conduct for Open Source Communities
 
@@ -30,7 +30,19 @@ Notes from Eddie Jaoude & freeCodeCamp
 - Pull Requests - tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with the collaborator and add follow-up commits before the're merged into the base branch
 - do everything on the insights tab to make sure your repos are good
 
-Places to find contributions: 1) https://www.firsttimersonly.com/, 2) https://github.com/firstcontributions/first-contributions, 3) https://github.com/tobie/specref, 4) https://github.com/github/docs, 5) find new issues: https://github.com/indeedeng/Mariner-Issue-Collector, 6) https://github.com/odoo/odoo, 7) https://github.com/Kibo/AstroChart, 8) https://github.com/AstroDraw/AstroChart, 9) https://github.com/iedr/goodfirstissues, 10) https://24pullrequests.com/ , 11) https://www.codetriage.com/
+Places to find contributions: 
+
+1. https://www.firsttimersonly.com/, 
+2. https://github.com/firstcontributions/first-contributions, 
+3. https://github.com/tobie/specref, 
+4. https://github.com/github/docs, 
+5. find new issues: https://github.com/indeedeng/Mariner-Issue-Collector, 
+6. https://github.com/odoo/odoo, 
+7. https://github.com/Kibo/AstroChart, 
+8. https://github.com/AstroDraw/AstroChart, 
+9. https://github.com/iedr/goodfirstissues, 
+10. https://24pullrequests.com/ , 
+11. https://www.codetriage.com/
 
 How to choose an Open-Source Project
 
