@@ -39,9 +39,9 @@ I'm breaking up all the markdown syntax into 8 categories:
 |                                      | [Underline](#underline)                                             |      `N/A`      |
 | **[Miscellaneous](#miscellaneous)**: | [Headings](#headings)                                               |     **Yes**     |
 |                                      | [Blockquotes](#blockquotes)                                         |     **Yes**     |
-|                                      | [Descriptions](#descriptions)                                       |    **Yes\***    |
 |                                      | [Tables](#tables)                                                   |     **Yes**     |
 |  | [Horizontal rules](#horizontal-rules)   |  No  |
+|  | [Descriptions](#descriptions)    |    **Yes\***    |
 |  | [Frontmatter and YAML](#frontmatter-and-yaml)   |  No  |
 |                 **[Links](#links)**: | [External](#external)                                               |     **Yes**     |
 |                                      | [Anchor](#anchor)                                                   |     **Yes**     |
@@ -241,30 +241,6 @@ This is a nice effect which adds a border-left and padding-left to offset it fro
 
 <br />
 
-### Descriptions
-
-The following are HTML tags, **_NOT_** a part of markdown, but they do give you a nice indentation for visual variety.
-
-The text in the tags can only be styled with the HTML tags related to bold, italic, strikethrough, or _underline_. As you can see, I used the `ins`, `b`, `em`, and `s` tags in the example below:
-
-- `dl`: description list, the wrapper element for the other two
-- `dt`: description term, that which you are defining or highlighting
-- `dd`: description details, the actual definition or explanantion
-
-<dl>
-  <dt>Description <ins>List</ins></dt>
-  <dd>Represents a description list. The <ins><b><em>dl</em></b></ins> element encloses a list of groups of terms (specified using the <ins><b><em>dt</em></b></ins> element) and descriptions (provided by <ins><b><em>dd</em></b></ins> elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs) (<s>ignore</s>).</dd>
-</dl>
-
-```markdown
-<dl>
-  <dt>Description <ins>List</ins></dt>
-  <dd>Represents a description list. The <ins><b><em>dl</em></b></ins> element encloses a list of groups of terms (specified using the <ins><b><em>dt</em></b></ins> element) and descriptions (provided by <ins><b><em>dd</em></b></ins> elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs) (<s>ignore</s>).</dd>
-</dl>
-```
-
-<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
-
 ### Tables
 
 Here is a generic table but the Table of Contents above is another version. The pipes create the columns, the colons with dashes create the alignment:
@@ -311,7 +287,30 @@ Use 3 asterisks or 3 dashes with or without a space to create a horizontal rule:
 <hr>
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
-<hr>
+
+### Descriptions
+
+The following are HTML tags, **_NOT_** a part of markdown, but they do give you a nice indentation for visual variety.
+
+The text in the tags can only be styled with the HTML tags related to bold, italic, strikethrough, or _underline_. As you can see, I used the `ins`, `b`, `em`, and `s` tags in the example below:
+
+- `dl`: description list, the wrapper element for the other two
+- `dt`: description term, that which you are defining or highlighting
+- `dd`: description details, the actual definition or explanantion
+
+<dl>
+  <dt>Description <ins>List</ins></dt>
+  <dd>Represents a description list. The <ins><b><em>dl</em></b></ins> element encloses a list of groups of terms (specified using the <ins><b><em>dt</em></b></ins> element) and descriptions (provided by <ins><b><em>dd</em></b></ins> elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs) (<s>ignore</s>).</dd>
+</dl>
+
+```markdown
+<dl>
+  <dt>Description <ins>List</ins></dt>
+  <dd>Represents a description list. The <ins><b><em>dl</em></b></ins> element encloses a list of groups of terms (specified using the <ins><b><em>dt</em></b></ins> element) and descriptions (provided by <ins><b><em>dd</em></b></ins> elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs) (<s>ignore</s>).</dd>
+</dl>
+```
+
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Frontmatter and YAML
 
@@ -321,7 +320,9 @@ What is YAML? That is not pertinent to this repo, but GitHub actions are written
 
 Check out the file in this repo named [frontmatter.md](https://github.com/Kernix13/markdown-cheatsheet/blob/master/frontmatter.md) for an example of how it displays at the top of the file, as well as a description of what frontmatter is, and notes on syntax and YAML.
 
-In that file I use frontmatter and it looks like it prints out as if it was a table. It has just 2 rows: 1st) the keys which become the table headers, and 2nd) the values in the first row. What is interesting is how the _tags_ are output with borders. I did not use nesting in that example, but I would assume that would
+In that file I use frontmatter and it looks like it prints out as if it was a table. It has just 2 rows: 1st) the keys which become the table headers, and 2nd) the values in the first row. What is interesting is how the _tags_ are output with borders. I did not use nesting in that example, but I would assume that would out put differently
+
+Here is an error I got when I tried nesting:
 
 > ERROR: `Error in user YAML: (<unknown>): did not find expected '-' indicator while parsing a block collection at line 4 column 3`
 
