@@ -239,7 +239,7 @@ This is a nice effect which adds a border-left and padding-left to offset it fro
 > Create a <ins>space</ins> like above using > with no text (~~ignore~~)
 ```
 
-<br />
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Tables
 
@@ -635,6 +635,7 @@ asp
 brainfuck
 c
 cfm
+cjs
 clojure
 cmake
 coffee-script, coffeescript, coffee
