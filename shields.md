@@ -2,6 +2,8 @@
 
 [Shields.io](https://shields.io/)
 
+Below are all the Shields.io badges for GitHub.
+
 ## Build
 
 > Cirrus CI is a modern _Continuous Integration_ system built for the era of cloud computing. Cirrus CI supports Linux, Windows, macOS and FreeBSD environments...
@@ -34,7 +36,7 @@ Scrutinizer build (?)
 
 No clue what these are:
 
-1. nycrc config on GitHub: `	/nycrc/:user/:repo?config=.nycrc&preferredThreshold=lines`
+1. nycrc config on GitHub: `/nycrc/:user/:repo?config=.nycrc&preferredThreshold=lines`
 1. Scrutinizer coverage (GitHub/BitBucket): `/scrutinizer/coverage/:vcs/:user/:repo/:branch?`
 
 ## Test Results
@@ -69,10 +71,19 @@ Scrutinizer & Snyk (?):
 
 Badges for:
 
-1. **Discord**: general, topics, users, posts, likes, & status
-2. Glitter
-3. Matrix
-4. **Stack Exchange**: monthly questions, reputation, questions
+1. **Discord**: 
+   1. [general](/discord/:serverId),
+   1. [topics](/discourse/topics?server=https%3A%2F%2Fmeta.discourse.org)
+   1. [users](/discourse/users?server=https%3A%2F%2Fmeta.discourse.org)
+   1. [posts](/discourse/posts?server=https%3A%2F%2Fmeta.discourse.org)
+   1. [likes](/discourse/likes?server=https%3A%2F%2Fmeta.discourse.org)
+   1. [status](/discourse/status?server=https%3A%2F%2Fmeta.discourse.org)
+2. Glitter: skip
+3. Matrix: skip
+4. Stack Exchange
+   1. [monthly questions]((/stackexchange/:stackexchangesite/qm/:query))
+   1. [reputation](/stackexchange/:stackexchangesite/r/:query)
+   1. [questions](/stackexchange/:stackexchangesite/t/:query)
 
 ## Dependencies
 
@@ -116,7 +127,7 @@ Only good for repos that have a release(s)
 
 ## Funding
 
-1. GitHub sponsors: `	/github/sponsors/:user`
+1. GitHub sponsors: `/github/sponsors/:user`
 
 ## Issue Tracking
 
