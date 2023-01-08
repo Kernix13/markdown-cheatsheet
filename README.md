@@ -328,8 +328,6 @@ Here is an error I got when I tried nesting:
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
----
-
 ## Links
 
 This category accepts all text effects and includes:
