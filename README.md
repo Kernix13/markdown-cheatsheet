@@ -29,8 +29,8 @@ I'm breaking up all the markdown syntax into 8 categories:
 
 ## ~~A Literal~~ <ins>Table</ins> of _Contents_
 
-|           Category | Element     | Accepts styles? |
-| ---------------: | :------------ | :-------------: |
+|                             Category | Element                                                             | Accepts styles? |
+| -----------------------------------: | :------------------------------------------------------------------ | :-------------: |
 |               **[Basics](#basics)**: | [Paragraphs](#paragraphs)                                           |     **Yes**     |
 |                                      | [Special characters](#special-characters)                           |      `N/A`      |
 |               **[Styles](#styles)**: | [Bold](#bold)                                                       |      `N/A`      |
@@ -40,9 +40,9 @@ I'm breaking up all the markdown syntax into 8 categories:
 | **[Miscellaneous](#miscellaneous)**: | [Headings](#headings)                                               |     **Yes**     |
 |                                      | [Blockquotes](#blockquotes)                                         |     **Yes**     |
 |                                      | [Tables](#tables)                                                   |     **Yes**     |
-|  | [Horizontal rules](#horizontal-rules)   |  No  |
-|  | [Descriptions](#descriptions)    |    **Yes\***    |
-|  | [Frontmatter and YAML](#frontmatter-and-yaml)   |  No  |
+|                                      | [Horizontal rules](#horizontal-rules)                               |       No        |
+|                                      | [Descriptions](#descriptions)                                       |    **Yes\***    |
+|                                      | [Frontmatter and YAML](#frontmatter-and-yaml)                       |       No        |
 |                 **[Links](#links)**: | [External](#external)                                               |     **Yes**     |
 |                                      | [Anchor](#anchor)                                                   |     **Yes**     |
 |                                      | [Footnotes](#footnotes)                                             |     **Yes**     |
@@ -137,26 +137,26 @@ These do not work for the obvious ones (Horizontal Rules, Images, and Emojis), a
 
 ### Bold
 
-**Bold**: use either 2 **asterisks** or 2 __underscores__ before and after the text for bold styling. The preferred syntax is to use asterisks for bold:
+**Bold**: use either 2 **asterisks** or 2 **underscores** before and after the text for bold styling. The preferred syntax is to use asterisks for bold:
 
 ```markdown
 **two asterisks**
-__two underscores__
+**two underscores**
 ```
 
 ### Italic
 
-**Italic**: use a *single asterisk* or _underscore_ before and after the text for italic styling. The preferred syntax is to use an underscore for italics:
+**Italic**: use a _single asterisk_ or _underscore_ before and after the text for italic styling. The preferred syntax is to use an underscore for italics:
 
 ```markdown
-*single asterisk*
+_single asterisk_
 _single underscore_
 ```
 
-**_Bold and Italic_**: use either ***3 asterisks*** or **_2 asterisks and 1 underscore_** for bold and italic text. The preffered syntax is the latter:
+**_Bold and Italic_**: use either **_3 asterisks_** or **_2 asterisks and 1 underscore_** for bold and italic text. The preffered syntax is the latter:
 
 ```markdown
-***3 asterisks***
+**_3 asterisks_**
 **_2 asterisks and and 1 underscore_**
 ```
 
@@ -314,9 +314,9 @@ The text in the tags can only be styled with the HTML tags related to bold, ital
 
 ### Frontmatter and YAML
 
-Frontmatter in markdown files is not something you will use in general, but you should at least be aware of it. The actual syntax for markdown frontmatter (or _front matter_) is YAML syntax. 
+Frontmatter in markdown files is not something you will use in general, but you should at least be aware of it. The actual syntax for markdown frontmatter (or _front matter_) is YAML syntax.
 
-What is YAML? That is not pertinent to this repo, but GitHub actions are written in YAML. 
+What is YAML? That is not pertinent to this repo, but GitHub actions are written in YAML.
 
 Check out the file in this repo named [frontmatter.md](https://github.com/Kernix13/markdown-cheatsheet/blob/master/frontmatter.md) for an example of how it displays at the top of the file, as well as a description of what frontmatter is, and notes on syntax and YAML.
 
@@ -525,13 +525,13 @@ For a nested ordered list, do the same as for nested unordered lists - align the
 
 You can create what looks like checkboxes and display completed tasks with a checkmark. It takes the form of an unordered list with the first characters being a set of square brackets which **_MUST_** have a space in them. For a completed task, add either a lower or uppercase "X":
 
-- [ ] Incomplete *task*
+- [ ] Incomplete _task_
 - [x] Completed **task**
   - [ ] Incomplete ~~subtask~~
   - [x] Completed subtask
 
 ```markdown
-- [ ] Incomplete *task*
+- [ ] Incomplete _task_
 - [x] Completed **task**
   - [ ] Incomplete ~~subtask~~
   - [x] Completed subtask
@@ -682,6 +682,8 @@ vue
 xml - XML and also used for HTML with inline CSS and Javascript
 yaml
 ```
+
+I've also noticed that `ini` and `toml` as the language block language also show syntax highlighting.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -925,7 +927,6 @@ Miscellaneous/playful: :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mu
 :icecream:, :sound:, :speaker:, :lock:, :guitar:, :one:, :two: (and other #'s),
 :link:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:
 ```
-
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -1372,7 +1373,7 @@ _No markdown equivalent_: `br` (line break), `ins` (underline), `sup` and `sub` 
 
 **Attributes notes**:
 
-- `a`: target="_blank" does not work
+- `a`: target="\_blank" does not work
 - `img`: align, width, and height all work
 
 Some _Global attributes_ that may have a use: id, draggable, **style**, **title**, tabindex, contenteditable, autofocus.
