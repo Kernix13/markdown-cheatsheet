@@ -144,6 +144,8 @@ These do not work for the obvious ones (Horizontal Rules, Images, and Emojis), a
 **two underscores**
 ```
 
+The two underscores is being converted to asterisks in the block above (asterisks preferred), so let's try it in an inline code block: `__two underscores__`.
+
 ### Italic
 
 **Italic**: use a _single asterisk_ or _underscore_ before and after the text for italic styling. The preferred syntax is to use an underscore for italics:
@@ -152,6 +154,8 @@ These do not work for the obvious ones (Horizontal Rules, Images, and Emojis), a
 _single asterisk_
 _single underscore_
 ```
+
+Here is an inline example with a single asterisk: `*single asterisk*` (underscores preferred).
 
 **_Bold and Italic_**: use either **_3 asterisks_** or **_2 asterisks and 1 underscore_** for bold and italic text. The preffered syntax is the latter:
 
@@ -320,7 +324,7 @@ What is YAML? That is not pertinent to this repo, but GitHub actions are written
 
 Check out the file in this repo named [frontmatter.md](https://github.com/Kernix13/markdown-cheatsheet/blob/master/frontmatter.md) for an example of how it displays at the top of the file, as well as a description of what frontmatter is, and notes on syntax and YAML.
 
-In that file I use frontmatter and it looks like it prints out as if it was a table. It has just 2 rows: 1st) the keys which become the table headers, and 2nd) the values in the first row. What is interesting is how the _tags_ are output with borders. I did not use nesting in that example, but I would assume that would out put differently
+In that file I use frontmatter and it looks like it prints out as if it was a table. It has just 2 rows: 1st) the keys which become the table headers, and 2nd) the values in the first row. What is interesting is how the _tags_ are output with borders. I did not use nesting in that example, but I would assume that would output differently.
 
 Here is an error I got when I tried nesting:
 
@@ -546,9 +550,9 @@ You can create what looks like checkboxes and display completed tasks with a che
 This category deals with inline code and various typs of code blocks and none of them accept Styles with the exception of `inline` and language code blocks using _markdown_ as the language:
 
 - Inline code
-- Code blocks
+- Generic code blocks
 - <kbd>TAB</kbd> code blocks
-- Code highlighting blocks
+- Code language blocks
 - `Diff` code blocks
 
 ### Inline
@@ -573,14 +577,14 @@ To add code that requires more than 1 line then use 3 backticks, hit <kbd>ENTER<
 
     ```
     *, *::before, *::after {
-            box-sizing: border-box;
-        }
+      box-sizing: border-box;
+    }
     ```
 
 ```
 *, *::before, *::after {
-            box-sizing: border-box;
-        }
+  box-sizing: border-box;
+}
 ```
 
 **NOTE**: This is the only method I found to be able to actually show the triple back-ticks needed to create a code block.
@@ -683,7 +687,7 @@ xml - XML and also used for HTML with inline CSS and Javascript
 yaml
 ```
 
-I've also noticed that `ini` and `toml` as the language block language also show syntax highlighting.
+I've also noticed that `ini` and `TOML` as the language block language also show syntax highlighting.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -725,7 +729,7 @@ This is a nice way to add a comment in the editor view of your markdown file. Th
 <!-- There is a comment here that you can't see -->
 ```
 
-Comments used in language block code blocks will match the language. You can use the `CTRL+/` shortcut. For example, in JavaScript or PHP you will get `//` using that shortcut, or `**` in CSS, `#` in bash files, and `<!-- -->` in HTML.
+Comments used in language code blocks will match the language. You can use the `CTRL+/` shortcut. For example, in JavaScript or PHP you will get `//` using that shortcut, or `**` in CSS, `#` in bash files, and `<!-- -->` in HTML.
 
 ### Spoiler
 
