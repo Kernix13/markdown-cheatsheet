@@ -108,11 +108,11 @@ _ underscore for italics
 * and + for diff code blocks
 > for blockquotes
 3 - or * for horizontal rules
-" for titles to links
 <!-- for comments in markdown -->
 \ to escape most of the characters above, as in...
 \* escape asterisk,
 \| escape pipe, etc...
+" for titles to links
 ````
 
 **NOTE**: Some of the symbols have different effects when used in _Math Expressions_. See that section for information on those.
@@ -485,7 +485,7 @@ Does this make sense? You can use both unordered and ordered together -> bullets
 
 - 10. What is this
 - 15. Again?
-- 50. Any use cases?
+- 20. Any use cases?
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -749,8 +749,7 @@ This isn't a markdown thing but it is another example of using HTML tags in a Ma
 
 <details>
   <summary>Title 1</summary>
-  <p>Some hidden content goes here</p>
-  Here is some more without a paragraph tag
+  <p>Some hidden content goes here</p>  
 </details>
 <details>
   <summary>Title 2</summary>
@@ -1360,7 +1359,7 @@ I have only found that the `align` attribute works, other than the obvious ones 
 <blockquote align="center">Testing alignment</blockquote>
 
 <pre align="center">
-<span>testing</span>
+<code>testing align="center" in a pre block </code>
 </pre>
 
 Unless there is a way to display the tags differently, then I do not see the point of using `pre`, `table`, `lists`, or `blockquote`. Especially the `table` tag since there are a lot of tags you need to enter.
