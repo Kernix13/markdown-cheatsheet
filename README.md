@@ -8,7 +8,7 @@
 <span><img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/Kernix13/markdown-cheatsheet?style=for-the-badge"></span>
 <span><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Kernix13/markdown-cheatsheet?style=for-the-badge"></span>
 
-Use this markdown cheat cheat as a guide for writing your markdown files. If you like it then clone or fork it, or at least click the **star** button. You can also check out the [Markdown Cheat Sheet article](https://kernixwebdesign.com/website/code/markdown-cheat-sheet-beginners/) I wrote, though it is not as inclusive as this guide.
+Use this markdown cheat cheat as a guide for writing your markdown files. If you like it then clone or fork it, or at least click the **star** button.
 
 > FYI: if you are using the Vs Code extension `Prettier - Code formatter`, then you want to create a `.prettierignore` file and add markdown files (see my file) because it _WILL_ mess with your markdown.
 
@@ -348,7 +348,7 @@ Here is a link to my [Beginner Git Commands](https://github.com/Kernix13/beginne
 
 ```markdown
 [Link text](URL 'Optional link title')
-[Kernix Web Design](https://kernixwebdesign.com/ 'Kernix Web Design Home page')
+[Beginner Git Commands](https://github.com/Kernix13/beginner-git-commands 'Basic Git commands repo')
 ```
 
 **NOTE**: Only use a title if it adds information. Don't set the title text to be the same as the link text.
@@ -779,10 +779,10 @@ The five sections below deal with adding visual-based elements to your markdown 
 ### Images
 
 Images use the same syntax as **Links** except for the addition of an exclamation mark (`!`) immediately before the opening square bracket. You can also use the optional title text. The example image below shows the dimensions but that is just an example. It's up to you to decide the image sizes you want for your files:
+image.png
+![picture alt text](./markdown-image.png 'Title is optional')
 
-![picture alt text](https://kernixwebdesign.com/wp-content/uploads/2022/05/markdown-image.png 'Title is optional')
-
-    ![picture alt](https://kernixwebdesign.com/wp-content/uploads/2022/05/markdown-image.png 'Title is optional')
+    ![picture alt](./markdown-image.png 'Title is optional')
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -1431,11 +1431,11 @@ And here are 2 images with `width="200px"` in a table. The first has `align="rig
 
 |                                                                                                                        |                                                                                                                       |
 | :--------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
-| <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px" align="right"> | <img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px" align="left"> |
+| <img src="./graphic-design-tips.jpg" width="200px" align="right"> | <img src="./graphic-design-tips.jpg" width="200px" align="left"> |
 
 IT appears if you want to get 2 or more images/graphics on a row, you need to put them in table cells or nest them in `<span>` tags. Note that the actual href values are to my website but they are linking to github and are links that open in a new page. Here is the image with a `title`, and a `<div>` tag with `align="center"` though you could use `align="right"` as well:
 
-<div align="center"><img src="https://kernixwebdesign.com/wp-content/uploads/2022/01/graphic-design-tips.jpg" width="200px" title="Image example"></div>
+<div align="center"><img src="./graphic-design-tips.jpg" width="200px" title="Image example"></div>
 
 <br>
 
