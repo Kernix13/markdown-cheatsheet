@@ -1,12 +1,14 @@
 # MARKDOWN CHEAT SHEET
 
-<!-- ![GitHub forks](https://img.shields.io/github/forks/Kernix13/markdown-cheatsheet?style=for-the-badge)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/Kernix13/markdown-cheatsheet?style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/Kernix13/markdown-cheatsheet?style=for-the-badge) -->
+![GitHub Forks](https://img.shields.io/github/forks/Kernix13/markdown-cheatsheet?style=flat-square)
+![GitHub Commit Activity](https://img.shields.io/github/commit-activity/y/Kernix13/markdown-cheatsheet?style=flat-square)
+![GitHub Contributors](https://img.shields.io/github/contributors/Kernix13/markdown-cheatsheet?style=flat-square)
+![GitHub Search Hits](https://img.shields.io/github/search/Kernix13/markdown-cheatsheet/markdown?style=flat-square)
+![GitHub Issues](https://img.shields.io/github/issues/Kernix13/markdown-cheatsheet?style=flat-square)
 
-<span><img alt="GitHub forks" src="https://img.shields.io/github/forks/Kernix13/markdown-cheatsheet?style=for-the-badge"></span>
+<!-- <span><img alt="GitHub forks" src="https://img.shields.io/github/forks/Kernix13/markdown-cheatsheet?style=for-the-badge"></span>
 <span><img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/Kernix13/markdown-cheatsheet?style=for-the-badge"></span>
-<span><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Kernix13/markdown-cheatsheet?style=for-the-badge"></span>
+<span><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Kernix13/markdown-cheatsheet?style=for-the-badge"></span> -->
 
 Use this markdown cheat cheat as a guide for writing your markdown files. If you like it then clone or fork it, or at least click the **star** button.
 
@@ -1335,6 +1337,8 @@ I used a GitHub generator for my Profile README. In there are `<p>`, `<a>`, and 
 I tested every HTML tag that made sense. I skipped tags like `section`, `header`, `nav`, etc. Here is a breakdown of that testing.
 
 ### Block level HTML tags that work
+
+NOTE: I should not have pushed `index.html` because I was only using to test the syntax for some HTML tags.
 
 _Duplicates markdown_: `blockquote`, `h1` thru `h6`, `hr`, `ol` `ul` `li`, `pre`, `table`
 

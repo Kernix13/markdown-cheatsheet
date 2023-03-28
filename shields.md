@@ -94,7 +94,7 @@ Depfu (?):
 
 ## Size
 
-Some of these would be good for a beginner's repo:
+Some of these would be good for a beginner's repo if you have a lot of files, folders, etc:
 
 1. GitHub code size in bytes: `/github/languages/code-size/:user/:repo`
 1. **GitHub repo file count**: `/github/directory-file-count/:user/:repo`
@@ -130,7 +130,7 @@ Only good for repos that have a release(s)
 
 ## Issue Tracking
 
-Add these if you have issues and/or PRs.
+Add these if you have issues or PRs, use labels, have milestones, etc.
 
 Varied:
 
