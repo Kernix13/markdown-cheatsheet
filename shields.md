@@ -2,7 +2,7 @@
 
 [Shields.io](https://shields.io/)
 
-Below are all the Shields.io badges for GitHub.
+Below are all the Shields.io badges for GitHub. I note the ones that would be good if you are a beginner with Git/GitHub.
 
 ## Build
 
@@ -65,14 +65,13 @@ Scrutinizer & Snyk (?):
 1. Scrutinizer code quality (GitHub/BitBucket): `/scrutinizer/quality/:vcs/:user/:repo/:branch?`
 1. Snyk Vulnerabilities for GitHub repo: `/snyk/vulnerabilities/github/:user/:repo`
 1. Snyk Vulnerabilities for GitHub repo (specific manifest): `/snyk/vulnerabilities/github/:user/:repo/:manifestFilePath`
-1.
 
 ## Chat
 
 Badges for:
 
 1. **Discord**: 
-   1. [general](/discord/:serverId),
+   1. [general](/discord/:serverId)
    1. [topics](/discourse/topics?server=https%3A%2F%2Fmeta.discourse.org)
    1. [users](/discourse/users?server=https%3A%2F%2Fmeta.discourse.org)
    1. [posts](/discourse/posts?server=https%3A%2F%2Fmeta.discourse.org)

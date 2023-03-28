@@ -23,7 +23,7 @@ I'm breaking up all the markdown syntax into 8 categories:
 1. Hidden
 1. Visual
 
-**NOTE**: To view markdown> in VS Code hit <kbd>CTRL</kbd>+<kbd>SHIFT</kbd>+`V` or click the preview button at top right in line with the file name tabs.
+**NOTE**: To view markdown> in VS Code hit <kbd>CTRL</kbd>+<kbd>SHIFT</kbd> + <kbd>V</kbd> or click the preview button at top right in line with the file name tabs.
 
 <div id="back-to-top"></div>
 
