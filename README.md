@@ -1,7 +1,13 @@
 # MARKDOWN CHEAT SHEET
 
-![GitHub Forks](https://img.shields.io/github/forks/Kernix13/markdown-cheatsheet?style=flat-square)
+<!-- ![GitHub Forks](https://img.shields.io/github/forks/Kernix13/markdown-cheatsheet?style=flat-square)
 ![GitHub Commit Activity](https://img.shields.io/github/commit-activity/y/Kernix13/markdown-cheatsheet?style=flat-square)
+![GitHub Contributors](https://img.shields.io/github/contributors/Kernix13/markdown-cheatsheet?style=flat-square)
+![GitHub Search Hits](https://img.shields.io/github/search/Kernix13/markdown-cheatsheet/markdown?style=flat-square)
+![GitHub Issues](https://img.shields.io/github/issues/Kernix13/markdown-cheatsheet?style=flat-square) -->
+
+![GitHub Forks](https://img.shields.io/github/forks/Kernix13/markdown-cheatsheet?style=for-the-badge)
+![GitHub Commit Activity](https://img.shields.io/github/commit-activity/y/Kernix13/markdown-cheatsheet?style=for-the-badge)
 ![GitHub Contributors](https://img.shields.io/github/contributors/Kernix13/markdown-cheatsheet?style=flat-square)
 ![GitHub Search Hits](https://img.shields.io/github/search/Kernix13/markdown-cheatsheet/markdown?style=flat-square)
 ![GitHub Issues](https://img.shields.io/github/issues/Kernix13/markdown-cheatsheet?style=flat-square)
