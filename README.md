@@ -1,12 +1,12 @@
 # MARKDOWN CHEAT SHEET
 
+![GitHub Repo Stars](https://img.shields.io/github/stars/Kernix13/markdown-cheatsheet?style=for-the-badge)
+![GitHub Watchers](https://img.shields.io/github/watchers/Kernix13/markdown-cheatsheet?style=for-the-badge)
 ![GitHub Forks](https://img.shields.io/github/forks/Kernix13/markdown-cheatsheet?style=for-the-badge)
 ![GitHub Commit Activity](https://img.shields.io/github/commit-activity/y/Kernix13/markdown-cheatsheet?style=for-the-badge)
-![GitHub Contributors](https://img.shields.io/github/contributors/Kernix13/markdown-cheatsheet?style=for-the-badge)
+<!-- ![GitHub Contributors](https://img.shields.io/github/contributors/Kernix13/markdown-cheatsheet?style=for-the-badge) -->
 ![GitHub Search Hits](https://img.shields.io/github/search/Kernix13/markdown-cheatsheet/markdown?style=for-the-badge)
 ![GitHub Issues](https://img.shields.io/github/issues/Kernix13/markdown-cheatsheet?style=for-the-badge)
-![GitHub Repo Stars](https://img.shields.io/github/stars/Kernix13/markdown-cheatsheet?style=flat-square)
-![GitHub Watchers](https://img.shields.io/github/watchers/Kernix13/markdown-cheatsheet?style=flat-square)
 
 <!-- <span><img alt="GitHub forks" src="https://img.shields.io/github/forks/Kernix13/markdown-cheatsheet?style=for-the-badge"></span>
 <span><img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/Kernix13/markdown-cheatsheet?style=for-the-badge"></span>
