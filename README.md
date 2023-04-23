@@ -290,9 +290,13 @@ Use 3 asterisks or 3 dashes with or without a space to create a horizontal rule:
 ***
 ```
 
-**NOTE**: Make sure to hit <kbd>ENTER</kbd> twice if you intend to use 3 asterisks witout spaces or it will set the text above it to an H3 tag.
+**NOTE**: Make sure to hit <kbd>ENTER</kbd> twice if you intend to use 3 asterisks without spaces or it will set the text above it to an H3 tag. Directly below this paragraph is an HTML `<hr>` tag which looks identical to the HR at the top of this section.
 
 <hr>
+
+HR's look good for visual breaks. You could also use other keyboard symbols like periods:
+
+...........................................................................
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
