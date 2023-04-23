@@ -296,7 +296,7 @@ Use 3 asterisks or 3 dashes with or without a space to create a horizontal rule:
 
 HR's look good for visual breaks. You could also use other keyboard symbols like periods:
 
-...........................................................................
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
