@@ -1,5 +1,20 @@
 # Open Source & Contributing Notes
 
+## Basic README.md format
+
+Try to include the following section headings in your repo README file:
+
+
+1. Description - absolutely necessary
+2. Table of Contents - only include if your README is long
+3. Installation - not necessary if it's a simple HTML, CSS & vanilla JS project.
+4. Usage - not sure about this one
+5. License - not necessary if it is a simple project
+6. Contributing - you need this if you want contributors
+7. Code of Conduct - same as above
+7. Tests - skip if you do have a testing library as part of the repo
+8. Questions - this could be helpful
+
 ## Best Of
 
 1. License for your repo: [Choose a License](https://choosealicense.com/)
