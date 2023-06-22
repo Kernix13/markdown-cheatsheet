@@ -654,7 +654,7 @@ cs
 csharp
 css
 csv
-bash
+bash, sh, zsh
 diff
 elixir
 erb - HTML + Embedded Ruby
@@ -696,6 +696,10 @@ yaml
 ```
 
 I've also noticed that `ini` and `TOML` as the language block language also show syntax highlighting.
+
+For terminal commands like for NPM, use `bash`, `sh`, or `zsh`. 
+
+Trying to find a language to style terminal errors or errors & warnings in DevTools is difficult. The best languages I found for that are `c++` and `python`. The syntax highlighting isn't perfect but it at least has some syntax highlighting.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
