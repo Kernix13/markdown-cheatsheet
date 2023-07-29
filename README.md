@@ -25,7 +25,7 @@ I'm breaking up all the markdown syntax into 8 categories:
 1. Lists
 1. Code
 1. Hidden
-1. Visual
+1. Visual Elements
 
 **NOTE**: To view markdown> in VS Code hit <kbd>CTRL</kbd>+<kbd>SHIFT</kbd> + <kbd>V</kbd> or click the preview button at top right in line with the file name tabs.
 
@@ -63,14 +63,15 @@ I'm breaking up all the markdown syntax into 8 categories:
 |               **[Hidden](#hidden)**: | [Comments](#comments)                                               |       No        |
 |                                      | [Spoiler](#spoiler)                                                 |     **Yes**     |
 |                                      | [Details](#details)                                                 |       No        |
-|               **[Visual](#visual)**: | [Images](#images)                                                   |       No        |
+| **[Visual Elements](#visual-elements)**: | [Images](#images)                                               |       No        |
 |                                      | [Math](#math)                                                       |       No        |
 |                                      | [Emojis](#emojis)                                                   |       No        |
 |                                      | [Shields](#shields)                                                 |       No        |
 |                                      | [Devicons](#devicons)                                               |       No        |
+|                                      | [Mermaid Diagrams](#mermaid-diagrams)                               |       No        |
 |                                      | [HTML entities](#html-entities)                                     |    **Yes\***    |
-|                  **[Notes](#notes)** | [Block level HTML tags that work](#block-level-HTML-tags-that-work) |        -        |
-|                                      | [Inline HTML tags that work](#inline-HTML-tags-that-work)           |        -        |
+|                  **[Notes](#notes)** | [Block level HTML tags that work](#block-level-html-tags-that-work) |        -        |
+|                                      | [Inline HTML tags that work](#inline-html-tags-that-work)           |        -        |
 |                                      | [HTML tag examples](#html-tag-examples)                             |        -        |
 |          **[Resources](#resources)** | N/A                                                                 |        -        |
 
@@ -784,9 +785,9 @@ This isn't a markdown thing but it is another example of using HTML tags in a Ma
 
 ---
 
-## Visual
+## Visual Elements
 
-The five sections below deal with adding visual-based elements to your markdown file that require some kind of extra code/syntax: `images`, `math expressions`, `emojis`, `shields`, and `HTML entities`.
+The five sections below deal with adding visual-based elements to your markdown file that require some kind of extra code/syntax: `images`, `math expressions`, `emojis`, `shields`, `diagrams`, and `HTML entities`.
 
 ### Images
 
@@ -1047,6 +1048,46 @@ When you see a profile README with language/tool icons that you would like to us
 **NOTE 1**: The link attribute `target="_blank"` does not open links in a new tab.
 
 **NOTE 2**: You need to set the `width` and `height` for the devicon's `img` tags. Currently I have 40 or 48 pixels for my devicons. Find the pixel size that works for you.
+
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+
+### Mermaid Diagrams
+
+This is a new markdown element I just became aware of. Check out [Mermaid on GitHub](https://github.com/mermaid-js/mermaid#readme) for more information. But it's basically a language code block that remders various diagrams with very specific syntax. Check this out:
+
+      graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
+Or this
+
+flowchart LR
+
+    A[Hard] -->|Text| B(Round)
+    B --> C{Decision}
+    C -->|One| D[Result 1]
+    C -->|Two| E[Result 2]
+
+```mermaid
+flowchart LR
+
+A[Hard] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
+```
+
+As I learn more I will add more but this is really cool!
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
