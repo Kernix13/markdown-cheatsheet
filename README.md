@@ -1053,7 +1053,7 @@ When you see a profile README with language/tool icons that you would like to us
 
 ### Mermaid Diagrams
 
-This is a new markdown element I just became aware of. Check out [Mermaid on GitHub](https://github.com/mermaid-js/mermaid#readme) for more information. But it's basically a language code block that remders various diagrams with very specific syntax. Check this out:
+This is a new markdown element I just became aware of. Check out [Mermaid on GitHub](https://github.com/mermaid-js/mermaid#readme) for more information. But it's basically a language code block that remders various diagrams with very specific syntax. And the diagrams have buttons for, zoom in/out, position change, and popout box. Check this out:
 
       graph TD;
       A-->B;
