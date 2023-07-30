@@ -1492,7 +1492,7 @@ And here are 2 images with `width="200px"` in a table. The first has `align="rig
 
 IT appears if you want to get 2 or more images/graphics on a row, you need to put them in table cells or nest them in `<span>` tags. Note that the actual href values are to my website but they are linking to github and are links that open in a new page. Here is the image with a `title`, and a `<div>` tag with `align="center"` though you could use `align="right"` as well:
 
-<div align="center"><img src="./graphic-design-tips.jpg" width="200px" title="Image example"></div><span align="center"><em>Caption for the image</em></span>
+<div align="center"><img src="./graphic-design-tips.jpg" width="200px" title="Image example"></div><span align="center">
 
 <br>
 
@@ -1534,9 +1534,9 @@ Here is code to copy instead of having to type it out each time:
 
 I will be adding notes here on how to add videos to markdown files on GitHub. Here is some examples that I got from [bobbyhadz.com](https://bobbyhadz.com/blog/embed-video-into-github-readme-markdown). I haven't added a link to a valid thumbnail but the video links to the 10:00 minute _Buck Bunny video_ and it opens in a new tab:
 
-[![Watch the video](https://img.youtube.com/vi/<VIDEO_ID>/hqdefault.jpg)](https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164)
+[![Watch the video](./markdown-image.png)](https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164)
 
-[<img src="https://img.youtube.com/vi/<VIDEO_ID>/hqdefault.jpg" width="600" height="300"
+[<img src="./markdown-image.png" width="600" height="300"
 />](https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164)
 
 
