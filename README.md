@@ -1546,35 +1546,6 @@ I will be adding notes here on how to add videos to markdown files on GitHub. He
 
 If all of the above is not enough to differentiate your markdown files from a plain vanilla MD file, then you can also add CSS. You can not add a style sheet but you can add HTML as seen above. Which means you can add a `<style>` tag or add inline CSS.
 
-Here is an example of a style tag:
-
-```html
-<style>
-  .red {
-    color: red;
-    font-weight: 700;
-    font-size: 1.5rem;
-  }
-  .flex {
-    display: flex;
-    justify-content: space-between;
-  }
-  .flex-child {
-    background-color: #777;
-    padding: 0.5em 1em;
-    margin: 0.75em auto;
-  }
-</style>
-
-<div class="red">Markdown css styles</div>
-
-<div class="flex">
-  <p class="flex-child">Box 1</p>
-  <p class="flex-child">Box 2</p>
-  <p class="flex-child">Box 3</p>
-</div>
-```
-
 > _**BAD NEWS**: You can not use a `<style>` tag on GitHub, however the above works in VS Code which means it should work in other scenarios or platforms._
 
 ## Resources
