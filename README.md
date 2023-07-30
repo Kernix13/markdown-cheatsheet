@@ -1490,9 +1490,9 @@ And here are 2 images with `width="200px"` in a table. The first has `align="rig
 | :---------------------------------------------------------------: | :--------------------------------------------------------------: |
 | <img src="./graphic-design-tips.jpg" width="200px" align="right"> | <img src="./graphic-design-tips.jpg" width="200px" align="left"> |
 
-IT appears if you want to get 2 or more images/graphics on a row, you need to put them in table cells or nest them in `<span>` tags. Note that the actual href values are to my website but they are linking to github and are links that open in a new page. Here is the image with a `title`, and a `<div>` tag with `align="center"` though you could use `align="right"` as well:
+It appears if you want to get 2 or more images/graphics on a row, you need to put them in table cells or nest them in `<span>` tags. Note that the actual href values are to my website but they are linking to github and are links that open in a new page. Here is the image with a `title`, and a `<div>` tag with `align="center"` though you could use `align="right"` as well:
 
-<div align="center"><img src="./graphic-design-tips.jpg" width="200px" title="Image example"></div><span align="center">
+<div align="center"><img src="./graphic-design-tips.jpg" width="200px" title="Image example"></div>
 
 <br>
 
@@ -1545,6 +1545,68 @@ I will be adding notes here on how to add videos to markdown files on GitHub. He
 #### CSS Styles
 
 If all of the above is not enough to differentiate your markdown files from a plain vanilla MD file, then you can also add CSS. You can not add a style sheet but you can add HTML as seen above. Which means you can add a `<style>` tag or add inline CSS.
+
+Here is an example of a style tag:
+
+```html
+<style>
+  .red {
+    color: red;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex-child {
+    background-color: #777;
+    padding: 0.5em 1em;
+    margin: 0.75em auto;
+  }
+</style>
+
+<div class="red">Markdown css styles</div>
+
+<div class="flex">
+  <p class="flex-child">Box 1</p>
+  <p class="flex-child">Box 2</p>
+  <p class="flex-child">Box 3</p>
+</div>
+```
+
+<style>
+.red {
+    color: red;
+    font-weight:700;
+    font-size: 1.5rem;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-child {
+  background-color: #777;
+  padding: 0.5em 1em;
+  margin: 0.75em auto;
+}
+</style>
+
+<div class="red">
+    Markdown css styles
+</div>
+
+<div class="flex">
+<p class="flex-child">
+    Box 1
+</p>
+<p class="flex-child">
+    Box 2
+</p>
+<p class="flex-child">
+    Box 3
+</p>
+</div>
 
 > _**BAD NEWS**: You can not use a `<style>` tag on GitHub, however the above works in VS Code which means it should work in other scenarios or platforms._
 
