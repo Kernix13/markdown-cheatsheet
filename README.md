@@ -577,7 +577,7 @@ Use a `single backtick` before and after text to display it as inline code:
 `single backtick`
 ```
 
-Here are examples on inline as **`bold`**, _`italic`_, and ~~`strikethrough`~~.
+Here are examples on inline as **`bold`**, _`italic`_, and ~~`strikethrough`~~. There is also a way to show language syntax highlighting (see _Language block_ section below) for inline code, but I think you need to use a package called `highlight.js`.
 
 ### Tab
 
