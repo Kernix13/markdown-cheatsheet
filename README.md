@@ -4,8 +4,11 @@
 ![GitHub Watchers](https://img.shields.io/github/watchers/Kernix13/markdown-cheatsheet?style=for-the-badge)
 ![GitHub Forks](https://img.shields.io/github/forks/Kernix13/markdown-cheatsheet?style=for-the-badge)
 ![GitHub Commit Activity](https://img.shields.io/github/commit-activity/y/Kernix13/markdown-cheatsheet?style=for-the-badge)
+
 <!-- ![GitHub Contributors](https://img.shields.io/github/contributors/Kernix13/markdown-cheatsheet?style=for-the-badge) -->
+
 ![GitHub Issues](https://img.shields.io/github/issues/Kernix13/markdown-cheatsheet?style=for-the-badge)
+
 <!-- ![GitHub Search Hits](https://img.shields.io/github/search/Kernix13/markdown-cheatsheet/markdown?style=for-the-badge) -->
 
 <!-- <span><img alt="GitHub forks" src="https://img.shields.io/github/forks/Kernix13/markdown-cheatsheet?style=for-the-badge"></span>
@@ -33,47 +36,48 @@ I'm breaking up all the markdown syntax into 8 categories:
 
 ## ~~A Literal~~ <ins>Table</ins> of _Contents_
 
-|                             Category | Element                                                             | Accepts styles? |
-| -----------------------------------: | :------------------------------------------------------------------ | :-------------: |
-|               **[Basics](#basics)**: | [Paragraphs](#paragraphs)                                           |     **Yes**     |
-|                                      | [Special characters](#special-characters)                           |      `N/A`      |
-|               **[Styles](#styles)**: | [Bold](#bold)                                                       |      `N/A`      |
-|                                      | [Italic](#italic)                                                   |      `N/A`      |
-|                                      | [Strike thru](#strike-thru)                                         |      `N/A`      |
-|                                      | [Underline](#underline)                                             |      `N/A`      |
-| **[Miscellaneous](#miscellaneous)**: | [Headings](#headings)                                               |     **Yes**     |
-|                                      | [Blockquotes](#blockquotes)                                         |     **Yes**     |
-|                                      | [Tables](#tables)                                                   |     **Yes**     |
-|                                      | [Horizontal rules](#horizontal-rules)                               |       No        |
-|                                      | [Descriptions](#descriptions)                                       |    **Yes\***    |
-|                                      | [Frontmatter and YAML](#frontmatter-and-yaml)                       |       No        |
-|                 **[Links](#links)**: | [External](#external)                                               |     **Yes**     |
-|                                      | [Anchor](#anchor)                                                   |     **Yes**     |
-|                                      | [Footnotes](#footnotes)                                             |     **Yes**     |
-|                                      | [At mentions](#at-mentions)                                         |      `N/A`      |
-|                 **[Lists](#lists)**: | [Unordered](#unordered)                                             |     **Yes**     |
-|                                      | [Ordered](#ordered)                                                 |     **Yes**     |
-|                                      | [Nested](#nested)                                                   |     **Yes**     |
-|                                      | [Tasks](#tasks)                                                     |       No        |
-|                   **[Code](#code)**: | [Inline](#inline)                                                   |    **Yes\***    |
-|                                      | [Tab](#tab)                                                         |       No        |
-|                                      | [Generic](#generic)                                                 |       No        |
-|                                      | [Language block](#language-block)                                   |       No        |
-|                                      | [Diff](#diff)                                                       |       No        |
-|               **[Hidden](#hidden)**: | [Comments](#comments)                                               |       No        |
-|                                      | [Spoiler](#spoiler)                                                 |     **Yes**     |
-|                                      | [Details](#details)                                                 |       No        |
-| **[Visual Elements](#visual-elements)**: | [Images](#images)                                               |       No        |
-|                                      | [Math](#math)                                                       |       No        |
-|                                      | [Emojis](#emojis)                                                   |       No        |
-|                                      | [Shields](#shields)                                                 |       No        |
-|                                      | [Devicons](#devicons)                                               |       No        |
-|                                      | [Mermaid Diagrams](#mermaid-diagrams)                               |       No        |
-|                                      | [HTML entities](#html-entities)                                     |    **Yes\***    |
-|                  **[Notes](#notes)** | [Block level HTML tags that work](#block-level-html-tags-that-work) |        -        |
-|                                      | [Inline HTML tags that work](#inline-html-tags-that-work)           |        -        |
-|                                      | [HTML tag examples](#html-tag-examples)                             |        -        |
-|          **[Resources](#resources)** | N/A                                                                 |        -        |
+|                             Category | Element                                       | Accepts styles? |
+| -----------------------------------: | :-------------------------------------------- | :-------------: |
+|                   [Basics](#basics): | [Paragraphs](#paragraphs)                     |       Yes       |
+|                                      | [Special characters](#special-characters)     |      `N/A`      |
+|                   [Styles](#styles): | [Bold](#bold)                                 |      `N/A`      |
+|                                      | [Italic](#italic)                             |      `N/A`      |
+|                                      | [Strike thru](#strike-thru)                   |      `N/A`      |
+|                                      | [Underline](#underline)                       |      `N/A`      |
+|     [Miscellaneous](#miscellaneous): | [Headings](#headings)                         |       Yes       |
+|                                      | [Blockquotes](#blockquotes)                   |       Yes       |
+|                                      | [Tables](#tables)                             |       Yes       |
+|                                      | [Horizontal rules](#horizontal-rules)         |       No        |
+|                                      | [Descriptions](#descriptions)                 |      Yes\*      |
+|                                      | [Frontmatter and YAML](#frontmatter-and-yaml) |       No        |
+|                     [Links](#links): | [External](#external)                         |       Yes       |
+|                                      | [Anchor](#anchor)                             |       Yes       |
+|                                      | [Footnotes](#footnotes)                       |       Yes       |
+|                                      | [At mentions](#at-mentions)                   |      `N/A`      |
+|                     [Lists](#lists): | [Unordered](#unordered)                       |       Yes       |
+|                                      | [Ordered](#ordered)                           |       Yes       |
+|                                      | [Nested](#nested)                             |       Yes       |
+|                                      | [Tasks](#tasks)                               |       No        |
+|                       [Code](#code): | [Inline](#inline)                             |      Yes\*      |
+|                                      | [Tab](#tab)                                   |       No        |
+|                                      | [Generic](#generic)                           |       No        |
+|                                      | [Language block](#language-block)             |       No        |
+|                                      | [Diff](#diff)                                 |       No        |
+|                   [Hidden](#hidden): | [Comments](#comments)                         |       No        |
+|                                      | [Spoiler](#spoiler)                           |       Yes       |
+|                                      | [Details](#details)                           |       No        |
+| [Visual Elements](#visual-elements): | [Images](#images)                             |       No        |
+|                                      | [Math](#math)                                 |       No        |
+|                                      | [Emojis](#emojis)                             |       No        |
+|                                      | [Shields](#shields)                           |       No        |
+|                                      | [Devicons](#devicons)                         |       No        |
+|                                      | [Mermaid Diagrams](#mermaid-diagrams)         |       No        |
+|                                      | [HTML entities](#html-entities)               |      Yes\*      |
+|                        [HTML](#html) | [Block elements](#block-elements)             |        -        |
+|                                      | [Inline elements](#inline-elements)           |        -        |
+|                                      | [HTML tag examples](#html-tag-examples)       |        -        |
+|                                      | [CSS Styles](#css-styles)                     |        -        |
+|              [Resources](#resources) | N/A                                           |        -        |
 
 <!-- ~~`<cite>`~~ -->
 
@@ -297,7 +301,7 @@ Use 3 asterisks or 3 dashes with or without a space to create a horizontal rule:
 
 HR's look good for visual breaks. You could also use other keyboard symbols like periods:
 
-. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -698,7 +702,7 @@ yaml
 
 I've also noticed that `ini` and `TOML` as the language block language also show syntax highlighting.
 
-For terminal commands like for NPM, use `bash`, `sh`, or `zsh`. 
+For terminal commands like for NPM, use `bash`, `sh`, or `zsh`.
 
 Trying to find a language to style terminal errors or errors & warnings in DevTools is difficult. The best languages I found for that are `c++` and `python`. The syntax highlighting isn't perfect but it at least has some highlighting.
 
@@ -1053,7 +1057,7 @@ When you see a profile README with language/tool icons that you would like to us
 
 ### Mermaid Diagrams
 
-This is a new markdown element I just became aware of. Check out [Mermaid on GitHub](https://github.com/mermaid-js/mermaid#readme) for more information. But it's basically a language code block that remders various diagrams with very specific syntax. And the diagrams have buttons for, zoom in/out, position change, and popout box. Check this out:
+This is a new markdown element I just became aware of. Check out [Mermaid on GitHub](https://github.com/mermaid-js/mermaid#readme) for more information or go to their [docs page](https://mermaid.js.org/intro/). But it's basically a language code block that remders various diagrams with very specific syntax. And the diagrams have buttons for, zoom in/out, position change, and popout box. Check this out:
 
       graph TD;
       A-->B;
@@ -1377,7 +1381,7 @@ NOTE: I ned to get the number ranges for the categories of entities. Check out t
 
 ---
 
-## Notes
+## HTML
 
 <!-- STOPPED EDITS/REVISIONS HERE DEC 18, 2022 -->
 
@@ -1387,7 +1391,7 @@ I used a GitHub generator for my Profile README. In there are `<p>`, `<a>`, and 
 
 I tested every HTML tag that made sense. I skipped tags like `section`, `header`, `nav`, etc. Here is a breakdown of that testing.
 
-### Block level HTML tags that work
+### Block elements
 
 NOTE: I should not have pushed `index.html` because I was only using to test the syntax for some HTML tags.
 
@@ -1421,7 +1425,7 @@ Unless there is a way to display the tags differently, then I do not see the poi
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
-### Inline HTML tags that work
+### Inline elements
 
 > `img` tags display as block level unless nested in table cells or `<span>` tags
 
@@ -1454,8 +1458,6 @@ The only tags worth using IMO:
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
-<br><br>
-
 #### HTML tag examples
 
 The large gap above the title is from 2 `<br>` tags. Use only one for a normal separation.
@@ -1484,8 +1486,8 @@ Here is an example of an Emoji in an `<a>` tag: <a href="#emojis">:smile: Emoji 
 
 And here are 2 images with `width="200px"` in a table. The first has `align="right"` and the second has `align="left"`:
 
-|                                                                                                                        |                                                                                                                       |
-| :--------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------: |
+|                                                                   |                                                                  |
+| :---------------------------------------------------------------: | :--------------------------------------------------------------: |
 | <img src="./graphic-design-tips.jpg" width="200px" align="right"> | <img src="./graphic-design-tips.jpg" width="200px" align="left"> |
 
 IT appears if you want to get 2 or more images/graphics on a row, you need to put them in table cells or nest them in `<span>` tags. Note that the actual href values are to my website but they are linking to github and are links that open in a new page. Here is the image with a `title`, and a `<div>` tag with `align="center"` though you could use `align="right"` as well:
@@ -1531,6 +1533,74 @@ Finally, here is code to copy instead of having to type it out each time:
 ```
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+
+#### CSS Styles
+
+If all of the above is not enough to differentiate your markdown files from a plain vanilla MD file, then you can also add CSS. You can not add a style sheet but you can add HTML as seen above. Which means you can add a `<style>` tag or add inline CSS.
+
+Here is an example of a style tag:
+
+```html
+<style>
+  .red {
+    color: red;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .flex-child {
+    background-color: #777;
+    padding: 0.5em 1em;
+    margin: 0.75em auto;
+  }
+</style>
+
+<div class="red">Markdown css styles</div>
+
+<div class="flex">
+  <p class="flex-child">Box 1</p>
+  <p class="flex-child">Box 2</p>
+  <p class="flex-child">Box 3</p>
+</div>
+```
+
+<style>
+.red {
+    color: red;
+    font-weight:700;
+    font-size: 1.5rem;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-child {
+  background-color: #777;
+  padding: 0.5em 1em;
+  margin: 0.75em auto;
+}
+</style>
+
+<div class="red">
+    Markdown css styles
+</div>
+
+<div class="flex">
+<p class="flex-child">
+    Box 1
+</p>
+<p class="flex-child">
+    Box 2
+</p>
+<p class="flex-child">
+    Box 3
+</p>
+</div>
+
+> _Fantastic, isn't it? But do not go crazy with this. Stop when the styling becomes more important than the content!_
 
 ## Resources
 
