@@ -116,6 +116,7 @@ _ underscore for italics
 1., 2., 3., etc. for numbered lists
 * and + for diff code blocks
 > for blockquotes
+> > for indented / nested blockquotes
 3 - or * for horizontal rules
 <!-- for comments in markdown -->
 \ to escape most of the characters above, as in...
@@ -600,7 +601,19 @@ To add code that requires more than 1 line then use 3 backticks, hit <kbd>ENTER<
 }
 ```
 
-**NOTE**: This is the only method I found to be able to actually show the triple back-ticks needed to create a code block.
+**From GitHub docs**: _To display triple backticks in a fenced code block, wrap them inside quadruple backticks_.
+
+However, you can also hit <kbd>TAB</kbd> twice:
+
+    ```
+    TAB twice to show the triple backticks
+    ```
+
+    ````
+    ```
+    Triples inside quadruples - TAB x 2 is easier
+    ```
+    ````
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
