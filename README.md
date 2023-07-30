@@ -1492,7 +1492,7 @@ And here are 2 images with `width="200px"` in a table. The first has `align="rig
 
 IT appears if you want to get 2 or more images/graphics on a row, you need to put them in table cells or nest them in `<span>` tags. Note that the actual href values are to my website but they are linking to github and are links that open in a new page. Here is the image with a `title`, and a `<div>` tag with `align="center"` though you could use `align="right"` as well:
 
-<div align="center"><img src="./graphic-design-tips.jpg" width="200px" title="Image example"></div>
+<div align="center"><img src="./graphic-design-tips.jpg" width="200px" title="Image example"></div><span align="center"><em>Caption for the image</em></span>
 
 <br>
 
@@ -1520,7 +1520,7 @@ Also, let's look at the small font-size for H5 and H6 tags (Markdown version). R
 
 ###### Even smaller text for an H6
 
-Finally, here is code to copy instead of having to type it out each time:
+Here is code to copy instead of having to type it out each time:
 
 ```
 <h3 align="center">Heading3</h3>
@@ -1531,6 +1531,14 @@ Finally, here is code to copy instead of having to type it out each time:
 
 <div align="center"><img src="link.png" width="200px" title="Image example"></div>
 ```
+
+I will be adding notes here on how to add videos to markdown files on GitHub. Here is some examples that I got from [bobbyhadz.com](https://bobbyhadz.com/blog/embed-video-into-github-readme-markdown). I haven't added a link to a valid thumbnail but the video links to the 10:00 minute _Buck Bunny video_ and it opens in a new tab:
+
+[![Watch the video](https://img.youtube.com/vi/<VIDEO_ID>/hqdefault.jpg)](https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164)
+
+[<img src="https://img.youtube.com/vi/<VIDEO_ID>/hqdefault.jpg" width="600" height="300"
+/>](https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164)
+
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -1600,7 +1608,7 @@ Here is an example of a style tag:
 </p>
 </div>
 
-> _Fantastic, isn't it? But do not go crazy with this. Stop when the styling becomes more important than the content!_
+> _**BAD NEWS**: You can not use a `<style>` tag on GitHub, however the above works in VS Code which means it should work in other scenarios or platforms._
 
 ## Resources
 
