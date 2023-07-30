@@ -1539,6 +1539,10 @@ I will be adding notes here on how to add videos to markdown files on GitHub. He
 [<img src="./markdown-image.png" width="600" height="300"
 />](https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164)
 
+Here is the video in just a `<video>` tag:
+
+<video width="630" height="300" src="https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164"></video>
+
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
