@@ -1539,11 +1539,6 @@ I will be adding notes here on how to add videos to markdown files on GitHub. He
 [<img src="./markdown-image.png" width="600" height="300"
 />](https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164)
 
-Here is the video in just a `<video>` tag:
-
-<video width="630" height="300" src="https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164"></video>
-
-
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 #### CSS Styles
@@ -1613,6 +1608,8 @@ Here is an example of a style tag:
 </div>
 
 > _**BAD NEWS**: You can not use a `<style>` tag on GitHub, however the above works in VS Code which means it should work in other scenarios or platforms._
+
+I could try and add the CSS as inline CSS for the div and paragraph tags, but I'm not that interested in spending time on that. I want my markdown files to look good and to have visual separation but I'd rather spend my time writing actual CSS for my projects. However, if you have a client that wants more CSS then you can experiment with inline CSS.
 
 ## Resources
 
