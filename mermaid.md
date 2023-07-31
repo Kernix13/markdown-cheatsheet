@@ -30,6 +30,9 @@ Keywords and syntax
 1. `}|..|{`, `||--o{`, `||--|{`, `[(Database)]`, `((This is the text in the circle))`
 1. node-name(Your Text Here)
 1. `click` nodename "href"
+1. `id))I am a bang((`
+1. `id)I am a cloud(`
+1. 
 
 ## Flowchart example
 
@@ -265,6 +268,8 @@ quadrantChart
     Campaign F: [0.35, 0.78]
 ```
 
+> This chart is not displaying on GitHub?!?
+
 - title, 
 - x-axis: `x-axis <text> --> <text>` or `x-axis <text>`
 - y-axis: `y-axis <text> --> <text>` or `y-axis <text>`
@@ -287,18 +292,183 @@ pie
 ## requirementDiagram
 
 ```mermaid
+requirementDiagram
 
+    requirement test_req {
+    id: 1
+    text: the test text.
+    risk: high
+    verifymethod: test
+    }
+
+    element test_entity {
+    type: simulation
+    }
+
+    test_entity - satisfies -> test_req
 ```
 
-- 
+- `{name of source} - <type> -> {name of destination}`
 
-## Diagram Types left to do
+## C4Context
 
-1. requirementDiagram, 
-1. C4Context, 
-1. mindmap, 
-1. timeline, 
-1. zenuml, 
-1. stateDiagram-v2, 
-1. sankey-beta, 
+```mermaid
+C4Context
+      title System Context diagram for Internet Banking System
+      Enterprise_Boundary(b0, "BankBoundary0") {
+        Person(customerA, "Banking Customer A", "A customer of the bank, with personal bank accounts.")
+        Person(customerB, "Banking Customer B")
+        Person_Ext(customerC, "Banking Customer C", "desc")
 
+        Person(customerD, "Banking Customer D", "A customer of the bank, <br/> with personal bank accounts.")
+
+        System(SystemAA, "Internet Banking System", "Allows customers to view information about their bank accounts, and make payments.")
+
+        Enterprise_Boundary(b1, "BankBoundary") {
+
+          SystemDb_Ext(SystemE, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+
+          System_Boundary(b2, "BankBoundary2") {
+            System(SystemA, "Banking System A")
+            System(SystemB, "Banking System B", "A system of the bank, with personal bank accounts. next line.")
+          }
+
+          System_Ext(SystemC, "E-mail system", "The internal Microsoft Exchange e-mail system.")
+          SystemDb(SystemD, "Banking System D Database", "A system of the bank, with personal bank accounts.")
+
+          Boundary(b3, "BankBoundary3", "boundary") {
+            SystemQueue(SystemF, "Banking System F Queue", "A system of the bank.")
+            SystemQueue_Ext(SystemG, "Banking System G Queue", "A system of the bank, with personal bank accounts.")
+          }
+        }
+      }
+
+      BiRel(customerA, SystemAA, "Uses")
+      BiRel(SystemAA, SystemE, "Uses")
+      Rel(SystemAA, SystemC, "Sends e-mails", "SMTP")
+      Rel(SystemC, customerA, "Sends e-mails to")
+
+      UpdateElementStyle(customerA, $fontColor="red", $bgColor="grey", $borderColor="red")
+      UpdateRelStyle(customerA, SystemAA, $textColor="blue", $lineColor="blue", $offsetX="5")
+      UpdateRelStyle(SystemAA, SystemE, $textColor="blue", $lineColor="blue", $offsetY="-10")
+      UpdateRelStyle(SystemAA, SystemC, $textColor="blue", $lineColor="blue", $offsetY="-40", $offsetX="-50")
+      UpdateRelStyle(SystemC, customerA, $textColor="red", $lineColor="red", $offsetX="-50", $offsetY="20")
+
+      UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")
+```
+
+5 types of C4 charts are supported.
+
+1. System Context (C4Context)
+2. Container diagram (C4Container)
+3. Component diagram (C4Component)
+4. Dynamic diagram (C4Dynamic)
+5. Deployment diagram (C4Deployment)
+
+## mindmap
+
+```mermaid
+mindmap
+  root((mindmap))
+    Origins
+      Long history
+      ::icon(fa fa-book)
+      Popularisation
+        British popular psychology author Tony Buzan
+    Research
+      On effectiveness<br/>and features
+      On Automatic creation
+        Uses
+            Creative techniques
+            Strategic planning
+            Argument mapping
+    Tools
+      Pen and paper
+      Mermaid
+```
+
+With icons:
+
+```mermaid
+mindmap
+    Root
+        A
+        ::icon(fa fa-book)
+        B(B)
+        ::icon(mdi mdi-skull-outline)
+```
+
+syntax:
+
+```
+mindmap
+    Root
+        A
+            B
+            C
+```
+
+## timeline
+
+```mermaid
+timeline
+    title History of Social Media Platform
+    2002 : LinkedIn
+    2004 : Facebook
+         : Google
+    2005 : Youtube
+    2006 : Twitter
+```
+
+Syntax:
+
+```
+{time period} : {event}
+<!-- or -->
+{time period} : {event} : {event}
+<!-- or -->
+{time period} : {event}
+              : {event}
+              : {event}
+```
+
+## ZenUML
+
+```mermaid
+zenuml
+    title Annotators
+    @Actor Alice
+    @Database Bob
+    Alice->Bob: Hi Bob
+    Bob->Alice: Hi Alice
+```
+
+> Not displaying in VS Code?!?
+
+## State diagrams
+
+```mermaid
+stateDiagram
+    [*] --> Still
+    Still --> [*]
+
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+```
+
+> Not displaying in VS Code?!?
+
+## Sankey diagram (beta)
+
+```mermaid
+sankey-beta
+
+%% source,target,value
+Electricity grid,Over generation / exports,104.453
+Electricity grid,Heating and cooling - homes,113.726
+Electricity grid,H2 conversion,27.14
+```
+
+> Not displaying in VS Code?!?
