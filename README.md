@@ -1104,7 +1104,7 @@ C -->|One| D[Result 1]
 C -->|Two| E[Result 2]
 ```
 
-As I learn more I will add more but this is really cool!
+As I learn more I will add more but this is really cool! Check out my file `mermaid.md` for in-depth notes.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
