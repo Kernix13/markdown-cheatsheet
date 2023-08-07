@@ -33,15 +33,15 @@ From MDN:
 
 Top level: Interesting section for the elements about the page - the root element is `<html>`. SKIP ALL OF THESE!
 
-| Root      | Element   | Element   | Element | Element       |
-| ---:      | :----:     | :----:    | :----:   | :----:         |
-| `<head>`  |           |           |           |             | 
+| Type      | Element   | Element   | Element | Element       |
+| ---:      | :----:    | :----:    | :----:    | :----:      |
+| Root:     | `<head>`  |           |           |             | 
 | Common:   | `<meta>`  | `<link>`  | `<title>` | `<script>`  |
 | Uncommon: | `<base>`  | `<style>` |           |             |
 
 <br />
 
-Next is the `<body>` tag which contains all the elements that you tend to work with and that are being tested in this file. After that are the semantic **_Content Sectioning_** tags. It makes no sense to test the semantic tags, and all the non-semantic tags work except for address:
+Next is the `<body>` tag which contains all the elements that you tend to work with and that are being tested in this file. After that are the semantic **_Content Sectioning_** tags. It makes no sense to test the semantic tags, and all the non-semantic tags work except for `address`:
 
 | Type          | Tag         | Tag       | Tag         | Tag         | 
 | ---:          | :----:      | :----:    | :----:      | :----:      | 
@@ -54,48 +54,48 @@ Next is the `<body>` tag which contains all the elements that you tend to work w
 
 The next MDN section is called **_Text Content_**:
 
-| Type     | Tag            | Tag       | Tag     | Tag     | Tag     | 
-| ---:     | :----:         | :----:    | :----:  | :----:  | :----:  |
-| Solo tags: | `<blockquote>` | `<div>` | `<p>`   | `<pre>` | `<dialog>` |
-| Grouped tags: | `<dl>`         | `<dt>`    | `<dd>`  | -        | -        |
-|          | `<details>` | `<summary>` | - | - | - |   
-|          | `<figcaption>` | `<figure>` | -      | -       | -       |
-|          | `<li>`         | `<ol>`    | `<ul>`  | -       | -       |     
+| Type          | Tag            | Tag         | Tag     | Tag     | Tag     | 
+| ---:          | :----:         | :----:      | :----:  | :----:  | :----:  |
+| Solo tags:    | `<blockquote>` | `<div>`     | `<p>`   | `<pre>` | `<dialog>` |
+| Grouped tags: | `<dl>`         | `<dt>`      | `<dd>`  | -       | -       |
+|               | `<details>`    | `<summary>` | -       | -       | -       |   
+|               | `<figcaption>` | `<figure>`  | -       | -       | -       |
+|               | `<li>`         | `<ol>`      | `<ul>`  | -       | -      |     
 
 
 <br />
 
 The next section is huge: Inline text semantics
 
-| Type          | Tag     | Tag      | Tag      | Tag     | Tag     | 
-| ---:          | :----:  | :----:   | :----:   | :----:  | :----:  |
-| Solo content: | `<a>`   | `<abbr>` | `<br>`   | `<bdi>` | `<bdo>` | 
-|               | `<br>`  | `<cite>` | `<code>` | `<data>` | `<kbd>` | 
+| Type          | Tag      | Tag       | Tag      | Tag     | Tag     | 
+| ---:          | :----:   | :----:    | :----:   | :----:  | :----:  |
+| Solo content: | `<a>`    | `<abbr>`  | `<br>`   | `<bdi>` | `<bdo>` | 
+|               | `<br>`   | `<cite>`  | `<code>` | `<data>` | `<kbd>` | 
 |               | `<samp>` | `<small>` | `<span>` | `<sub>` | `<sup>` |
-|               | `<time>` | `<var>` | `<wbr>`  | -       | `       | 
-| Solo format:  | `<b>`   | `<dfn>`  | `<em>`   | `<i>`   | `<kbd>` |
-|               | `<q>`   | `<s>`    | `<strong>` | `<del>` | `<ins>` |       | 
-| Connected:    | `<rp>`  | `<rt>`    | `<ruby>` | -      | -       |
+|               | `<time>` | `<var>`   | `<wbr>`  | -       | `       | 
+| Solo format:  | `<b>`    | `<dfn>`   | `<em>`   | `<i>`   | `<kbd>` |
+|               | `<q>`    | `<s>`     | `<strong>` | `<del>` | `<ins>` |       | 
+| Connected:    | `<rp>`   | `<rt>`    | `<ruby>` | -      | -       |
 
 <br />
 
 Image and multimedia:
 
-| Element | Element | Element |
-| :---    | :----   | :----   |
-| `<area>` | `<audio>` | `<img>` |
-| `<map>` | `<track>` | `<video>` |
+| Element  | Element   | Element   |
+| :---     | :----     | :----     |
+| `<area>` | `<audio>` | `<img>`   |
+| `<map>`  | `<track>` | `<video>` |
 
 <br /> 
 
 Miscellaneous -> Embedded content, canvas, SVG and MathML:
 
-| Type      | Element | Element | Element |
-| :---      | :----:   | :----:   | :----:   |
-| Main tag: | `<embed>` | `<iframe>` | `<object>` | 
-|           | `<picture>` | `<portal>` | `<svg>` |
-|           | `<math>` | `<canvas`> | `<noscript>` |
-| Support tags: | `<param>` | `<source>` | - |
+| Type          | Element     | Element    | Element      |
+| :---          | :----:      | :----:     | :----:       |
+| Main tag:     | `<embed>`   | `<iframe>` | `<object>`   | 
+|               | `<picture>` | `<portal>` | `<svg>`      |
+|               | `<math>`    | `<canvas`> | `<noscript>` |
+| Support tags: | `<param>`   | `<source>` | -            |
 
 <br />
 
@@ -124,19 +124,19 @@ Wierd ones: `<slot>`, `<template>`
 
 ### Semanic tags
 
-9 Semantic tags: SKIP
+9 Semantic tags: SKIP because they do not work and/or work like div tags
 
 | HTML Tag       | Tested? | Displayed? | 
 | ---------:     | :-----: | :--------: |
-| `<article>`    | NO      | N/A       | 
-| `<aside>`      | NO      | N/A       | 
-| `<footer>`     | NO      | N/A       | 
-| `<header>`     | NO      | N/A       | 
-| `<hgroup>`     | Yes     | N/A       |
-| `<main>`       | NO      | N/A       | 
-| `<menu>`       | NO      | N/A       | 
-| `<nav>`        | NO      | N/A       | 
-| `<section>`    | NO      | N/A       | 
+| `<article>`    | NO      | N/A        | 
+| `<aside>`      | NO      | N/A        | 
+| `<footer>`     | NO      | N/A        | 
+| `<header>`     | NO      | N/A        | 
+| `<hgroup>`     | Yes     | N/A        |
+| `<main>`       | NO      | N/A        | 
+| `<menu>`       | NO      | N/A        | 
+| `<nav>`        | NO      | N/A        | 
+| `<section>`    | NO      | N/A        | 
 
 ### Skipped block tags
 
@@ -160,7 +160,7 @@ Wierd ones: `<slot>`, `<template>`
 
 | HTML Tag       | Tested? | Displayed? | Correctly? | Why Use? |
 | ---------:     | :-----: | :--------: | :-------:  | :------:       |
-| `<blockquote>` | Yes     | YES        | Yes        | Inline CSS?    |
+| `<blockquote>` | Yes     | YES        | Yes        | NO NEED TO USE |
 | `<hr>`         | Yes     | Yes        | Yes        | diff size?     |
 | `<dd>`         | Yes     | Yes        | Yes        | Indent         |
 | `<dl>`         | Yes     | Yes        | Yes        | Indent         |
@@ -169,7 +169,9 @@ Wierd ones: `<slot>`, `<template>`
 | `<pre>`        | Yes     | Yes        | Yes        | NO NEED TO USE |
 | `<table>`      | Yes     | Yes        | Yes        | Inline CSS?    |
 
-NOTE: `dd`, `dt`, `dl` > 1st 'd' stands for description, 'l' for list, 't' for term, and 2nd 'd' for details, or description list, description term, description details.
+**NOTE**: `dd`, `dt`, `dl` > 1st 'd' stands for description, 'l' for list, 't' for term, and 2nd 'd' for details, or description list, description term, description details.
+
+**NOTE 2**: I have not tested a table with thead or tbody, or the tags that allow for spanning like colgroup, thead, tfoot, colspan, and rowspan. There is a good chance that they will work and provide additional styling that markdown syntax does not have.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -190,7 +192,8 @@ NOTE: `dd`, `dt`, `dl` > 1st 'd' stands for description, 'l' for list, 't' for t
 | `<ol>`         | Yes     | Yes        | Yes        | Inline CSS? |
 | `<ul>`         | Yes     | Yes        | Yes        | Inline CSS? |
 | `<li>`         | Yes     | Yes        | Yes        | Inline CSS? |
-| **bold test**  | _italic_  | ~~strikethough~~ |    |              |
+| `<blockquote>` | Yes     | Yes        | Yes        | Inline CSS? |
+| **bold test**  | _italic_  | ~~strikethough~~ |    |             |
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -207,24 +210,30 @@ NOTE: `dd`, `dt`, `dl` > 1st 'd' stands for description, 'l' for list, 't' for t
     <code>fieldset</code> tag with a legend tag, inut tags don't display
   </fieldset>
 
-Address tag check (Did not display as italic and needed `br` tags to display as block? Also, `tel` did not diaply as a link)
-  <address>
-      <a href="mailto:jim@rock.com">jim@rock.com</a><br>
-      <a href="tel:+13115552368">(311) 555-2368</a><br>
-      Mozilla Foundation<br>
-      331 E Evelyn Ave<br>
-      Mountain View, CA 94041<br>
-      USA
-  </address><br>
+<br />
 
+Address tag check (Did not display as italic and needed `br` tags to display as block? Also, `tel` did not diaply as a link)
+<address>
   <a href="mailto:jim@rock.com">jim@rock.com</a><br>
   <a href="tel:+13115552368">(311) 555-2368</a><br>
-  Dark side of the moon<br>
-  130 miles away<br>
-  Above Earth<br>
-  Space<br>
+  Mozilla Foundation<br>
+  331 E Evelyn Ave<br>
+  Mountain View, CA 94041<br>
+  USA
+</address><br>
 
-Blockquote tag check: no diff from gt key so will it accept inline css?
+<br />
+
+<a href="mailto:jim@rock.com">jim@rock.com</a><br>
+<a href="tel:+13115552368">(311) 555-2368</a><br>
+Dark side of the moon<br>
+130K miles away<br>
+Above Earth<br>
+Space<br>
+
+`<address>` tag has no effect on GitHub.
+
+Blockquote tag check: no diff from `>` so will it accept inline css?
 <blockquote cite="https://www.huxley.net/bnw/four.html">
     <p>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</p>
 </blockquote>
@@ -323,6 +332,12 @@ Table tag test: inline css? Bold, italic and strikethough do not work in table c
 <td>Block quote</td>
 <td>&gt; text here</td>
 </tr>
+<tfoot>
+    <tr>
+      <th scope="row">tfoot?</th>
+      <td>tfoot?</td>
+    </tr>
+  </tfoot>
 </tbody>
 </table>
 
@@ -379,7 +394,7 @@ Table tag test: inline css? Bold, italic and strikethough do not work in table c
 | `<embed>`      | Yes     | No         | No          | -         |
 | `<iframe>`     | Yes     | No         | No          | -         |
 | `<mark>`       | Yes     | NO         | ???         | ???       |
-| `math`         | Yes     | Yes        | No          | - |         
+| `math`         | Yes     | Yes        | No          | -         |         
 | `<picture>`    | yES     | ???        | ???         | ???       |
 | `<small>`      | Yes     | No         | No          | -         |
 | `<svg>`        | Yes     | No         | No          | -         |
@@ -418,11 +433,12 @@ Table tag test: inline css? Bold, italic and strikethough do not work in table c
 | `<img>`        | Yes     | Yes        | Yes        | Inline CSS?      |
 | `<kbd>`        | Yes     | Yes        | Yes        | Styling/Visual   |
 | `<q>`          | Yes     | Yes        | Yes        | Not sure         |
-| `<ruby>`       | Yes     | Yes        | -          | NOT APPLICABLE   |
+| `<ruby>`       | Yes     | Yes        | -          | ???   |
 | `<samp>`       | Yes     | Yes        | Yes        | Monospaced font! |
 | `<span>`       | Yes     | N/A        | Yes        | Uses?            |
 | `<sub>`        | Yes     | Yes        | Yes        | Subscript!       |
 | `<sup>`        | Yes     | Yes        | Yes        | Superscript!     |
+
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -439,10 +455,12 @@ Testing `audio` tag: visually appeared in VS Code preview but not on GitHub and 
     <code>audio</code> element.
 </audio>
 
+<br>
+
 `b` and `strong` tags test: <br> ALL DISPLAYED
 <b>Bold text</b> same as in **markdown** and how about <strong> the strong tag</strong>.
 
-`code` tag test: SAME AS BACKTICKS 
+`code` tag test: SAME AS SINGLE BACKTICKS 
 
 This is a test of the <code>code tag</code> same as `backticks` I bet.
 
@@ -450,7 +468,7 @@ This is a test of the <code>code tag</code> same as `backticks` I bet.
 
 <del>Strikethrough text</del> same as in ~~markdown~~ and how about <s>the s tag</s>.
 
-`dfn`, `em` and `i` tags test: EM and I WORKED, DFN DID NOT 
+`dfn`, `em` and `i` tags test: em and i WORKED, dfn DID NOT 
 
 This is <em>em tag italics</em> same as in *markdown* and how about <i>the i tag</i> and <dfn>the dfn tag</dfn>. 
 
@@ -464,12 +482,14 @@ This is <em>em tag italics</em> same as in *markdown* and how about <i>the i tag
 
 `ins` and `u` tags test: u tag DID NOT WORK ins tag DID!
 
-Will this <u>be displayed as underlined</u> and what about <ins>the ins tag</ins></u>?
+Will the u tag <u>be displayed as underlined</u> and what about <ins>the ins tag</ins></u>?
 
 `iframe` tag test: DID NOT DISPLAY and for some reason displays the code unlike the other elements that just did not display.
 
 <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-0.004017949104309083%2C51.47612752641776%2C0.00030577182769775396%2C51.478569861898606&layer=mapnik" id="inlineFrameExample" title="Inline Frame Example" width="300" height="200">
 </iframe>
+
+<br>
 
 `mark` tag test: DID NOT DISPLAY
 
@@ -523,7 +543,7 @@ This is a <var>test of the var tag</var>, why would you use it?>
 
 `q` and `kbd` tags: WORKED
 
-The <q>q tag wraps text in quotes</q>, the kbd tag wraps keyboard stull in a styled format like with <kbd>CTRL</kbd> or <kbd>SHIFT</kbd>.
+The <q>q tag wraps text in quotes</q>, the kbd tag wraps keyboard keys in a styled format like with <kbd>CTRL</kbd> or <kbd>SHIFT</kbd>.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
