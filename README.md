@@ -809,10 +809,19 @@ The five sections below deal with adding visual-based elements to your markdown 
 ### Images
 
 Images use the same syntax as **Links** except for the addition of an exclamation mark (`!`) immediately before the opening square bracket. You can also use the optional title text. The example image below shows the dimensions but that is just an example. It's up to you to decide the image sizes you want for your files:
-image.png
+
+<br />
+
+
 ![picture alt text](./markdown-image.png 'Title is optional')
 
     ![picture alt](./markdown-image.png 'Title is optional')
+
+raw.githubusercontent: I noticed that you can paste images into parts of GitHub. You can do it in a markdown file, but then you will have to pull the changes. I've also seen it done in `Pull requests` and `Issues` tabs. Here is an example:
+
+```html
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg">
+```
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
