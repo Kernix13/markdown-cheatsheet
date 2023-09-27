@@ -651,6 +651,13 @@ console.log(${variable})
 <?php the_content(); ?>
 ```
 
+Here is a new one that I found on [Discord Markdown Text 101](https://gist.github.com/matthewzring/9f7bbfd102003963f9be7dbcf7d40e51) with a language prefix of `fix`:
+
+```fix
+everything is blue
+= light blue after equal sign (but not in VS Code)
+```
+
 Here is the full list of supported languages and code syntax highlighting.
 
 Check out the article [Languages Supported by Github Flavored Markdown](https://www.rubycoloredglasses.com/2013/04/languages-supported-by-github-flavored-markdown/) from 12-8-2020. Also check out the [highlight.js](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md) repo:
