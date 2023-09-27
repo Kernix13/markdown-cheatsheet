@@ -651,12 +651,17 @@ console.log(${variable})
 <?php the_content(); ?>
 ```
 
-Here is a new one that I found on [Discord Markdown Text 101](https://gist.github.com/matthewzring/9f7bbfd102003963f9be7dbcf7d40e51) with a language prefix of `fix`:
+Here is a new one that I found on [Discord Markdown Text 101](https://gist.github.com/matthewzring/9f7bbfd102003963f9be7dbcf7d40e51) with a language prefix of `fix`. I assume this works on Discord but itdoes not work on GitHub:
 
 ```fix
 everything is blue
 = light blue after equal sign (but not in VS Code)
 ```
+
+    ```fix
+    everything is blue
+    = light blue after equal sign (but not in VS Code)
+    ```
 
 Here is the full list of supported languages and code syntax highlighting.
 
