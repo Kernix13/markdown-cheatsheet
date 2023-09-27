@@ -771,7 +771,7 @@ This is a nice way to add a comment in the editor view of your markdown file. Th
 <!-- There is a comment here that you can't see -->
 ```
 
-Comments used in language code blocks will match the language. You can use the `CTRL+/` shortcut. For example, in JavaScript or PHP you will get `//` using that shortcut, or `**` in CSS, `#` in bash files, and `<!-- -->` in HTML.
+Comments used in language code blocks will match the language. You can use the `CTRL+/` shortcut. For example, in JavaScript or PHP you will get `//` using that shortcut, or `/* */` in CSS, `#` in bash files, and `<!-- -->` in HTML.
 
 ### Spoiler
 
@@ -954,29 +954,39 @@ Approval: :+1:, :smile:, :ok_hand:, :white_check_mark:, :heavy_check_mark:, :sta
 
 Disapproval, questions, problems: :-1:, :question:, :grey_question:, :x:, :boom:, :bomb:, :astonished:, :warning:, :interrobang:
 
-    :-1:, :question:, :grey_question:, :x:, :boom:, :bomb:, :astonished:,
-    :warning:, :interrobang:
+```markdown
+:-1:, :question:, :grey_question:, :x:, :boom:, :bomb:, :astonished:,
+:warning:, :interrobang:
+```
 
 Directional: :point_right:, :point_left:, :arrow_left:, :arrow_right:, :arrow_up:, :arrow_down:
 
-    :point_right:, :point_left:, :arrow_left:, :arrow_right:, :arrow_up:, :arrow_down:
+```markdown
+:point_right:, :point_left:, :arrow_left:, :arrow_right:, :arrow_up:, :arrow_down:
+```
 
 Time, alarms: :bell:, :no_bell:, :hourglass:, :alarm_clock:, :watch:, :calendar:
 
-    :bell:, :no_bell:, :hourglass:, :alarm_clock:, :watch:, :calendar:
+```markdown
+:bell:, :no_bell:, :hourglass:, :alarm_clock:, :watch:, :calendar:
+```
 
 Weather: :sunny:, :cloud:, :snowflake:, :zap:, :high_brightness:
 
-    :sunny:, :cloud:, :snowflake:, :zap:, :high_brightness:
+```markdown
+:sunny:, :cloud:, :snowflake:, :zap:, :high_brightness:
+```
 
 Office/Business: :scissors:, :pushpin:, :paperclip:, :phone:, :copyright:, :email:
 
-    :scissors:, :pushpin:, :paperclip:, :phone:, :copyright:, :email:
+```markdown
+:scissors:, :pushpin:, :paperclip:, :phone:, :copyright:, :email:
+```
 
 Miscellaneous/playful: :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mushroom:, :pizza:, :beer:, :icecream:, :sound:, :speaker:, :lock:, :guitar:, :one:, :two: (and other #'s), <br>
 :link:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:
 
-```emoji
+```markdown
 :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mushroom:, :pizza:, :beer:,
 :icecream:, :sound:, :speaker:, :lock:, :guitar:, :one:, :two: (and other #'s),
 :link:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:
