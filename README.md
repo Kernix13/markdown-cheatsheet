@@ -63,7 +63,7 @@ I'm breaking up all the markdown syntax into 8 categories:
 |                                      | [Generic](#generic)                           |       No        |
 |                                      | [Language block](#language-block)             |       No        |
 |                                      | [Diff](#diff)                                 |       No        |
-|                   [Hidden](#hidden): | [Comments](#comments)                         |       No        |
+|                   [Hidden Elements](#hidden-elements): | [Comments](#comments)                         |       No        |
 |                                      | [Spoiler](#spoiler)                           |       Yes       |
 |                                      | [Details](#details)                           |       No        |
 | [Visual Elements](#visual-elements): | [Images](#images)                             |       No        |
@@ -110,8 +110,8 @@ x or X for tasks lists
 _ underscore for italics
 ~~ 2 tildes for strikethrough
 | for setting tables cells
-: with dashes - for table cell alignments, for footnotes, and emojis
 || double pipes for spoiler text on Discord
+: with dashes - for table cell alignments, for footnotes, and emojis
 * or - and a space for unordered lists
 1., 2., 3., etc. for numbered lists
 * and + for diff code blocks
@@ -122,7 +122,7 @@ _ underscore for italics
 \ to escape most of the characters above, as in...
 \* escape asterisk,
 \| escape pipe, etc...
-" for titles to links
+" for titles in links and images
 ````
 
 **NOTE**: Some of the symbols have different effects when used in _Math Expressions_. See that section for information on those.
@@ -395,10 +395,14 @@ Here is an example for the _Strike thru_ section:
 [Strike thru](#strike-thru)
 ```
 
-Here is the code for the anchor link using an HTML `<a>` tag:
+Here is the code for the anchor link using an HTML `<a>` and a `<div>` tag:
 
 ```html
-<a id="back-to-top"></a>
+<!-- element with id at top of page -->
+<div id="back-to-top"></div>
+
+<!-- The link you click to go back to top -->
+<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 ```
 
 Here is the matching link for the above:
@@ -751,7 +755,7 @@ This is really nice for highlighting text or code that was changed. Use `diff` a
 
 ---
 
-## Hidden
+## Hidden Elements
 
 This is an odd category with 3 effects, one of which you have probably only seen on Discord:
 
