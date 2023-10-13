@@ -395,26 +395,13 @@ Here is an example for the _Strike thru_ section:
 [Strike thru](#strike-thru)
 ```
 
-Here is the code for the anchor link using an HTML `<a>` and a `<div>` tag:
+Here is the code for the anchor link using an HTML `<a>` and a `<div>` tag. I actually changed my 'Back to Top' link to be an `<a>` link inside of a `<div>` so that I could align the link to the right and use an HTML entity for an arrow up:
 
 ```html
 <!-- element with id at top of page -->
 <div id="back-to-top"></div>
 
 <!-- The link you click to go back to top -->
-<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
-```
-
-Here is the matching link for the above:
-
-```markdown
-[Back to Top](#back-to-top)
-```
-
-I actually changed my 'Back to Top' link to be an `<a>` link inside of a `<div>` so that I could align the link to the right and use an HTML entity for an arrow up:
-
-```
-<div id="back-to-top"></div>
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 ```
 
