@@ -1656,6 +1656,7 @@ I could try and add the CSS as inline CSS for the div and paragraph tags, but I'
 1. [HTML Entities](https://www.toptal.com/designers/htmlarrows/symbols/) - Excellent!
 1. [HTML Entities2](http://mcdlr.com/8/) - maybe only a few unique vs the above link
 1. [Shields.io](https://shields.io/) - Shields for your projects
-1. [Devicons on Github](https://github.com/devicons/devicon/tree/master/icons): scan the list for icons you want to use.
+1. [Devicons on Github](https://github.com/devicons/devicon/tree/master/icons): scan the list for icons you want to use
+1. [Markdown Cheat Sheet](https://www.git-tower.com/learn/cheat-sheets/markdown): visual Markdown cheat sheet.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
