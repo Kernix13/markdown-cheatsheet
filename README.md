@@ -1488,7 +1488,7 @@ The only tags worth using IMO:
 - `div` as visual dividers using dash (-) or underscore (\_) or equals (=) or other characters. But can't you just use the characters instead?
 - `br` for line breaks of paragrpah text or as a alternate spacer to `div`
 - `img` to set width and height and align center or right
-- `ins` for underline (`u` is actually better)
+- `ins` for underline (`u` is actually better but does not display on GitHub)
 - `kbd` for keyboard keys
 - `samp` for monospaced font as a styling choice
 - `sup` and `sub` for superscript and subscript
@@ -1503,7 +1503,7 @@ The large gap above the title is from 2 `<br>` tags. Use only one for a normal s
 | HTML Tag |                     Result                     |
 | :------- | :--------------------------------------------: |
 | `ins`    |           <ins>underlined text</ins>           |
-| `u`      |             <u>underlined text</u>             |
+| `u`      |         <u>No underline on GitHub</u>          |
 | `kbd`    | <kbd>CTRL</kbd>+<kbd>C</kbd>, <kbd>ENTER</kbd> |
 | `samp`   |      <samp>This is monospaced font</samp>      |
 | `sup`    |                 2<sup>3</sup>                  |
