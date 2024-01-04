@@ -63,7 +63,7 @@ I'm breaking up all the markdown syntax into 8 categories:
 |                                      | [Generic](#generic)                           |       No        |
 |                                      | [Language block](#language-block)             |       No        |
 |                                      | [Diff](#diff)                                 |       No        |
-|                   [Hidden Elements](#hidden-elements): | [Comments](#comments)                         |       No        |
+| [Hidden Elements](#hidden-elements): | [Comments](#comments)                         |       No        |
 |                                      | [Spoiler](#spoiler)                           |       Yes       |
 |                                      | [Details](#details)                           |       No        |
 | [Visual Elements](#visual-elements): | [Images](#images)                             |       No        |
@@ -402,7 +402,9 @@ Here is the code for the anchor link using an HTML `<a>` and a `<div>` tag. I ac
 <div id="back-to-top"></div>
 
 <!-- The link you click to go back to top -->
-<div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+<div align="right">
+  &#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a>
+</div>
 ```
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
@@ -815,7 +817,6 @@ Images use the same syntax as **Links** except for the addition of an exclamatio
 
 <br />
 
-
 ![picture alt text](./markdown-image.png 'Title is optional')
 
     ![picture alt](./markdown-image.png 'Title is optional')
@@ -823,7 +824,9 @@ Images use the same syntax as **Links** except for the addition of an exclamatio
 raw.githubusercontent: I noticed that you can paste images into parts of GitHub. You can do it in a markdown file, but then you will have to pull the changes. I've also seen it done in `Pull requests` and `Issues` tabs. Here is an example:
 
 ```html
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg">
+<img
+  src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+/>
 ```
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
@@ -1466,7 +1469,7 @@ Unless there is a way to display the tags differently, then I do not see the poi
 
 _Duplicates markdown_: `<a>`, `code`, `img` (width, align [center, right]), `b` and `strong` (display as Bold), `del` and `s` (display as Strikethrough), `em` and `i` and `var` (display as Italic).
 
-_No markdown equivalent_: `br` (line break), `ins` (underline), `sup` and `sub` (superscript and subscript), `samp` (Monospaced font), `q` (quotes), `kbd` (keyboard keys), `span`.
+_No markdown equivalent_: `br` (line break), `ins` and `u` (underline), `sup` and `sub` (superscript and subscript), `samp` (Monospaced font), `q` (quotes), `kbd` (keyboard keys), `span`.
 
 **Attributes notes**:
 
@@ -1485,7 +1488,7 @@ The only tags worth using IMO:
 - `div` as visual dividers using dash (-) or underscore (\_) or equals (=) or other characters. But can't you just use the characters instead?
 - `br` for line breaks of paragrpah text or as a alternate spacer to `div`
 - `img` to set width and height and align center or right
-- `ins` for underline
+- `ins` for underline (`u` is actually better)
 - `kbd` for keyboard keys
 - `samp` for monospaced font as a styling choice
 - `sup` and `sub` for superscript and subscript
@@ -1500,6 +1503,7 @@ The large gap above the title is from 2 `<br>` tags. Use only one for a normal s
 | HTML Tag |                     Result                     |
 | :------- | :--------------------------------------------: |
 | `ins`    |           <ins>underlined text</ins>           |
+| `u`      |             <u>underlined text</u>             |
 | `kbd`    | <kbd>CTRL</kbd>+<kbd>C</kbd>, <kbd>ENTER</kbd> |
 | `samp`   |      <samp>This is monospaced font</samp>      |
 | `sup`    |                 2<sup>3</sup>                  |
