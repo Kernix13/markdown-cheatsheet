@@ -504,6 +504,7 @@ Does this make sense? You can use both unordered and ordered together -> bullets
 - List item 2
   - Child item 1
   - Child item 2
+    - Third level item
 - List item 3
 
 ```markdown
@@ -511,6 +512,7 @@ Does this make sense? You can use both unordered and ordered together -> bullets
 - List item 2
   - Child item 1
   - Child item 2
+    - Third level item
 - List item 3
 ```
 
@@ -520,6 +522,7 @@ For a nested ordered list, do the same as for nested unordered lists - align the
 1. Ordered item 2
    1. Child item 1
    1. Child item 2
+      1. Third level item
 1. Ordered item 3
 
 ```markdown
@@ -527,6 +530,7 @@ For a nested ordered list, do the same as for nested unordered lists - align the
 1. Ordered item 2
    1. Child item 1
    1. Child item 2
+      1. Third level item
 1. Ordered item 3
 ```
 
