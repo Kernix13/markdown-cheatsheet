@@ -536,7 +536,11 @@ For a nested ordered list, do the same as for nested unordered lists - align the
    1. Child item 1
    1. Child item 2
       1. Third level item
-         1. FOURTH!
+      1. Third level item 2
+      1. Third level item 3
+         1. Fourth level 1
+         1. Fourth level 2
+         1. Fourth level 3
 1. Ordered item 3
 ```
 
