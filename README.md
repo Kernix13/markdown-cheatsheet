@@ -255,6 +255,43 @@ This is a nice effect which adds a border-left and padding-left to offset it fro
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
+
+#### Alerts
+
+Alerts are used to highlight important text with colours and icons. There is support for five distinct kinds of alerts:
+
+```
+> [!NOTE]
+> Essential details that users should not overlook, even when browsing quickly.
+
+> [!TIP]
+> Additional advice to aid users in achieving better outcomes.
+
+> [!IMPORTANT]
+> Vital information required for users to attain success.
+
+> [!WARNING]
+> Urgent content that requires immediate user focus due to possible risks.
+
+> [!CAUTION]
+> Possible negative outcomes resulting from an action.
+```
+
+> [!NOTE]
+> Essential details that users should not overlook, even when browsing quickly.
+
+> [!TIP]
+> Additional advice to aid users in achieving better outcomes.
+
+> [!IMPORTANT]
+> Vital information required for users to attain success.
+
+> [!WARNING]
+> Urgent content that requires immediate user focus due to possible risks.
+
+> [!CAUTION]
+> Possible negative outcomes resulting from an action.
+
 ### Tables
 
 Here is a generic table but the Table of Contents above is another version. The pipes create the columns, the colons with dashes create the alignment:
@@ -798,7 +835,7 @@ This isn't a markdown thing but it is another example of using HTML tags in a Ma
 
 <details>
   <summary>Title 1</summary>
-  <p>Some hidden content goes here</p>  
+  <p>Some hidden content goes here</p>
 </details>
 <details>
   <summary>Title 2</summary>
