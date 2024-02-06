@@ -260,7 +260,7 @@ This is a nice effect which adds a border-left and padding-left to offset it fro
 
 Alerts are used to highlight important text with colours and icons. There is support for five distinct kinds of alerts. They have syntax similar to blockquotes but include syntax for images which is what displays the specific icons for each alert type:
 
-```
+```md
 > [!NOTE]
 > Essential details that users should not overlook, even when browsing quickly.
 
