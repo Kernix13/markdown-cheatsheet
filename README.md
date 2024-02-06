@@ -255,7 +255,6 @@ This is a nice effect which adds a border-left and padding-left to offset it fro
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
-
 #### Alerts
 
 Alerts are used to highlight important text with colours and icons. There is support for five distinct kinds of alerts:
@@ -786,10 +785,12 @@ This is really nice for highlighting text or code that was changed. Use `diff` a
 + this is what it was changed to
 ```
 
-    ```diff
-    - this code or text is the old version
-    + this is what it was changed to
-    ```
+````
+```diff
+- this code or text is the old version
++ this is what it was changed to
+```
+````
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
