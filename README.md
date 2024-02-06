@@ -1701,6 +1701,46 @@ Here is an example of a style tag:
 
 I could try and add the CSS as inline CSS for the div and paragraph tags, but I'm not that interested in spending time on that. I want my markdown files to look good and to have visual separation but I'd rather spend my time writing actual CSS for my projects. However, if you have a client that wants more CSS then you can experiment with inline CSS.
 
+## Buttons
+
+```markdown
+<kbd>cmd + shift + p</kbd>
+```
+
+<kbd>cmd + shift + p</kbd>
+
+Button with padding:
+
+```markdown
+<kbd> <br> cmd + shift + p <br> </kbd>
+```
+
+<kbd> <br> cmd + shift + p <br> </kbd>
+
+Button as a link:
+
+```markdown
+<kbd>[Markdown-Cheatsheet](https://github.com/Kernix13/markdown-cheatsheet)</kbd>
+```
+
+<kbd>[Markdown-Cheatsheet](https://github.com/Kernix13/markdown-cheatsheet)</kbd>
+
+Button as a link with padding:
+
+```markdown
+<kbd> <br> [Markdown-Cheatsheet](https://github.com/lifeparticle/Markdown-Cheatsheet) <br> </kbd>
+```
+
+<kbd> <br> [Markdown-Cheatsheet](https://github.com/lifeparticle/Markdown-Cheatsheet) <br> </kbd>
+
+Button as a link without underlin:
+
+```markdown
+[<kbd>Markdown-Cheatsheet</kbd>](https://github.com/Kernix13/markdown-cheatsheet)
+```
+
+[<kbd>Markdown-Cheatsheet</kbd>](https://github.com/Kernix13/markdown-cheatsheet)
+
 ## Resources
 
 1. [Daring Fireball](https://daringfireball.net/projects/markdown/basics 'Detailed markdown syntax') - more markdown documentation
