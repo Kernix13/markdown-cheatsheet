@@ -46,6 +46,7 @@ I'm breaking up all the markdown syntax into 8 categories:
 |                                      | [Underline](#underline)                       |      `N/A`      |
 |     [Miscellaneous](#miscellaneous): | [Headings](#headings)                         |       Yes       |
 |                                      | [Blockquotes](#blockquotes)                   |       Yes       |
+|                                      | [Alerts](#alerts)                             |       Yes       |
 |                                      | [Tables](#tables)                             |       Yes       |
 |                                      | [Horizontal rules](#horizontal-rules)         |       No        |
 |                                      | [Descriptions](#descriptions)                 |      Yes\*      |
