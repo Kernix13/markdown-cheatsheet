@@ -1699,7 +1699,7 @@ Here is an example of a style tag:
 </p>
 </div>
 
-> _**BAD NEWS**: You can not use a `<style>` tag on GitHub, however the above works in VS Code which means it should work in other scenarios or platforms._
+> _**BAD NEWS**: You can not use a `<style>` tag on GitHub, however the above works in VS Code on in the browser using the extension Markdown Preview Plus. That means it should work in other scenarios or platforms._
 
 I could try and add the CSS as inline CSS for the div and paragraph tags, but I'm not that interested in spending time on that. I want my markdown files to look good and to have visual separation but I'd rather spend my time writing actual CSS for my projects. However, if you have a client that wants more CSS then you can experiment with inline CSS.
 
