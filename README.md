@@ -318,6 +318,60 @@ Here is a generic table but the Table of Contents above is another version. The 
 | <ins>Underlined</ins> |     Content Center     |         Content Right |
 ```
 
+Combination HTML and markdown table
+
+``markdown
+<table>
+<tr>
+<th>Heading 1</th>
+<th>Heading 2</th>
+</tr>
+<tr>
+
+<td>
+
+| A | B | C |
+|--|--|--|
+| 1 | 2 | 3 |
+
+</td><td>
+
+| A | B | C |
+|--|--|--|
+| 1 | 2 | 3 |
+
+</td></tr> </table>
+```
+
+<table>
+<tr>
+<th>Heading 1</th>
+<th>Heading 2</th>
+</tr>
+<tr>
+
+<td>
+
+| A | B | C |
+|--|--|--|
+| 1 | 2 | 3 |
+
+</td><td>
+
+| A | B | C |
+|--|--|--|
+| 1 | 2 | 3 |
+
+</td></tr> </table>
+
+Boxed
+
+```markdown
+<table><tr><td>The quick brown fox jumps over the lazy dog.</td></tr></table>
+```
+
+<table><tr><td>The quick brown fox jumps over the lazy dog.</td></tr></table>
+
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Horizontal rules
