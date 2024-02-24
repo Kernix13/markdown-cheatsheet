@@ -78,6 +78,7 @@ I'm breaking up all the markdown syntax into 8 categories:
 |                                      | [Inline elements](#inline-elements)           |        -        |
 |                                      | [HTML tag examples](#html-tag-examples)       |        -        |
 |                                      | [CSS Styles](#css-styles)                     |        -        |
+|                                      | [Buttons](#buttons)                           |        -        |
 |              [Resources](#resources) | N/A                                           |        -        |
 
 <!-- ~~`<cite>`~~ -->
@@ -320,7 +321,7 @@ Here is a generic table but the Table of Contents above is another version. The 
 
 Combination HTML and markdown table
 
-``markdown
+```markdown
 <table>
 <tr>
 <th>Heading 1</th>
@@ -330,15 +331,15 @@ Combination HTML and markdown table
 
 <td>
 
-| A | B | C |
-|--|--|--|
-| 1 | 2 | 3 |
+| A   | B   | C   |
+| --- | --- | --- |
+| 1   | 2   | 3   |
 
 </td><td>
 
-| A | B | C |
-|--|--|--|
-| 1 | 2 | 3 |
+| A   | B   | C   |
+| --- | --- | --- |
+| 1   | 2   | 3   |
 
 </td></tr> </table>
 ```
@@ -352,15 +353,15 @@ Combination HTML and markdown table
 
 <td>
 
-| A | B | C |
-|--|--|--|
-| 1 | 2 | 3 |
+| A   | B   | C   |
+| --- | --- | --- |
+| 1   | 2   | 3   |
 
 </td><td>
 
-| A | B | C |
-|--|--|--|
-| 1 | 2 | 3 |
+| A   | B   | C   |
+| --- | --- | --- |
+| 1   | 2   | 3   |
 
 </td></tr> </table>
 
