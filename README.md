@@ -1073,25 +1073,25 @@ Time, alarms: :bell:, :no_bell:, :hourglass:, :alarm_clock:, :watch:, :calendar:
 :bell:, :no_bell:, :hourglass:, :alarm_clock:, :watch:, :calendar:
 ```
 
-Weather: :sunny:, :cloud:, :snowflake:, :zap:, :high_brightness:
+Weather/nature: :sunny:, :cloud:, :snowflake:, :zap:, :high_brightness: 💧 ☔ ⭐ 🌡️ ❄️ ⛄ 🌱 🐚 🍁 🍃 🌲 🌳
 
 ```markdown
-:sunny:, :cloud:, :snowflake:, :zap:, :high_brightness:
+:sunny:, :cloud:, :snowflake:, :zap:, :high_brightness: :droplet: :umbrella: :star: :thermometer: :snowflake: :snowman: :seedling: :shell: :maple_leaf: :leaves: :evergreen_tree: :deciduous_tree:
 ```
 
-Office/Business: :scissors:, :pushpin:, :paperclip:, :phone:, :copyright:, :email:
+Office/Business: :scissors:, :pushpin:, :paperclip:, :phone:, :copyright:, :email: 💻 📞 📫 💵 💳 🔗 📎 💲 ✏️
 
 ```markdown
-:scissors:, :pushpin:, :paperclip:, :phone:, :copyright:, :email:
+:scissors:, :pushpin:, :paperclip:, :phone:, :copyright:, :email: :computer: :telephone_receiver: :mailbox: :dollar: :credit_card: :link: :paperclip: :heavy_dollar_sign: :pencil2:
 ```
 
 Miscellaneous/playful: :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mushroom:, :pizza:, :beer:, :icecream:, :sound:, :speaker:, :lock:, :guitar:, :one:, :two: (and other #'s), <br>
-:link:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:
+:link:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb: 👤 🐱 🐶 🦴 🌐 🌎 🎃 👻 🎅 🎄 🎁 🎈 🔦 🚽 🔧 🔨 ⛺ ⛵ ⚓ 🚀 ✈️ 🔥 💀 🚩 ♾️ 📐 🍷 💭
 
 ```markdown
 :alien:, :green_heart:, :blue_heart:, :purple_heart:, :mushroom:, :pizza:, :beer:,
 :icecream:, :sound:, :speaker:, :lock:, :guitar:, :one:, :two: (and other #'s),
-:link:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb:
+:link:, :speech_balloon:, :mag:, :mag_right:, :key:, :bulb: :bust_in_silhouette: :cat: :dog: :bone: :globe_with_meridians: :earth_americas: :jack_o_lantern: :ghost: :santa: :christmas_tree: :gift: :balloon: :flashlight: :toilet: :wrench: :hammer: :tent: :sailboat: :anchor: :rocket: :airplane: :fire: :skull: :triangular_flag_on_post: :infinity: :triangular_ruler: :wine_glass: :thought_balloon:
 ```
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
