@@ -1804,6 +1804,7 @@ Button as a link without underlin:
 ## Resources
 
 1. [Daring Fireball](https://daringfireball.net/projects/markdown/basics 'Detailed markdown syntax') - more markdown documentation
+1. [markdown-it](https://markdown-it.github.io/)
 1. [Complete list of github markdown emojis](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia) - Emojis list
 1. [GitHub emoji list](https://gist.github.com/rxaviers/7360908) - Emojis list
 1. [Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet) - Excellent!
