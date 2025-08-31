@@ -1601,6 +1601,8 @@ The only tags worth using IMO:
 - `samp` for monospaced font as a styling choice
 - `sup` and `sub` for superscript and subscript
 - `dl` `dt` `dd` maybe for the indentation of the definition
+- `mark`: testing the <mark>mark</mark> element
+- `abbr`: testing <abbr>abbr</abbr> element
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -1616,6 +1618,7 @@ The large gap above the title is from 2 `<br>` tags. Use only one for a normal s
 | `samp`   |      <samp>This is monospaced font</samp>      |
 | `sup`    |                 2<sup>3</sup>                  |
 | `sub`    |                 H<sub>2</sub>O                 |
+| `mark`   |           <mark>Mark element</mark>            |
 
 <h3 align="center">H3 tag with align="center"</h3>
 <p align="center">Paragraph tag with align="center"</p>
