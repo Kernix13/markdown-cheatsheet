@@ -523,6 +523,18 @@ Here is the actual footnote syntax:
 [^1]: This is footnote number one.
 [^2]: Here is the second footnote.
 
+Alternate syntax for footnote links:
+
+You can use the normal syntax but replce `()` with a 2nd set of `[]` with a token in it. This makes it a footnote and makes youe markdown easier to read. You can use anything as the "token" but most people use numbers:
+
+- [Kernix Web Design][1]
+
+```md
+- [Kernix Web Design][1]
+  <!-- at bottom of page -->
+  [1]: https://kernixwebdesign.com
+```
+
 ### At mentions
 
 At mentions do not seem to work as links. This is an at mention test:
@@ -1815,3 +1827,5 @@ Button as a link without underlin:
 1. [Devicons on Github](https://github.com/devicons/devicon/tree/master/icons): scan the list for icons you want to use.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
+
+[1]: https://kernixwebdesign.com
