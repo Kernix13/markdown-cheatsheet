@@ -842,6 +842,15 @@ For terminal commands like for NPM, use `bash`, `sh`, or `zsh`.
 
 Trying to find a language to style terminal errors or errors & warnings in DevTools is difficult. The best languages I found for that are `c++` and `python`. The syntax highlighting isn't perfect but it at least has some highlighting.
 
+For directory tree code blocks, the best three languages to use to show color are `python`, `bash` or `sh`, and `yml`. On GitHub, all 3 highlight comments describing the file/folders as gray. Normally, everything else is white on GitHub, but
+
+- `yml` highlights everything else as light blue
+- `bash` or `sh` highlights everything else as white, and
+- `python` highlights everything else as white except the following things which are light blue:
+  - forward slashes `/`,
+  - extensions like `.js` but not the dot, and
+  - any UPPERCASE file or folder name like `README.md`.
+
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Diff
