@@ -795,7 +795,7 @@ cs
 csharp
 css
 csv
-bash, sh, zsh
+bash, sh, zsh, shell
 diff
 elixir
 erb - HTML + Embedded Ruby
@@ -803,8 +803,7 @@ go
 haml
 http
 java
-javascript
-js
+javascript, js
 json
 jsx
 less
@@ -817,7 +816,7 @@ objectivec
 pascal
 PHP
 Perl
-python
+python, py
 profile - python profiler output
 rust
 salt, saltstate - Salt
@@ -833,7 +832,7 @@ volt
 vhdl
 vue
 xml - XML and also used for HTML with inline CSS and Javascript
-yaml
+yaml, yml
 ```
 
 I've also noticed that `ini` and `TOML` as the language block language also show syntax highlighting.
@@ -842,7 +841,7 @@ For terminal commands like for NPM, use `bash`, `sh`, or `zsh`.
 
 Trying to find a language to style terminal errors or errors & warnings in DevTools is difficult. The best languages I found for that are `c++` and `python`. The syntax highlighting isn't perfect but it at least has some highlighting.
 
-For directory tree code blocks, the best three languages to use to show color are `python`, `bash` or `sh`, and `yml`. On GitHub, all 3 highlight comments describing the file/folders as gray. Normally, everything else is white on GitHub, but
+For directory tree code blocks, the best three languages to use to show color are `python` (and maybe `py`), `bash` or `sh`, and `yml`. On GitHub, all 3 highlight comments describing the file/folders as gray. Normally, everything else is white on GitHub, but
 
 - `yml` highlights everything else as light blue
 - `bash` or `sh` highlights everything else as white, and
@@ -850,6 +849,52 @@ For directory tree code blocks, the best three languages to use to show color ar
   - forward slashes `/`,
   - extensions like `.js` but not the dot, and
   - any UPPERCASE file or folder name like `README.md`.
+
+**NOTE**: if you do not put any language _AND_ you have comments for the files/folders, then the comments are displayed white like everything else. For minimal styling, `bash` or `sh` would be best (gray comments), `yml` adds the big splash of blue, but I like `python` for the maximum effect:
+
+Here is `python` (haven't tested `py`):
+
+```python
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── package.json                # Dependencies and scripts
+├── server.js                   # Express server handling API requests
+├── .github/
+```
+
+Here is `bash` (haven't tested `sh` or `zsh` or `shell`):
+
+```bash
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── package.json                # Dependencies and scripts
+├── server.js                   # Express server handling API requests
+├── .github/
+```
+
+Here is `yml` (haven't tested `yaml`):
+
+```yml
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── package.json                # Dependencies and scripts
+├── server.js                   # Express server handling API requests
+├── .github/
+```
+
+Here is no language:
+
+```
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── package.json                # Dependencies and scripts
+├── server.js                   # Express server handling API requests
+├── .github/
+```
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
