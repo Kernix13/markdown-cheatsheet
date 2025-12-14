@@ -29,6 +29,7 @@ I'm breaking up all the markdown syntax into 8 categories:
 1. Code
 1. Hidden
 1. Visual Elements
+1. HTML Elements
 
 **NOTE**: To view markdown> in VS Code hit <kbd>CTRL</kbd>+<kbd>SHIFT</kbd> + <kbd>V</kbd> or click the preview button at top right in line with the file name tabs.
 
@@ -151,9 +152,9 @@ These do not work for the obvious ones (Horizontal Rules, Images, and Emojis), a
 
 **Bold**: use either 2 **asterisks** or 2 **underscores** before and after the text for bold styling. The preferred syntax is to use asterisks for bold:
 
-```markdown
+```
 **two asterisks**
-**two underscores**
+__two underscores__
 ```
 
 The two underscores is being converted to asterisks in the block above (asterisks preferred), so let's try it in an inline code block: `__two underscores__`.
@@ -162,8 +163,8 @@ The two underscores is being converted to asterisks in the block above (asterisk
 
 **Italic**: use a _single asterisk_ or _underscore_ before and after the text for italic styling. The preferred syntax is to use an underscore for italics:
 
-```markdown
-_single asterisk_
+```
+*single asterisk*
 _single underscore_
 ```
 
@@ -171,8 +172,8 @@ Here is an inline example with a single asterisk: `*single asterisk*` (underscor
 
 **_Bold and Italic_**: use either **_3 asterisks_** or **_2 asterisks and 1 underscore_** for bold and italic text. The preffered syntax is the latter:
 
-```markdown
-**_3 asterisks_**
+```
+***3 asterisks***
 **_2 asterisks and and 1 underscore_**
 ```
 
@@ -217,7 +218,7 @@ All elements in this category allow the text effects listed above except for hor
 
 ### Headings
 
-There are 6 headings just like in HTML. Use a single hashtag for H1 and 6 hashtags for H6. The top title of this docuement is an H1 with a single hash, this section (**Miscellaneous**) uses 2 hashtags, and this sub-section (**Headings**) uses 3 hashtags.
+There are 6 headings just like in HTML. Use a single hashtag for H1 and 6 hashtags for H6. The top title of this document is an H1 with a single hash, this section (**Miscellaneous**) uses 2 hashtags, and this sub-section (**Headings**) uses 3 hashtags.
 
 **NOTE**: There is an automatic horizontal rule added when you use syntax for H1 and H2.
 
@@ -228,7 +229,7 @@ There are 6 headings just like in HTML. Use a single hashtag for H1 and 6 hashta
 
 ### Headings (heading 3)
 
-### Heading 4 (you most likely will not use H5 or H6)
+### Heading 4 (you most likely will not use H4, H5 or H6)
 ```
 
 Here is an example of using Bold, Italic, and Strikethrough in a heading:
@@ -248,11 +249,15 @@ This is a nice effect which adds a border-left and padding-left to offset it fro
 > Use a **greater** than _sign_ (>) to quote a team member
 >
 > Create a <ins>space</ins> like above using > with no text (~~ignore~~)
+>
+> > Use more than one `>` for indented blockquotes
 
 ```markdown
 > Use a **greater** than _sign_ (>) to quote a team member
 >
 > Create a <ins>space</ins> like above using > with no text (~~ignore~~)
+>
+> > Use more than one `>` for indented blockquotes
 ```
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
@@ -373,6 +378,25 @@ Boxed
 
 <table><tr><td>The quick brown fox jumps over the lazy dog.</td></tr></table>
 
+If you need a table in your markdown but the text or content in cells is long, then it would be best to use HTML table syntax - here is the basic structure for that:
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+```
+
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Horizontal rules
@@ -468,6 +492,16 @@ Here is a bold, italic and strikethrough link:
 
 Why would you use a strikethorugh effect on a link? I'm not sure. For a page under construction, being moved, etc?
 
+- Normal syntax: [Kernix Web Design](https://www.kernixwebdesign.com 'optional title')
+- Angle brackets: <https://www.kernixwebdesign.com>
+- Just href: https://www.kernixwebdesign.com (may not able display as a link)
+
+```md
+- Normal syntax: [Kernix Web Design](https://www.kernixwebdesign.com 'optional title')
+- Angle brackets: <https://www.kernixwebdesign.com>
+- Just href: https://www.kernixwebdesign.com (may not able display as a link)
+```
+
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
 ### Anchor
@@ -534,6 +568,18 @@ You can use the normal syntax but replce `()` with a 2nd set of `[]` with a toke
   <!-- at bottom of page -->
   [1]: https://kernixwebdesign.com
 ```
+
+You can use the normal syntax but replce () with a 2nd set of [] with a token in it. This makes it a footnote and makes youe markdown easier to read. You can use anything as the "token" but most people use numbers:
+
+- [Kernix Web Design][1]
+
+```md
+- [Kernix Web Design][1]
+  <!-- at bottom of page -->
+  [1]: https://kernixwebdesign.com
+```
+
+> You can puy anything in the 2nd set of square brackets. If you want a title you need the standard syntax
 
 ### At mentions
 
@@ -652,7 +698,7 @@ For a nested ordered list, do the same as for nested unordered lists - align the
 
 ### Tasks
 
-You can create what looks like checkboxes and display completed tasks with a checkmark. It takes the form of an unordered list with the first characters being a set of square brackets which **_MUST_** have a space in them. For a completed task, add either a lower or uppercase "X":
+You can create what looks like checkboxes and display completed tasks with a checkmark. It takes the form of an unordered list with the first characters being a set of square brackets which **_MUST_** have a space in them. For a completed task, add either a lower or uppercase "X" and make sure there are no spaces in the brackets:
 
 - [ ] Incomplete _task_
 - [x] Completed **task**
@@ -1001,6 +1047,25 @@ raw.githubusercontent: I noticed that you can paste images into parts of GitHub.
 <img
   src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
 />
+```
+
+If you want to control the width and height then you need to use an `<img>` tag or use a `<style>` tag with CSS (does not work on GitHub or forums)
+
+```md
+![alt text](src 'optional title')
+
+<!-- Or use the footnote syntax -->
+
+![alt text][1]
+[1]: src
+
+<!-- As a link but with a thumbnail - nest image syntax inside the alt text square brackets -->
+
+[![alt text](src with smaller dimensions)](src)
+
+<!-- OR use an img tag -->
+
+[<img src="https://google.com" />](src)
 ```
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>

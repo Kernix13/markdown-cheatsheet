@@ -4,16 +4,36 @@
 
 Try to include the following section headings in your repo README file:
 
+1. Project title as the only `h1` (`#`)
+2. Table of Contents - only include if your README is _VERY_ long
+3. About section, other titles: Description or Overview or Introduction or "no-title intro" just below the project title
+4. Installation - the steps needed to run your project - alternate headings: Getting Started, Installation, How to Run/Use, Quick Start, etc.
+5. Usage - from the user's point of view, explain how to interact with the UI/software - alternate headings: How it Works, User Guide, User Features
+6. Tech Stack: list the particular tech tools not shown in t he right sidebar like React, TypeScript, Express.js, etc. Alternate headings: Tech Resources, Tools Used
+7. Project structure: a tree diagram of the folders/directories and important files in your project. Alternate headings: File Structure, Project Layout
+8. Contributing + License + Code of Conduct - these come as a package - if you add one then add all three because they go together. If you add a license then add a Contributing section in your README with a link to `contributing.md`, and in that file have a link to `code_of_conduct.md`.
+9. Tests - add if you set up some kind of tests for your code
+10. Questions/FAQs - add if you think it could be helpful
+11. Resources/Credits/Acknowledgements: a list of people or resources that you want to acknowledge in helping develop your project
+12. Future Improvements - list what features you plan on implementing/incorporating into your project in the future. You could create issues for the first ones you will get to.
 
-1. Description - absolutely necessary
-2. Table of Contents - only include if your README is long
-3. Installation - not necessary if it's a simple HTML, CSS & vanilla JS project.
-4. Usage - not sure about this one
-5. License - not necessary if it is a simple project
-6. Contributing - you need this if you want contributors
-7. Code of Conduct - same as above
-7. Tests - skip if you do have a testing library as part of the repo
-8. Questions - this could be helpful
+Other potential sections depending on the nature of your project and tech stack:
+
+- Additional Notes or Notes or Important Notes or General info
+- Disclaimer or Legal disclaimer
+- Bugs and Issues or Reporting issues
+- Help & Support
+- Abstract
+- Problem Statement
+- Data or Data Sources or Data ...
+- Summary or Wrapping Up
+- Additional Documentation
+- Visualizations and/or Findings
+- Database ...
+- APIs used
+- System Requirements
+
+> DON'T OVER DO IT - KEEP THE README AND BRIEF AS NECESSARY
 
 ## Best Of
 
@@ -59,17 +79,17 @@ Notes from Eddie Jaoude & freeCodeCamp
 
 ## How to choose an Open-Source Project
 
-1. Check if it has a license, 
-2. check the date of the last commit (is it recent?), 
-3. check the # of contributors, 
+1. Check if it has a license,
+2. check the date of the last commit (is it recent?),
+3. check the # of contributors,
 4. how often do they make commits?
 
-Also, look for: 
+Also, look for:
 
-1. open issues, 
-2. time for maintainers to respond, 
-3. are there active discussions, 
-4. are issues closed regularly, 
+1. open issues,
+2. time for maintainers to respond,
+3. are there active discussions,
+4. are issues closed regularly,
 5. are there open pull requests
 
 ### Tips
@@ -79,13 +99,13 @@ Also, look for:
 
 ## How to make money from open source
 
-Github now has a sponsorship 
+Github now has a sponsorship
 
 - People can sponsor and github doesn’t take anything but they can match it
-- Click the Settings tab and go to the FEatures section 
-- Click the checkbox for Sponsorships 
+- Click the Settings tab and go to the FEatures section
+- Click the checkbox for Sponsorships
 - There is a card with the title _Display a "Sponsor" button_ with the text _Add links to GitHub Sponsors or third-party methods your repository accepts for financial contributions to your project_
-- There is also a button that says _Set up sponsor button_ 
+- There is also a button that says _Set up sponsor button_
 - Clicking it takes you to a file named _FUNDING.yml_ - in that file are notes to add links to things like Patreon, Open Collective, Ko-fi and many more.
 
 ## TAGS
@@ -96,8 +116,8 @@ A tag/release is where you are happy with the state of the project> It means it 
 
 `config.yml`
 
-- YAML/yml files start with 3 dashes and end with 3 dots which allows you start and stop the the yaml data and allows you to have multiple in one file 
-- Though the ending 3 dots are optional – you have key-value pairs 
+- YAML/yml files start with 3 dashes and end with 3 dots which allows you start and stop the the yaml data and allows you to have multiple in one file
+- Though the ending 3 dots are optional – you have key-value pairs
 - Values can be strings, integers, floats, booleans, arrays, lists and dictionaries – use the vscode extension YAML
 - Can be `.yml` or `.yaml` – both are good – yaml can detect strings so you don’t actually need the quotes but you need quotes when you have numbers/integer that needs to be interpreted as a string
 - For lists use an slight index and a dash then space like markdown
