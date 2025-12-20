@@ -698,7 +698,7 @@ For a nested ordered list, do the same as for nested unordered lists - align the
 
 ### Tasks
 
-You can create what looks like checkboxes and display completed tasks with a checkmark. It takes the form of an unordered list with the first characters being a set of square brackets which **_MUST_** have a space in them. For a completed task, add either a lower or uppercase "X" and make sure there are no spaces in the brackets:
+You can create what looks like checkboxes and display completed tasks with a checkmark. It takes the form of an unordered list with the first characters being a set of square brackets which **_MUST_** have a space in them. For a completed task, add either a lower or uppercase "X" and make sure there are **_NO_** spaces in the brackets:
 
 - [ ] Incomplete _task_
 - [x] Completed **task**
@@ -824,68 +824,11 @@ Here is the full list of supported languages and code syntax highlighting.
 
 Check out the article [Languages Supported by Github Flavored Markdown](https://www.rubycoloredglasses.com/2013/04/languages-supported-by-github-flavored-markdown/) from 12-8-2020. Also check out the [highlight.js](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md) repo:
 
-```markdown
-actionscript3
-apache
-applescript
-asp
-brainfuck
-c
-cfm
-cjs
-clojure
-cmake
-coffee-script, coffeescript, coffee
-cpp - C++
-cs
-csharp
-css
-csv
-bash, sh, zsh, shell
-diff
-elixir
-erb - HTML + Embedded Ruby
-go
-haml
-http
-java
-javascript, js
-json
-jsx
-less
-lolcode
-make - Makefile
-markdown
-matlab
-nginx
-objectivec
-pascal
-PHP
-Perl
-python, py
-profile - python profiler output
-rust
-salt, saltstate - Salt
-shell, sh, zsh, bash - Shell scripting
-scss
-sql
-svg
-swift
-rb, jruby, ruby - Ruby
-smalltalk
-vim, viml - Vim Script
-volt
-vhdl
-vue
-xml - XML and also used for HTML with inline CSS and Javascript
-yaml, yml
-```
-
 I've also noticed that `ini` and `TOML` as the language block language also show syntax highlighting.
 
 For terminal commands like for NPM, use `bash`, `sh`, or `zsh`.
 
-Trying to find a language to style terminal errors or errors & warnings in DevTools is difficult. The best languages I found for that are `c++` and `python`. The syntax highlighting isn't perfect but it at least has some highlighting.
+Trying to find a language to style terminal errors or errors & warnings in DevTools is difficult. The best languages I found for that are `c++` and `python`. The syntax highlighting isn't perfect but it at least has some highlighting. But ChatGPT told me to use JavaScript and that is pretty good as well.
 
 For directory tree code blocks, the best three languages to use to show color are `python` (and maybe `py`), `bash` or `sh`, and `yml`. On GitHub, all 3 highlight comments describing the file/folders as gray. Normally, everything else is white on GitHub, but
 
