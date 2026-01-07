@@ -1,6 +1,6 @@
 # Markdown Cheatsheet
 
-You can preview markdown files in VS Code by using `CTRL + SHIFT + V`.
+You can preview markdown files in VS Code by using `CTRL + SHIFT + V`. The review is preet good - don't bother with extensions.
 
 You can also preview markdown files in a web browser. I recommend the Chrome extension [Markdown Preview Plus](https://chromewebstore.google.com/detail/markdown-preview-plus/febilkbfcbhebfnokafefeacimjdckgl?pli=1) and I suggest choosing the theme called `ClearnessDarkLg`. You can then bookmark your "Best Of" notes for quick viewing.
 
@@ -31,9 +31,9 @@ There are alternate ways for bold and italic, but below is the correct way to do
 - Use 2 tildes for ~~strikethrough text~~.
 ```
 
-You may read that you can use 1 asterisk for italic or 3 asterisks for bold-italic, but it wont work with Prettier.
+You may read that you can use 1 asterisk for italic or 3 asterisks for bold-italic, but Prettier will revert that syntax to what you see above.
 
-**NOTE**: If you select a word or multiple words then hold SHIFT, you can wrap the words with `*`, `_`, `~`, or backticks. Otherwise, you have to add the characters to the beginning and end individually with **_NO_** spaces between the textt and the symbols.
+**NOTE**: If you select a word or multiple words then hold SHIFT, you can wrap the words with `*`, `_`, `~`, or backticks. Otherwise, you have to add the characters to the beginning and end individually with **_NO_** spaces between the text and the symbols.
 
 ## Headings
 
@@ -119,7 +119,7 @@ How to you add a paragraph, image, or code block inside a list? Add a line break
 - Two
 
   ```js
-  console.log('Note empty line above and below this code block');
+  console.log('Note empty line above and below this code block (no effect)');
   ```
 
 - Three
@@ -328,6 +328,8 @@ Examples: 👍, 😄, 👌, ✅, ✔️, ⭐, 🌟, ❤️, ❗
 | :------------------- | :--------------------: | --------------------: |
 | Left                 |        Centered        |                 Right |
 | Row 2 col 1          |      Row 2 col 2       |           Row 2 col 3 |
+
+<!-- Just copy the table above and edit it -->
 ```
 
 If you have long lines of text then you should use an html table. That may make your file longer but it's easier to edit:
@@ -379,13 +381,24 @@ If you want to dive deeper:
 - Underline using the HTML `<ins>` element
 - HTML descriptions (`<dl>`, `<dt>`, `<dd>`)
 - HTML details (`<details>`, `<summary>`)
-- Other HTML elemnts: `<sub>`, `<sup>`, `<samp>`, `<kbd>`, `<mark>` elements
+- Other HTML elements: `<sub>`, `<sup>`, `<samp>`, `<kbd>`, `<mark>` elements
 - Math expressions: may be useful for Data Analysis. See the GitHub blog post [Math support in Markdown](https://github.blog/news-insights/product-news/math-support-in-markdown/)
 - Shields.io
 - Devicons
-- Mermaid Diagrams, and more ...
+- Mermaid Diagrams
 
 If you use HTML tags, you can add `align="center"` or `align="right"` to center or right-align that element.
+
+## Summary
+
+In the beginning stick t o the basics:
+
+1. Paragraphs with bold and/or italics
+2. Headings: H1, H2, H3 only
+3. Inline code and code blocks
+4. Ordered and unordered lists
+5. Links
+6. Emojis
 
 ## Useful Links
 
@@ -399,8 +412,6 @@ If you use HTML tags, you can add `align="center"` or `align="right"` to center 
 5. [HTML Entities](https://www.toptal.com/designers/htmlarrows/symbols/)
 6. [Devicons for GitHub](https://github.com/devicons/devicon/tree/master/icons)
 7. [Sheilds.io](https://shields.io/) - badges for your projects
-
-.................................
 
 <!--
   For my CodeYou notes, I only use
