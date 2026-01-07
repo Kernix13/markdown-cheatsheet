@@ -93,47 +93,41 @@ Use a dash, a plus or a single asterisk (dashes are easier) followed by a space 
   - Child Item 1 if you need a nested list
 ```
 
+<!--
 How to you add a paragraph, image, or code block inside a list? Add a line break and line up element or text with the beginning of the text in the list item.
 
-- One
-- Two
-
+- First point
+- Add a code block here:
   ```js
-  console.log('Note empty line above and below this code block');
+  console.log('Hello');
   ```
+- Add a paragraph here
 
-- Three
-  ```js
-  console.log('Without an empty line');
-  ```
-- Four
+  📌 Paragraph here with empty line above and below + an emoji
 
-  Paragraph here with empty line above and below
+- Add a blockquote here
 
   > _Blockquote here with empty line above and below_
 
-- Five
+- Last point
 
 ````md
-- One
-- Two
-
+- First point
+- Add a code block here:
   ```js
-  console.log('Note empty line above and below this code block (no effect)');
+  console.log('Hello');
   ```
+- Add a paragraph here
 
-- Three
-  ```py
-  print('Without an empty line');
-  ```
-- Four
+  📌 Paragraph here with empty line above and below + an emoji
 
-  Paragraph here with empty line above and below
+- Add a blockquote here
 
   > _Blockquote here with empty line above and below_
 
-- Five
+- Last point
 ````
+-->
 
 ## Links
 
