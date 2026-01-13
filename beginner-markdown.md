@@ -1,6 +1,6 @@
 # Markdown Cheatsheet
 
-You can preview markdown files in VS Code by using `CTRL + SHIFT + V`. The review is preet good - don't bother with extensions.
+You can preview markdown files in VS Code by using `CTRL + SHIFT + V` on Windows or `COMMAND + SHIFT + V` on Mac. You could also hover over the file in the bookmark bar then _right-click_ > _Open Preview_. The preview is pretty good - don't bother with markdown preview extensions.
 
 You can also preview markdown files in a web browser. I recommend the Chrome extension [Markdown Preview Plus](https://chromewebstore.google.com/detail/markdown-preview-plus/febilkbfcbhebfnokafefeacimjdckgl?pli=1) and I suggest choosing the theme called `ClearnessDarkLg`. You can then bookmark your "Best Of" notes for quick viewing.
 
@@ -41,7 +41,7 @@ You may read that you can use 1 asterisk for italic or 3 asterisks for bold-ital
 - Use a hash tag for each heading number level you want followed by a space
 - Heading levels 1 and 2 have horizontal rules below them.
 - FYI, H4 titles (`####`) are the same size as bold paragraph text.
-- **NOTE**: As in HTML, H4 headings are sometimes used, H5 and H6 are rarely to never used.
+- **NOTE**: As in HTML, `H4` headings are sometimes used, `H5` and `H6` are rarely to never used.
 
 ```md
 # H1 heading - 1 hashtag
@@ -77,9 +77,11 @@ Use a number followed by a period then a space for each list item.
    1. Child item 1 if you need a nested list
 ```
 
+**NOTE**: If you use `1.` for every list item, they will display as 1., 2., 3. etc. And then if you reorder any of the list items, the numbers will update.
+
 ### Unordered Lists:
 
-Use a dash, a plus or a single asterisk (dashes are easier) followed by a space for each list item
+Use a dash `-`, a plus `+` or a single asterisk `*` (dashes are easier) followed by a space for each list item
 
 - Item 1
 - Item 2
@@ -93,7 +95,6 @@ Use a dash, a plus or a single asterisk (dashes are easier) followed by a space 
   - Child Item 1 if you need a nested list
 ```
 
-<!--
 How to you add a paragraph, image, or code block inside a list? Add a line break and line up element or text with the beginning of the text in the list item.
 
 - First point
@@ -127,7 +128,6 @@ How to you add a paragraph, image, or code block inside a list? Add a line break
 
 - Last point
 ````
--->
 
 ## Links
 
@@ -199,7 +199,7 @@ You can also link to a heading section within a markdown file. To do this:
 ```
 
 2. Generic code block: To add code that requires more than 1 line use triple backticks, drop down 2 lines and add 3 more triple backicks. Add anything in between both sets of backticks.
-3. TAB code block: an alternative to the above is to hit <kbd>TAB</kbd> and then add triple bakcticks. When you hit <kbd>ENTER</kbd> you should remain indented so you can hit <kbd>ENTER</kbd> again and add your ending set of triple backticks.
+3. TAB code block: an alternative to the above is to hit <kbd>TAB</kbd> twice. When you hit <kbd>ENTER</kbd> you will remain indented so you can enter what you in the codeblock.
 
 ```
 console.log("Hello");
@@ -231,7 +231,7 @@ document.getElementById("myId")
 ```
 ````
 
-**NOTE**: To get backticks to appear in a code block, wrap the triple backtick code block in quadruple backticks or hit TAB twice:
+**NOTE**: To get backticks to appear in a code block, wrap the triple backtick code block in quadruple backticks (see above) or hit TAB twice (below):
 
       ```html
       <a href="https://code-you.org/"> Code:You</a>
@@ -257,12 +257,12 @@ document.getElementById("myId")
 
 <!-- OR use an img tag for cleaner syntax -->
 
-[<img src="https://somedomain.com/images/image1.jpg" />](src)
+[<img src="https://somedomain.com/images/image1.jpg" width="100" height="100" />](src)
 ```
 
 .........................................................................
 
-2. Emojis: it's easiest to just copy/paste the actual emoji. The syntax of `:emoji-name:` does not seem to work. This is not markdown syntax, it's just to show you that you can add emojis to markdown files.
+2. Emojis: it's easiest to just copy/paste the actual emoji. The syntax of `:emoji-name:` does not seem to work though it should. This is not markdown syntax, it's just to show you that you can add emojis to markdown files.
 
 Examples: 👍, 😄, 👌, ✅, ✔️, ⭐, 🌟, ❤️, ❗
 
@@ -326,25 +326,45 @@ Examples: 👍, 😄, 👌, ✅, ✔️, ⭐, 🌟, ❤️, ❗
 <!-- Just copy the table above and edit it -->
 ```
 
-If you have long lines of text then you should use an html table. That may make your file longer but it's easier to edit:
+If you have long lines of text then you should use an html table. That may make your file longer but it's easier to viw and edit:
 
-```html
 <table>
+  <!-- table header -->
   <thead>
-    <!-- table header -->
     <tr>
-      <th>Col 1</th>
-      <th>Col 1</th>
-      <th>Col 1</th>
+      <th>Header 1</th>
+      <th>Header 2</th>
+      <th>Header 3</th>
     </tr>
   <thead>
   <tbody>
     <!-- Use a tr for each row -->
     <tr>
       <!-- the # of td elements needs to match the # of th elements above -->
-      <td>row 1 col 1</td>
-      <td>row 1 col 2</td>
-      <td>row 1 col 3</td>
+      <td>Row 1 col 1</td>
+      <td>Row 1 col 2</td>
+      <td>Row 1 col 3</td>
+    </tr>
+  </tbody>
+</table>
+
+```html
+<table>
+  <!-- table header -->
+  <thead>
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+      <th>Header 3</th>
+    </tr>
+  <thead>
+  <tbody>
+    <!-- Use a tr for each row -->
+    <tr>
+      <!-- the # of td elements needs to match the # of th elements above -->
+      <td>Row 1 col 1</td>
+      <td>Row 1 col 2</td>
+      <td>Row 1 col 3</td>
     </tr>
   </tbody>
 </table>
@@ -352,7 +372,7 @@ If you have long lines of text then you should use an html table. That may make 
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-4. Line breaks: use the HTML `<br>` element for line breaks. You will need these in tables for text to wrap or the columns will be too large to view in VS Code or will create horizontal scrolling on GitHub. They are also useful to create more vertical spacing. For tables with lots of text, it would be best to use the HTML `<table>` element, along with `<tbody>`, `<th>`, `<tr>`, and `<td>`.
+4. Line breaks: use the HTML `<br>` element for line breaks. You will need these in tables for text to wrap or the columns will be too large to view in VS Code or will create horizontal scrolling on GitHub. They are also useful to create more vertical spacing.
 
 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
@@ -385,14 +405,14 @@ If you use HTML tags, you can add `align="center"` or `align="right"` to center 
 
 ## Summary
 
-In the beginning stick t o the basics:
+In the beginning stick to the basics:
 
 1. Paragraphs with bold and/or italics
 2. Headings: H1, H2, H3 only
-3. Inline code and code blocks
+3. Inline code and language code blocks
 4. Ordered and unordered lists
 5. Links
-6. Emojis
+6. Emojis and HTML entities
 
 ## Useful Links
 
@@ -408,7 +428,8 @@ In the beginning stick t o the basics:
 7. [Sheilds.io](https://shields.io/) - badges for your projects
 
 <!--
-  For my CodeYou notes, I only use
+  For my CodeYou notes, I only use:
+
   1. Paragraphs
   2. Bold and italic formatting
   3. H1, H2, and H3 headings
@@ -418,6 +439,7 @@ In the beginning stick t o the basics:
   7. Links
 
   Other common ones I often use in my READMEs:
+
   - Markdown and HTML tables
   - Images
   - <br> tags for extra spacing
@@ -430,6 +452,7 @@ In the beginning stick t o the basics:
   - awesome-markdown: https://github.com/mundimark/awesome-markdown?tab=readme-ov-file
   - markitdown: https://github.com/microsoft/markitdown
   - accessible markdown: https://github.blog/developer-skills/github/5-tips-for-making-your-github-profile-page-accessible/
+
  -->
 
 <!--
