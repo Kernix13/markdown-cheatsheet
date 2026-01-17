@@ -551,10 +551,12 @@ Here is the actual footnote syntax:
 
 ```markdown
 [^1]: This is footnote number one.
+
 [^2]: Here is the second footnote.
 ```
 
 [^1]: This is footnote number one.
+
 [^2]: Here is the second footnote.
 
 Alternate syntax for footnote links:
@@ -1641,7 +1643,7 @@ I have only found that the `align` attribute works, other than the obvious ones 
 <code>testing align="center" in a pre block </code>
 </pre>
 
-Unless there is a way to display the tags differently, then I do not see the point of using `pre`, `table`, `lists`, or `blockquote`. Especially the `table` tag since there are a lot of tags you need to enter.
+Unless there is a way to display the tags differently, then I do not see the point of using `pre`, `table`, `lists`, or `blockquote`. The exception is the `table` tag, especially if you have long text in table cells AND are using Prettier. If you try to use markdown tables, the display of it in your editor becomes unreadable.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -1677,6 +1679,7 @@ The only tags worth using IMO:
 - `dl` `dt` `dd` maybe for the indentation of the definition
 - `mark`: testing the <mark>mark</mark> element
 - `abbr`: testing <abbr>abbr</abbr> element
+- `q`: testing <q>an inline quote</q> to see the quotes added.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
