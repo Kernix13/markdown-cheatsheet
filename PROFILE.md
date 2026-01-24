@@ -3,7 +3,7 @@
 Here are some resources to help you create your Profile README:
 
 1. YouTube video [GitHub Profile Readme](https://youtu.be/KhGWbt1dAKQ) by Adrian Twarog.
-1. YouTube videos on GitHub Profile Reviews by Eddie Jaoude such as [Your open source GitHub repos / profiles shoutouts and reviews](https://youtu.be/xsZIKzE7gy8). There good examples to pull from.
+1. YouTube videos on GitHub Profile Reviews by Eddie Jaoude such as [Your open source GitHub repos / profiles shoutouts and reviews](https://youtu.be/xsZIKzE7gy8). There are good examples to pull from.
 1. Google search for `github profile generator` which is a good way to get the code for your stats. Just make sure to customize the markdown as you see fit.
 
 ## Video notes (Adrian Twarog)
@@ -32,3 +32,5 @@ Here is code for HTML5 in my SKILLS section icon:
 ```
 
 Find the code for the languages and technologies you use from other profiles and add the code into your profile. And of course use the markdown from this repo to structure your README.
+
+Look at other people's profile READMEs for section and content ideas. This will change over time - a simple & bland profile README is bettr than no profile README!

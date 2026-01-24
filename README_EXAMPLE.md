@@ -1,12 +1,12 @@
 # Project Title
 
-"No-title" 1-2 paragraph introduction here instead of _Project Overview_ or a screenshot.
+"No-title intro": 1-2 paragraph introduction here is fine instead of _Project Overview_ and/or a screenshot.
 
 ## Project Overview
 
 1-2 paragraphs briefly describing your project.
 
-The overview for this repo is to show the most important section headings for a front-end development project. I intend to also to somehow create an example for Data Analysis (Python.Jupyter Notebook) and Software Development (C#/.NET).
+The overview for _this repo_ is to show the most important section headings for a front-end development project. I would like to also create an example for Data Analysis (Python.Jupyter Notebook) and Software Development (C#/.NET), as this one is geared towards web development.
 
 **Alternate titles**:
 
@@ -16,7 +16,7 @@ The overview for this repo is to show the most important section headings for a 
 
 ## Getting Started
 
-> Here is an example that you should use
+> _Here is an example that you should use_:
 
 1. Clone this repo and install dependencies
 
@@ -43,11 +43,14 @@ PORT=port_number
 <!-- other variables here like Database credentials -->
 ```
 
-> Continue with all the steps that someone needs to see and interact with your project, in cluding how to get their own API key
+4. Replace the string `your_api_key` with your API key, and `port_number` to the port you are using.
+5. Delete the file `.env.example`.
+
+> _Continue with all the steps that someone needs to see and interact with your project, including how to get their own API key_
 
 **Alternate titles**:
 
-- How to Run or How to Use or How to Run The Project
+- _How to Run_ or _How to Use_ or _How to Run The Project_
 - Installation
 - Installation and Getting Started
 - Quickstart
@@ -58,7 +61,7 @@ PORT=port_number
 
 ## How It Works (or User Guide)
 
-Describe how to interact with the finihsed product or what a user an expect.
+Describe how to interact with the finihsed product or what a user can expect. This is where you can paste in screenshots of the UI. It would be easy to go overboard here and include shots of everything - just some examples!
 
 **Alternate titles**:
 
@@ -81,7 +84,7 @@ List whatever is important here is an unordered list or a table
 
 Here is an example:
 
-<!-- try python, bash or yml -->
+<!-- try python, bash or yml as the language for highlighting -->
 
 ```python
 /
@@ -120,15 +123,19 @@ Project Tree Structure generators:
 
 ## Contributing
 
-Contributions are welcome! If you'd like to help improve this project, please read our [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines on how to get started, our workflow, and code style expectations.
+> _Here is a good short paragraph - it does not have to be longer than this. Make sure to have a `CONTRIBUTING.md` file._
+
+Contributions are welcome! If you'd like to help improve this project, please read our [CONTRIBUTING.md](#) for guidelines on how to get started, our workflow, and code style expectations.
 
 ## License
 
 This project is licensed under the [MIT License](./LICENSE).
 
-> Add whatever else that works for your project like a link to the live version, credits, links to your `/docs` folder for more imformation, etc.
+> _If you are going to have a license, then also have `contributing.md` and `code_of_conduct.md`._
 
 ---
+
+> Add whatever else that works for your project like a link to the live version, credits, links to your `/docs` folder for more imformation, etc.
 
 ## Miscellaneous optional headings
 
@@ -137,11 +144,11 @@ Depending on your project, some of these items may be useful as headings/section
 - Additional Notes
 - Bugs and Issues or Reporting issues
 - Help & Support
-- Notes or Important Notes or General info
+- _Notes_ or _Important Notes_ or _General info_
 - Project Details
 - Live Demo
 - Lighthouse Report
 - Unit Tests
 - Wireframes
 - Acknowledgments & Resources
-- Summary or Wrapping Up
+- _Summary_ or _Wrapping Up_
