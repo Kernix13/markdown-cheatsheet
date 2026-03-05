@@ -546,7 +546,7 @@ I decided to search on Google and only look for GitHub results so that I could a
 
 ## ChatGPT reasons for repos ranking in the SERPs
 
-1. The Repository Name (Huge Ranking Factor)
+### 1. The Repository Name (Huge Ranking Factor)
 
 The repo name often becomes the page title, which Google heavily weights.
 
@@ -554,7 +554,7 @@ The actual title is:
 
 - `username/repo_name: Sidebar About text`
 
-2. README Content (The Main SEO Content)
+### 2. README Content (The Main SEO Content)
 
 The README.md file is essentially the page content Google indexes. Repos with long, well-written READMEs rank better because they contain:
 
@@ -584,11 +584,11 @@ Short description of what it does wiith SEO keywords
 
 > I need a word count for the READMEs.
 
-3. Stars, Forks, and Watchers (Popularity Signals)
+### 3. Stars, Forks, and Watchers (Popularity Signals)
 
 GitHub popularity acts like social proof signals. Google likely interprets these as authority signals. High-star repos often dominate SERPs.
 
-4. External Links (Huge SEO Signal)
+### 4. External Links (Huge SEO Signal)
 
 Google sees it as authoritative if people link to the repo from:
 
@@ -599,7 +599,7 @@ Google sees it as authoritative if people link to the repo from:
 
 Many popular repos get thousands of backlinks.
 
-5. meta description
+### 5. meta description
 
 - `Sidebar About text - username/reponame`
 
@@ -609,11 +609,11 @@ That is being replaced by Google by related text in the README so have a "no-tit
 - my stats
 - repo for github README SEO
 
-6. About text
+### 6. About text
 
 Include your core keywords and not much else in the About section.
 
-7. Topics
+### 7. Topics
 
 Have sidebar topics related to your SEO keywords
 
@@ -647,12 +647,11 @@ Do an accessibility analysis:
 2. Parse images
    - Do the images have alt text?
    - Is the alt text SEO rich?
-   - IS the alt text too short (<5 words)?
+   - Is the alt text too short (<5 words)?
 3. Parse all headings
    - Are the headings sequential or out of order?
 4. Parse list items
    - Do list items use proper markup (-, *, 1., etc) or are emojis being used?
-
 
 RegEx:
 - Extract All Headings: ^(#{1,6})\s(.+)
@@ -660,4 +659,5 @@ RegEx:
 - Extract Images: !\[(.*?)\]\((.*?)\)
 - Image alt text: !\[(.*?)\]\( and/or <img[^>]*alt=["'](.*?)["']
 - Extract Links: \[(.*?)\]\((.*?)\)
- -->
+
+-->
