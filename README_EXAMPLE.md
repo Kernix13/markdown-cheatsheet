@@ -2,6 +2,9 @@
 
 "No-title intro": 1-2 paragraph introduction here is fine instead of _Project Overview_ and/or a screenshot.
 
+> [!NOTE]
+> This README example is geared towards front-end development repos. I've noticed a pattern for Python/Jupyter Notebook repos, which means that different tech stacks will have different "_required_" sections - more to follow...
+
 ## Project Overview
 
 1-2 paragraphs briefly describing your project.
