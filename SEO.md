@@ -6,7 +6,7 @@ I recently read an article about accessible profile READMEs which will help with
 
 One answer would be to make the README accessible. See [5 tips for making your GitHub profile page accessible](https://github.blog/developer-skills/github/5-tips-for-making-your-github-profile-page-accessible/) for examples on that.
 
-## SEO paramaters
+## SEO parameters
 
 > [!NOTE]
 > The hard values are from the guidelines given to me while working for The HOTH (list items 1-4).
@@ -20,7 +20,7 @@ One answer would be to make the README accessible. See [5 tips for making your G
 
 ## Repos to analyze
 
-I decided to search on Google and only link for GitHub results so that I could analyze why they appeared in the SERPs. I am going to analyze any repo I find in the SERPS. Here are ones I found as of 3-5-2026:
+I decided to search on Google and only look for GitHub results so that I could analyze why they appeared in the SERPs. I am going to analyze any repo I find in the SERPS. Here are ones I found as of 3-5-2026:
 
 ### Searches for "markdown cheat sheet"
 
@@ -209,3 +209,5 @@ I decided to search on Google and only link for GitHub results so that I could a
 ---
 
  -->
+
+<!-- https://github.com/lifeparticle/Markdown-Cheatsheet -->
