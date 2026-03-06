@@ -153,7 +153,7 @@ What high-quality repos usually do - They:
 - UI screenshot -> 150–400 KB
 - small feature image -> 80–200 KB
 
-PNG to WebP conversion
+PNG to WebP conversion!!!
 
 Task Lists - Replace with a normal list so that you do not get an error of "_Form elements do not have associated labels_"
 
@@ -233,4 +233,26 @@ Optional SEO Enhancements
 - Pin repositories that show your expertise in those skills. Google sometimes surfaces repos alongside your profile.
 - Add a short tagline in your GitHub bio (the small text under your avatar) with keywords:
 
+-->
+
+## SEO Checklist
+
+1. Rewrite H1/Title
+2. Add or rewrite intro paragraph
+3. Add or rewrite About section
+4. Ensure quality topics
+5. Convert markdown to HTML
+6. Run SEO & Accessibility analysis on the HTML version
+7. Update markdown
+
+<!--
+## Checklist for this repo:
+
+1. Rewrite H1/Title ✅
+2. Add or rewrite intro paragraph ✅
+3. Rewrite About section ✅
+4. Ensure quality topics ✅
+5. Convert markdown to HTML 📌
+6. Run SEO & Accessibility analysis on the HTML version 📌
+7. Update markdown 📌
 -->
