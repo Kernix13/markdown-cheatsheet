@@ -1615,11 +1615,9 @@ I tested every HTML tag that made sense. I skipped tags like `section`, `header`
 
 ### Block elements
 
-NOTE: I should not have pushed `index.html` because I was only using to test the syntax for some HTML tags.
-
 _Duplicates markdown_: `blockquote`, `h1` thru `h6`, `hr`, `ol` `ul` `li`, `pre`, `table`
 
-_No markdown equivalent_: `details` with `summary`, `dl` `dt` `dd` (indent), `div`, and `span`.
+_No markdown equivalent_: `details` with `summary`, `dl` `dt` `dd` (indent), and `span`.
 
 > Is **align** an attribute? How do I find similar attributes like that?
 
