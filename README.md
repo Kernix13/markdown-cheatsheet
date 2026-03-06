@@ -17,8 +17,6 @@
 
 This Markdown cheat sheet is a comprehensive guide to writing clean, well-formatted Markdown files. It includes full syntax examples, tips, and links to resources.
 
-> FYI: if you are using the Vs Code extension `Prettier - Code formatter`, then you want to create a `.prettierignore` file and add markdown files (see my file) because it _WILL_ mess with your markdown.
-
 I'm breaking up all the markdown syntax into 8 categories:
 
 1. Basics
@@ -31,7 +29,7 @@ I'm breaking up all the markdown syntax into 8 categories:
 1. Visual Elements
 1. HTML Elements
 
-**NOTE**: To view markdown> in VS Code hit <kbd>CTRL</kbd>+<kbd>SHIFT</kbd> + <kbd>V</kbd> or click the preview button at top right in line with the file name tabs.
+**NOTE**: To view markdown in VS Code use: <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>V</kbd> or click the preview button at top right in line with the file name tabs.
 
 <div id="back-to-top"></div>
 

@@ -218,4 +218,19 @@ RegEx:
 - Image alt text: !\[(.*?)\]\( and/or <img[^>]*alt=["'](.*?)["']
 - Extract Links: \[(.*?)\]\((.*?)\)
 
+Profile Readme tips:
+
+# Jim Kernicky – Web Designer & Developer
+The first few lines of your README act like the meta description for your profile. Include:
+
+- Your roles/titles: web designer, WordPress developer, front-end developer, etc.
+- Skills or technologies people might search for: WordPress, HTML/CSS, SEO-friendly websites, UI/UX, etc.
+- Your value proposition: what you do for clients or projects.
+
+Optional SEO Enhancements
+
+- Include keywords naturally in sections like “About Me,” “Skills,” or “Projects.”
+- Pin repositories that show your expertise in those skills. Google sometimes surfaces repos alongside your profile.
+- Add a short tagline in your GitHub bio (the small text under your avatar) with keywords:
+
 -->
