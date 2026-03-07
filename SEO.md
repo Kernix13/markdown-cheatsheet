@@ -175,6 +175,42 @@ Squoosh: conversion to WebP and optimization
    - Add your SEO keyword phrase and make changes to the text based on what the plugin recommends
    - This will make sure your README text has the right % of Keywords and other related SEO & Accessibility factors
 
+## SEO Checklist
+
+1. Rewrite H1/Title
+2. Add or rewrite intro paragraph
+3. Add or rewrite About section
+4. Ensure quality topics
+5. Convert markdown to HTML
+6. Run SEO & Accessibility analysis on the HTML version
+7. Update markdown
+
+<!--
+## Checklist for this repo:
+
+1. Rewrite H1/Title ✅
+2. Add or rewrite intro paragraph ✅
+3. Rewrite About section ✅
+4. Ensure quality topics ✅
+5. Convert markdown to HTML 📌
+6. Run SEO & Accessibility analysis on the HTML version 📌
+7. Update markdown 📌
+
+Repos to-do:
+
+- this one
+- profile readme
+- what-chord-is-this
+- codeCompare
+- typescript-virtual-keyboard or WriterAssist
+- tarp-configs
+- guitar-chord-names
+- beginner-git-commands
+- personal-portfolio
+- github-actions-dotfiles?
+
+-->
+
 <!--
 
 README SEO analyzer project idea: (NO LONGER INTERESTED IN THIS)
@@ -233,26 +269,4 @@ Optional SEO Enhancements
 - Pin repositories that show your expertise in those skills. Google sometimes surfaces repos alongside your profile.
 - Add a short tagline in your GitHub bio (the small text under your avatar) with keywords:
 
--->
-
-## SEO Checklist
-
-1. Rewrite H1/Title
-2. Add or rewrite intro paragraph
-3. Add or rewrite About section
-4. Ensure quality topics
-5. Convert markdown to HTML
-6. Run SEO & Accessibility analysis on the HTML version
-7. Update markdown
-
-<!--
-## Checklist for this repo:
-
-1. Rewrite H1/Title ✅
-2. Add or rewrite intro paragraph ✅
-3. Rewrite About section ✅
-4. Ensure quality topics ✅
-5. Convert markdown to HTML 📌
-6. Run SEO & Accessibility analysis on the HTML version 📌
-7. Update markdown 📌
 -->

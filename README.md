@@ -1,23 +1,16 @@
 # Comprehensive Markdown Cheatsheet & Reference Guide
 
 ![GitHub Repo Stars](https://img.shields.io/github/stars/Kernix13/markdown-cheatsheet?style=for-the-badge)
-![GitHub Watchers](https://img.shields.io/github/watchers/Kernix13/markdown-cheatsheet?style=for-the-badge)
 ![GitHub Forks](https://img.shields.io/github/forks/Kernix13/markdown-cheatsheet?style=for-the-badge)
+![GitHub Issues](https://img.shields.io/github/issues/Kernix13/markdown-cheatsheet?style=for-the-badge)
 ![GitHub Commit Activity](https://img.shields.io/github/commit-activity/y/Kernix13/markdown-cheatsheet?style=for-the-badge)
 
+<!-- ![GitHub Watchers](https://img.shields.io/github/watchers/Kernix13/markdown-cheatsheet?style=for-the-badge) -->
 <!-- ![GitHub Contributors](https://img.shields.io/github/contributors/Kernix13/markdown-cheatsheet?style=for-the-badge) -->
 
-![GitHub Issues](https://img.shields.io/github/issues/Kernix13/markdown-cheatsheet?style=for-the-badge)
+This Markdown cheatsheet is a comprehensive guide to writing clean, well-formatted Markdown files. It includes full syntax examples, tips, and links to resources.
 
-<!-- ![GitHub Search Hits](https://img.shields.io/github/search/Kernix13/markdown-cheatsheet/markdown?style=for-the-badge) -->
-
-<!-- <span><img alt="GitHub forks" src="https://img.shields.io/github/forks/Kernix13/markdown-cheatsheet?style=for-the-badge"></span>
-<span><img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/Kernix13/markdown-cheatsheet?style=for-the-badge"></span>
-<span><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Kernix13/markdown-cheatsheet?style=for-the-badge"></span> -->
-
-This Markdown cheat sheet is a comprehensive guide to writing clean, well-formatted Markdown files. It includes full syntax examples, tips, and links to resources.
-
-I'm breaking up all the markdown syntax into 8 categories:
+I'm breaking up all the markdown syntax into 8 categories to make it easier to navigate this file:
 
 1. Basics
 1. Styles
@@ -65,7 +58,7 @@ I'm breaking up all the markdown syntax into 8 categories:
 |                                      | [Diff](#diff)                                 |       No        |
 | [Hidden Elements](#hidden-elements): | [Comments](#comments)                         |       No        |
 |                                      | [Spoiler](#spoiler)                           |       Yes       |
-|                                      | [Details](#details)                           |       No        |
+|                                      | [Details Element](#details-element)           |       No        |
 | [Visual Elements](#visual-elements): | [Images](#images)                             |       No        |
 |                                      | [Math](#math)                                 |       No        |
 |                                      | [Emojis](#emojis)                             |       No        |
@@ -941,7 +934,7 @@ On Discord you may sometimes see a black rectangle that reveals text or code whe
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
-### Details
+### Details Element
 
 This isn't a markdown thing but it is another example of using HTML tags in a Markdown file. It has the same effect as an accordian. I'm not sure why you would use this but here is how you would do it:
 
@@ -980,7 +973,7 @@ Images use the same syntax as **Links** except for the addition of an exclamatio
 
 <br />
 
-![picture alt text](./markdown-image.png 'Title is optional')
+![markdown cheatsheet image example](./markdown-image.png 'Title is optional')
 
     ![picture alt](./markdown-image.png 'Title is optional')
 
@@ -1324,74 +1317,77 @@ Bold, Italic and strikethough work for some of the elements below but not for al
 <br>
 
 **Business & Financial**:
-| Entity | Result| Title |
-| ---- | ---- | ---- |
-| `&copy;` | &copy; | Copyright |
-| `&#8471;` | &#8471; | Sound Copyright |
-| `&trade;` | &trade; | Trademark |
-| `&reg;` | &reg; | Registered TM |
-| `&dollar;` | &dollar; | Dollar |
-| `&cent;` | &cent; | Cent |
-| `&pound;` | &pound; | Pound |
-| `&euro;` | &euro; | Euro |
-| `&#9993;` | &#9993; | Envelope |
-| `&check;` | &check; | Check mark |
-| `&#9998;` | &#9998; | Pencil |
-| `&#10002;` | &#10002; | Pen tip |
-| `&#9990;` | &#9990; | Phone |
-| `&#9986;` | &#9986; | Scissors |
-| `&#9888;` | &#9888; | Warning |
+
+| Entity     | Result   | Title           |
+| ---------- | -------- | --------------- |
+| `&copy;`   | &copy;   | Copyright       |
+| `&#8471;`  | &#8471;  | Sound Copyright |
+| `&trade;`  | &trade;  | Trademark       |
+| `&reg;`    | &reg;    | Registered TM   |
+| `&dollar;` | &dollar; | Dollar          |
+| `&cent;`   | &cent;   | Cent            |
+| `&pound;`  | &pound;  | Pound           |
+| `&euro;`   | &euro;   | Euro            |
+| `&#9993;`  | &#9993;  | Envelope        |
+| `&check;`  | &check;  | Check mark      |
+| `&#9998;`  | &#9998;  | Pencil          |
+| `&#10002;` | &#10002; | Pen tip         |
+| `&#9990;`  | &#9990;  | Phone           |
+| `&#9986;`  | &#9986;  | Scissors        |
+| `&#9888;`  | &#9888;  | Warning         |
 
 <br>
 
 **Directional**:
-| Entity | Result| Title |
-| ---- | ---- | ---- |
-| `&larr;` | &larr; | Left arrow |
-| `&rarr;` | &rarr; | Right arrow |
-| `&uarr;` | &uarr; | Up arrow |
-| `&darr;` | &darr; | Down arrow |
-| `&#8598;` | &#8598; | Northwest arrow |
-| `&#8599;` | &#8599; | Northeast arrow |
-| `&#8600;` | &#8600; | Southeast arrow |
-| `&#8601;` | &#8601; | Southwest arrow |
-| `&#9650;` | &#9650; | Up triangle |
-| `&#9660;` | &#9660; | Down triangle |
-| `&#9654;` | &#9654; | Right triangle |
-| `&#9664;` | &#9664; | Left triangle |
-| `&#10146;` | &#10146; | Arrowhead |
-| `&#10139;` | &#10139; | Drafting point |
+
+| Entity     | Result   | Title           |
+| ---------- | -------- | --------------- |
+| `&larr;`   | &larr;   | Left arrow      |
+| `&rarr;`   | &rarr;   | Right arrow     |
+| `&uarr;`   | &uarr;   | Up arrow        |
+| `&darr;`   | &darr;   | Down arrow      |
+| `&#8598;`  | &#8598;  | Northwest arrow |
+| `&#8599;`  | &#8599;  | Northeast arrow |
+| `&#8600;`  | &#8600;  | Southeast arrow |
+| `&#8601;`  | &#8601;  | Southwest arrow |
+| `&#9650;`  | &#9650;  | Up triangle     |
+| `&#9660;`  | &#9660;  | Down triangle   |
+| `&#9654;`  | &#9654;  | Right triangle  |
+| `&#9664;`  | &#9664;  | Left triangle   |
+| `&#10146;` | &#10146; | Arrowhead       |
+| `&#10139;` | &#10139; | Drafting point  |
 
 <br>
 
 **Math and science**:
-| Entity | Result| Title |
-| ---- | ---- | ---- |
-| `&deg;` | &deg; | Degree |
-| `&plusmn;` | &plusmn; | Plus minus |
-| `&sup2;` | 3&sup2; | Supercript 2 |
-| `&#8322;` | H&#8322;O | Subscript 2 |
-| `&#8323;` | NO&#8323;| Subscript 3 |
-| `&frac14;` | &frac14; | 1/4 fraction |
-| `&frac38;` | &frac38; | 3/8 fraction |
-| `&times;` | &times; | Multiplication |
-| `&divide;` | &divide; | Division |
-| `&minus;` | &minus; | Subtraction |
-| `&empty;` | &empty; | Empty |
-| `&Phi;` | &Phi; | Phi |
-| `&pi;` | &pi; | Pi |
-| `&#8486;` | &#8486; | Omega |
-| `&sum;` | &sum; | Sum, Sigma |
-| `&radic;` | &radic; | Square root |
-| `&infin;` | &infin; | Infinity |
-| `&sim;` | &sim; | Proportional |
-| `&asymp;` | &asymp; | Approximately |
-| `≠` | ≠ | Not equal |
-| `&le;` | &le; | Less or equal to |
-| `&ge;` | &ge; | Greater or equal |
-| `&ang;` | &ang; | Angle |
-| `&angmsd;`| &angmsd; | Measured angle |
-| `&or;` | &or; | Down angle |
+
+| Entity     | Result    | Title            |
+| ---------- | --------- | ---------------- |
+| `&deg;`    | &deg;     | Degree           |
+| `&plusmn;` | &plusmn;  | Plus minus       |
+| `&sup2;`   | 3&sup2;   | Supercript 2     |
+| `&#8322;`  | H&#8322;O | Subscript 2      |
+| `&#8323;`  | NO&#8323; | Subscript 3      |
+| `&frac14;` | &frac14;  | 1/4 fraction     |
+| `&frac38;` | &frac38;  | 3/8 fraction     |
+| `&times;`  | &times;   | Multiplication   |
+| `&divide;` | &divide;  | Division         |
+| `&minus;`  | &minus;   | Subtraction      |
+| `&empty;`  | &empty;   | Empty            |
+| `&Phi;`    | &Phi;     | Phi              |
+| `&pi;`     | &pi;      | Pi               |
+| `&#8486;`  | &#8486;   | Omega            |
+| `&sum;`    | &sum;     | Sum, Sigma       |
+| `&radic;`  | &radic;   | Square root      |
+| `&infin;`  | &infin;   | Infinity         |
+| `&sim;`    | &sim;     | Proportional     |
+| `&asymp;`  | &asymp;   | Approximately    |
+| `≠`        | ≠         | Not equal        |
+| `&le;`     | &le;      | Less or equal to |
+| `&ge;`     | &ge;      | Greater or equal |
+| `&ang;`    | &ang;     | Angle            |
+| `&angmsd;` | &angmsd;  | Measured angle   |
+| `&or;`     | &or;      | Down angle       |
 
 **NOTE**: For subscripts 0 thru 9, change the last number, e.g.:
 
@@ -1404,198 +1400,203 @@ http://thenewcode.com/1005/Writing-Musical-Notation-on-Web-Pages-The-Basics
 <br>
 
 **Music**:
-| Entity | Result| Title |
-| ---- | ---- | ---- |
-| `&#9837;`| &#9837; | Music flat |
-| `&#9838;`| &#9838; | Music natural |
-| `&#9839;`| &#9839; | Music sharp |
-| `&#119082;`| &#119082; | Double Sharp |
-| `&#119083;`| &#119083; | Double flat |
-| `&#119070;`| &#119070; | G-clef |
-| `&#119073;`| &#119073; | C-clef |
-| `&#119074;`| &#119074; | F-clef |
-| `&#119092;`| &#119092; | Common time |
-| `&#119093;`| &#119093; | Cut time |
-| `&#248;`| &#248; | Half-diminished 7th |
-| `&#119132;`| &#119132; | Breve |
-| `&#119133;`| &#119133; | Whole note |
-| `&#119134;`| &#119134; | Half note |
-| `&#9833;`| &#9833; | Quarter note |
-| `&#119135;`| &#119135; | Quarter note |
-| `&sung;`| &sung; | 8th note |
-| `&#9834;`| &#9834; | 8th note |
-| `&#119136;`| &#119136; | 8th note |
-| `&#9835;`| &#9835; | Beamed 8th note |
-| `&#119137;`| &#119137; | 16th note |
-| `&#9836;`| &#9836; | Beamed 16th note |
-| `&#119094;`| &#119094; | Octave |
-| `&#119057;` | &#119057; | Fermata |
-| `&#119058;` | &#119058; | Breath mark |
-| `&#119059;` | &#119059; | Caesura |
-| `&#119046;` | &#119046; | Left repeat |
-| `&#119047;` | &#119047; | Right repeat |
-| `&#119048;` | &#119048; | Repeat |
-| `&#119049;` | &#119049; | Dal Segno |
-| `&#119050;` | &#119050; | Da Capo |
-| `&#119051;` | &#119051; | Segno |
-| `&#119052;` | &#119052; | Coda |
-| `&#119183;` | &#119183; | Piano |
-| `&#119184;` | &#119184; | Mezzo |
-| `&#119185;` | &#119185; | Forte |
-| `&#119186;` | &#119186; | Crescendo |
-| `&#119187;` | &#119187; | Decrescendo |
-| `&#119040;` | &#119040; | Single barline |
-| `&#119041;` | &#119041; | Double barline |
-| `&#119042;` | &#119042; | Final barline |
-| `&#119217;` | &#119217; | Glissando up |
-| `&#119218;` | &#119218; | Glissando down |
-| `&#119188;` | &#119188; | Grace note |
-| `&#119191;` | &#119191; | Turn |
-| `&#119192;` | &#119192; | Inverted turn |
-| `&#119081;` | &#119081; | Full measure rest |
+
+| Entity      | Result    | Title               |
+| ----------- | --------- | ------------------- |
+| `&#9837;`   | &#9837;   | Music flat          |
+| `&#9838;`   | &#9838;   | Music natural       |
+| `&#9839;`   | &#9839;   | Music sharp         |
+| `&#119082;` | &#119082; | Double Sharp        |
+| `&#119083;` | &#119083; | Double flat         |
+| `&#119070;` | &#119070; | G-clef              |
+| `&#119073;` | &#119073; | C-clef              |
+| `&#119074;` | &#119074; | F-clef              |
+| `&#119092;` | &#119092; | Common time         |
+| `&#119093;` | &#119093; | Cut time            |
+| `&#248;`    | &#248;    | Half-diminished 7th |
+| `&#119132;` | &#119132; | Breve               |
+| `&#119133;` | &#119133; | Whole note          |
+| `&#119134;` | &#119134; | Half note           |
+| `&#9833;`   | &#9833;   | Quarter note        |
+| `&#119135;` | &#119135; | Quarter note        |
+| `&sung;`    | &sung;    | 8th note            |
+| `&#9834;`   | &#9834;   | 8th note            |
+| `&#119136;` | &#119136; | 8th note            |
+| `&#9835;`   | &#9835;   | Beamed 8th note     |
+| `&#119137;` | &#119137; | 16th note           |
+| `&#9836;`   | &#9836;   | Beamed 16th note    |
+| `&#119094;` | &#119094; | Octave              |
+| `&#119057;` | &#119057; | Fermata             |
+| `&#119058;` | &#119058; | Breath mark         |
+| `&#119059;` | &#119059; | Caesura             |
+| `&#119046;` | &#119046; | Left repeat         |
+| `&#119047;` | &#119047; | Right repeat        |
+| `&#119048;` | &#119048; | Repeat              |
+| `&#119049;` | &#119049; | Dal Segno           |
+| `&#119050;` | &#119050; | Da Capo             |
+| `&#119051;` | &#119051; | Segno               |
+| `&#119052;` | &#119052; | Coda                |
+| `&#119183;` | &#119183; | Piano               |
+| `&#119184;` | &#119184; | Mezzo               |
+| `&#119185;` | &#119185; | Forte               |
+| `&#119186;` | &#119186; | Crescendo           |
+| `&#119187;` | &#119187; | Decrescendo         |
+| `&#119040;` | &#119040; | Single barline      |
+| `&#119041;` | &#119041; | Double barline      |
+| `&#119042;` | &#119042; | Final barline       |
+| `&#119217;` | &#119217; | Glissando up        |
+| `&#119218;` | &#119218; | Glissando down      |
+| `&#119188;` | &#119188; | Grace note          |
+| `&#119191;` | &#119191; | Turn                |
+| `&#119192;` | &#119192; | Inverted turn       |
+| `&#119081;` | &#119081; | Full measure rest   |
 | `&#119098;` | &#119098; | Dbl whole note rest |
-| `&#119099;` | &#119099; | Whole rest |
-| `&#119100;` | &#119100; | Half rest |
-| `&#119101;` | &#119101; | Quarter rest |
-| `&#119102;` | &#119102; | Eigth rest |
-| `&#119103;` | &#119103; | Sixteenth rest |
-| `&#119060;` | &#119060; | Brace |
-| `&#119061;` | &#119061; | Bracket |
-| `&#119163;` | &#119163; | Accent |
-| `&#119164;` | &#119164; | Staccato |
+| `&#119099;` | &#119099; | Whole rest          |
+| `&#119100;` | &#119100; | Half rest           |
+| `&#119101;` | &#119101; | Quarter rest        |
+| `&#119102;` | &#119102; | Eigth rest          |
+| `&#119103;` | &#119103; | Sixteenth rest      |
+| `&#119060;` | &#119060; | Brace               |
+| `&#119061;` | &#119061; | Bracket             |
+| `&#119163;` | &#119163; | Accent              |
+| `&#119164;` | &#119164; | Staccato            |
 
 <br>
 
 **Miscellaneous**:
-| Entity | Result| Title |
-| ---- | ---- | ---- |
-| `&spades;` | &spades; | Spade |
-| `&clubs;` | &clubs; | Club |
-| `&hearts;` | &hearts; | Heart |
-| `&diams;` | &diams; | Diamond |
-| `&star;`| &star; | Star |
-| `&#9812;`| &#9812; | King |
-| `&#9813;`| &#9813; | Queen |
-| `&#9814;`| &#9814; | Rook |
-| `&#9815;`| &#9815; | Bishop |
-| `&#9816;`| &#9816; | Knight |
-| `&#9817;`| &#9817; | Pawn |
-| `&starf;`| &starf; | Filled star |
-| `&female;`| &female; | Female |
-| `&male;`| &male; | Male |
-| `&para;` | &para; | Paragraph |
-| `&#167;` | &#167; | Selection sign |
-| `&#9992;` | &#9992; | Airplane |
-| `&#10007;` | &#10007; | Ballot X |
+
+| Entity     | Result   | Title          |
+| ---------- | -------- | -------------- |
+| `&spades;` | &spades; | Spade          |
+| `&clubs;`  | &clubs;  | Club           |
+| `&hearts;` | &hearts; | Heart          |
+| `&diams;`  | &diams;  | Diamond        |
+| `&star;`   | &star;   | Star           |
+| `&#9812;`  | &#9812;  | King           |
+| `&#9813;`  | &#9813;  | Queen          |
+| `&#9814;`  | &#9814;  | Rook           |
+| `&#9815;`  | &#9815;  | Bishop         |
+| `&#9816;`  | &#9816;  | Knight         |
+| `&#9817;`  | &#9817;  | Pawn           |
+| `&starf;`  | &starf;  | Filled star    |
+| `&female;` | &female; | Female         |
+| `&male;`   | &male;   | Male           |
+| `&para;`   | &para;   | Paragraph      |
+| `&#167;`   | &#167;   | Selection sign |
+| `&#9992;`  | &#9992;  | Airplane       |
+| `&#10007;` | &#10007; | Ballot X       |
 | `&#10008;` | &#10008; | Heavy Ballot X |
-| `&#9728;` | &#9728; | Black Sun |
-| `&#9788;` | &#9788; | White Sun |
-| `&#x2601;` | &#x2601; | Cloud |
-| `&#10052;` | &#10052; | Snowflake |
-| `&#x2602;` | &#x2602; | Umbrella |
-| `&not;` | &not; | Negation |
-| `&macr;` | &macr; | Spacing Macron |
-| `&laquo;` | &laquo; | Left quote |
-| `&raquo;` | &raquo; | Right quote |
-| `&ndash;` | &ndash; | En dash |
-| `&mdash;` | &mdash; | Em dash |
-| `&#8416;` | &#8416; | Circle slash |
-| `&#9752;` | &#9752; | Shamrock |
-| `&#9774;` | &#9774; | Peace symbol |
-| `&#10084;` | &#10084; | Heavy heart |
+| `&#9728;`  | &#9728;  | Black Sun      |
+| `&#9788;`  | &#9788;  | White Sun      |
+| `&#x2601;` | &#x2601; | Cloud          |
+| `&#10052;` | &#10052; | Snowflake      |
+| `&#x2602;` | &#x2602; | Umbrella       |
+| `&not;`    | &not;    | Negation       |
+| `&macr;`   | &macr;   | Spacing Macron |
+| `&laquo;`  | &laquo;  | Left quote     |
+| `&raquo;`  | &raquo;  | Right quote    |
+| `&ndash;`  | &ndash;  | En dash        |
+| `&mdash;`  | &mdash;  | Em dash        |
+| `&#8416;`  | &#8416;  | Circle slash   |
+| `&#9752;`  | &#9752;  | Shamrock       |
+| `&#9774;`  | &#9774;  | Peace symbol   |
+| `&#10084;` | &#10084; | Heavy heart    |
 
 <br>
 
 **Astrology**:
-| Entity | Result| Title |
-| ---- | ---- | ---- |
-| `&oplus;` | &oplus; | Earth |
-| `&#9793;` | &#9793; | Earth |
-| `&#9737;` | &#9737; | Sun |
-| `&#9790;` | &#9790; | Moon |
-| `&#9800;`| &#9800; | Aries |
-| `&#9801;`| &#9801; | Taurus |
-| `&#9802;`| &#9802; | Gemini |
-| `&#9803;`| &#9803; | Cancer |
-| `&#9804;`| &#9804; | Leo |
-| `&#9805;`| &#9805; | Virgo |
-| `&#9806;`| &#9806; | Libra |
-| `&#9807;`| &#9807; | Scorpio |
-| `&#9808;`| &#9808; | Sagittarius |
-| `&#9809;`| &#9809; | Capricorn |
-| `&#9810;`| &#9810; | Aquarius |
-| `&#9811;`| &#9811; | Pisces |
-| `&#9791;`| &#9791; | Mercury |
-| `&#9792;`| &#9792; | Venus|
-| `&female;`| &female; | Venus|
-| `&#9794;`| &#9794; | Mars |
-| `&male;`| &male; | Mars |
-| `&#9795;`| &#9795; | Jupiter |
-| `&#9796;`| &#9796; | Saturn |
-| `&#9797;`| &#9797; | Uranus |
-| `&#9798;`| &#9798; | Neptune |
-| `&#9799;`| &#9799; | Pluto |
-| `&#9738;`| &#9738; | Ascending node |
-| `&#9739;`| &#9739; | Descending node |
-| `&#9740;`| &#9740; | Conjunction (0&deg;) |
-| `&#9914;`| &#9914; | Semi-sextile (30&deg;) |
-| `&ang;`| &ang; | Semi-square (45&deg;) |
-| `&#9913;`| &#9913; | Sextile (60&deg;) |
-| `&#9744;`| &#9744; | Square (90&deg;) |
-| ``| | Trine (120&deg;) | | `&#9915;`| &#9915; | Quincunx (150&deg;) | | `&#9741;`| &#9741; | Opposition (180&deg;) |
+
+| Entity     | Result   | Title                  |
+| ---------- | -------- | ---------------------- | --- | --------- | ------- | ------------------- | --- | --------- | ------- | --------------------- |
+| `&oplus;`  | &oplus;  | Earth                  |
+| `&#9793;`  | &#9793;  | Earth                  |
+| `&#9737;`  | &#9737;  | Sun                    |
+| `&#9790;`  | &#9790;  | Moon                   |
+| `&#9800;`  | &#9800;  | Aries                  |
+| `&#9801;`  | &#9801;  | Taurus                 |
+| `&#9802;`  | &#9802;  | Gemini                 |
+| `&#9803;`  | &#9803;  | Cancer                 |
+| `&#9804;`  | &#9804;  | Leo                    |
+| `&#9805;`  | &#9805;  | Virgo                  |
+| `&#9806;`  | &#9806;  | Libra                  |
+| `&#9807;`  | &#9807;  | Scorpio                |
+| `&#9808;`  | &#9808;  | Sagittarius            |
+| `&#9809;`  | &#9809;  | Capricorn              |
+| `&#9810;`  | &#9810;  | Aquarius               |
+| `&#9811;`  | &#9811;  | Pisces                 |
+| `&#9791;`  | &#9791;  | Mercury                |
+| `&#9792;`  | &#9792;  | Venus                  |
+| `&female;` | &female; | Venus                  |
+| `&#9794;`  | &#9794;  | Mars                   |
+| `&male;`   | &male;   | Mars                   |
+| `&#9795;`  | &#9795;  | Jupiter                |
+| `&#9796;`  | &#9796;  | Saturn                 |
+| `&#9797;`  | &#9797;  | Uranus                 |
+| `&#9798;`  | &#9798;  | Neptune                |
+| `&#9799;`  | &#9799;  | Pluto                  |
+| `&#9738;`  | &#9738;  | Ascending node         |
+| `&#9739;`  | &#9739;  | Descending node        |
+| `&#9740;`  | &#9740;  | Conjunction (0&deg;)   |
+| `&#9914;`  | &#9914;  | Semi-sextile (30&deg;) |
+| `&ang;`    | &ang;    | Semi-square (45&deg;)  |
+| `&#9913;`  | &#9913;  | Sextile (60&deg;)      |
+| `&#9744;`  | &#9744;  | Square (90&deg;)       |
+| ``         |          | Trine (120&deg;)       |     | `&#9915;` | &#9915; | Quincunx (150&deg;) |     | `&#9741;` | &#9741; | Opposition (180&deg;) |
 
 <br>
 
 **Esoteric**:
-| Entity | Result| Title |
-| ---- | ---- | ---- |
-| `&#8501;`| &#8501; | Aleph |
-| `&#8502;`| &#8502; | Bet/Beth |
-| `&#8503;`| &#8503; | Gimel |
-| `&#8504;`| &#8504; | Dalet/Daleth |
-| `&#9764;`| &#9764; | Caduceus Staff |
-| `&#9877;`| &#9877; | Staff of Aesculapius |
-| `&#9765;`| &#9765; | Ankh |
-| `&#9766;`| &#9766; | Orthodox Cross |
-| `&#9767;`| &#9767; | Chi Rho |
-| `&#9768;`| &#9768; | Cross or Lorraine |
-| `&#9769;`| &#9769; | Cross of Jerusalem |
-| `&#9775;`| &#9775; | Yin Yan, Ying Yang |
-| `&#9776;`| &#9776; | Heaven I-Ching |
-| `&#9777;`| &#9777; | Lake |
-| `&#9778;`| &#9778; | Fire |
-| `&#9779;`| &#9779; | Thunder |
-| `&#9780;`| &#9780; | Wind |
-| `&#9781;`| &#9781; | Water |
-| `&#9782;`| &#9782; | Mountain |
-| `&#9783;`| &#9783; | Earth |
-| `&#9866;`| &#9866; | Yang |
-| `&#9867;`| &#9867; | Yin |
-| `&#9868;`| &#9868; | Greater Yang |
-| `&#9869;`| &#9869; | Greater Yin |
-| `&#9870;`| &#9870; | Lesser Yang |
-| `&#9871;`| &#9871; | Lesser Yin |
-| `&#9784;`| &#9784; | Wheel of Dharma |
-| `&#10017;`| &#10017; | Seal of Solomon |
-| `&#10029;`| &#10029; | Pentagram |
+
+| Entity     | Result   | Title                |
+| ---------- | -------- | -------------------- |
+| `&#8501;`  | &#8501;  | Aleph                |
+| `&#8502;`  | &#8502;  | Bet/Beth             |
+| `&#8503;`  | &#8503;  | Gimel                |
+| `&#8504;`  | &#8504;  | Dalet/Daleth         |
+| `&#9764;`  | &#9764;  | Caduceus Staff       |
+| `&#9877;`  | &#9877;  | Staff of Aesculapius |
+| `&#9765;`  | &#9765;  | Ankh                 |
+| `&#9766;`  | &#9766;  | Orthodox Cross       |
+| `&#9767;`  | &#9767;  | Chi Rho              |
+| `&#9768;`  | &#9768;  | Cross or Lorraine    |
+| `&#9769;`  | &#9769;  | Cross of Jerusalem   |
+| `&#9775;`  | &#9775;  | Yin Yan, Ying Yang   |
+| `&#9776;`  | &#9776;  | Heaven I-Ching       |
+| `&#9777;`  | &#9777;  | Lake                 |
+| `&#9778;`  | &#9778;  | Fire                 |
+| `&#9779;`  | &#9779;  | Thunder              |
+| `&#9780;`  | &#9780;  | Wind                 |
+| `&#9781;`  | &#9781;  | Water                |
+| `&#9782;`  | &#9782;  | Mountain             |
+| `&#9783;`  | &#9783;  | Earth                |
+| `&#9866;`  | &#9866;  | Yang                 |
+| `&#9867;`  | &#9867;  | Yin                  |
+| `&#9868;`  | &#9868;  | Greater Yang         |
+| `&#9869;`  | &#9869;  | Greater Yin          |
+| `&#9870;`  | &#9870;  | Lesser Yang          |
+| `&#9871;`  | &#9871;  | Lesser Yin           |
+| `&#9784;`  | &#9784;  | Wheel of Dharma      |
+| `&#10017;` | &#10017; | Seal of Solomon      |
+| `&#10029;` | &#10029; | Pentagram            |
 
 NOTE: I ned to get the number ranges for the categories of entities. Check out the first entry of HTML symbols on W3Schools called [UTF-8 General Punctuation](https://www.w3schools.com/charsets/ref_utf_punctuation.asp).
 
 <br>
 
 **Hotkey list**:
-| Key | Symbol |
-| --- | --- |
-| Option | ⌥ |
-| Control | ⌃ |
-| Command | ⌘ |
-| Shift | ⇧ |
-| Caps Lock | ⇪ |
-| Tab | ⇥ |
-| Esc | ⎋ |
-| Power | ⌽ |
-| Return | ↩ |
-| Delete | ⌫ |
+
+| Key       | Symbol |
+| --------- | ------ |
+| Option    | ⌥      |
+| Control   | ⌃      |
+| Command   | ⌘      |
+| Shift     | ⇧      |
+| Caps Lock | ⇪      |
+| Tab       | ⇥      |
+| Esc       | ⎋      |
+| Power     | ⌽      |
+| Return    | ↩      |
+| Delete    | ⌫      |
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
@@ -1709,13 +1710,24 @@ Here is an example of an Emoji in an `<a>` tag: <a href="#emojis">:smile: Emoji 
 
 And here are 2 images with `width="200px"` in a table. The first has `align="right"` and the second has `align="left"`:
 
-|                                                                   |                                                                  |
-| :---------------------------------------------------------------: | :--------------------------------------------------------------: |
-| <img src="./graphic-design-tips.jpg" width="200px" align="right"> | <img src="./graphic-design-tips.jpg" width="200px" align="left"> |
+<table>
+  <thead>
+    <tr>
+      <th>Column 1</th>
+      <th>Column 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="./graphic-design-tips.jpg" width="200px" align="right" alt="image in left column to show how images display in a table"></td>
+      <td><img src="./graphic-design-tips.jpg" width="200px" align="left" alt="image in right column to show how images display in a table"></td>
+    </tr>
+  </tbody>
+</table>
 
 It appears if you want to get 2 or more images/graphics on a row, you need to put them in table cells or nest them in `<span>` tags. Note that the actual href values are to my website but they are linking to github and are links that open in a new page. Here is the image with a `title`, and a `<div>` tag with `align="center"` though you could use `align="right"` as well:
 
-<div align="center"><img src="./graphic-design-tips.jpg" width="200px" title="Image example"></div>
+<div align="center"><img src="./graphic-design-tips.jpg" width="200px" alt="Image example" alt="Image example"></div>
 
 <br>
 
@@ -1759,7 +1771,7 @@ I will be adding notes here on how to add videos to markdown files on GitHub. He
 
 [![Watch the video](./markdown-image.png)](https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164)
 
-[<img src="./markdown-image.png" width="600" height="300"
+[<img src="./markdown-image.png" width="300" height="200" alt="larger image size"
 />](https://player.vimeo.com/external/194837908.sd.mp4?s=c350076905b78c67f74d7ee39fdb4fef01d12420&profile_id=164)
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
@@ -1876,6 +1888,8 @@ Button as a link without underlin:
 
 ## Resources
 
+Reference guide to other sources:
+
 1. [Daring Fireball](https://daringfireball.net/projects/markdown/basics 'Detailed markdown syntax') - more markdown documentation
 1. [markdown-it](https://markdown-it.github.io/)
 1. [Complete list of github markdown emojis](https://dev.to/nikolab/complete-list-of-github-markdown-emoji-markup-5aia) - Emojis list
@@ -1886,6 +1900,7 @@ Button as a link without underlin:
 1. [HTML Entities2](http://mcdlr.com/8/) - maybe only a few unique vs the above link
 1. [Shields.io](https://shields.io/) - Shields for your projects
 1. [Devicons on Github](https://github.com/devicons/devicon/tree/master/icons): scan the list for icons you want to use.
+1. [highlight.js](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md): A list of the languages for the language code blocks.
 
 <div align="right">&#8673; <a href="#back-to-top" title="Table of Contents">Back to Top</a></div>
 
