@@ -166,14 +166,21 @@ Squoosh: conversion to WebP and optimization
 
 ## SEO Tips
 
-1. Use a markdown to HTML conversion tool to convert your README
+1. Use a markdown to HTML conversion tool to convert your README to HTML
    - load the HTML version with Live Server
-   - Run a Lighthouse report and look at the errors/warnings
+   - Run a Lighthouse report and look at the errors/warnings for SEO & Accessibility
    - Make all the changes you have control over
-2. Don't use task lists because Lighthouse flags them for not having labels
-3. Download ans install Local WP > create a simple 1 page WordPress site with a block theme > copy/paste your HTML (inside the `<body>` tag) and add it to a Custom HTML block > Add an SEO Tool to the WordPress install (RankMath)
-   - Add your SEO keyword phrase and make changes to the text based on what the plugin recommends
+2. Download ans install Local WP
+3. create a simple 1 page WordPress site with a block theme
+4. copy/paste your HTML (inside the `<body>` tag) and add it to a Custom HTML block
+5. Add an SEO plugin to the WordPress install (RankMath)
+   - Add your SEO keyword phrase and make changes to the text/HTML based on what the plugin recommends
    - This will make sure your README text has the right % of Keywords and other related SEO & Accessibility factors
+6. Install an accessibility plugin (Equalize Digital Accessibility Checker)
+   - this may show accessibility issues that Lightthouse missed
+7. You could opt to install the chrome extension [WAVE Web Accessibility Evaluation Tools](https://wave.webaim.org/extension/) and look at the issues and errors.
+
+NOTE: Don't use task lists because Lighthouse flags them for not having labels
 
 ## SEO Checklist
 
