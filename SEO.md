@@ -205,15 +205,13 @@ NOTE: Don't use task lists because Lighthouse flags them for not having labels
 
 Repos to-do:
 
-- this one
-- profile readme
-- what-chord-is-this
 - codeCompare
-- typescript-virtual-keyboard or WriterAssist
-- tarp-configs
-- guitar-chord-names
+- what-chord-is-this
 - beginner-git-commands
 - personal-portfolio
+- guitar-chord-names
+- typescript-virtual-keyboard or WriterAssist
+- tarp-configs
 - github-actions-dotfiles?
 
 -->
