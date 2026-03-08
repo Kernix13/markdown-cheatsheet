@@ -151,4 +151,8 @@ Credit datasets, tutorials, or inspiration.
 
 ## Contributing
 
+Contributions are welcome! If you'd like to help improve this project, please read our [contribution guidelines](#) on how to get started, our workflow, and code style expectations.
+
 ## License
+
+This project is licensed under the MIT License.
