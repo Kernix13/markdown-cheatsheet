@@ -456,6 +456,35 @@ I decided to search on Google and only look for GitHub results so that I could a
 
 ---
 
+## New list of metrics
+
+I will start building an .xls/csv file
+
+- Repo name:
+- Search Phrase:
+- GitHub Explore Rank:
+- README file word count:
+- Google SERP Rank:
+- SERP URL:
+- SEO Title:
+- Meta Description:
+- Repo Description (About/sidebar):
+- Forks:
+- Stars:
+- Contributors:
+- Live link:
+- Last update:
+- H1 count
+- H2 count
+- Number of sections
+- Table of contents (yes/no)
+- Images count
+- Badges count
+- Code blocks count
+- Internal links (to repo files)
+- External links
+- Number of topics
+
 <!--
 
 ## Example 3:
