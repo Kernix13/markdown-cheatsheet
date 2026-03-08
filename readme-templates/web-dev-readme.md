@@ -15,6 +15,13 @@ Intro paragraph (VERY important for SEO)
 
 Screenshot / GIF demo
 
+## Project Overview
+
+More in-depth explanation than the intro paragraph of:
+
+- the idea for the project
+- the problem it solves
+
 ## Features
 
 - Features = capabilities of the software/app, end-user features

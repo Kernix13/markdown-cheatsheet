@@ -169,7 +169,7 @@ Squoosh: conversion to WebP and optimization
 - compression ~ 75–85
 - download optimized image
 
-## SEO Tips
+## Steps to improve your README SEO
 
 1. Use a markdown to HTML conversion tool to convert your README to HTML
    - load the HTML version with Live Server
@@ -196,6 +196,12 @@ NOTE: Don't use task lists because Lighthouse flags them for not having labels
 5. Convert markdown to HTML
 6. Run SEO & Accessibility analysis on the HTML version
 7. Update markdown
+
+---
+
+## SEO Test
+
+I want to do an analysis on one of my repos and see if any steps should be removed or is any should be added
 
 <!--
 ## Checklist for this repo:

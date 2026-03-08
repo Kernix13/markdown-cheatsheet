@@ -10,7 +10,7 @@ Screenshot / visualization preview
 
 ## Project Overview
 
-Brief explanation of:
+More in-depth explanation than the intro paragraph of:
 
 - the goal of the analysis
 - the dataset used
