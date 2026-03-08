@@ -51,16 +51,61 @@ Or
 
 - Installation = getting the project onto your system
 
+Example:
+
+```sh
+# Clone this repo
+git clone https://github.com/USERNAME/REPONAME.git
+
+# Change into project directory
+cd REPONAME
+
+# Install dependencies
+npm install
+```
+
 ### API (if applicable)
 
 ## Usage
 
 - Usage = how to run or interact with the project after installing
 
+```sh
+# Start the development server
+npm run dev
+```
+
 ## Project Structure
+
+Example
+
+```py
+/
+├── README.md
+├── LICENSE
+├── CODE_OF_CONDUCT.md
+├── CONTRIBUTING.md
+├── package.json            # Dependencies and scripts
+├── server.js               # Express server handling API requests
+├── public/
+│   ├── index.html
+│   ├── css/
+│   ├── js/
+│   │   ├── index.js        # Main file for index.html
+│   ├── images/
+│   └── fonts/
+```
+
+## Future Improvements
+
+List items for future feature improvements and additions.
 
 ## Contributing
 
+Contributions are welcome! If you'd like to help improve this project, please read our [contribution guidelines](#) on how to get started, our workflow, and code style expectations.
+
 ## License
 
-> As an example, take a look at my README for my [vision-grid-express](https://github.com/Kernix13/vision-grid-express) project.
+This project is licensed under the MIT License.
+
+> As an example, take a look at my README for my [vision-grid-express](https://github.com/Kernix13/vision-grid-express) project where I structured my README using the above template.
