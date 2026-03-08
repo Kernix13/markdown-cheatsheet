@@ -57,7 +57,7 @@ One answer would be to make the README accessible. See [5 tips for making your G
 
 ### Use Google Search Console
 
-- Add your GitHub repository or GitHub Pages URL to Google Search Console
+- Add your GitHub repository or GitHub Page(s) URL to Google Search Console
 - Use the "URL Inspection" tool to request indexing for new or updated pages
 
 ## ChatGPT reasons for repos ranking in the SERPs

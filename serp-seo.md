@@ -66,9 +66,11 @@ I decided to search on Google and only look for GitHub results so that I could a
 
 ## Example 1: Markdown Cheatsheet
 
+- Search Phrase: markdown cheatsheet
 - Type: Wiki
 - File word count:
-- SERP Rank: #2
+- GitHub Explore Rank: #17
+- Google SERP Rank: #2
 - URL: <https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet>
 - SEO Title: Markdown Cheatsheet
 - Meta Description: This is intended as a quick reference and showcase. For more complete info, see John Gruber's original spec and the Github-flavored Markdown info page.
@@ -77,8 +79,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - Forks: 11.1k?
 - Stars: 60.2k?
 - License: MIT
-- Contributing.md: y
-- Code_of_Conduct.md: n
 - Contributors: 14?
 - Live link: -
 - Last update: 8 months ago
@@ -91,9 +91,11 @@ I decided to search on Google and only look for GitHub results so that I could a
 
 ## Example 2: The Ultimate Markdown Cheat Sheet
 
+- Search Phrase: markdown cheat sheet
 - Type: README
 - File word count:
-- SERP Rank: #26
+- GitHub Explore Rank: #4
+- Google SERP Rank: #26
 - URL: <https://github.com/lifeparticle/Markdown-Cheatsheet>
 - SEO Title: The Ultimate Markdown Cheat Sheet
 - Meta Description: This guide will provide you with a comprehensive understanding of the key commands in GitHub Flavored Markdown (GFM), it is a strict superset of CommonMark.
@@ -102,8 +104,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - Forks: 196
 - Stars: 790
 - License: MIT
-- Contributing.md: y
-- Code_of_Conduct.md: n
 - Contributors: 7
 - Live link: https://mahbub.ninja/blog/post/2021-04-09_The-Ultimate-Markdown-Cheat-Sheet-3d3976b31a0
 - Last update: 8 months ago
@@ -116,36 +116,17 @@ I decided to search on Google and only look for GitHub results so that I could a
 
 ## Example 3: Markdown Here Cheatsheet
 
-> Why is this a repeat of example 1?
-
-- Type: Wiki
-- File word count:
-- SERP Rank: # 106
-- URL: <https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet>
-- SEO Title: Markdown Here Cheatsheet
-- Meta Description: This cheatsheet is specifically Markdown Here's version of Github-flavored Markdown. This differs slightly in styling and syntax from what Github uses.
-- Repo Description (sidebar): Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending
-- Watch: 988?
-- Forks: 11.1k?
-- Stars: 60.2k?
-- License: MIT
-- Contributing.md: y
-- Code_of_Conduct.md: n
-- Contributors: 14?
-- Live link: -
-- Last update: 8 months ago
-
-### SEO Analysis
-
-1.
+> adap-p REPEAT - REMOVED
 
 ---
 
 ## Example 4:
 
+- Search Phrase: git commands cheat sheet
 - Type: Markdown file
 - File word count:
-- SERP Rank: #20
+- GitHub Explore Rank: -
+- Google SERP Rank: #20
 - URL: <https://github.com/WebDevStudios/CLI-Cheat-Sheet/blob/master/git-commands.md>
 - SEO Title: CLI-Cheat-Sheet/git-commands.md at master
 - Meta Description: git checkout \<branch-name\> - Allows you to switch between git branches, adding the -b flag creates the branch you are switching to if it doesn't already exist
@@ -154,8 +135,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - Forks: 68
 - Stars: 315
 - License: -
-- Contributing.md: n
-- Code_of_Conduct.md: n
 - Contributors: 16?
 - Live link: -
 - Last update: 5 years ago
@@ -168,9 +147,11 @@ I decided to search on Google and only look for GitHub results so that I could a
 
 ## Example 5:
 
+- Search Phrase: git commands cheat sheet
 - Type: README
 - File word count:
-- SERP Rank: #55
+- GitHub Explore Rank: #31
+- Google SERP Rank: #55
 - URL: <https://github.com/Sunil-Pradhan/git-cheat-sheet>
 - SEO Title: Git Cheat Sheet
 - Meta Description: Git is the free and open source distributed version control system. This cheat sheet saves you from learning all the commands by heart and features the most ...
@@ -179,8 +160,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - Forks: 3
 - Stars: 10
 - License: GPL
-- Contributing.md: n
-- Code_of_Conduct.md: n
 - Contributors: 1
 - Live link: -
 - Last update: 6 years ago
@@ -193,9 +172,11 @@ I decided to search on Google and only look for GitHub results so that I could a
 
 ## Example 6: Git and Git Flow Cheat Sheet
 
+- Search Phrase: git cheat sheet
 - Type: README
 - File word count:
-- SERP Rank: #26
+- GitHub Explore Rank: #2
+- Google SERP Rank: #26
 - URL: <https://github.com/arslanbilal/git-cheat-sheet>
 - SEO Title: arslanbilal/git-cheat-sheet: :octocat: git and git flow ...
 - Meta Description: This comprehensive Git cheat sheet helps you master Git commands without memorizing everything. Whether you're a beginner or an experienced developer, ...
@@ -204,8 +185,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - Forks: 1.5k
 - Stars: 7.3k
 - License: -
-- Contributing.md: n
-- Code_of_Conduct.md: n
 - Contributors: 54
 - Live link: -
 - Last update: 8 months ago
@@ -218,9 +197,11 @@ I decided to search on Google and only look for GitHub results so that I could a
 
 ## Example 7: Git Cheat Sheet
 
+- Search Phrase: git cheat sheet
 - Type: Gist
 - File word count:
-- SERP Rank: #66
+- GitHub Explore Rank: -
+- Google SERP Rank: #66
 - URL: <https://gist.github.com/bvdbasch/9e6adf5d1afbb17ac65670251730100a>
 - SEO Title: Git Cheat Sheet
 - Meta Description: Git Cheat Sheet. GitHub Gist: instantly share code, notes, and snippets.
@@ -229,8 +210,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - Forks: 0
 - Stars: 0
 - License: -
-- Contributing.md: n
-- Code_of_Conduct.md: n
 - Contributors: 1
 - Live link: -
 - Last update: last year
@@ -243,9 +222,11 @@ I decided to search on Google and only look for GitHub results so that I could a
 
 ## Example 8: Bash Cheat Sheet
 
+- Search Phrase: shell commands cheat sheet
 - Type: README
 - File word count:
-- SERP Rank: #13
+- GitHub Explore Rank: 1
+- Google SERP Rank: #13
 - URL: <https://github.com/RehanSaeed/Bash-Cheat-Sheet>
 - SEO Title: A cheat sheet for bash commands.
 - Meta Description: A cheat sheet for bash commands. Command History !! # Run the last command touch foo.sh chmod +x !$ # !$ is the last argument of the last command ie foo.sh
@@ -254,8 +235,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - Forks: 453
 - Stars: 1.5k
 - License: MIT
-- Contributing.md: n
-- Code_of_Conduct.md: n
 - Contributors: 2
 - Live link: -
 - Last update: 3 years ago
@@ -270,9 +249,11 @@ I decided to search on Google and only look for GitHub results so that I could a
 
 > This one is odd with a redirect link in the .md file?!?
 
+- Search Phrase: shell commands cheat sheet
 - Type: Markdown file
 - File word count:
-- SERP Rank: #35
+- GitHub Explore Rank: -
+- Google SERP Rank: #35
 - URL: <https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md>
 - SEO Title: Reverse Shell Cheatsheet.md
 - Meta Description: A list of useful payloads and bypass for Web Application Security and Pentest/CTF - PayloadsAllTheThings/Methodology and Resources/Reverse Shell ...
@@ -281,8 +262,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - Forks: 16.7k
 - Stars: 75.7k
 - License: MIT
-- Contributing.md: y
-- Code_of_Conduct.md: n
 - Contributors: 299
 - Live link: https://swisskyrepo.github.io/PayloadsAllTheThings/
 - Last update: last year
@@ -295,9 +274,11 @@ I decided to search on Google and only look for GitHub results so that I could a
 
 ## Example 10: 30 seconds of code
 
+- Search Phrase: javascript code snippets
 - Type: README
 - File word count:
-- SERP Rank: #28
+- GitHub Explore Rank: 5
+- Google SERP Rank: #28
 - URL: <https://github.com/Chalarangelo/30-seconds-of-code>
 - SEO Title: Chalarangelo/30-seconds-of-code
 - Meta Description: Browse all articles or individual collections for each topic. Click on each card to view the whole article, including code snippets, explanation and examples.
@@ -306,8 +287,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - Forks: 12.4k
 - Stars: 127k
 - License: CC-BY
-- Contributing.md: y
-- Code_of_Conduct.md: y
 - Contributors: 311
 - Live link: https://30secondsofcode.org/
 - Last update: last week
@@ -320,9 +299,11 @@ I decided to search on Google and only look for GitHub results so that I could a
 
 ## Example 11: JavaScript Interview Questions & Answers
 
+- Search Phrase: javascript code snippets
 - Type: README
 - File word count:
-- SERP Rank: # 102
+- GitHub Explore Rank: -
+- Google SERP Rank: # 102
 - URL: <https://github.com/sudheerj/javascript-interview-questions>
 - SEO Title: sudheerj/javascript-interview-questions: List of 1000 ...
 - Meta Description: Skip to content. Navigation Menu. Toggle navigation. Sign in. Appearance settings. Platform. AI CODE CREATION. GitHub CopilotWrite better code with AI.
@@ -331,8 +312,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - Forks: 7.6k
 - Stars: 27.2k
 - License: -
-- Contributing.md: n
-- Code_of_Conduct.md: n
 - Contributors: 128
 - Live link: -
 - Last update: 3 months ago
@@ -345,9 +324,11 @@ I decided to search on Google and only look for GitHub results so that I could a
 
 ## Example 12: Python Code Snippets: Your Ultimate Guide
 
+- Search Phrase: python code snippets
 - Type: README
 - File word count:
-- SERP Rank: #5
+- GitHub Explore Rank:
+- Google SERP Rank: #5
 - URL: <https://github.com/aminzayer/PythonCodeSnippets>
 - SEO Title: Python Code Snippets: Your Ultimate Guide
 - Meta Description: In this guide, we'll explore 50 essential Python code snippets that cover a wide range of tasks, from file handling to data manipulation and everything in ...
@@ -356,8 +337,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - Forks: 3
 - Stars: 9
 - License: MIT
-- Contributing.md: n
-- Code_of_Conduct.md: n
 - Contributors: 2
 - Live link: -
 - Last update: 3 years ago
@@ -370,9 +349,11 @@ I decided to search on Google and only look for GitHub results so that I could a
 
 ## Example 13: PySnippets - A Python Package for Reusable Code Snippets
 
+- Search Phrase: python code snippets
 - Type: README
 - File word count:
-- SERP Rank: #19
+- GitHub Explore Rank: 31
+- Google SERP Rank: #19
 - URL: <https://github.com/UTSAVS26/PySnippets>
 - SEO Title: Collection of reusable Python code snippets for all.
 - Meta Description: A Python package that offers a collection of reusable code snippets designed to solve common programming challenges and perform everyday tasks.
@@ -381,8 +362,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - Forks: 69
 - Stars: 39
 - License: MIT
-- Contributing.md: y
-- Code_of_Conduct.md: y
 - Contributors: 45
 - Live link: -
 - Last update: last year
@@ -395,9 +374,11 @@ I decided to search on Google and only look for GitHub results so that I could a
 
 ## Example 14: TypeScript Snippets
 
+- Search Phrase: typescript code snippets
 - Type: README
 - File word count:
-- SERP Rank: #10
+- GitHub Explore Rank: -
+- Google SERP Rank: #10
 - URL: <https://github.com/kcsuraj/typescript-snippets>
 - SEO Title: Collection of useful TypeScript snippets
 - Meta Description: This repository is a collection of useful TypeScript code snippets that can be used in TypeScript based projects. Checkout the snippets here: ...
@@ -406,8 +387,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - Forks: 0
 - Stars: 2
 - License: -
-- Contributing.md: n
-- Code_of_Conduct.md: n
 - Contributors: 1
 - Live link: https://kcsuraj.github.io/typescript-snippets/?path=/story/typescript-access-array-element-type--page
 - Last update: 6 years ago
@@ -420,9 +399,11 @@ I decided to search on Google and only look for GitHub results so that I could a
 
 ## Example 15: Tricky C# Questions & Answers
 
+- Search Phrase: c# code snippets
 - Type: README
 - File word count:
-- SERP Rank: #20
+- GitHub Explore Rank: -
+- Google SERP Rank: #20
 - URL: <https://github.com/narekmalk/c-sharp-questions>
 - SEO Title: Tricky C# Questions & Answers
 - Meta Description: Tricky C# questions and answers ... Test your C# knowledge before an interview with these questions of type "what's the output of the following code snippet".
@@ -431,8 +412,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - Forks: 4
 - Stars: 33
 - License: -
-- Contributing.md: n
-- Code_of_Conduct.md: n
 - Contributors: 1
 - Live link: -
 - Last update: last year
@@ -445,9 +424,11 @@ I decided to search on Google and only look for GitHub results so that I could a
 
 ## Example 16: C# Code Snippets for Visual Studio
 
+- Search Phrase: c# code snippets
 - Type: README
 - File word count:
-- SERP Rank: #64
+- GitHub Explore Rank: -
+- Google SERP Rank: #64
 - URL: <https://github.com/matlus/CSharpCodeSnippets>
 - SEO Title: C# Code Snippets for Visual Studio
 - Meta Description: Code snippet for declaring a public method that in turn calls out to a virtual/abstract method with the same name with a suffix of Core.
@@ -456,8 +437,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - Forks: 1
 - Stars: 1
 - License: -
-- Contributing.md: n
-- Code_of_Conduct.md: n
 - Contributors: 1
 - Live link: -
 - Last update: 6 years ago
@@ -470,9 +449,11 @@ I decided to search on Google and only look for GitHub results so that I could a
 
 ## Example 17: Companion notebooks for Deep Learning with Python
 
+- Search Phrase: deep learning python
 - Type: README
 - File word count:
-- SERP Rank: #6
+- GitHub Explore Rank: 1
+- Google SERP Rank: #6
 - URL: <https://github.com/fchollet/deep-learning-with-python-notebooks>
 - SEO Title: fchollet/deep-learning-with-python-notebooks: Jupyter ...
 - Meta Description: This repository contains Jupyter notebooks implementing the code samples found in the book Deep Learning with Python, third edition (2025) by Francois ...
@@ -481,8 +462,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - Forks: 9k
 - Stars: 20k
 - License: MIT
-- Contributing.md: n
-- Code_of_Conduct.md: n
 - Contributors: 9
 - Live link: -
 - Last update: 6 months ago
@@ -497,9 +476,11 @@ I decided to search on Google and only look for GitHub results so that I could a
 
 ## Example 3:
 
+- Search Phrase:
 - Type:
+- GitHub Explore Rank:
 - File word count:
-- SERP Rank:
+- Google SERP Rank:
 - URL:
 - SEO Title:
 - Meta Description:
@@ -508,8 +489,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - Forks:
 - Stars:
 - License:
-- Contributing.md:
-- Code_of_Conduct.md:
 - Contributors:
 - Live link:
 - Last update:
