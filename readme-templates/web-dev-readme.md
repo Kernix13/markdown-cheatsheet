@@ -37,7 +37,7 @@ Try the project here: https://project-demo.com
 
 ## Technologies Used
 
-- simple table of things like Node, npm, Express, etc.
+- If applicable: simple table of things like Node, npm, Express, etc.
 
 Example:
 
@@ -106,6 +106,10 @@ Example
 ## Future Improvements
 
 List items for future feature improvements and additions.
+
+## Acknowledgments
+
+Credit to libraries, tutorials, blog posts, etc.
 
 ## Contributing
 

@@ -75,7 +75,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - SEO Title: Markdown Cheatsheet
 - Meta Description: This is intended as a quick reference and showcase. For more complete info, see John Gruber's original spec and the Github-flavored Markdown info page.
 - Repo Description (sidebar): Google Chrome, Firefox, and Thunderbird extension that lets you write email in Markdown and render it before sending
-- Watch: 988?
 - Forks: 11.1k?
 - Stars: 60.2k?
 - License: MIT
@@ -100,7 +99,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - SEO Title: The Ultimate Markdown Cheat Sheet
 - Meta Description: This guide will provide you with a comprehensive understanding of the key commands in GitHub Flavored Markdown (GFM), it is a strict superset of CommonMark.
 - Repo Description (sidebar): The Ultimate Markdown Cheatsheet
-- Watch: 11
 - Forks: 196
 - Stars: 790
 - License: MIT
@@ -131,7 +129,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - SEO Title: CLI-Cheat-Sheet/git-commands.md at master
 - Meta Description: git checkout \<branch-name\> - Allows you to switch between git branches, adding the -b flag creates the branch you are switching to if it doesn't already exist
 - Repo Description (sidebar): A command line cheat sheet. (CLI is not a scary place!)
-- Watch: 83
 - Forks: 68
 - Stars: 315
 - License: -
@@ -156,7 +153,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - SEO Title: Git Cheat Sheet
 - Meta Description: Git is the free and open source distributed version control system. This cheat sheet saves you from learning all the commands by heart and features the most ...
 - Repo Description (sidebar): Compilation of essential Git commands which you will be using frequently while you are working with Git
-- Watch: 1
 - Forks: 3
 - Stars: 10
 - License: GPL
@@ -181,7 +177,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - SEO Title: arslanbilal/git-cheat-sheet: :octocat: git and git flow ...
 - Meta Description: This comprehensive Git cheat sheet helps you master Git commands without memorizing everything. Whether you're a beginner or an experienced developer, ...
 - Repo Description (sidebar): git and git flow cheat sheet
-- Watch: 135
 - Forks: 1.5k
 - Stars: 7.3k
 - License: -
@@ -206,7 +201,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - SEO Title: Git Cheat Sheet
 - Meta Description: Git Cheat Sheet. GitHub Gist: instantly share code, notes, and snippets.
 - Repo Description (sidebar): -
-- Watch: n/a
 - Forks: 0
 - Stars: 0
 - License: -
@@ -231,7 +225,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - SEO Title: A cheat sheet for bash commands.
 - Meta Description: A cheat sheet for bash commands. Command History !! # Run the last command touch foo.sh chmod +x !$ # !$ is the last argument of the last command ie foo.sh
 - Repo Description (sidebar): A cheat sheet for bash commands.
-- Watch: 19
 - Forks: 453
 - Stars: 1.5k
 - License: MIT
@@ -258,7 +251,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - SEO Title: Reverse Shell Cheatsheet.md
 - Meta Description: A list of useful payloads and bypass for Web Application Security and Pentest/CTF - PayloadsAllTheThings/Methodology and Resources/Reverse Shell ...
 - Repo Description (sidebar): A list of useful payloads and bypass for Web Application Security and Pentest/CTF
-- Watch: 1952?
 - Forks: 16.7k
 - Stars: 75.7k
 - License: MIT
@@ -283,7 +275,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - SEO Title: Chalarangelo/30-seconds-of-code
 - Meta Description: Browse all articles or individual collections for each topic. Click on each card to view the whole article, including code snippets, explanation and examples.
 - Repo Description (sidebar): Coding articles to level up your development skills
-- Watch: 2598
 - Forks: 12.4k
 - Stars: 127k
 - License: CC-BY
@@ -308,7 +299,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - SEO Title: sudheerj/javascript-interview-questions: List of 1000 ...
 - Meta Description: Skip to content. Navigation Menu. Toggle navigation. Sign in. Appearance settings. Platform. AI CODE CREATION. GitHub CopilotWrite better code with AI.
 - Repo Description (sidebar): List of 1000 JavaScript Interview Questions
-- Watch: 330
 - Forks: 7.6k
 - Stars: 27.2k
 - License: -
@@ -333,7 +323,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - SEO Title: Python Code Snippets: Your Ultimate Guide
 - Meta Description: In this guide, we'll explore 50 essential Python code snippets that cover a wide range of tasks, from file handling to data manipulation and everything in ...
 - Repo Description (sidebar):
-- Watch: 1
 - Forks: 3
 - Stars: 9
 - License: MIT
@@ -358,7 +347,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - SEO Title: Collection of reusable Python code snippets for all.
 - Meta Description: A Python package that offers a collection of reusable code snippets designed to solve common programming challenges and perform everyday tasks.
 - Repo Description (sidebar): A collection of commonly used Python code snippets for various programming tasks.
-- Watch: 1
 - Forks: 69
 - Stars: 39
 - License: MIT
@@ -383,7 +371,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - SEO Title: Collection of useful TypeScript snippets
 - Meta Description: This repository is a collection of useful TypeScript code snippets that can be used in TypeScript based projects. Checkout the snippets here: ...
 - Repo Description (sidebar): Collection of useful TypeScript snippets
-- Watch: 1
 - Forks: 0
 - Stars: 2
 - License: -
@@ -408,7 +395,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - SEO Title: Tricky C# Questions & Answers
 - Meta Description: Tricky C# questions and answers ... Test your C# knowledge before an interview with these questions of type "what's the output of the following code snippet".
 - Repo Description (sidebar): Tricky C# questions and answers
-- Watch: 1
 - Forks: 4
 - Stars: 33
 - License: -
@@ -433,7 +419,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - SEO Title: C# Code Snippets for Visual Studio
 - Meta Description: Code snippet for declaring a public method that in turn calls out to a virtual/abstract method with the same name with a suffix of Core.
 - Repo Description (sidebar): C# Code Snippets for Visual Studio
-- Watch: 1
 - Forks: 1
 - Stars: 1
 - License: -
@@ -458,7 +443,6 @@ I decided to search on Google and only look for GitHub results so that I could a
 - SEO Title: fchollet/deep-learning-with-python-notebooks: Jupyter ...
 - Meta Description: This repository contains Jupyter notebooks implementing the code samples found in the book Deep Learning with Python, third edition (2025) by Francois ...
 - Repo Description (sidebar): Jupyter notebooks for the code samples of the book "Deep Learning with Python"
-- Watch: 649
 - Forks: 9k
 - Stars: 20k
 - License: MIT
@@ -476,22 +460,33 @@ I decided to search on Google and only look for GitHub results so that I could a
 
 ## Example 3:
 
+- Repo name:
 - Search Phrase:
-- Type:
 - GitHub Explore Rank:
-- File word count:
+- README file word count:
 - Google SERP Rank:
-- URL:
+- SERP URL:
 - SEO Title:
 - Meta Description:
-- Repo Description (sidebar):
-- Watch:
+- Repo Description (About/sidebar):
 - Forks:
 - Stars:
-- License:
 - Contributors:
 - Live link:
 - Last update:
+- H1 count
+- H2 count
+- Number of sections
+- Table of contents (yes/no)
+- Images count
+- Badges count
+- Code blocks count
+- Internal links (to repo files)
+- External links
+- Number of topics
+- License: ❓
+- GitHub repo links: ❓❓
+- Exact keyword topic match (yes/no): ❓❓
 
 ### SEO Analysis
 

@@ -43,6 +43,7 @@ One answer would be to make the README accessible. See [5 tips for making your G
 - Add images or GIFs with keyword-rich alt text
 - Provide clear instructions on how to install/use the project and include code examples and badges
 - Add a clear call-to-action (CTA) encouraging users to star the project or contribute
+- **NOTE**: Even though GitHub provieds a table of contents, a table of contents helps with Google SEO and with accessibility - add one!!!
 
 ### Leverage GitHub Pages
 
@@ -162,7 +163,7 @@ PNG to WebP conversion!!!
 
 Task Lists - Replace with a normal list so that you do not get an error of "_Form elements do not have associated labels_"
 
-Squoosh: conversion to WebP and optimization
+[Squoosh](https://squoosh.app/): conversion to WebP and optimization
 
 - drag screenshot into Squoosh
 - select WebP
@@ -203,6 +204,8 @@ NOTE: Don't use task lists because Lighthouse flags them for not having labels
 
 I want to do an analysis on one of my repos and see if any steps should be removed or is any should be added
 
+1. codeCompare: Lighthouse did not show any issues, RankMath SEO WordPress plugin mentioned no image so I added 1 with the keyword in the alt text. Other than that, nothing much to change.
+
 <!--
 ## Checklist for this repo:
 
@@ -216,7 +219,8 @@ I want to do an analysis on one of my repos and see if any steps should be remov
 
 Repos to-do:
 
-- codeCompare
+- Kernix13, profile - done ✅
+- codeCompare - done ✅
 - what-chord-is-this
 - beginner-git-commands
 - personal-portfolio
@@ -284,5 +288,24 @@ Optional SEO Enhancements
 - Include keywords naturally in sections like “About Me,” “Skills,” or “Projects.”
 - Pin repositories that show your expertise in those skills. Google sometimes surfaces repos alongside your profile.
 - Add a short tagline in your GitHub bio (the small text under your avatar) with keywords:
+
+-->
+
+<!--
+github seo analysis
+github repo seo analysis
+github readme seo analysis
+
+github readme seo study
+github repository seo study
+github repository seo analysis
+github seo ranking analysis
+
+github seo data analysis
+github repo seo dataset
+github search ranking analysis
+
+- github-readme-seo - keyword = "github readme seo"
+  - github_repo_seo_dataset.csv
 
 -->
