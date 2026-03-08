@@ -32,6 +32,21 @@ Try the project here: https://project-demo.com
 
 - simple table of things like Node, npm, Express, etc.
 
+Example:
+
+| Tool       | Version  |
+| :--------- | :------- |
+| Node.js    | v22.20.0 |
+| npm        | 10.9.3   |
+| Express.js | ^5.2.0   |
+
+Or
+
+| Tool    | Version |
+| :------ | :------ |
+| Node.js | >= 22   |
+| npm     | >= 10   |
+
 ## Installation
 
 - Installation = getting the project onto your system
@@ -43,17 +58,6 @@ Try the project here: https://project-demo.com
 - Usage = how to run or interact with the project after installing
 
 ## Project Structure
-
-## Requirements
-
-Environment prerequisites.
-
-- Node.js >= 22
-- npm >= 10
-
-- Node.js: v22.20.0
-- npm: 10.9.3
-- Express.js: ^5.2.0
 
 ## Contributing
 
