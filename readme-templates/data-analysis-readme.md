@@ -156,3 +156,36 @@ Contributions are welcome! If you'd like to help improve this project, please re
 ## License
 
 This project is licensed under the MIT License.
+
+..............................................................................
+
+```
+# Project Name – short descriptive subtitle
+
+- Badges (optional)
+- Intro paragraph (VERY important for SEO)
+- Screenshot / visualization preview
+
+## Project Overview
+## Key Questions
+
+## Data Sources
+## Data Dictionary
+
+## Methodology
+## Visualizations
+## Key Findings
+
+## Technologies Used
+
+## Installation
+## Create a Virtual Environment
+## Usage
+
+## Project Structure
+
+## Future Improvements
+## Acknowledgments
+## Contributing
+## License
+```
