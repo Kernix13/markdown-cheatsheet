@@ -54,7 +54,7 @@ Or
 | Node.js | >= 22   |
 | npm     | >= 10   |
 
-## Installation
+## Getting Started
 
 - Installation = getting the project onto your system
 
@@ -71,16 +71,19 @@ cd REPONAME
 npm install
 ```
 
-### API (if applicable)
-
-## Usage
-
+- Add notes if `.env` values need to be added
 - Usage = how to run or interact with the project after installing
 
 ```sh
 # Start the development server
 npm run dev
 ```
+
+- Add additional notes about scripts for linting and/or formatting
+
+### API (if applicable)
+
+Add a note about how/where to get an API key.
 
 ## Project Structure
 
