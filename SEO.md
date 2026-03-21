@@ -15,12 +15,13 @@ One answer would be to make the README accessible. See [5 tips for making your G
 
 1. SEO Title: 50-60 characters ideally but up to 70 is okay, 50-55 for mobile
 2. SEO/Meta Description: 120-158 characters, closer to 120 for mobile
-3. Keyword Search Volume: should be >= 100
-4. Keyword Density: should be 1-2% (# of times KW appears) / (total # of words)
-5. Primary Keyword = "User Intent"
-6. All keywords (primary + secondary) have to match the user intent
-7. [Capitalize My Title](https://capitalizemytitle.com/): Use this site to properly capitalize your README h1 title
-8. [wordcounter.net](https://wordcounter.net/): Use a site like this to get the character & word count for your h1 heading and your "_meta description_".
+3. GitHub Explore Description: max 143 characters
+4. Keyword Search Volume: should be >= 100
+5. Keyword Density: should be 1-2% (# of times KW appears) / (total # of words)
+6. Primary Keyword = "User Intent"
+7. All keywords (primary + secondary) have to match the user intent
+8. [Capitalize My Title](https://capitalizemytitle.com/): Use this site to properly capitalize your README h1 title
+9. [wordcounter.net](https://wordcounter.net/): Use a site like this to get the character & word count for your h1 heading and your "_meta description_".
 
 ## Optimize content for the GitHub Explore section
 
@@ -58,13 +59,21 @@ One answer would be to make the README accessible. See [5 tips for making your G
 
 ### Use Google Search Console
 
-- Add your GitHub GitHub Page(s) URL or Live Deploy URL to Google Search Console
+- Add your GitHub Page(s) URL or Live Deploy URL to Google Search Console
 - Use the "URL Inspection" tool to request indexing for new or updated pages
 
 ### How to check if your repo is indexed
 
-- `site:github.com/yourusername/repo-name`
+- https://kernix13.github.io/ (User (or org) site)
+- https://kernix13.github.io/code-you-resume/
+
+- `site:username.github.io`
 - If results appear, Google has indexed it
+- Check your repos if you forget whether or not you created your page
+  - Go to any repo
+  - Click Settings
+  - Click Pages
+  - The first heading is _GitHub Pages_ - if enabled you will see the link below it
 
 ## ChatGPT reasons for repos ranking in the SERPs
 
