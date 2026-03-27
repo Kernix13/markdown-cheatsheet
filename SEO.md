@@ -215,6 +215,48 @@ I want to do an analysis on one of my repos and see if any steps should be remov
 
 1. codeCompare: Lighthouse did not show any issues, RankMath SEO WordPress plugin mentioned no image so I added 1 with the keyword in the alt text. Other than that, nothing much to change.
 
+## Great Links
+
+1. awesome-readme: https://github.com/matiassingers/awesome-readme
+2. Make a README: https://www.makeareadme.com/ - nice structure
+3. https://github.com/dec0dOS/amazing-github-template
+4. GitHub Readme Stats: https://github.com/anuraghazra/github-readme-stats
+5. Creating GIFs: https://github.com/matiassingers/awesome-readme?tab=readme-ov-file#creating-gifs
+6. nice web dev structure: https://github.com/choojs/choo
+7. Python, beautiful: https://github.com/dmunish/reach
+8. https://github.com/dowjones/react-dropdown-tree-select
+9. github-changelog-generator: https://github.com/github-changelog-generator/github-changelog-generator
+10. https://github.com/treeverse/dvc
+11. https://github.com/kopach/karma-sabarivka-reporter
+12. Huge: https://github.com/lobehub/lobehub
+13. https://github.com/lobehub/sd-webui-lobe-theme
+14. https://github.com/ma-shamshiri/Human-Activity-Recognition
+15. https://github.com/mkosir/react-parallax-tilt
+16. https://github.com/shriyanyamali/JurisMercatus
+17. https://github.com/mjswensen/themer
+
+> Details > Summary for large sections!
+> Indent the code block under the ordered list items (make it a child), not a sibling. When the code block is indented under the list item, it’s explicitly tied to that step
+
+just a code block with comments: Accessibility takes a hit - Screen readers don’t interpret comments as structure. No “list of steps”, No navigable sequence, You lose the semantic meaning of “Step 1, Step 2, Step 3”
+
+1. clone repo
+
+```sh
+git clone repo_url
+```
+
+2. clone repo version 2
+
+   ```sh
+   git clone repo_url
+   ```
+
+3. step 3 here
+4. step 4 here
+
+- NOTE: do not put localhost link on the page as a link because it becomes a broken link - make it inline code
+
 <!--
 ## Checklist for this repo:
 

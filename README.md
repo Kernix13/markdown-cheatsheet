@@ -75,7 +75,7 @@ I'm breaking up all the markdown syntax into 8 categories to make it easier to n
 
 <!-- ~~`<cite>`~~ -->
 
----
+<br>
 
 ## Basics
 
@@ -1885,6 +1885,8 @@ Button as a link without underlin:
 ```
 
 [<kbd>Markdown-Cheatsheet</kbd>](https://github.com/Kernix13/markdown-cheatsheet)
+
+<br> <br>
 
 ## Resources
 
