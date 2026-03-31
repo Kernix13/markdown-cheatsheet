@@ -1,93 +1,124 @@
-# Template for your Web Development READMEs
+---
+language: Web Development README Template
+slug: web-dev-template
+type: template
+last_updated: 2026-03-31
+---
 
-This should be used for repos that can be categorized as:
-
-- Web design
-- Web Development
-- Front-end-development
-- Full-stack development
-
-# Project Name – short descriptive subtitle
+# Your Project Name – short descriptive subtitle
 
 Badges (optional)
+
+<!--
+📌 Shields.io badges:
+- Go to https://shields.io/badges, try for-the-badge, flat or flat-square
+ -->
 
 Intro paragraph (VERY important for SEO)
 
 Screenshot / GIF demo
 
+## Table of Contents
+
+1. [Project Overview](#project-overview)
+1. [Features](#features)
+1. [Demo / Live Site](#demo-live-site)
+1. [Technologies Used](#technologies-used)
+1. [Installation](#installation)
+1. [Usage](#usage)
+1. [Project Structure](#project-structure)
+1. [Tech Stack](#tech-stack)
+1. [Future Improvements](#future-improvements)
+1. [Acknowledgments & Resources](#acknowledgments-resources)
+1. [Contributing](#contributing)
+1. [License](#license)
+
 ## Project Overview
-
-More in-depth explanation than the intro paragraph of:
-
-- the idea for the project
-- the problem it solves
 
 ## Features
 
-- Features = capabilities of the software/app, end-user features
+Features = capabilities of the software/app, end-user features
 
 ## Demo / Live Site
-
-- SEO value -> Minimal, UX value -> High
-- Even if you add the live link in the sidebar under "About", some people miss that link.
-- Keep this section if the project has a UI, skip it if it's a library.
-- This is an extrmemly short section, for example:
 
 Try the project here: https://project-demo.com
 
 ## Technologies Used
 
-- If applicable: simple table of things like Node, npm, Express, etc.
+If applicable: simple table of things like Node, npm, Express, etc. Include internal and external links whenever it makes sense
 
 Example:
 
-| Tool       | Version  |
-| :--------- | :------- |
-| Node.js    | v22.20.0 |
-| npm        | 10.9.3   |
-| Express.js | ^5.2.0   |
+| Tool                                           | Version  |
+| :--------------------------------------------- | :------- |
+| [Node.js](https://nodejs.org/docs/latest/api/) | v22.20.0 |
+| [npm](https://www.npmjs.com/)                  | 10.9.3   |
+| [Express](https://expressjs.com/)              | ^5.2.0   |
 
-Or
+<br>
 
-| Tool    | Version |
-| :------ | :------ |
-| Node.js | >= 22   |
-| npm     | >= 10   |
+## Installation
 
-## Getting Started
+> Use orderlists with indented code blocks for the SEO + Accessibility
 
-- Installation = getting the project onto your system
+Follow these steps to set up the project locally.
 
-Example:
+1. Clone the repository:
 
-```sh
-# Clone this repo
-git clone https://github.com/USERNAME/REPONAME.git
+   ```bash
+   git clone https://github.com/YOUR_USER_NAME/REPO_NAME.git
+   cd REPO_NAME
+   ```
 
-# Change into project directory
-cd REPONAME
+2. Install dependencies
 
-# Install dependencies
-npm install
-```
+   ```bash
+   npm install
+   ```
 
-- Add notes if `.env` values need to be added
-- Usage = how to run or interact with the project after installing
+3. Create a `.env` file in the project root. Copy the lines in `.env.example` and paste them into your newly created `.env` file. Example:
 
-```sh
-# Start the development server
-npm run dev
-```
+   ```bash
+   CLIENT_ID=your_unsplash_client_id
+   PORT=port_number
+   ```
 
-- Add additional notes about scripts for linting and/or formatting
+<br>
 
-### API (if applicable)
+## Usage
 
-Add a note about how/where to get an API key.
+1. Start the development server:
+
+   ```sh
+   npm run dev
+   ```
+
+2. CTRL + click the link http://localhost:8080 in the terminal to open up localhost on port 8080:
+
+   ```sh
+   Server is running http://localhost:8080
+   ```
+
+3. (OPTIONAL): Run Biome for linting and formatting checks on your files (or any other linter you use):
+
+   ```sh
+   npm run check
+   ```
+
+### Getting an [something-here] API key
+
+Visit https://some-api.com/developers and create an API application.
 
 ## Project Structure
 
-Example
+<!--
+📌 Project Tree Structure generators:
+  1. ChatGPT is best IMO: https://chatgpt.com/
+  2. https://tree.nathanfriend.com/
+  3. https://ascii-tree-generator.com/
+  4. VSCode File Tree Generator extension
+  5. npm tree-cli: https://www.npmjs.com/package/tree-cli
+ -->
 
 ```py
 /
@@ -95,31 +126,81 @@ Example
 ├── LICENSE
 ├── CODE_OF_CONDUCT.md
 ├── CONTRIBUTING.md
-├── package.json            # Dependencies and scripts
-├── server.js               # Express server handling API requests
-├── public/
-│   ├── index.html
-│   ├── css/
-│   ├── js/
-│   │   ├── index.js        # Main file for index.html
-│   ├── images/
-│   └── fonts/
+...
+```
+
+<br>
+
+## Tech Stack
+
+<!--
+📌 See all devicons here:
+  - https://github.com/devicons/devicon
+ -->
+
+> OPTIONAL
+
+```html
+<table>
+  <thead>
+    <tr>
+      <th>Tech</th>
+      <th>Use</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Name of tech</td>
+      <td>
+        <ul>
+          <li>example using list items</li>
+          <li>list item 2</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 ```
 
 ## Future Improvements
 
-List items for future feature improvements and additions.
+> OPTIONAL
 
-## Acknowledgments
+To-do list of what features you want to add or enhance
 
-Credit to libraries, tutorials, blog posts, etc.
+## Acknowledgments & Resources
+
+Add more external links to where you got help.
 
 ## Contributing
 
-Contributions are welcome! If you'd like to help improve this project, please read our [contribution guidelines](#) on how to get started, our workflow, and code style expectations.
+> OPTIONAL
+
+Contributions are welcome. Please review [CONTRIBUTING.md](#) for guidelines, workflow, and code style expectations.
 
 ## License
 
-This project is licensed under the MIT License.
+> OPTIONAL
 
-> As an example, take a look at my README for my [vision-grid-express](https://github.com/Kernix13/vision-grid-express) project where I structured my README using the above template.
+Licensed under the [MIT License](#). Free to use for educational purposes.
+
+<!--
+📌 How to add a license:
+  - https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository
+ -->
+
+ <!-- 
+ OTHER IMPORTANT LINKS
+
+  📌 Accessible Markdown:
+  - https://github.blog/developer-skills/github/5-tips-for-making-your-github-profile-page-accessible/
+
+  📌 Create a PR Template:
+  - https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository
+  - https://axolo.co/blog/p/part-3-github-pull-request-template
+  - https://github.com/Kernix13/github-actions-dotfiles/blob/main/dotfiles.md#dot-github-folder
+
+  📌 Create an issues template
+  - https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
+  - https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates
+  -->
