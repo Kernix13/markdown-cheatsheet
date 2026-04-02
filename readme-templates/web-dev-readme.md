@@ -16,7 +16,7 @@ Badges (optional)
 
 Intro paragraph (VERY important for SEO)
 
-Screenshot / GIF demo
+Screenshot / GIF demo either above H1, below badges, above intro text, or here.
 
 ## Table of Contents
 
@@ -35,9 +35,15 @@ Screenshot / GIF demo
 
 ## Project Overview
 
+More in-depth explanation than the intro paragraph
+
+<br>
+
 ## Features
 
 Features = capabilities of the software/app, end-user features
+
+<br>
 
 ## Demo / Live Site
 
@@ -59,7 +65,7 @@ Example:
 
 ## Installation
 
-> Use orderlists with indented code blocks for the SEO + Accessibility
+> Use ordered lists with indented code blocks for SEO + Accessibility
 
 Follow these steps to set up the project locally.
 
@@ -76,7 +82,7 @@ Follow these steps to set up the project locally.
    npm install
    ```
 
-3. Create a `.env` file in the project root. Copy the lines in `.env.example` and paste them into your newly created `.env` file. Example:
+3. Create a `.env` file in the project root. Copy the lines in `.env.example` and paste them into your newly created `.env` file and replace with your values. Example:
 
    ```bash
    CLIENT_ID=your_unsplash_client_id
@@ -105,17 +111,22 @@ Follow these steps to set up the project locally.
    npm run check
    ```
 
-### Getting an [something-here] API key
+### Getting an [api-name-here] API key
 
-Visit https://some-api.com/developers and create an API application.
+Visit https://some-api.com/developers and ...
+
+- ...create an API application - or
+- ...create an API key, etc.
+
+<br>
 
 ## Project Structure
 
 <!--
 📌 Project Tree Structure generators:
   1. ChatGPT is best IMO: https://chatgpt.com/
-  2. https://tree.nathanfriend.com/
-  3. https://ascii-tree-generator.com/
+  2. tree.nathanfriend.com: https://tree.nathanfriend.com/
+  3. ASCII Tree Generator: https://ascii-tree-generator.com/
   4. VSCode File Tree Generator extension
   5. npm tree-cli: https://www.npmjs.com/package/tree-cli
  -->
@@ -138,7 +149,8 @@ Visit https://some-api.com/developers and create an API application.
   - https://github.com/devicons/devicon
  -->
 
-> OPTIONAL
+> OPTIONAL: this section may not be required
+> NOTE: I show HTML `table` syntax but you could use markdown syntax. Using HTML is better if you have long text which will "_break_" markdown syntax.
 
 ```html
 <table>
@@ -162,15 +174,21 @@ Visit https://some-api.com/developers and create an API application.
 </table>
 ```
 
+<br>
+
 ## Future Improvements
 
 > OPTIONAL
 
 To-do list of what features you want to add or enhance
 
+<br>
+
 ## Acknowledgments & Resources
 
 Add more external links to where you got help.
+
+<br>
 
 ## Contributing
 
@@ -178,11 +196,13 @@ Add more external links to where you got help.
 
 Contributions are welcome. Please review [CONTRIBUTING.md](#) for guidelines, workflow, and code style expectations.
 
+<br>
+
 ## License
 
 > OPTIONAL
 
-Licensed under the [MIT License](#). Free to use for educational purposes.
+This project is licensed under the MIT License. See the [LICENSE](#) file for details.
 
 <!--
 📌 How to add a license:

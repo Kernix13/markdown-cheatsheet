@@ -16,7 +16,7 @@ Badges (optional)
 
 Intro paragraph (VERY important for SEO)
 
-Screenshot / GIF demo
+Screenshot / GIF demo either above H1, below badges, above intro text, or here.
 
 <br>
 
@@ -35,6 +35,7 @@ Screenshot / GIF demo
 1. [Project Structure](#project-structure)
 1. [Visualizations](#visualizations)
 1. [Key Findings](#key-findings)
+1. [Tech Stack](#tech-stack)
 1. [Future Improvements](#future-improvements)
 1. [Acknowledgments & Resources](#acknowledgments-resources)
 1. [Contributing](#contributing)
@@ -92,7 +93,7 @@ List the major tools & dependencies used.
 
 ## Installation
 
-> Use orderlists with indented code blocks for the SEO + Accessibility
+> Use ordered lists with indented code blocks for SEO + Accessibility
 
 Follow these steps to set up the project locally.
 
@@ -206,8 +207,8 @@ Typical steps:
 <!--
 📌 Project Tree Structure generators:
   1. ChatGPT is best IMO: https://chatgpt.com/
-  2. https://tree.nathanfriend.com/
-  3. https://ascii-tree-generator.com/
+  2. tree.nathanfriend.com: https://tree.nathanfriend.com/
+  3. ASCII Tree Generator: https://ascii-tree-generator.com/
   4. VSCode File Tree Generator extension
   5. npm tree-cli: https://www.npmjs.com/package/tree-cli
  -->
@@ -252,7 +253,8 @@ Example:
   - https://github.com/devicons/devicon
  -->
 
-> OPTIONAL
+> OPTIONAL: this section may not be required
+> NOTE: I show HTML `table` syntax but you could use markdown syntax. Using HTML is better if you have long text which will "_break_" markdown syntax.
 
 ```html
 <table>
