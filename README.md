@@ -19,7 +19,7 @@ I'm breaking up all the markdown syntax into 8 categories to make it easier to n
 1. Lists
 1. Code
 1. Hidden
-1. Visual Elements
+1. Graphic Elements
 1. HTML Elements
 
 **NOTE**: To view markdown in VS Code use: <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>V</kbd> or click the preview button at top right in line with the file name tabs.
@@ -28,50 +28,50 @@ I'm breaking up all the markdown syntax into 8 categories to make it easier to n
 
 ## ~~A Literal~~ <ins>Table</ins> of _Contents_
 
-|                             Category | Element                                       | Accepts styles? |
-| -----------------------------------: | :-------------------------------------------- | :-------------: |
-|                   [Basics](#basics): | [Paragraphs](#paragraphs)                     |       Yes       |
-|                                      | [Special characters](#special-characters)     |      `N/A`      |
-|                   [Styles](#styles): | [Bold](#bold)                                 |      `N/A`      |
-|                                      | [Italic](#italic)                             |      `N/A`      |
-|                                      | [Strike thru](#strike-thru)                   |      `N/A`      |
-|                                      | [Underline](#underline)                       |      `N/A`      |
-|     [Miscellaneous](#miscellaneous): | [Headings](#headings)                         |       Yes       |
-|                                      | [Blockquotes](#blockquotes)                   |       Yes       |
-|                                      | [Alerts](#alerts)                             |       Yes       |
-|                                      | [Tables](#tables)                             |       Yes       |
-|                                      | [Horizontal rules](#horizontal-rules)         |       No        |
-|                                      | [Descriptions](#descriptions)                 |      Yes\*      |
-|                                      | [Frontmatter and YAML](#frontmatter-and-yaml) |       No        |
-|                     [Links](#links): | [External](#external)                         |       Yes       |
-|                                      | [Anchor](#anchor)                             |       Yes       |
-|                                      | [Footnotes](#footnotes)                       |       Yes       |
-|                                      | [At mentions](#at-mentions)                   |      `N/A`      |
-|                     [Lists](#lists): | [Unordered](#unordered)                       |       Yes       |
-|                                      | [Ordered](#ordered)                           |       Yes       |
-|                                      | [Nested](#nested)                             |       Yes       |
-|                                      | [Tasks](#tasks)                               |       No        |
-|                       [Code](#code): | [Inline](#inline)                             |      Yes\*      |
-|                                      | [Tab](#tab)                                   |       No        |
-|                                      | [Generic](#generic)                           |       No        |
-|                                      | [Language block](#language-block)             |       No        |
-|                                      | [Diff](#diff)                                 |       No        |
-| [Hidden Elements](#hidden-elements): | [Comments](#comments)                         |       No        |
-|                                      | [Spoiler](#spoiler)                           |       Yes       |
-|                                      | [Details Element](#details-element)           |       No        |
-| [Visual Elements](#visual-elements): | [Images](#images)                             |       No        |
-|                                      | [Math](#math)                                 |       No        |
-|                                      | [Emojis](#emojis)                             |       No        |
-|                                      | [Shields](#shields)                           |       No        |
-|                                      | [Devicons](#devicons)                         |       No        |
-|                                      | [Mermaid Diagrams](#mermaid-diagrams)         |       No        |
-|                                      | [HTML entities](#html-entities)               |      Yes\*      |
-|                        [HTML](#html) | [Block elements](#block-elements)             |        -        |
-|                                      | [Inline elements](#inline-elements)           |        -        |
-|                                      | [HTML tag examples](#html-tag-examples)       |        -        |
-|                                      | [CSS Styles](#css-styles)                     |        -        |
-|                                      | [Buttons](#buttons)                           |        -        |
-|              [Resources](#resources) | N/A                                           |        -        |
+|                               Category | Element                                       | Accepts styles? |
+| -------------------------------------: | :-------------------------------------------- | :-------------: |
+|                     [Basics](#basics): | [Paragraphs](#paragraphs)                     |       Yes       |
+|                                        | [Special characters](#special-characters)     |      `N/A`      |
+|                     [Styles](#styles): | [Bold](#bold)                                 |      `N/A`      |
+|                                        | [Italic](#italic)                             |      `N/A`      |
+|                                        | [Strike thru](#strike-thru)                   |      `N/A`      |
+|                                        | [Underline](#underline)                       |      `N/A`      |
+|       [Miscellaneous](#miscellaneous): | [Headings](#headings)                         |       Yes       |
+|                                        | [Blockquotes](#blockquotes)                   |       Yes       |
+|                                        | [Alerts](#alerts)                             |       Yes       |
+|                                        | [Tables](#tables)                             |       Yes       |
+|                                        | [Horizontal rules](#horizontal-rules)         |       No        |
+|                                        | [Descriptions](#descriptions)                 |      Yes\*      |
+|                                        | [Frontmatter and YAML](#frontmatter-and-yaml) |       No        |
+|                       [Links](#links): | [External](#external)                         |       Yes       |
+|                                        | [Anchor](#anchor)                             |       Yes       |
+|                                        | [Footnotes](#footnotes)                       |       Yes       |
+|                                        | [At mentions](#at-mentions)                   |      `N/A`      |
+|                       [Lists](#lists): | [Unordered](#unordered)                       |       Yes       |
+|                                        | [Ordered](#ordered)                           |       Yes       |
+|                                        | [Nested](#nested)                             |       Yes       |
+|                                        | [Tasks](#tasks)                               |       No        |
+|                         [Code](#code): | [Inline](#inline)                             |      Yes\*      |
+|                                        | [Tab](#tab)                                   |       No        |
+|                                        | [Generic](#generic)                           |       No        |
+|                                        | [Language block](#language-block)             |       No        |
+|                                        | [Diff](#diff)                                 |       No        |
+|   [Hidden Elements](#hidden-elements): | [Comments](#comments)                         |       No        |
+|                                        | [Spoiler](#spoiler)                           |       Yes       |
+|                                        | [Details Element](#details-element)           |       No        |
+| [Graphic Elements](#graphic-elements): | [Images](#images)                             |       No        |
+|                                        | [Math](#math)                                 |       No        |
+|                                        | [Emojis](#emojis)                             |       No        |
+|                                        | [Shields](#shields)                           |       No        |
+|                                        | [Devicons](#devicons)                         |       No        |
+|                                        | [Mermaid Diagrams](#mermaid-diagrams)         |       No        |
+|                                        | [HTML entities](#html-entities)               |      Yes\*      |
+|                          [HTML](#html) | [Block elements](#block-elements)             |        -        |
+|                                        | [Inline elements](#inline-elements)           |        -        |
+|                                        | [HTML tag examples](#html-tag-examples)       |        -        |
+|                                        | [CSS Styles](#css-styles)                     |        -        |
+|                                        | [Buttons](#buttons)                           |        -        |
+|                [Resources](#resources) | N/A                                           |        -        |
 
 <!-- ~~`<cite>`~~ -->
 
@@ -963,7 +963,7 @@ This isn't a markdown thing but it is another example of using HTML tags in a Ma
 
 ---
 
-## Visual Elements
+## Graphic Elements
 
 The five sections below deal with adding visual-based elements to your markdown file that require some kind of extra code/syntax: `images`, `math expressions`, `emojis`, `shields`, `diagrams`, and `HTML entities`.
 
