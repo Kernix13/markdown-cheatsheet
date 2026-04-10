@@ -1507,7 +1507,7 @@ http://thenewcode.com/1005/Writing-Musical-Notation-on-Web-Pages-The-Basics
 **Astrology**:
 
 | Entity     | Result   | Title                  |
-| ---------- | -------- | ---------------------- | --- | --------- | ------- | ------------------- | --- | --------- | ------- | --------------------- |
+| ---------- | -------- | ---------------------- |
 | `&oplus;`  | &oplus;  | Earth                  |
 | `&#9793;`  | &#9793;  | Earth                  |
 | `&#9737;`  | &#9737;  | Sun                    |
@@ -1541,7 +1541,9 @@ http://thenewcode.com/1005/Writing-Musical-Notation-on-Web-Pages-The-Basics
 | `&ang;`    | &ang;    | Semi-square (45&deg;)  |
 | `&#9913;`  | &#9913;  | Sextile (60&deg;)      |
 | `&#9744;`  | &#9744;  | Square (90&deg;)       |
-| ``         |          | Trine (120&deg;)       |     | `&#9915;` | &#9915; | Quincunx (150&deg;) |     | `&#9741;` | &#9741; | Opposition (180&deg;) |
+| ``         |          | Trine (120&deg;)       |
+| `&#9915;`  | &#9915;  | Quincunx (150&deg;)    |
+| `&#9741;`  | &#9741;  | Opposition (180&deg;)  |
 
 <br>
 
